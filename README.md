@@ -45,7 +45,7 @@ insert into users_roles set uid = <id do batista>, rid = 3;
 
 - copy everything inside the drupal directory to the apache directory (in a mac, it is at /Library/WebServer/Documents);
 
-- in your httpd.conf uncommend the following line: 
+- in your httpd.conf uncomment the following line: 
 
 ```
 LoadModule php5_module libexec/apache2/libphp5.so
