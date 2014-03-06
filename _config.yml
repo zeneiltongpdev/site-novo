@@ -1,0 +1,5 @@
+name: Movimento dos Trabalhadores Rurais Sem Terra
+markdown: redcarpet
+pygments: true
+exclude: [drupal]
+baseurl: /mst
