@@ -56,3 +56,28 @@ body header nav ul li a {
   color: #95A5A6;
 }
 
+ul.posts {
+  list-style: none;
+  text-align: center;
+}
+
+ul.posts li {
+  display: inline; 
+}
+
+ul.posts li figure {
+  display: inline-block;
+  margin: 0 8px 8px 8px;
+  width: 232px;
+  vertical-align: top;
+}
+
+ul.posts li figure img {
+  height: 140px; 
+}
+
+ul.posts li figure figcaption {
+  text-align: left;
+  line-height: 1.2;
+}
+

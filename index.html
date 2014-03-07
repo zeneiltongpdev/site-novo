@@ -5,10 +5,15 @@ title: Movimento dos Trabalhadores Rurais Sem Terra
 
 <h1 class="lead">Ultimas Noticias</h1>
 
-<ul>
+<ul class="posts">
   {% for post in site.posts %}
     <li>
-    <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+      <figure>
+        <img src="{{ post.image }}" />
+        <figcaption>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </figcaption> 
+      </figure>
     </li>
   {% endfor %}
 </ul>
