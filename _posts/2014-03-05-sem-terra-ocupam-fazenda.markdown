@@ -3,6 +3,7 @@ layout: post
 title:  "Sem Terra ocupam fazenda de 16 mil hectares em Tocantins"
 date:   2014-03-05 15:13:53
 categories: noticias tocantins
+image: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/ato_mulheres_PA%21.jpg
 ---
 
 Mais de 300 famílias do acampamento Olga Benário, localizado às margens da BR 153, no município de Fortaleza do Tabocão, ocuparam a Fazenda Araguarina nesta terça-feira (3).

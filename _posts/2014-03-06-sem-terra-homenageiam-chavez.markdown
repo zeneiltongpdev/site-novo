@@ -3,6 +3,7 @@ layout: post
 title:  "Sem Terra homenageiam Chávez e rebatizam nome de assentamento"
 date:   2014-03-06 15:13:53
 categories: noticias venezuela
+image: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/Cartaz_Chavez_Final.jpg
 ---
 
 Em homenagem ao 1° ano do falecimento do ex-presidente da Venezuela, Hugo Chávez Frias, o Assentamento Lagoa do Junco, no município de Tapes, região sul do estado do Rio Grande do Sul, rebatizou seu nome e passou a se chamar Assentamento Hugo Chávez Frias.
