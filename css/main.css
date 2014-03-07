@@ -81,3 +81,15 @@ ul.posts li figure figcaption {
   line-height: 1.2;
 }
 
+header.post h1 {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+article.post {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: justify;
+}
