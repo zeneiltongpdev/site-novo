@@ -3,3 +3,7 @@ markdown: redcarpet
 pygments: true
 exclude: [drupal]
 baseurl: /mst
+# permalink: /:categories/:title
+pages: ./_pages
+paginate: 5
+paginate_path: "page:num"

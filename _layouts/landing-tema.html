@@ -1,0 +1,38 @@
+---
+layout : default
+---
+
+{% assign title      = page.title %}
+{% assign tema       = page.tema %}
+
+{% assign noticias   = site.posts %}
+
+<main class="container">
+  <header class="page-header">
+    <h1>{{ title }}</h1>
+  </header>
+
+  <section class="noticias colunas">
+    <h2>Notícias</h2>
+
+    {% for noticia in noticias %}
+      {% if forloop.first %}
+      <!-- Primeira noticia do tema -->
+      {% include destaque.html class="destaque importante bordado" semfoto=true details=noticia %}
+      {% else %}
+        {% case forloop.index %}
+          {% when 2 %}
+          <!-- Segunda noticia do tema -->
+          {% include destaque.html class="destaque medio vertical" details=noticia %}
+          {% when 3 %}
+            <!-- Terceira noticia do tema -->
+            {% include destaque.html class="destaque medio vertical" details=noticia %}
+          {% else %}
+            <!-- Demais posts -->
+            {% include destaque.html class="destaque medio vertical" details=noticia %}
+        {% endcase %}
+      {% endif %}
+    {% endfor %}
+
+  </section>
+</main>

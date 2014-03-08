@@ -1,0 +1,21 @@
+<article class="{{ include.class }}">
+	{% unless include.semfoto %}
+	{% if include.details.images %}
+  <aside class="foto">
+    <figure class="thumbnail">
+      <a href="{{ site.baseurl }}{{ include.details.url}}">
+        <!-- <img src="{{ include.details.image }}"> -->
+        <img src="//mst.org.br/{{ include.details.images | first }}">
+      </a>
+    </figure>
+  </aside>
+  {% endif %}
+  {% endunless %}
+
+  <main class="conteudo">
+    <h4 class="manchete">
+      <a href="{{ site.baseurl }}{{ include.details.url }}">{{ include.details.title }}</a>
+    </h4>
+    <p class="muted">{{include.details.date | date_to_string }}</p>
+  </main>
+</article>
