@@ -28,6 +28,7 @@ breadcrumb: false
 		{% endfor %}
   </section>
   <!-- Pagination links -->
+  {% if paginator.next_page %}
 	<ul class="pager clearfix">
 	  {% if paginator.previous_page %}
 	  	<li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older</a></li>
@@ -37,4 +38,5 @@ breadcrumb: false
 	    <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer</a></li>
 	  {% endif %}
 	</ul>
+	{% endif %}
 </main>

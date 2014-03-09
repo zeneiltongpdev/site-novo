@@ -2,9 +2,8 @@
 	{% unless include.semfoto %}
 	{% if include.details.images %}
   <aside class="foto">
-    <figure class="thumbnail">
+    <figure class="thumbnail sombra">
       <a href="{{ site.baseurl }}{{ include.details.url}}">
-        <!-- <img src="{{ include.details.image }}"> -->
         <img src="//mst.org.br/{{ include.details.images | first }}">
       </a>
     </figure>

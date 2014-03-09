@@ -54,24 +54,14 @@
 @import "post";
 @import "thumbnails";
 
-//
 .colunas {
 	.make-row();
 }
-
-img { width: 100%; max-width: 100%; border-radius: 5px; }
 
 .noticias {
 	> h2 {
 		margin-left: @grid-gutter-width/2;
 		margin-right: @grid-gutter-width/2;
-	}
-}
-
-body > header {
-	background: @brand-primary;
-	h1 {
-		color: #F0F0F0;
 	}
 }
 
@@ -85,4 +75,5 @@ body > header {
 		border-radius: 50%;
 		padding: @padding-large-vertical;
 	}
+	img { .img-responsive; }
 }
