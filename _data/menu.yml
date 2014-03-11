@@ -1,10 +1,11 @@
 - name: Inicio
-  url:
+  url: http://www.mst.org.br/inicial
 
 - name: O MST
-  url:
+  url: http://www.mst.org.br/inicial
 
 - name: Biblioteca
+  url: http://www.mst.org.br/taxonomy/term/327%20334%20336%20339%20326%20337%20338%20341%20335%20340
   submenu:
     - name: Agronegócio
-      url: agronegocio
+      url: /agronegocio
