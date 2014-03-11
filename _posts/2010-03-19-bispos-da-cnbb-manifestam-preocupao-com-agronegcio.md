@@ -7,9 +7,6 @@ tags:
 - Agronegócio
 Assuntos: Agronegócio
 ---
-*Da Comissão Pastoral da Terra de Goiás*
-
-
 Os 14 bispos que integram a seção Regional Centro-Oeste da Conferência Nacional dos Bispos do Brasil (CNBB) divulgaram uma carta aberta em que se dizem "preocupados com o avanço do agronegócio" nesta região do país, na quarta-feira (17/3).
 
 Os bispos reafirmam a posição favorável a Reforma Agrágria, o apoio aos movimentos de luta pela terra e lamentam que "reforma agrária deixou de ser prioridade dos governos federal e estadual".

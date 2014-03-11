@@ -7,9 +7,6 @@ tags:
 - Agronegócio
 Assuntos: Agronegócio
 ---
-*Da CPT*
-
-
 A Comissão Pastoral da Terra (CPT) apresenta à sociedade os dados parciais de conflitos e de violência no campo relativos ao período de janeiro a 15 de novembro de 2009. Como sempre alertamos que estes dados são parciais, não só porque se referem a um período do ano, mas também porque ainda poderão chegar ao nosso Setor de Documentação novas informações que serão incorporadas ao que já está registrado. Isto significa que pode haver alteração nos dados do período.
 
 Os dados mostram que os Conflitos no Campo teimam em persistir, bem como a violência, que, mesmo com oscilações nos números, cresce, com uma presença dramática na vida do povo do campo.

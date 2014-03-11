@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Larissa Bombardi: indústria de agrotóxicos e controle da agricultura'
+title: 'Larissa Bombardi: indústria de agrotóxicos e controle da agricultura'
 created: 1337274774
 images: []
 tags:

@@ -10,7 +10,6 @@ Assuntos: Agronegócio
 1. AS ALTERNATIVAS ENERGÉTICAS AMEAÇAM O FUTURO
 
 
-*Leonardo Boff*
 
 
 Pertence aos que se dedicam ao pensamento, refletir sobre os destinos da sociedade em que vivem e, ousadamente, também sobre os destinos do planeta e da humanidade. Digo isso a propósito do novo estado da Terra produzido pelo aquecimento global, a esta altura irrefreável. A grande maioria não se dá conta das conseqüências que advirão de tal verificação empiricamente comprovada. A primeira constatação que importa fazer é: o aquecimento precisa ser qualificado. Não basta dizer que é andrópico; vale dizer produzido pelo ser humano. Que ser humano? Pelos índios, pelos esquimós? Precisamos dizer com todas as letras: o aquecimento foi produzido por aquela porção de homens que introduziram a produção industrial já há três séculos, aceleraram o consumo energético, inventaram a tecno-ciência

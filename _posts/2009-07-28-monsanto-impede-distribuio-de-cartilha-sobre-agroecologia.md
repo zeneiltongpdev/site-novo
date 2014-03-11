@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Monsanto impede distribuição de cartilha sobre agroecologia '
+title: 'Monsanto impede distribuição de cartilha sobre agroecologia '
 created: 1248818484
 images: []
 tags:
