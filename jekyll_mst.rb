@@ -81,15 +81,13 @@ module JekyllImport
    LEFT OUTER JOIN vocabulary as v on v.vid = tags.vid \
    LEFT OUTER JOIN upload as u on u.nid = n.nid \
    LEFT OUTER JOIN files AS f on f.fid = u.fid \
-             WHERE n.type='story' \
+             WHERE 1 = 1 \
                AND n.vid = nr.vid \
-               AND n.nid >= 15000 \
+               AND tags.name = 'Agronegócio'
                AND NOT v.name IS NULL \
                AND f.status = 1 \
                AND u.list = 1 \
-               AND f.filepath LIKE '%JPG%' \
-          GROUP BY n.nid \
-             LIMIT 100;"
+          GROUP BY n.nid;"
 
       def self.require_deps
         JekyllImport.require_with_fallback(%w[
@@ -111,7 +109,9 @@ module JekyllImport
       end
 
       def self.post_images(post)
-        post[:images].split("|").each{|img| img.force_encoding("UTF-8") }
+        post[:images].split("|").reduce([]) do |collection, img|
+          img.downcase.scan(/\.jpg/).empty? ? collection : collection << img.force_encoding("UTF-8")
+        end
       end
 
       def self.markdonify(content)
@@ -199,7 +199,7 @@ module JekyllImport
               File.open("#{url_alias[:dst]}/index.md", "w") do |f|
                 f.puts "---"
                 f.puts "layout: refresh"
-                f.puts "refresh_to_post_id: /#{time.strftime("%Y/%m/%d/") + slug}"
+                f.puts "refresh_to_post_id: /mst/#{time.strftime("%Y/%m/%d/") + slug}"
                 f.puts "---"
               end
             end
