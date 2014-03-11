@@ -7,4 +7,4 @@
 - name: Biblioteca
   submenu:
     - name: Agronegócio
-      url: Agronegócio
+      url: agronegocio
