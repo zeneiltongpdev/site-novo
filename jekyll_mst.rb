@@ -1,6 +1,5 @@
 # encoding: utf-8
 
-require "rubygems"
 require "mysql"
 require "jekyll-import"
 
@@ -221,3 +220,4 @@ JekyllImport::Importers::Drupal6.run({
   "host"     => "localhost",
   "prefix"   => ""
 })
+
