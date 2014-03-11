@@ -1,0 +1,9 @@
+{% capture url %}
+  {% if include.menu.url contains 'mst.org' %}
+    {{ include.menu.url }}
+  {% else %}
+    {{ site.baseurl }}{{ include.menu.url }}
+  {% endif %}
+{% endcapture %}
+
+<a href="{{ url }}"> {{ include.menu.name }} </a>
