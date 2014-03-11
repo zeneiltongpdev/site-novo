@@ -1,14 +1,21 @@
-<ul>
+<ul class="nav nav-pills nav-inline">
 {% for menu in site.data.menu %}
-  <li>
+
+  <li class="dropdown">
     {% include menu_link.html menu=menu %}
-    <ul>
+
+    {% if menu.submenu %}
+    	<span class="dropdown-toggle caret" data-toggle="dropdown"></span>
+    {% endif%}
+
+    <ul class="dropdown-menu">
     {% for submenu in menu.submenu %}
     	<li>
         {% include menu_link.html menu=submenu %}
       </li>
     {% endfor %}
     </ul>
+
   </li>
 {% endfor %}
 </ul>

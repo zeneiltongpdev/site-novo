@@ -2987,9 +2987,9 @@ input[type="button"].btn-block {
   height: 0;
   margin-left: 2px;
   vertical-align: middle;
-  border-top: 4px solid;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
+  border-top: 8px solid;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
 }
 .dropdown {
   position: relative;
@@ -3099,7 +3099,7 @@ input[type="button"].btn-block {
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
   border-top: 0;
-  border-bottom: 4px solid;
+  border-bottom: 8px solid;
   content: "";
 }
 .dropup .dropdown-menu,
@@ -5778,6 +5778,31 @@ button.close {
     display: none !important;
   }
 }
+.nav.nav-inline li a {
+  display: inline-block;
+}
+.nav.nav-inline li .caret {
+  margin-left: 0;
+  vertical-align: middle;
+  color: #da251c;
+  cursor: pointer;
+}
+.post {
+  max-width: 750px;
+  margin-bottom: 22px;
+}
+.post .thumbnail {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125);
+  margin-bottom: 22px;
+  margin-top: 22px;
+}
+.post .portrait {
+  min-height: 400px;
+}
+.post .landscape {
+  min-height: 300px;
+}
 .destaques {
   margin-left: -15px;
   margin-right: -15px;
@@ -5948,22 +5973,6 @@ button.close {
 }
 .destaque.importante .conteudo {
   margin: 20px 0;
-}
-.post {
-  max-width: 750px;
-  margin-bottom: 22px;
-}
-.post .thumbnail {
-  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.125);
-  margin-bottom: 22px;
-  margin-top: 22px;
-}
-.post .portrait {
-  min-height: 400px;
-}
-.post .landscape {
-  min-height: 300px;
 }
 .thumbnail {
   margin-bottom: 22px;
