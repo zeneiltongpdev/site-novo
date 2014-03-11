@@ -59,15 +59,15 @@ LEFT OUTER JOIN term_node as tn ON tn.nid = n.nid
 LEFT OUTER JOIN term_data as d on tn.tid = d.tid
 GROUP BY n.nid;
 
--- Imagens de um node
+-- Uploads/Files de um conteudo
 SELECT u.fid, vid, list, weight, filepath
 FROM upload as u
 LEFT OUTER JOIN files AS f
 ON f.fid = u.fid
-WHERE u.nid=15701
+WHERE 1=1
+and u.nid = 15755
 AND f.status = 1
 AND u.list = 1
-AND filepath LIKE '%JPG%';
 
 
 
@@ -101,6 +101,7 @@ LIMIT 10;
 
 SELECT n.nid, n.title,
 '' as body,
+DATEDIFF(NOW(), FROM_UNIXTIME(created)) days_ago,
 GROUP_CONCAT( CONCAT(v.name,':', tags.name) SEPARATOR '|' ) as 'tags',
 GROUP_CONCAT( CONCAT(f.filepath) SEPARATOR '|' ) as 'fotos'
 FROM node_revisions AS nr, node AS n
@@ -109,9 +110,10 @@ LEFT OUTER JOIN term_data as tags on tn.tid = tags.tid
 LEFT OUTER JOIN upload as u on u.nid = n.nid
 LEFT OUTER JOIN files AS f on f.fid = u.fid
 LEFT OUTER JOIN vocabulary as v on v.vid = tags.vid
-WHERE n.type='story' and NOT v.name IS NULL
+WHERE 1=1
+AND DATEDIFF(NOW(), FROM_UNIXTIME(created)) < 30
 AND n.vid = nr.vid
-AND f.status = 1
-AND u.list = 1
-AND f.filepath LIKE '%JPG%'
-GROUP BY n.nid;
+AND (f.status = 1 OR f.filepath is null)
+AND (u.list = 1 OR u.list is null )
+GROUP BY n.nid
+ORDER BY n.created DESC;

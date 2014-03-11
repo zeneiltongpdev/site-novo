@@ -6082,7 +6082,6 @@ button.close {
   padding: 10px;
 }
 .jumbotron .logo img {
-  display: block;
+  width: 100%;
   max-width: 100%;
-  height: auto;
 }

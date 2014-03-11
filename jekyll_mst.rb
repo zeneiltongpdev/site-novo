@@ -2,7 +2,7 @@
 
 require "mysql"
 require "jekyll-import"
-
+require "html2markdown"
 
 # monkey patching the HTML2Markdown::Converter
 # I found that the original converter algorithm doesn't work like expected
@@ -42,11 +42,22 @@ module HTML2Markdown
       when 'br'
         result << "\n"
       when 'img'
-        result << "![#{node['alt']}](#{node['src']})"
+        host = "http://mst.org.br"
+        src = node['src'];
+        src.insert(0, host) unless src.include?("http")
+        result << "![#{node['alt']}](#{src})"
       when 'a'
         result << "[#{contents}](#{node['href']})"
       else
-        result << contents unless contents == nil
+        blacklist = []
+        blacklist << "[if gte mso 9]"
+        blacklist << "<xml>"
+        blacklist << "<mce:style>"
+        blacklist << "[endif]"
+        contents ||= ""
+
+        result << "\n"
+        result << contents unless blacklist.any?{|not_allowed| contents.include?(not_allowed) }
       end
       result
     end
@@ -72,6 +83,7 @@ module JekyllImport
                    nr.body, \
                    n.created, \
                    n.status, \
+                   DATEDIFF(n.created, NOW()) as days_ago, \
                    GROUP_CONCAT( CONCAT(v.name,':', tags.name) SEPARATOR '|' ) as 'tags', \
                    GROUP_CONCAT( CONCAT(f.filepath) SEPARATOR '|' ) as 'images' \
               FROM node_revisions AS nr, node AS n \
@@ -81,11 +93,10 @@ module JekyllImport
    LEFT OUTER JOIN upload as u on u.nid = n.nid \
    LEFT OUTER JOIN files AS f on f.fid = u.fid \
              WHERE 1 = 1 \
+               AND DATEDIFF(NOW(), FROM_UNIXTIME(created)) < 120
                AND n.vid = nr.vid \
-               AND tags.name = 'Agronegócio'
-               AND NOT v.name IS NULL \
-               AND f.status = 1 \
-               AND u.list = 1 \
+               AND (f.status = 1 OR f.status is null)\
+               AND (u.list = 1 OR u.list is null)\
           GROUP BY n.nid;"
 
       def self.require_deps
@@ -94,12 +105,11 @@ module JekyllImport
           sequel
           fileutils
           safe_yaml
-          html2markdown
         ])
       end
 
       def self.post_tags(post)
-        pairs = post[:tags].split("|")
+        pairs = post[:tags].to_s.split("|")
         tags  = pairs.collect_concat do |pair|
           pair.force_encoding("UTF-8").split(":")
         end
@@ -108,9 +118,24 @@ module JekyllImport
       end
 
       def self.post_images(post)
-        post[:images].split("|").reduce([]) do |collection, img|
+        images = post[:images].to_s.split("|") || []
+        images.reduce([]) do |collection, img|
           img.downcase.scan(/\.jpg/).empty? ? collection : collection << img.force_encoding("UTF-8")
         end
+      end
+
+      def self.content_images(markdown)
+        regex = /(!\[.*?\]\(.+?\))/
+        match = markdown.match(regex)
+        (match ? match.captures : []).map do |img|
+          img.gsub(/[!\[\]\(\)]/,"")
+        end
+      end
+
+      def self.content_video(content)
+        regex = /"(http:\/\/www.youtube.com\/\S+)"/
+        match = content.match(regex)
+        match.captures.first if match
       end
 
       def self.markdonify(content)
@@ -118,7 +143,6 @@ module JekyllImport
         content.gsub!(/\*/, '\\*')
         content.gsub!(/\#/, '\\#')
         content.gsub!(/[`´]/, '"')
-
 
         page = HTMLPage.new(:contents => content)
         page.markdown.force_encoding("UTF-8")
@@ -156,7 +180,10 @@ module JekyllImport
           node_id = post[:nid]
           title = post[:title].gsub(/"/, '')
           content = post[:body]
+          content_markdown = markdonify(content)
           tags = post_tags(post)
+          video = content_video(content)
+          images = post_images(post) + content_images(content_markdown)
 
           created = post[:created]
           time = Time.at(created)
@@ -171,8 +198,9 @@ module JekyllImport
             'layout' => 'post',
             'title' => title.to_s,
             'created' => created,
-            'images' => post_images(post),
-            'tags' => tags.values
+            'images' => images,
+            'video' => video,
+            'tags' => tags.values + (video ? ['video'] : [])
           }.each_pair {
             |k,v| ((v.is_a? String) ? v.force_encoding("UTF-8") : v)
           }
@@ -184,7 +212,7 @@ module JekyllImport
           File.open("#{dir}/#{name}", "w") do |f|
             f.puts data.merge(tags).to_yaml()
             f.puts "---"
-            f.puts markdonify(content)
+            f.puts content_markdown
           end
 
           # Make a file to redirect from the old Drupal URL

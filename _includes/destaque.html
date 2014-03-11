@@ -5,9 +5,8 @@
 	{% if picture != "" %}
   <aside class="foto">
     <figure class="thumbnail sombra">
-      {{ picture }}
       <a href="{{ site.baseurl }}{{ include.details.url}}">
-        <img src="//mst.org.br/{{ picture | uri_escape}}">
+        <img src="{{ picture | uri_escape}}">
       </a>
     </figure>
   </aside>
