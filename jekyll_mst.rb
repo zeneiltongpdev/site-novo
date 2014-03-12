@@ -132,10 +132,12 @@ module JekyllImport
         end
       end
 
-      def self.content_video(content)
+      def self.youtube_video(content)
+        params = "controls=0&showinfo=0&rel=0&modestbranding=1"
         regex = /"(http:\/\/www.youtube.com\/\S+)"/
         match = content.match(regex)
-        match.captures.first if match
+        url = match.captures.first.gsub(/#.*/, '') if match
+        "#{url}?#{params}" if url
       end
 
       def self.markdonify(content)
@@ -182,7 +184,7 @@ module JekyllImport
           content = post[:body]
           content_markdown = markdonify(content)
           tags = post_tags(post)
-          video = content_video(content)
+          video = youtube_video(content)
           images = post_images(post) + content_images(content_markdown)
 
           created = post[:created]

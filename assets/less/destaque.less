@@ -10,7 +10,7 @@
 	.conteudo { display: block; }
 	.manchete { margin: 0; }
 	.thumbnail { margin-bottom: 0 }
-	.foto, .conteudo, .extra { margin: 20px 0; .make-sm-column(12); }
+	.foto, .video, .conteudo, .extra { margin: 20px 0; .make-sm-column(12); }
 }
 
 //tamanhos
@@ -27,15 +27,16 @@
 
 //layout
 .destaque.vertical {
-	.foto, .conteudo, .extra {
+	.foto, .video, .conteudo, .extra {
 		.make-sm-column(12);
 	}
+	.video + .conteudo,
 	.foto + .conteudo { margin-top: 0; }
 	.conteudo + .extra { margin-top: 0; }
 }
 
 .destaque.horizontal {
-	.foto, .conteudo, .extra {
+	.foto, .video, .conteudo, .extra {
 		.make-sm-column(6);
 	}
 }

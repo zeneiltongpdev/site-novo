@@ -4,6 +4,9 @@ title  : "Em construção"
 breadcrumb: false
 ---
 
+<!-- {% assign noticias   = paginator.posts %} -->
+{% assign noticias   = site.posts %}
+
 <div class="jumbotron">
   <div class="container">
   	<section class="colunas">
@@ -22,7 +25,7 @@ breadcrumb: false
 
 <main class="container">
   <section class="noticias colunas">
-		{% for post in paginator.posts %}
+		{% for post in noticias %}
 			{% include destaque.html class="destaque medio vertical" details=post %}
 		{% endfor %}
   </section>

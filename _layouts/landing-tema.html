@@ -5,6 +5,7 @@ layout : default
 {% assign title      = page.title %}
 {% assign tema       = page.tema %}
 {% assign noticias   = site.tags['Agronegócio'] %}
+{% assign videos     = site.tags.video %}
 
 <nav class="container">
   {% include menu_topo.html %}
@@ -17,7 +18,7 @@ layout : default
   <section class="noticias colunas">
     <h2>Notícias</h2>
 
-    {% for noticia in noticias %}
+    {% for noticia in noticias | limit:4 %}
       {% if forloop.first %}
       <!-- Primeira noticia do tema -->
       {% include destaque.html class="destaque importante bordado" semfoto=true details=noticia %}
@@ -35,6 +36,14 @@ layout : default
         {% endcase %}
       {% endif %}
     {% endfor %}
-
   </section>
+
+  <section class="videos colunas">
+    <h2>Vídeos</h2>
+    {% for video in videos | limit:3 %}
+      {% include video.html class="destaque medio vertical" details=video %}
+    {% endfor %}
+  </section>
+
+
 </section>

@@ -5,5 +5,5 @@ exclude: [drupal]
 baseurl: /mst
 # permalink: /:categories/:title
 pages: ./_pages
-paginate: 25
-paginate_path: "page:num"
+# paginate: 25
+# paginate_path: "page:num"

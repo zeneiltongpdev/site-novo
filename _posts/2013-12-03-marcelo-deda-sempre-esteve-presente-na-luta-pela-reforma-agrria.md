@@ -4,7 +4,7 @@ title: Marcelo Deda sempre esteve presente na luta pela Reforma Agrária
 created: 1386069910
 images:
 - http://mst.org.br/sites/default/files/deda.jpg
-video: http://www.youtube.com/v/SV-USqLOo6c\#t
+video: http://www.youtube.com/v/SV-USqLOo6c\?controls=0&showinfo=0&rel=0&modestbranding=1
 tags:
 - Sergipe
 - video

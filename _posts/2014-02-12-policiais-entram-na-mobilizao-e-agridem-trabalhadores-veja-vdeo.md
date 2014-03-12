@@ -3,7 +3,7 @@ layout: post
 title: Policiais entram na mobilização e agridem trabalhadores, veja vídeo
 created: 1392245970
 images: []
-video: http://www.youtube.com/v/KdfZuh60xf8&amp;feature
+video: http://www.youtube.com/v/KdfZuh60xf8&amp;feature?controls=0&showinfo=0&rel=0&modestbranding=1
 tags:
 - Reforma Agrária
 - '6'

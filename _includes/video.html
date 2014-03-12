@@ -1,0 +1,19 @@
+{% if include.details.tags contains 'video' %}
+	{% assign video_url=include.details.video %}
+{% endif %}
+
+<article class="{{ include.class }}">
+
+	<aside class="video">
+	  <div class="thumbnail sombra crop">
+	    {% include video_player.html url=video_url %}
+	  </div>
+	</aside>
+
+  <main class="conteudo">
+    <h4 class="manchete">
+      <a href="{{ site.baseurl }}{{ include.details.url }}">{{ include.details.title }}</a>
+    </h4>
+    <p class="muted">{{include.details.date | date_to_string }}</p>
+  </main>
+</article>

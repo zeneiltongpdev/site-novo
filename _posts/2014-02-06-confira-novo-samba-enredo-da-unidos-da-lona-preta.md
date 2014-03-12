@@ -3,7 +3,7 @@ layout: post
 title: Confira novo samba enredo da Unidos da Lona Preta
 created: 1391714245
 images: []
-video: http://www.youtube.com/v/aTk_4rm7QD8&amp;feature
+video: http://www.youtube.com/v/aTk_4rm7QD8&amp;feature?controls=0&showinfo=0&rel=0&modestbranding=1
 tags:
 - Educação, Cultura e Comunicação
 - Destaque

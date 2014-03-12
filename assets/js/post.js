@@ -7,12 +7,13 @@ $(document).ready(function($) {
 			ratio = w/h,
 			$wrap = $('<figure></figure>');
 
+		if ($img.parent().prop('tagName') !== 'FIGURE') {
+			$wrap
+				.addClass((ratio < 1.3)?'portrait':'landscape')
+				.addClass('thumbnail crop animated');
 
-		$wrap
-			.addClass((ratio < 1.3)?'portrait':'landscape')
-			.addClass('thumbnail crop animated');
-
-		$img.wrap($wrap.get());
+			$img.wrap($wrap.get());
+		}
 
 	}).each(function() {
 		if(this.complete) $(this).load();

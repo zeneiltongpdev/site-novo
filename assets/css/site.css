@@ -5797,10 +5797,22 @@ button.close {
   margin-bottom: 22px;
   margin-top: 22px;
 }
-.post .portrait {
+.post .thumbnail img,
+.post .thumbnail object {
+  width: 100%;
+  max-width: 100%;
+  height: 360.0009px;
+}
+@media (min-width: 768px) {
+  .post .thumbnail img,
+  .post .thumbnail object {
+    height: 576.00144px;
+  }
+}
+.post figure.portrait {
   min-height: 400px;
 }
-.post .landscape {
+.post figure.landscape {
   min-height: 300px;
 }
 .destaques {
@@ -5836,6 +5848,7 @@ button.close {
   margin-bottom: 0;
 }
 .destaque .foto,
+.destaque .video,
 .destaque .conteudo,
 .destaque .extra {
   margin: 20px 0;
@@ -5846,6 +5859,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .destaque .foto,
+  .destaque .video,
   .destaque .conteudo,
   .destaque .extra {
     float: left;
@@ -5904,6 +5918,7 @@ button.close {
   }
 }
 .destaque.vertical .foto,
+.destaque.vertical .video,
 .destaque.vertical .conteudo,
 .destaque.vertical .extra {
   position: relative;
@@ -5913,12 +5928,14 @@ button.close {
 }
 @media (min-width: 768px) {
   .destaque.vertical .foto,
+  .destaque.vertical .video,
   .destaque.vertical .conteudo,
   .destaque.vertical .extra {
     float: left;
     width: 100%;
   }
 }
+.destaque.vertical .video + .conteudo,
 .destaque.vertical .foto + .conteudo {
   margin-top: 0;
 }
@@ -5926,6 +5943,7 @@ button.close {
   margin-top: 0;
 }
 .destaque.horizontal .foto,
+.destaque.horizontal .video,
 .destaque.horizontal .conteudo,
 .destaque.horizontal .extra {
   position: relative;
@@ -5935,6 +5953,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .destaque.horizontal .foto,
+  .destaque.horizontal .video,
   .destaque.horizontal .conteudo,
   .destaque.horizontal .extra {
     float: left;
@@ -5979,6 +5998,7 @@ button.close {
   padding: 0;
   border-width: 10px;
 }
+.thumbnail object,
 .thumbnail img {
   display: block;
   max-width: 100%;
@@ -6043,7 +6063,7 @@ button.close {
   margin-left: -15px;
   margin-right: -15px;
 }
-.noticias > h2 {
+.colunas > h2 {
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -6081,6 +6101,7 @@ button.close {
   border-radius: 50%;
   padding: 10px;
 }
+.jumbotron .logo object,
 .jumbotron .logo img {
   width: 100%;
   max-width: 100%;

@@ -4,7 +4,7 @@ title: Em ato político, MST recebe apoio de organizações, igreja e autoridade
 created: 1392305807
 images:
 - http://mst.org.br/sites/default/files/JOKA2235.jpg
-video: http://www.youtube.com/v/wpLzigfylRE&amp;list
+video: http://www.youtube.com/v/wpLzigfylRE&amp;list?controls=0&showinfo=0&rel=0&modestbranding=1
 tags:
 - Reforma Agrária
 - Manchete

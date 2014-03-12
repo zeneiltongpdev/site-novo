@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <article class="container post">
 	<header class="page-header">
     <h2>{{page.title}}<p><small>{{ page.date | date_to_string }}</small></p></h2>
@@ -9,5 +10,12 @@ layout: default
 	  {% endfor %}
   </header>
   {% include breadcrumb.html title=page.title %}
+
+  <aside class="video">
+	  <div class="thumbnail sombra">
+	    {% include video_player.html url=page.video %}
+	  </div>
+	</aside>
+
 	{{ content }}
 </article>
