@@ -3,6 +3,7 @@
 require "mysql"
 require "jekyll-import"
 require "html2markdown"
+require "open-uri"
 
 # monkey patching the HTML2Markdown::Converter
 # I found that the original converter algorithm doesn't work like expected
@@ -42,10 +43,7 @@ module HTML2Markdown
       when 'br'
         result << "\n"
       when 'img'
-        host = "http://mst.org.br"
-        src = node['src'];
-        src.insert(0, host) unless src.include?("http")
-        result << "![#{node['alt']}](#{src})"
+        result << "![#{node['alt']}](#{node['src']})"
       when 'a'
         result << "[#{contents}](#{node['href']})"
       else
@@ -120,7 +118,9 @@ module JekyllImport
       def self.post_images(post)
         images = post[:images].to_s.split("|") || []
         images.reduce([]) do |collection, img|
-          img.downcase.scan(/\.jpg/).empty? ? collection : collection << img.force_encoding("UTF-8")
+          puts "post_images: #{img}"
+          url = absolute_url img.force_encoding("UTF-8")
+          img.downcase.scan(/\.jpg/).empty? ? collection : collection << url
         end
       end
 
@@ -128,8 +128,13 @@ module JekyllImport
         regex = /(!\[.*?\]\(.+?\))/
         match = markdown.match(regex)
         (match ? match.captures : []).map do |img|
-          img.gsub(/[!\[\]\(\)]/,"")
+          puts "content_images: #{URI.decode img}"
+          absolute_url URI.decode(img.gsub(/[!\[\]\(\)]/,""))
         end
+      end
+
+      def self.absolute_url(path)
+        "http://mst.org.br:#{path}" if path.start_with?("/")
       end
 
       def self.youtube_video(content)
