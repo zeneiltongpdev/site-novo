@@ -5795,6 +5795,7 @@ body > header > nav > ul {
   list-style: none;
   width: auto;
   float: left;
+  padding-left: 0;
 }
 body > header > nav > ul li {
   display: inline;
@@ -6141,6 +6142,7 @@ form[name='search'] {
   margin: 0;
   display: inline-block;
   width: 25%;
+  width: auto;
 }
 form[name='search'] [for='search'] {
   font-size: 0;
@@ -6154,4 +6156,5 @@ form[name='search'] [for='search']:before {
 }
 form[name='search'] #search {
   padding-left: 20px;
+  min-width: 30px;
 }
