@@ -7,9 +7,12 @@ layout : default
 {% assign noticias   = site.tags['Agronegócio'] %}
 {% assign videos     = site.tags.video %}
 
-<nav class="container">
-  {% include menu_topo.html %}
-</nav>
+<header>
+  <img class="hidden-xs" src="http://www.mst.org.br/sites/default/files/mst3_logo.jpg" alt="Banner do MST" />
+  <nav class="container">
+    {% include menu_topo.html %}
+  </nav>
+</header>
 <section class="container">
   <header class="page-header">
     <h1>{{ title }}</h1>

@@ -9,3 +9,19 @@
   submenu:
     - name: Agronegócio
       url: /agronegocio
+
+- name: Vídeos
+  url: http://www.mst.org.br/multimidia
+
+- name: Especiais
+  url: http://www.mst.org.br/especiais
+
+- name: Mural
+  url: http://www.mst.org.br/mural
+
+- name: Eu apoio o MST
+  url: http://www.mst.org.br/taxonomy/term/704
+
+- name: SemTerrinha
+  url: http://www.mst.org.br/semterrinha
+
