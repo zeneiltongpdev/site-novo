@@ -6059,6 +6059,17 @@ button.close {
     top: -25%;
   }
 }
+@media (min-width: 992px) {
+  body > header > h1 {
+    background-image: url(http://mst.org.br/sites/default/files/mst3_logo.jpg);
+    height: 112px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
 .colunas {
   margin-left: -15px;
   margin-right: -15px;
