@@ -86,4 +86,11 @@ run and wait for the migration to finish
 *Caution: As jekyll is static, the migration will create several files on the _posts and _pages directories*
 
 **run**
-```jekyll serve``` and open http://localhost:4000/mst/
+
+```$ npm install```
+
+```$ ./node_modules/.bin/grunt watch```
+
+```$ jekyll serve``` 
+
+and open http://localhost:4000/mst/
