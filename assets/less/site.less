@@ -55,6 +55,13 @@
 @import "destaque";
 @import "thumbnails";
 
+body > header > h1 {
+  background-color: #961913;
+  box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 5px;
+  margin: 0;
+}
 @media(min-width: @screen-md) {
   body > header > h1 {
     background-image: url(http://mst.org.br/sites/default/files/mst3_logo.jpg);
@@ -64,6 +71,7 @@
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+    margin-top: 0;
   }
 }
 
@@ -88,4 +96,26 @@
 
 	object, img { width: 100%; max-width: 100%; }
 }
+
+form[name='search'] {
+  margin: 0;
+  display: inline-block;
+  width: 25%;
+
+  [for='search'] {
+    font-size: 0;
+    position: relative;
+    right: -20px;
+
+    &:before {
+      font-size: 13px;
+      font-family: 'Glyphicons Halflings';
+      content: '\e003';
+    }
+  }
+  #search {
+    padding-left: 20px;
+  }
+}
+
 

@@ -8,12 +8,19 @@ layout : default
 {% assign videos     = site.tags.video %}
 
 <header>
-  <!--img class="visible-desktop" src="http://www.mst.org.br/sites/default/files/mst3_logo.jpg" alt="Banner do MST" /-->
   <h1>MST</h1>
-  <nav class="container">
+  <nav>
     {% include menu_topo.html %}
+
+    <form action="/" accept-charset="UTF-8" method="post" name="search">
+      <label for="search">Busca:</label>
+      <input type="text" name="search_block_form" id="search" />
+      <input type="hidden" name="form_build_id" id="form-b980ebaf3bdfc7338bcf0b37d75b5aab" value="form-b980ebaf3bdfc7338bcf0b37d75b5aab" />
+      <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form" />
+    </form>
   </nav>
 </header>
+
 <section class="container">
   <header class="page-header">
     <h1>{{ title }}</h1>

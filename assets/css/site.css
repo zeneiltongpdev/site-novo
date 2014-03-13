@@ -2367,8 +2367,8 @@ input[type="button"].btn-block {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../../bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot');
+  src: url('../../bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -5787,6 +5787,21 @@ button.close {
   color: #da251c;
   cursor: pointer;
 }
+body > header > nav {
+  padding-top: 10px;
+}
+body > header > nav > ul {
+  display: inline-block;
+  list-style: none;
+  width: auto;
+  float: left;
+}
+body > header > nav > ul li {
+  display: inline;
+}
+body > header > nav > ul li + li {
+  margin-left: 20px;
+}
 .post {
   max-width: 750px;
   margin-bottom: 22px;
@@ -6059,6 +6074,13 @@ button.close {
     top: -25%;
   }
 }
+body > header > h1 {
+  background-color: #961913;
+  box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 5px;
+  margin: 0;
+}
 @media (min-width: 992px) {
   body > header > h1 {
     background-image: url(http://mst.org.br/sites/default/files/mst3_logo.jpg);
@@ -6068,6 +6090,7 @@ button.close {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+    margin-top: 0;
   }
 }
 .colunas {
@@ -6116,4 +6139,22 @@ button.close {
 .jumbotron .logo img {
   width: 100%;
   max-width: 100%;
+}
+form[name='search'] {
+  margin: 0;
+  display: inline-block;
+  width: 25%;
+}
+form[name='search'] [for='search'] {
+  font-size: 0;
+  position: relative;
+  right: -20px;
+}
+form[name='search'] [for='search']:before {
+  font-size: 13px;
+  font-family: 'Glyphicons Halflings';
+  content: '\e003';
+}
+form[name='search'] #search {
+  padding-left: 20px;
 }
