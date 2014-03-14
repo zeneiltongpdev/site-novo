@@ -5825,6 +5825,12 @@ body > header > nav > ul li {
 body > header > nav > ul li + li {
   margin-left: 20px;
 }
+ul.dropdown-menu {
+  text-align: left;
+}
+ul.dropdown-menu li {
+  margin-left: 0px;
+}
 form[name='search'] {
   margin: 0;
   display: inline-block;
