@@ -269,7 +269,7 @@ body {
   font-size: 16px;
   line-height: 1.42857143;
   color: #555555;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 input,
 button,
@@ -1430,7 +1430,7 @@ th {
   border-top: 2px solid #dddddd;
 }
 .table .table {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -3501,7 +3501,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #777777;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -3547,7 +3547,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #f0f0f0;
+    border-bottom-color: #ffffff;
   }
 }
 .nav-pills > li {
@@ -3615,7 +3615,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #f0f0f0;
+    border-bottom-color: #ffffff;
   }
 }
 .tab-content > .tab-pane {
@@ -5788,60 +5788,75 @@ button.close {
   cursor: pointer;
 }
 body > header {
+  position: relative;
   text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body > header:after {
+  content: "";
+  background: url(http://3.bp.blogspot.com/_RJ5ERFaftvw/S1-PLQHIrMI/AAAAAAAAAiM/BfpLVh2v_ck/S1600-R/foto.twitter1.gif.png);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 body > header h1 {
   padding: 10px 5px;
   margin: 0;
+  font-size: 6em;
+  font-weight: bold;
+  text-shadow: 3px 3px black;
+}
+body > header p {
+  font-size: 1.5em;
+  font-weight: lighter;
 }
 @media (min-width: 992px) {
-  body > header h1 {
-    background-image: url(http://mst.org.br/sites/default/files/mst3_logo.jpg);
-    height: 112px;
-    background-repeat: no-repeat;
-    background-size: auto;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    margin-top: 0;
+  body > header {
+    height: 400px;
+    padding-top: 140px;
   }
 }
-body > header nav {
+nav {
   padding-top: 10px;
+  text-align: center;
+  background-color: #f0f0f0;
 }
-body > header ul {
+nav ul {
   display: inline-block;
   list-style: none;
   width: auto;
-  float: left;
   padding: 0;
   padding-top: 2px;
   margin-right: 20px;
   font-size: 0.9em;
 }
-body > header ul li {
+nav ul li {
   display: inline;
 }
-body > header ul li + li {
+nav ul li + li {
   margin-left: 20px;
 }
-body > header ul.dropdown-menu {
+nav ul.dropdown-menu {
   text-align: left;
 }
-body > header ul.dropdown-menu li {
+nav ul.dropdown-menu li {
   margin-left: 0px;
 }
-body > header form[name='search'] {
+nav form[name='search'] {
   margin: 0;
   display: inline-block;
   width: auto;
 }
-body > header form[name='search'] [for='search'] {
+nav form[name='search'] [for='search'] {
   font-size: 0;
   position: relative;
   right: -20px;
 }
-body > header form[name='search'] #search {
+nav form[name='search'] #search {
   min-width: 30px;
   font-size: 0.9em;
   padding-left: 15px;
@@ -5850,7 +5865,7 @@ body > header form[name='search'] #search {
   border-radius: 15px;
   box-shadow: inset 3px 2px 4px rgba(0, 0, 0, 0.3);
 }
-body > header form[name='search'] #search:focus {
+nav form[name='search'] #search:focus {
   outline: none;
   box-shadow: 0px 0px 3pt 2pt #5b9dd9;
 }

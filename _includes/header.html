@@ -1,31 +1,31 @@
-<header class="container">
+<header>
   <h1>MST</h1>
-  <nav>
-    <ul>
-    {% for menu in site.data.menu %}
-      <li class="dropdown">
-        {% include menu_link.html menu=menu %}
-        {% if menu.submenu %}
-          <span class="dropdown-toggle caret" data-toggle="dropdown"></span>
-        {% endif %}
-        <ul class="dropdown-menu">
-        {% for submenu in menu.submenu %}
-          <li>
-            {% include menu_link.html menu=submenu %}
-          </li>
-        {% endfor %}
-        </ul>
-      </li>
-    {% endfor %}
-    </ul>
-
-    <form action="http://www.mst.org.br/" accept-charset="UTF-8" method="post" name="search">
-      <label for="search">Busca:</label>
-      <input type="search" id="search" placeholder="Pesquisar..." name="search_block_form" />
-      <input type="hidden" name="form_build_id" id="form-b980ebaf3bdfc7338bcf0b37d75b5aab" value="form-b980ebaf3bdfc7338bcf0b37d75b5aab" />
-      <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form" />
-    </form>
-  </nav>
+  <p>Movimento dos Trabalhadores Rurais Sem Terra</p>
 </header>
+<nav>
+  <ul>
+  {% for menu in site.data.menu %}
+    <li class="dropdown">
+      {% include menu_link.html menu=menu %}
+      {% if menu.submenu %}
+        <span class="dropdown-toggle caret" data-toggle="dropdown"></span>
+      {% endif %}
+      <ul class="dropdown-menu">
+      {% for submenu in menu.submenu %}
+        <li>
+          {% include menu_link.html menu=submenu %}
+        </li>
+      {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
 
+  <form action="http://www.mst.org.br/" accept-charset="UTF-8" method="post" name="search">
+    <label for="search">Busca:</label>
+    <input type="search" id="search" placeholder="Pesquisar..." name="search_block_form" />
+    <input type="hidden" name="form_build_id" id="form-b980ebaf3bdfc7338bcf0b37d75b5aab" value="form-b980ebaf3bdfc7338bcf0b37d75b5aab" />
+    <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form" />
+  </form>
+</nav>
 
