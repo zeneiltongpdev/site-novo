@@ -7,30 +7,16 @@ layout : default
 {% assign noticias   = site.tags['Agronegócio'] %}
 {% assign videos     = site.tags.video %}
 
-<header class="container">
-  <h1>MST</h1>
-  <nav>
-    {% include menu_topo.html %}
+<!-- move to the default layout in the future -->
+{% include header.html %}
 
-    <form action="/" accept-charset="UTF-8" method="post" name="search">
-      <label for="search">Busca:</label>
-      <input type="search" id="search" placeholder="Pesquisar..." name="search_block_form" />
-
-      <input type="hidden" name="form_build_id" id="form-b980ebaf3bdfc7338bcf0b37d75b5aab" value="form-b980ebaf3bdfc7338bcf0b37d75b5aab" />
-      <input type="hidden" name="form_id" id="edit-search-block-form" value="search_block_form" />
-
-    </form>
-  </nav>
-</header>
-
-<section class="container">
-  <header class="page-header">
+<article class="container">
+  <header>
     <h1>{{ title }}</h1>
   </header>
 
   <section class="noticias colunas">
     <h2>Notícias</h2>
-
     {% for noticia in noticias | limit:3 %}
       {% include destaque.html class="destaque medio vertical" details=noticia %}
     {% endfor %}
@@ -42,6 +28,4 @@ layout : default
       {% include video.html class="destaque medio vertical" details=video %}
     {% endfor %}
   </section>
-
-
-</section>
+</article>
