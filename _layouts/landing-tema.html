@@ -38,7 +38,7 @@ layout : default
 
   <section class="videos colunas">
     <h2>Vídeos</h2>
-    {% for video in videos | limit:3 %}
+    {% for video in videos | limit:4 %}
       {% include video.html class="destaque medio vertical" details=video %}
     {% endfor %}
   </section>
