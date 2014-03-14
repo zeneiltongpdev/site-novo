@@ -31,14 +31,14 @@ layout : default
   <section class="noticias colunas">
     <h2>Notícias</h2>
 
-    {% for noticia in noticias | limit:4 %}
+    {% for noticia in noticias | limit:3 %}
       {% include destaque.html class="destaque medio vertical" details=noticia %}
     {% endfor %}
   </section>
 
   <section class="videos colunas">
     <h2>Vídeos</h2>
-    {% for video in videos | limit:4 %}
+    {% for video in videos | limit:3 %}
       {% include video.html class="destaque medio vertical" details=video %}
     {% endfor %}
   </section>
