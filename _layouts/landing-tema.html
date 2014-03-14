@@ -32,22 +32,7 @@ layout : default
     <h2>Notícias</h2>
 
     {% for noticia in noticias | limit:4 %}
-      {% if forloop.first %}
-      <!-- Primeira noticia do tema -->
-      {% include destaque.html class="destaque importante bordado" semfoto=true details=noticia %}
-      {% else %}
-        {% case forloop.index %}
-          {% when 2 %}
-          <!-- Segunda noticia do tema -->
-          {% include destaque.html class="destaque medio vertical" details=noticia %}
-          {% when 3 %}
-            <!-- Terceira noticia do tema -->
-            {% include destaque.html class="destaque medio vertical" details=noticia %}
-          {% else %}
-            <!-- Demais posts -->
-            {% include destaque.html class="destaque medio vertical" details=noticia %}
-        {% endcase %}
-      {% endif %}
+      {% include destaque.html class="destaque medio vertical" details=noticia %}
     {% endfor %}
   </section>
 
