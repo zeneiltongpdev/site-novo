@@ -6192,3 +6192,17 @@ nav form[name='search'] #search:focus {
   width: 100%;
   max-width: 100%;
 }
+article.tema header {
+  overflow: auto;
+  margin: 50px 0 30px 0;
+}
+article.tema header figure {
+  float: left;
+  margin-right: 30px;
+}
+article.tema header h1 {
+  margin-top: 0;
+}
+article.tema header p {
+  max-width: 800px;
+}
