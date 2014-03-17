@@ -3,17 +3,12 @@
 {% endif %}
 
 <article class="{{ include.class }}">
+  <figure class="video">
+    {% include video_player.html url=video_url %}
+  </figure>
 
-	<aside class="video">
-	  <div class="thumbnail sombra crop">
-	    {% include video_player.html url=video_url %}
-	  </div>
-	</aside>
-
-  <main class="conteudo">
-    <h4 class="manchete">
-      <a href="{{ site.baseurl }}{{ include.details.url }}">{{ include.details.title }}</a>
-    </h4>
-    <p class="muted">{{include.details.date | date_to_string }}</p>
-  </main>
+  <p class="conteudo manchete">
+    <a href="{{ site.baseurl }}{{ include.details.url }}">{{ include.details.title }}</a>
+  </p>
+  <p class="conteudo muted">{{include.details.date | date_to_string }}</p>
 </article>

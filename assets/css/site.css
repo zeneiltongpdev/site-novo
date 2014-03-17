@@ -5927,7 +5927,8 @@ nav form[name='search'] #search:focus {
 .destaque figure {
   margin-bottom: 0;
 }
-.destaque figure img {
+.destaque figure img,
+.destaque figure object {
   width: 180px;
   min-width: 180px;
   max-width: 180px;
