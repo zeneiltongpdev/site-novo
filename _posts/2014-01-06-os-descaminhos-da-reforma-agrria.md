@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Os descaminhos da Reforma Agrária '
+title: 'Os descaminhos da Reforma Agrária '
 created: 1389013155
 images: []
 video: 

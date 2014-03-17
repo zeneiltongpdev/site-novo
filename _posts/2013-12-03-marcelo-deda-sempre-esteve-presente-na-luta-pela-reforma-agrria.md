@@ -3,8 +3,8 @@ layout: post
 title: Marcelo Deda sempre esteve presente na luta pela Reforma Agrária
 created: 1386069910
 images:
-- http://mst.org.br/sites/default/files/deda.jpg
-video: http://www.youtube.com/v/SV-USqLOo6c\?controls=0&showinfo=0&rel=0&modestbranding=1
+- http://mst.org.br:/sites/default/files/deda.jpg
+video: http://www.youtube.com/v/SV-USqLOo6c\
 tags:
 - Sergipe
 - video
@@ -12,7 +12,7 @@ Localização: Sergipe
 ---
 
 
-![](http://mst.org.br/sites/default/files/deda.jpg)
+![](/sites/default/files/deda.jpg)
 Da Página do MST
 
 Os militantes do MST do estado de Sergipe lamentam profundamente a morte do grande companheiro e governador do estado de Sergipe, Marcelo Deda Chagas.

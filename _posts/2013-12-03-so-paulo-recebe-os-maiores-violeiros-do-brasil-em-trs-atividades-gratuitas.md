@@ -3,7 +3,7 @@ layout: post
 title: São Paulo recebe os maiores violeiros do Brasil em três atividades gratuitas
 created: 1386095001
 images:
-- http://mst.org.br/sites/default/files/III%20Encontro%20Nacional%20de%20Violeiros.jpg
+- http://mst.org.br:/sites/default/files/III Encontro Nacional de Violeiros.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -17,7 +17,7 @@ Assuntos: Cultura
 ---
 
 
-![](http://mst.org.br/sites/default/files/III%20Encontro%20Nacional%20de%20Violeiros.jpg)
+![](/sites/default/files/III%20Encontro%20Nacional%20de%20Violeiros.jpg)
 Da Página do MST
 Neste próximo final de semana, a cidade de São Paulo receberá os maiores violeiros do Brasil em três atividades gratuitas.   
 

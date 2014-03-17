@@ -3,7 +3,7 @@ layout: post
 title: MST recebe homenagem em ato na Câmara dos Deputados
 created: 1391687423
 images:
-- http://mst.org.br/sites/default/files/camara_30%20anos.jpg
+- http://mst.org.br:/sites/default/files/camara_30 anos.jpg
 video: 
 tags:
 - Reforma Agrária
@@ -17,7 +17,7 @@ Semana: Tema da semana
 ---
 
 
-![](http://mst.org.br/sites/default/files/camara_30%20anos.jpg)
+![](/sites/default/files/camara_30%20anos.jpg)
 
 
 Por Rafael Soriano
@@ -35,7 +35,7 @@ Pela coordenação do MST, participaram da mesa de exposições Alexandre Concei
 Além do detalhamento da programação de atividades do 6° Congresso, os militantes refletiram a necessidade do salto histórico em direção a uma Reforma Agrária Popular, proposta pelo MST. 
 
 Eles defenderam que este novo programa agrário continua partindo do enfrentamento ao latifúndio, com desapropriação de terras e criação de assentamentos, mas que avança na direção da produção de alimentos sob a matriz agroecológica, sem venenos, do aumento de renda das famílias e na alteração global “do cenário em que as famílias camponesas vivem, para que estas tenham dignidade para viver no campo”.
-![](http://mst.org.br/sites/default/files/camara_30%20anos.IIi) 
+![](/sites/default/files/camara_30%20anos.IIi) 
 
 **Homenagens **
 Além das homenagens em torno dos 30 anos de trajetória de lutas e conquistas do MST, outro tema recorrente nas falas dos parlamentares foi a passagem dos 5 anos da morte do Deputado Adão Pretto. Adão foi o primeiro deputado Sem Terra e foi uma referência dos movimentos sociais, coerente com os princípios socialistas, sempre na linha de frente na defesa da justiça social e da luta pela terra. 
@@ -49,4 +49,4 @@ Vicentinho ainda ressaltou que a vinda de dezenas de companheiros para o ato dem
 Nas palavras de Ivan Valente, “o MST é um movimento de massas e precisa continuar como tal, de pressão, de baixo pra cima, socialista de base. Assim deve continuar com os direcionamentos deste seu 6° Congresso”. Salientou que o MST “continua sendo o grande exemplo de luta da classe trabalhadora brasileira”, com papel crucial para alterar os rumos do processo de “reprimarização” do país. 
 
 Ainda durante o ato de lançamento do 6° Congresso, parlamentares e público presente assistiram a uma intervenção artístico-cultural realizada por um grupo do MST, que, com muita animação popular, chamou atenção para os pilares arcaicos da sociedade brasileira, como a justiça conservadora, o latifúndio e sua miséria, a polícia violenta e os meios de comunicação hegemônicos.
-![](http://mst.org.br/sites/default/files/camara_30%20anos_2.II)
+![](/sites/default/files/camara_30%20anos_2.II)

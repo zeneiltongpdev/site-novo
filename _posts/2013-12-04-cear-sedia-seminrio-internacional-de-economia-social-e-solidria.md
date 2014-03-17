@@ -3,7 +3,7 @@ layout: post
 title: Ceará sedia Seminário Internacional de Economia Social e Solidária
 created: 1386159253
 images:
-- http://mst.org.br/sites/default/files/economia_soliadria.jpg
+- http://mst.org.br:/sites/default/files/economia_soliadria.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -13,7 +13,7 @@ Localização: Ceará
 ---
 
 
-![](http://mst.org.br/sites/default/files/economia_soliadria.jpg)
+![](/sites/default/files/economia_soliadria.jpg)
 
 
 Por Marcelo Matos

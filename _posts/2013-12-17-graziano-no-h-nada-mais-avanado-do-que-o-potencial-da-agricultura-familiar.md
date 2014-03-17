@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Graziano: não há nada mais avançado do que o potencial da agricultura familiar'
+title: 'Graziano: não há nada mais avançado do que o potencial da agricultura familiar'
 created: 1387282925
 images: []
 video: 

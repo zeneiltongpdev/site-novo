@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! ' Prefeito descumpre acordo e prefeitura de Atalaia continua ocupada'
+title: ' Prefeito descumpre acordo e prefeitura de Atalaia continua ocupada'
 created: 1389274081
 images: []
 video: 

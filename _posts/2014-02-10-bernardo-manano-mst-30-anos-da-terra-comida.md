@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Bernardo Mançano: MST 30 anos, da terra à comida'
+title: 'Bernardo Mançano: MST 30 anos, da terra à comida'
 created: 1392039482
 images: []
 video: 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'José Elí da Veiga: Especulação imobiliária rural e a nova lei florestal'
+title: 'José Elí da Veiga: Especulação imobiliária rural e a nova lei florestal'
 created: 1385744513
 images: []
 video: 

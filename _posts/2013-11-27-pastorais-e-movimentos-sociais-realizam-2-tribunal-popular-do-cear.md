@@ -3,7 +3,7 @@ layout: post
 title: Pastorais e Movimentos Sociais realizam 2° Tribunal Popular do Ceará
 created: 1385568822
 images:
-- http://mst.org.br/sites/default/files/Tribunal-Popular-do-Cear%C3%A1-1500.JPG
+- http://mst.org.br:/sites/default/files/Tribunal-Popular-do-Ceará-1500.JPG
 video: 
 tags:
 - Direitos Humanos
@@ -15,7 +15,7 @@ Assuntos: Direitos Humanos
 ---
 
 
-![](http://mst.org.br/sites/default/files/Tribunal-Popular-do-Cear%C3%A1-1500.JPG)
+![](/sites/default/files/Tribunal-Popular-do-Cear%C3%A1-1500.JPG)
 Da Arquidiocese de Fortaleza
 
 Desde esta terça-feira(26) até o dia 28 de novembro, Movimentos e Pastorais Sociais realizam, em Fortaleza, no auditório do Seminário da Prainha, a Sessão Final do Tribunal Popular do Ceará.

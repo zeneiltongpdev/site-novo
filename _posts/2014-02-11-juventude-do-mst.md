@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Juventude do MST '
+title: 'Juventude do MST '
 created: 1392114864
 images: []
 video: 

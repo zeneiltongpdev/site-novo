@@ -3,7 +3,7 @@ layout: post
 title: Papa Francisco se junta aos movimentos sociais
 created: 1387393272
 images: []
-video: http://www.youtube.com/v/FyjErsX-Zd8?controls=0&showinfo=0&rel=0&modestbranding=1
+video: http://www.youtube.com/v/FyjErsX-Zd8
 tags:
 - video
 ---

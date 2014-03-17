@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Monsanto: a indústria química, os agrotóxicos e a loucura'
+title: 'Monsanto: a indústria química, os agrotóxicos e a loucura'
 created: 1392814515
 images: []
 video: 

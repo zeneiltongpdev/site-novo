@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ! 'Jornal Sem Terra: para além dos 30 anos'
+title: 'Jornal Sem Terra: para além dos 30 anos'
 created: 1392812111
 images:
-- http://mst.org.br/sites/default/files/jst.jpg
+- http://mst.org.br:/sites/default/files/jst.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -13,7 +13,7 @@ Assuntos: comunicação
 ---
 
 
-![](http://mst.org.br/sites/default/files/jst.jpg)
+![](/sites/default/files/jst.jpg)
  
 Por Katia Marko\* 
 

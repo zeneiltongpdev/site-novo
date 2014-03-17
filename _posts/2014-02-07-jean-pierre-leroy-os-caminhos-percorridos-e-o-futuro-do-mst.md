@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Jean Pierre Leroy: os caminhos percorridos e o futuro do MST'
+title: 'Jean Pierre Leroy: os caminhos percorridos e o futuro do MST'
 created: 1391801849
 images: []
 video: 

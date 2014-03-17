@@ -3,7 +3,7 @@ layout: post
 title: Cerca de 500 pessoas participaram da Jornada de Agroecologia da Bahia
 created: 1387306772
 images:
-- http://mst.org.br/sites/default/files/jornada%20agroecologia%20Bahia.jpg
+- http://mst.org.br:/sites/default/files/jornada agroecologia Bahia.jpg
 video: 
 tags:
 - Agricultura camponesa
@@ -15,7 +15,7 @@ Assuntos: jornada de agroecologia
 ---
 
 
-![](http://mst.org.br/sites/default/files/jornada%20agroecologia%20Bahia.jpg)
+![](/sites/default/files/jornada%20agroecologia%20Bahia.jpg)
 Da Página do MST
 
 Entre os dias 12 a 15 de dezembro aconteceu a 2° Jornada de Agroecologia da Bahia, no Assentamento Terra Vista (MST), em Arataca. 

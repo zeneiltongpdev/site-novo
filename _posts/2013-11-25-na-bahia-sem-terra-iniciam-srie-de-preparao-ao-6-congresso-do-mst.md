@@ -3,13 +3,13 @@ layout: post
 title: Na Bahia, Sem Terra iniciam série de preparação ao 6° Congresso do MST
 created: 1385424133
 images:
-- http://mst.org.br/sites/default/files/forma%C3%A7%C3%A3o%20BA.jpg
+- http://mst.org.br:/sites/default/files/formação BA.jpg
 video: 
 tags: []
 ---
 
 
-![](http://mst.org.br/sites/default/files/forma%C3%A7%C3%A3o%20BA.jpg)
+![](/sites/default/files/forma%C3%A7%C3%A3o%20BA.jpg)
 Por Wesley Lima
 
 Da Página do MST
@@ -27,4 +27,4 @@ Próximo ao congresso, esses encontros são o primeiro passo para se debater e a
 Além disso, os encontros garantem aprofundar o debate sobre a Reforma Agrária Popular, que norteará a luta da organização para o próximo período.
 Após esses encontros serão realizados Encontros Regionais em todo o estado. Logo depois, entre os dias 18 a 20 de dezembro, acontece o 26º Encontro Estadual do MST na Bahia, quando todos os delegados que participarão do Congresso Nacional se encontrarão.
  
-![](http://mst.org.br/sites/default/files/forma%C3%A7%C3%A3o%20BA_II.jpg)
+![](/sites/default/files/forma%C3%A7%C3%A3o%20BA_II.jpg)

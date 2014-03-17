@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Algodão da morte: suicídios de camponeses escandalizam a Índia'
+title: 'Algodão da morte: suicídios de camponeses escandalizam a Índia'
 created: 1390829293
 images: []
 video: 

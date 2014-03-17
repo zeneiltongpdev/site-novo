@@ -3,7 +3,7 @@ layout: post
 title: MST homenageia Cícero Guedes na 4° Feira da Reforma Agrária do RJ
 created: 1386082200
 images:
-- http://mst.org.br/sites/default/files/Feira_RJ.jpg
+- http://mst.org.br:/sites/default/files/Feira_RJ.jpg
 video: 
 tags:
 - Agricultura camponesa
@@ -15,7 +15,7 @@ Assuntos: feira da reforma agrária
 ---
 
 
-**![](http://mst.org.br/sites/default/files/Feira_RJ.jpg)**
+**![](/sites/default/files/Feira_RJ.jpg)**
 Da Página do MST
 
 Nos próximos dias 9 e 10 de dezembro, o MST realizará a quarta edição da Feira Estadual da Reforma Agrária no Rio de Janeiro. O evento acontece no Largo da Carioca, região central da cidade. 
@@ -37,4 +37,4 @@ Além do MST, participam da feira agricultores ligados à Articulação de Agroe
 
 
 A feira conta ainda com apoio do Sindipetro-RJ, do jornal Brasil de Fato e da editora Expressão Popular.
-![](http://mst.org.br/sites/default/files/agraria_RJ.jpg)
+![](/sites/default/files/agraria_RJ.jpg)

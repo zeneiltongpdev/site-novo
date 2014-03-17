@@ -3,7 +3,7 @@ layout: post
 title: Movimentos sociais repudiam proposta de tipificação do crime de Terrorismo
 created: 1392987068
 images:
-- http://mst.org.br/sites/default/files/congresso-nacional-lei-antiterrorismo-2.JPG
+- http://mst.org.br:/sites/default/files/congresso-nacional-lei-antiterrorismo-2.JPG
 video: 
 tags:
 - Direitos Humanos
@@ -13,7 +13,7 @@ Assuntos: Direitos Humanos
 ---
 
 
-![](http://mst.org.br/sites/default/files/congresso-nacional-lei-antiterrorismo-2.JPG)
+![](/sites/default/files/congresso-nacional-lei-antiterrorismo-2.JPG)
 Da Página do MST
 
 Depois da morte do cinegrafista da TV Bandeirantes, Santiago Andrade, há uma forte pressão por parte de alguns parlamentares para que o Projeto da Lei Antiterrorismo (PLS 499/13) seja aprovado o quanto antes no Senado para tipificar o crime de terrorismo na país. 

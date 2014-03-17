@@ -3,7 +3,7 @@ layout: post
 title: MST participa da semana de solidariedade ao povo palestino
 created: 1386589496
 images:
-- http://mst.org.br/sites/default/files/unnamed.jpg
+- http://mst.org.br:/sites/default/files/unnamed.jpg
 video: 
 tags:
 - Internacional
@@ -13,7 +13,7 @@ Assuntos: Palestina
 ---
 
 
-![](http://mst.org.br/sites/default/files/unnamed.jpg)
+![](/sites/default/files/unnamed.jpg)
 Do Blog Presos Políticos Palestinos
 Em 1977 a ONU aprovou uma resolução instituindo o dia 29 de novembro como o Dia Internacional de Solidariedade ao Povo Palestino. Desde então nesta semana do dia 29 acontecem atividades de apoio à luta contra a ocupação israelense em todo o mundo.
 

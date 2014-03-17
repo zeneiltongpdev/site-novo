@@ -3,7 +3,7 @@ layout: post
 title: Por que somos os campeões no consumo de agrotóxicos?
 created: 1387280118
 images:
-- http://mst.org.br/sites/default/files/superinteressante.jpg
+- http://mst.org.br:/sites/default/files/superinteressante.jpg
 video: 
 tags:
 - Agronegócio
@@ -29,7 +29,7 @@ Ninguém discorda dos benefícios do agronegócio eficiente, que traz bons resul
 Um dossiê de 2012 da Associação Brasileira de Saúde Coletiva (Abrasco) aponta que, dos 50 produtos mais utilizados nas lavouras brasileiras, 22 são proibidos na União Europeia, o que faz com que o país seja o maior consumidor de agrotóxicos já banidos em outros locais do mundo, de acordo com a entidade. 
 
 Outro documento, da Agência Nacional de Vigilância Sanitária (Anvisa), mostra que grande parte do estoque de produtos organofosforados banidos na China em 2007 tem sido enviados ao Brasil.
-![](http://mst.org.br/sites/default/files/superinteressante.jpg) 
+![](/sites/default/files/superinteressante.jpg) 
 
 A consequência: em 2011, um a pesquisa da Universidade Federal do Mato Grosso em parceria com a Fundação Oswaldo Cruz comprovou que até mesmo o leite materno pode conter resíduos de agrotóxicos. O estudo coletou amostras em mulheres do município de Lucas do Rio Verde (MT), um dos maiores produtores de soja do país. Em 100% delas foi encontrado ao menos um tipo de princípio ativo. 
 
@@ -48,7 +48,7 @@ A lei vigora até hoje, com algumas mudanças no texto original. O gargalo, por�
 No Brasil, o processo de registro de novos produtos passa por três ministérios (Agricultura, Meio Ambiente e Saúde) , mas o número de pessoas que trabalham com agrotóxicos nesses órgãos é 20 vezes menor que a equipe dedicada ao assunto nos EUA , onde cerca de 850 pessoas atuam na área. 
 
 Aqui, os fabricantes têm isenção de alguns impostos, e o preço de registro de novos agrotóxicos é de no máximo US$1 mil. Nos EUA, custa até US$ 630 mil. Outro ponto polêmico: a legislação brasileira não prevê reavaliações periódicas obrigatórias dos agrotóxicos registrados.
-![](http://mst.org.br/sites/default/files/superinteressante2.jpg) 
+![](/sites/default/files/superinteressante2.jpg) 
 
 Nos EUA, os produtos são re - avaliados a cada 15anos (e cada reavaliação custa US$ 150 mil para o fabricante), e na União Europeia, a cada dez anos."O avanço da ciência permite identificar efeitos nocivos não observados no processo de registro e, com base em uma reavaliação, medidas podem ser tomadas para mitigar esses efeitos", defende Robson Barizon , pesquisador de Dinâmica de Pesticidas no Ambiente da Embrapa. 
 

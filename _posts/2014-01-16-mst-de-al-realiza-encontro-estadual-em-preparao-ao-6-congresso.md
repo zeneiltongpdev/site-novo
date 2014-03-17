@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! ' MST de AL realiza Encontro Estadual em preparação ao 6º Congresso'
+title: ' MST de AL realiza Encontro Estadual em preparação ao 6º Congresso'
 created: 1389876750
 images: []
 video: 

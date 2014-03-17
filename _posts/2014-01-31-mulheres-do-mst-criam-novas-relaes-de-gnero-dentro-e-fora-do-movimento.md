@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Mulheres do MST criam novas relações de gênero dentro e fora do movimento  '
+title: 'Mulheres do MST criam novas relações de gênero dentro e fora do movimento  '
 created: 1391192614
 images: []
 video: 

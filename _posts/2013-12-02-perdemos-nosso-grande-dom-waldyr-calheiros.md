@@ -3,13 +3,13 @@ layout: post
 title: Perdemos nosso grande Dom Waldyr Calheiros
 created: 1385987009
 images:
-- http://mst.org.br/sites/default/files/dom-waldyr-calheiros.jpg
+- http://mst.org.br:/sites/default/files/dom-waldyr-calheiros.jpg
 video: 
 tags: []
 ---
 
 
-![](http://mst.org.br/sites/default/files/dom-waldyr-calheiros.jpg)
+![](/sites/default/files/dom-waldyr-calheiros.jpg)
 Da Página do MST
 
 Perdemos nosso grande Dom Waldyr Calheiros Novaes, saudoso pastor que enfrentou os poderosos interesses da Ditadura Militar, deixará saudades e exemplo de dignidade a todo povo brasileiro.

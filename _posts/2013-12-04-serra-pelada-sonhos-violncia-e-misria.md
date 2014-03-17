@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ! 'Serra Pelada: Sonhos, violência e miséria'
+title: 'Serra Pelada: Sonhos, violência e miséria'
 created: 1386173735
 images:
-- http://mst.org.br/sites/default/files/serra%20pelada_salgado.jpg
+- http://mst.org.br:/sites/default/files/serra pelada_salgado.jpg
 video: 
 tags:
 - Pará
@@ -11,7 +11,7 @@ Localização: Pará
 ---
 
 
-![](http://mst.org.br/sites/default/files/serra%20pelada_salgado.jpg)
+![](/sites/default/files/serra%20pelada_salgado.jpg)
 Por Márcio Zonta
 
 Do Brasil de Fato

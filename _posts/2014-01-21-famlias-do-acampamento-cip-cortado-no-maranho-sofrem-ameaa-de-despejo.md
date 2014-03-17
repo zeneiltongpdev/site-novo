@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Famílias do acampamento Cipó Cortado no Maranhão sofrem ameaça de despejo '
+title: 'Famílias do acampamento Cipó Cortado no Maranhão sofrem ameaça de despejo '
 created: 1390307514
 images: []
 video: 

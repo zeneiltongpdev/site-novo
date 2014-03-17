@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Ciranda do VI Congresso do MST '
+title: 'Ciranda do VI Congresso do MST '
 created: 1392296764
 images: []
 video: 

@@ -3,7 +3,7 @@ layout: post
 title: Festival da Graviola marca os 20 anos do assentamento Frei Gondim, em PE
 created: 1385480048
 images:
-- http://mst.org.br/sites/default/files/graviola.jpg
+- http://mst.org.br:/sites/default/files/graviola.jpg
 video: 
 tags:
 - Pernambuco
@@ -11,7 +11,7 @@ Localização: Pernambuco
 ---
 
 
-![](http://mst.org.br/sites/default/files/graviola.jpg)
+![](/sites/default/files/graviola.jpg)
 Da Página do MST
 Cerca de 150 famílias assentadas e acampadas da Reforma Agrária realizaram o 1 Festival da Graviola e comemoraram os 20 anos do assentamento Frei Gondim, no município de Gameleira (PE).
 O festival, que aconteceu no último dia 21 de novembro, também mostrou a produção dos agricultores do assentamento 21 de Novembro, que vem disputando cada vez mais espaço com o latifúndio da cana.

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ! 'Emir Sader: o MST nos seus 30 anos'
+title: 'Emir Sader: o MST nos seus 30 anos'
 created: 1392645278
 images:
-- http://mst.org.br/sites/default/files/MST.jpg
+- http://mst.org.br:/sites/default/files/MST.jpg
 video: 
 tags:
 - Reforma Agrária
@@ -15,7 +15,7 @@ Semana: Tema da semana
 ---
 
 
-![](http://mst.org.br/sites/default/files/MST.jpg)
+![](/sites/default/files/MST.jpg)
 Por Emir Sader
 
 Da Carta Maior

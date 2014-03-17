@@ -3,7 +3,7 @@ layout: post
 title: O transgênico não foi planejado para ser mais produtivo, diz especialista
 created: 1384862894
 images:
-- http://mst.org.br/sites/default/files/plantando_transgenico.jpg
+- http://mst.org.br:/sites/default/files/plantando_transgenico.jpg
 video: 
 tags:
 - Tema da semana
@@ -17,7 +17,7 @@ Tipo de Matéria: Entrevistas
 ---
 
 
-![](http://mst.org.br/sites/default/files/plantando_transgenico.jpg)
+![](/sites/default/files/plantando_transgenico.jpg)
 Da IHU On-Line
 
 Passados 10 anos da entrada das sementes transgênicas no Brasil, alguns efeitos sociais e econômicos deste tipo de agricultura podem ser melhor visualizados. Dados indicam que há maior concentração no mercado de sementes, o que resulta em menor poder de escolha dos agricultores, sem contar que aumentou o uso de agrotóxicos, afinal as sementes geneticamente modificadas são mais resistentes a esses produtos químicos.

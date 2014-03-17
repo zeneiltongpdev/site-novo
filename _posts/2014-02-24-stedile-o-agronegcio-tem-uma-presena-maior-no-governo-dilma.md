@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ! 'Stedile: O Agronegócio tem uma presença maior no governo Dilma'
+title: 'Stedile: O Agronegócio tem uma presença maior no governo Dilma'
 created: 1393259293
-images: ['http://www.jornaldelondrina.com.br/midia/tn_620_600_7498275.jpg']
+images: []
 video: 
 tags:
 - Agronegócio

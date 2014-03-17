@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Valmir Assunção: A necessidade da Reforma Agrária para o Brasil'
+title: 'Valmir Assunção: A necessidade da Reforma Agrária para o Brasil'
 created: 1390571413
 images: []
 video: 

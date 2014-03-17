@@ -3,7 +3,7 @@ layout: post
 title: Em Sergipe, movimentos lançam plebiscito popular por reforma política
 created: 1391426324
 images:
-- http://mst.org.br/sites/default/files/grande-plebiscito.JPG
+- http://mst.org.br:/sites/default/files/grande-plebiscito.JPG
 video: 
 tags:
 - Sergipe
@@ -13,7 +13,7 @@ Assuntos: Reforma Política
 ---
 
 
-![](http://mst.org.br/sites/default/files/grande-plebiscito.JPG)
+![](/sites/default/files/grande-plebiscito.JPG)
  
  
 Da Página do MST

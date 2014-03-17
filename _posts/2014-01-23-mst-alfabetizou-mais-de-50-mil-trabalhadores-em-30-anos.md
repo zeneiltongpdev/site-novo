@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! ' MST alfabetizou mais de 50 mil trabalhadores em 30 anos'
+title: ' MST alfabetizou mais de 50 mil trabalhadores em 30 anos'
 created: 1390479420
 images: []
 video: 

@@ -3,7 +3,7 @@ layout: post
 title: Especulação desestabiliza preços de alimentos, diz Graziano
 created: 1386848329
 images:
-- http://mst.org.br/sites/default/files/graziano_0.jpg
+- http://mst.org.br:/sites/default/files/graziano_0.jpg
 video: 
 tags:
 - Direitos Humanos
@@ -15,7 +15,7 @@ Tipo de Matéria: Entrevistas
 ---
 
 
-![](http://mst.org.br/sites/default/files/graziano_0.jpg)
+![](/sites/default/files/graziano_0.jpg)
 Por João Peres e Vitor Nuzzi
 
 Da RBA 

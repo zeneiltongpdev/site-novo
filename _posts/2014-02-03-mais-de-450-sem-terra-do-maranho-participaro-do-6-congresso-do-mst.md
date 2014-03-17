@@ -3,7 +3,7 @@ layout: post
 title: Mais de 450 Sem Terra do Maranhão participarão do 6° Congresso do MST
 created: 1391428793
 images:
-- http://mst.org.br/sites/default/files/sem%20terra_MA.jpg
+- http://mst.org.br:/sites/default/files/sem terra_MA.jpg
 video: 
 tags:
 - '6'
@@ -15,7 +15,7 @@ Menu: Reforma Agrária
 ---
 
 
-![](http://mst.org.br/sites/default/files/sem%20terra_MA.jpg)
+![](/sites/default/files/sem%20terra_MA.jpg)
 Por Reynaldo Costa
 
 Da Página do MST

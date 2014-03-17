@@ -3,7 +3,7 @@ layout: post
 title: Frente Popular Dario Santillan luta em meio à crise Argentina
 created: 1392650205
 images:
-- http://mst.org.br/sites/default/files/DSC_0156.JPG
+- http://mst.org.br:/sites/default/files/DSC_0156.JPG
 video: 
 tags:
 - Reforma Agrária
@@ -29,7 +29,7 @@ De acordo com Esteban, a frente começou organizando a base não só pelos bairr
 **Esteban:**
  A frente se organiza em quatro setores de trabalho: estudantil, trabalho nos bairros, sindical e rural periurbano. Além dessa divisão temos alguns espaços temáticos, como juventude e gênero.
 Temos como objetivo utópico de luta o socialismo, mas lutamos pelas conquistas concretas que vão construir uma América Latina socialmente justa.
-![](http://mst.org.br/sites/default/files/DSC_0156.JPG)
+![](/sites/default/files/DSC_0156.JPG)
 **Quais são as parcerias entre a Frente e o MST? **
 **Ana:**
 Historicamente temos uma referência muito forte no MST. É uma inspiração para todos nós. Ele cumpre um papel fundamental tanto nas articulações latinoamericanas quanto na possibilidade de formação de militantes dentro das instâncias do MST.
@@ -41,7 +41,7 @@ Isto provocou um processo inflacionário que levou o custo de vida a ficar mais 
 Isto em meio a uma situação que podemos chamar de pré-crise, o que é muito grave para os setores populares. O dinheiro vale cada vez menos, o aumento dos salários não acompanha a inflação, e o pior, esse aumento não contempla os precarizados, que são 40% dos trabalhadores da Argentina.
 De um mês para cá, uma grande parte da população tem menos dinheiro. Não sei se podemos chamar de crise, mas estamos na porta dela. 
 **Como é a posição da Frente em relação ao governo Cristina?**
-**![](http://mst.org.br/sites/default/files/DSC_0160.JPG)**
+**![](/sites/default/files/DSC_0160.JPG)**
 **Esteban:**
  Nós reconhecemos que o governo, desde Nestor Kirchner, no processo que chamamos de Kirchnerismo, assumiu bandeiras que os setores populares levantavam. Um exemplo são os julgamentos dos repressores da última ditadura militar.
 Essas bandeiras nos parecem boas. No entanto, entendemos que o Kirchnerismo está alicerçado sobre a base do agronegócio, basicamente através da soja, e mais recentemente pelo pinus [espécie de eucalipto].

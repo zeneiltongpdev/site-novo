@@ -3,7 +3,7 @@ layout: post
 title: No Rio, camponeses rompem distância entre agricultores e consumidores
 created: 1386768446
 images:
-- http://mst.org.br/sites/default/files/1%C2%B0feira_RJ_0.jpg
+- http://mst.org.br:/sites/default/files/1°feira_RJ_0.jpg
 video: 
 tags:
 - Reforma Agrária
@@ -15,7 +15,7 @@ Assuntos: feira da reforma agrária
 ---
 
 
-![](http://mst.org.br/sites/default/files/1%C2%B0feira_RJ_0.jpg)
+![](/sites/default/files/1%C2%B0feira_RJ_0.jpg)
 Por Alan Tygel e Camila Nobrega
 
 Do Canal Ibase
@@ -38,7 +38,7 @@ Xampus, condicionadores, tinturas e xaropes do coletivo fizeram sucesso. Em meio
 [**Boaventura: contra o “ecologismo dos ricos”, o “ecologismo dos pobres”**](http://www.mst.org.br/node/15540)[**Novas raízes da terra são formadas em saúde do campo**](http://www.mst.org.br/node/15523)
 Segundo o especialista em segurança alimentar e pesquisador do Ibase Chico Menezes, eventos desse tipo cumprem um papel de unir as duas pontas, da produção da reforma agrária e dos consumidores. Para ele, é uma forma inteligente e leve de mostrar que os dois grupos tem muito em comum.
 
-![](http://mst.org.br/sites/default/files/feira_RJ_II_0.jpg)
+![](/sites/default/files/feira_RJ_II_0.jpg)
 "Aquilo que estes pequenos agricultores oferecem é desejado e apreciado pelos consumidores. É, também, uma forma de enfrentar a permanente desqualificação que os setores mais retrógrados da sociedade tentam colar na reforma agrária. É um momento em que não se trata tanto de fazer discursos ou distribuir panfletos, mas de se mostrar o que está sendo produzido e oferecer alimentos e bebidas de boa qualidade e boa música, bem no centro da cidade".
 
 

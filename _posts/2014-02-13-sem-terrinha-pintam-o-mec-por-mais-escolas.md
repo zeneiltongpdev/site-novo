@@ -3,7 +3,7 @@ layout: post
 title: Sem Terrinha pintam o MEC por mais escolas
 created: 1392295837
 images:
-- http://mst.org.br/sites/default/files/OliverKornblihtt_140212_CongMST_176.jpg
+- http://mst.org.br:/sites/default/files/OliverKornblihtt_140212_CongMST_176.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -16,7 +16,7 @@ Assuntos: 6° Congresso Nacional
 
 
  
-![](http://mst.org.br/sites/default/files/OliverKornblihtt_140212_CongMST_176.jpg)
+![](/sites/default/files/OliverKornblihtt_140212_CongMST_176.jpg)
  
 Por Joana Tavares
 

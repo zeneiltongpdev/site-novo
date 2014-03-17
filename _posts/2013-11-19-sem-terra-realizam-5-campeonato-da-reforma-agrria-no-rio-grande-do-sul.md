@@ -3,7 +3,7 @@ layout: post
 title: Sem Terra realizam 5° Campeonato da Reforma Agrária no Rio Grande do Sul
 created: 1384890228
 images:
-- http://mst.org.br/sites/default/files/campeonato%20meninas.jpg
+- http://mst.org.br:/sites/default/files/campeonato meninas.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -15,7 +15,7 @@ Assuntos: Cultura
 ---
 
 
-![](http://mst.org.br/sites/default/files/campeonato%20meninas.jpg)
+![](/sites/default/files/campeonato%20meninas.jpg)
 Por Iana Reis 
 
 Da Página do MST
@@ -39,4 +39,4 @@ A regional de Jóia também levou o título na categoria feminina, que teve em s
 
 
 Já na categoria Veterano, a Regional de Porto Alegre foi a campeão, em segundo lugar a Regional de Tupanceretã e em terceiro a Regional de Sant"Ana do Livramento.
-![](http://mst.org.br/sites/default/files/campeonato_RS.jpg)![](http://mst.org.br/sites/default/files/campeonato%20mistica.jpg)![](http://mst.org.br/sites/default/files/campeonato.jpg)![](http://mst.org.br/sites/default/files/campeonato_veteranos.jpg)
+![](/sites/default/files/campeonato_RS.jpg)![](/sites/default/files/campeonato%20mistica.jpg)![](/sites/default/files/campeonato.jpg)![](/sites/default/files/campeonato_veteranos.jpg)

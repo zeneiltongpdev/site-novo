@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ! 'Houtart: Lógica do sistema é causa das mobilizações massivas'
+title: 'Houtart: Lógica do sistema é causa das mobilizações massivas'
 created: 1392296973
 images:
-- http://mst.org.br/sites/default/files/DSC_0182.JPG
+- http://mst.org.br:/sites/default/files/DSC_0182.JPG
 video: 
 tags:
 - Lutas e mobilizações
@@ -35,7 +35,7 @@ Os países socialistas também destruíram a natureza como no capitalismo. Porqu
 **Qual é esta concepção?**
 Há alguns anos moro no Equador, e Rafael Correa, que é meu amigo e foi meu aluno, tem como concepção de desenvolvimento a modernização do estado.  Muito bem, modernizar a economia em essência é bom. Mas o que significa isso para ele? Significa investir em agrocombustíveis, monocultivos, transgênicos.
 No Equador também há mais mineração, exploração do petróleo, grandes vias. Essa é a visão de desenvolvimento, que não pensa na realidade do país, no camponês, nos povos indígenas, ou como construir pouco a pouco um desenvolvimento mais respeitoso da natureza e dos povos. 
-![](http://mst.org.br/sites/default/files/DSC_0182.JPG)
+![](/sites/default/files/DSC_0182.JPG)
 Esses fatores vão criar mais e mais conflitos, por alguns motivos: primeiro por parte do povo, que não compartilha dessa concepção de desenvolvimento, mas não tem força política. Segundo, o esgotamento deste modelo. Já se vê aqui no Brasil, na Argentina, que o modelo se esgotou, não é sustentável.
 Além disso, os novos regimes latinoamericanos se baseiam em um consenso popular. Houve um melhoramento real da situação dos mais pobres, mas dentro de uma concepção relativamente assistencialista de programas ao combate à pobreza, programas que são bem organizados, mas que não fazem do povo um ator, e sim um cliente. 
 Assim, o consenso é muito frágil, pois se as condições econômicas da economia mundial mudam, se o preço das matérias primas ou das commodities baixam, isso afeta a possibilidade dos governos de ter políticas sociais, o que põe o consenso em perigo. 
@@ -53,7 +53,7 @@ Acho que talvez elementos jovens de um movimento mais radical, como o MST, possa
 **As organizações devem pensar em novas formas de luta e atuação?**
 Sim. Pensar nisso é uma reação contra a burocratizção dos movimentos sociais. Esses protestos são uma chance para as organizações se autocriticarem frente ao problema de organização, e é necessário para entender esses novos fenômenos que ocorrem agora. 
 É um processo que pode ajudar a uma transformação interna dos movimentos organizados, pois estes jovens chegam com novas ideias e valores que não devem ser condenados. 
-![](http://mst.org.br/sites/default/files/DSC_0177.JPG)
+![](/sites/default/files/DSC_0177.JPG)
 **Você é um grande defensor da integração latinoamericana. É possível hoje realizar essa integração, e como ela poderia alterar essa conjuntura de crises?**
 Devemos ser realistas. A Comunidade dos Estados Latinoamericanos e Caribenhos (Celac) é um milagre de Chávez, por conseguir reunir países com ideias tão opostas como México, Chile e Bolívia. 
 Devemos conhecer os limites dessas organizações latinoamericas que existem, mas é possível tomar várias medidas importantes.  Por exemplo, seria possível fazer regras em conjunto no setor da mineração. 

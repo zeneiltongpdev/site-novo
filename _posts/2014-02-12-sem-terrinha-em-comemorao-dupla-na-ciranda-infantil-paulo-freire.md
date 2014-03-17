@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ! ' Sem Terrinha em comemoração dupla na Ciranda Infantil Paulo Freire'
+title: ' Sem Terrinha em comemoração dupla na Ciranda Infantil Paulo Freire'
 created: 1392212141
 images:
-- http://mst.org.br/sites/default/files/JOKA1637.jpg
+- http://mst.org.br:/sites/default/files/JOKA1637.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -11,7 +11,7 @@ Menu: Educação, Cultura e Comunicação
 ---
 
 
-![](http://mst.org.br/sites/default/files/JOKA1637.jpg) 
+![](/sites/default/files/JOKA1637.jpg) 
 
 P
 or Maria Aparecida

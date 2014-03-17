@@ -3,7 +3,7 @@ layout: post
 title: Mobilizações em toda Alagoas marcam Dia Estadual de Luta do MST
 created: 1385733050
 images:
-- http://mst.org.br/sites/default/files/soriano.jpg
+- http://mst.org.br:/sites/default/files/soriano.jpg
 video: 
 tags:
 - Lutas e mobilizações
@@ -17,7 +17,7 @@ Assuntos: Mobilização
 ---
 
 
-![](http://mst.org.br/sites/default/files/soriano.jpg)
+![](/sites/default/files/soriano.jpg)
 Por Gustavo Marinho e Rafael Soriano
 
 Da Página do MST
@@ -38,7 +38,7 @@ Desde a morte de Jaelson Melquíades, os Sem Terra incorporaram essa data no cal
 
 Com isso, todos os anos nesse dia, o MST realiza ações em todo estado em memória de Jaelson e de outros Sem Terra tombados na luta pela Reforma Agrária que seguem com seus casos impunes, como Chico do Sindicato (assassinado em 1995), José Elenilson (em 2000) e Luciano Alves, o Grilo (em 2003).
 
-![](http://mst.org.br/sites/default/files/soriano_2.jpg)
+![](/sites/default/files/soriano_2.jpg)
 Para Maurício Silva, da Direção Estadual do MST, o dia 29 de novembro é um grito de resistência dos agricultores de Alagoas. “Achavam que iam enfraquecer nossa luta assassinando nossos companheiros, mas estamos mostrando o contrário: continuamos mobilizados e levando adiante o sonho dos que covardemente foram mortos. Jaelson vive em cada um e em cada uma que luta por uma vida digna”, afirmou.
 
 
@@ -76,4 +76,4 @@ O novo acampamento na região, às margens do Canal do Sertão, simboliza a reiv
 
 
 As famílias exigem a desapropriação das terras e da água as populações mais pobres do campo, como os Sem Terra e indígenas, e para que esses recursos naturais sejam utilizados para a produção de alimentos saudáveis a população do campo e da cidade.
-![](http://mst.org.br/sites/default/files/canal_AL.jpg)
+![](/sites/default/files/canal_AL.jpg)

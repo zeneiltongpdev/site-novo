@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! '2013: um balanço negativo para os trabalhadores do campo'
+title: '2013: um balanço negativo para os trabalhadores do campo'
 created: 1385572111
 images: []
 video: 

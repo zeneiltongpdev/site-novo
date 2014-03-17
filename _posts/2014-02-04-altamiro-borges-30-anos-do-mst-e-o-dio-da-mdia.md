@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ! 'Altamiro Borges: 30 anos do MST e o ódio da mídia'
+title: 'Altamiro Borges: 30 anos do MST e o ódio da mídia'
 created: 1391507437
 images:
-- http://mst.org.br/sites/default/files/criminalization_of_the_mst_1_by_latuff2_0.jpg
+- http://mst.org.br:/sites/default/files/criminalization_of_the_mst_1_by_latuff2_0.jpg
 video: 
 tags:
 - Reforma Agrária
@@ -15,7 +15,7 @@ Semana: Tema da semana
 ---
 
 
-![](http://mst.org.br/sites/default/files/criminalization_of_the_mst_1_by_latuff2_0.jpg)
+![](/sites/default/files/criminalization_of_the_mst_1_by_latuff2_0.jpg)
 Por Altamiro Borges
 Na semana passada, o Movimento dos Trabalhadores Rurais Sem-Terra, o MST, completou 30 anos de lutas. A mídia “privada” – nos dois sentidos da palavra – simplesmente omitiu este importante acontecimento histórico. Alguns jornais, como o oligárquico Estadão, que nasceu vendendo anúncios de trabalho escravo no século retrasado e sempre foi um raivoso inimigo das mobilizações sociais, até publicou um editorial com seus velhos ataques ao MST. Já a impressa alternativa, com seus escassos recursos – o governo prefere bancar anúncios na mídia ruralista –, procurou destacar a prolongada e vitoriosa trajetória deste movimento civilizador e discutir com seriedade os seus futuros desafios.  
 

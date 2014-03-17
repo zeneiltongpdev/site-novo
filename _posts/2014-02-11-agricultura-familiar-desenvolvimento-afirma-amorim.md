@@ -3,16 +3,16 @@ layout: post
 title: Agricultura familiar é desenvolvimento”, afirma Amorim
 created: 1392088298
 images:
-- sites/default/files/feira_melgarejo_0.JPG
-- sites/default/files/producao_melgarejo.JPG
-- sites/default/files/feira_elltiel.JPG
-- sites/default/files/feira_melgarejo_0.JPG
-- sites/default/files/producao_melgarejo.JPG
-- sites/default/files/feira_elltiel.JPG
-- sites/default/files/feira_melgarejo_0.JPG
-- sites/default/files/producao_melgarejo.JPG
-- sites/default/files/feira_elltiel.JPG
-- http://www.mst.org.br/sites/default/files/producao_melgarejo.JPG
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 video: 
 tags:
 - Agricultura camponesa

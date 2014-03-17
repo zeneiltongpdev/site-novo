@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Mostra Nacional prioriza produtos da agricultura familiar '
+title: 'Mostra Nacional prioriza produtos da agricultura familiar '
 created: 1392756230
 images: []
 video: 

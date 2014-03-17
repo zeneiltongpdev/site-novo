@@ -3,7 +3,7 @@ layout: post
 title: Os 30 anos de ódio ao MST nas páginas da revista Veja
 created: 1392903720
 images:
-- http://mst.org.br/sites/default/files/veja1.png
+- http://mst.org.br:/sites/default/files/veja1.png
 video: 
 tags:
 - Agronegócio
@@ -36,7 +36,7 @@ O alagoano Fernando Collor de Mello, lançado nas famosas páginas amarelas como
  
 
 No dia 15 de agosto de 1990, a Veja publicou sua primeira reportagem atacando frontalmente o MST. Na foto de capa, um único sem-terra, “armado” com sua foice, aterrorizava um exército de policiais armados com escudos, cassetetes e revólveres. Inaugurou ali a utilização do clássico termo “baderna”, com que até hoje descreve as ações do movimento.  Depois disso, a revista se calou acerca do MST, que continuou crescendo, a ponto de se transformar no maior movimento social brasileiro.
-![](http://mst.org.br/sites/default/files/veja1.png)
+![](/sites/default/files/veja1.png)
 
 **Ostracismo midiático**
 Em 1994, na corrida presidencial que contrapunha o sociólogo Fernando Henrique Cardoso e novamente o operário Lula, o MST começou a ganhar espaço em outros órgãos de imprensa. A Folha de S. Paulo, em 1994, publicou 40 matérias sobre o MST. Em 1995, já com Fernando Henrique na presidência, foram 450.
@@ -73,7 +73,7 @@ Na edição de 16 de abril de 1997, “A marcha dos radicais – quem são e o q
 
 Em outro momento, a reportagem acabava por revelar o porquê do seu ódio ao MST, considerado por ela a única oposição, de fato, ao governo FHC, após o que classificava de “desmoronamento da oposição sindical, da oposição de esquerda (PT e Lula) e também da de direita (o PPB de Maluf)”.
 E, em um terceiro momento, justificava porque precisava inverter a imagem do movimento perante a população: pesquisa do Ibope realizada no período mostrava que 83% dos brasileiros apoiavam a reforma agrária e 40% eram favoráveis, até mesmo à invasão de fazendas.
-![](http://mst.org.br/sites/default/files/veja2.png)
+![](/sites/default/files/veja2.png)
  
 
 **O MST e o “perigo vermelho”**
@@ -110,7 +110,7 @@ Em 30 de julho, a matéria “Stédile declara guerra” reforçava a associaç�
 
 No início de 2004, a bancada ruralista, munida das páginas de Veja, começou a colher assinaturas para a instalação da CPI da Terra. A revista continuou firme na campanha, cada vez mais ácida.
 Na edição de 14 de abril daquele ano, a reportagem “O abril sem lei do MST” atestava a inoperância do governo Lula para conter as “ações criminosas” do movimento: a luta pela reforma agrária. Na semana seguinte, a matéria “Como na guerra” narrava a historia de um fazendeiro obrigado a fazer barricadas para se proteger dos “beligerantes” sem-terra.
-![](http://mst.org.br/sites/default/files/veja3.png)
+![](/sites/default/files/veja3.png)
 
 **As “madraçais” do MST**
 

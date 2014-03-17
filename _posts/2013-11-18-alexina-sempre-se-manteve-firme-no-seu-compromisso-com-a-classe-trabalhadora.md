@@ -3,7 +3,7 @@ layout: post
 title: Alexina sempre se manteve firme no seu compromisso com a classe trabalhadora
 created: 1384780732
 images:
-- http://mst.org.br/sites/default/files/alexina%20crespo.jpg
+- http://mst.org.br:/sites/default/files/alexina crespo.jpg
 video: 
 tags:
 - Homenagem
@@ -11,7 +11,7 @@ Assuntos: Homenagem
 ---
 
 
-![](http://mst.org.br/sites/default/files/alexina%20crespo.jpg)
+![](/sites/default/files/alexina%20crespo.jpg)
 Da Página do MST
 
 É com pesar que o MST recebeu a notícia da morte de Alexina Crespo, na tarde dessa última quinta-feira (14), aos 87 anos. 

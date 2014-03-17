@@ -3,7 +3,7 @@ layout: post
 title: Ato em SP inaugura campanha Por aqui passou Hugo Chávez
 created: 1391606917
 images:
-- http://mst.org.br/sites/default/files/fotos_douglas_mansur_Chavez.jpg
+- http://mst.org.br:/sites/default/files/fotos_douglas_mansur_Chavez.jpg
 video: 
 tags:
 - Internacional
@@ -15,7 +15,7 @@ Assuntos: hugo chávez
 ---
 
 
-![](http://mst.org.br/sites/default/files/fotos_douglas_mansur_Chavez.jpg)
+![](/sites/default/files/fotos_douglas_mansur_Chavez.jpg)
  
 Por Théa Rodrigues
 

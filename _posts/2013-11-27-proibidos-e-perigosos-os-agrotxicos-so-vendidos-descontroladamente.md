@@ -3,7 +3,7 @@ layout: post
 title: Proibidos e perigosos, os agrotóxicos são vendidos descontroladamente
 created: 1385571394
 images:
-- http://mst.org.br/sites/default/files/Agrotoxicos_no_brasil1_0.jpg
+- http://mst.org.br:/sites/default/files/Agrotoxicos_no_brasil1_0.jpg
 video: 
 tags:
 - Agronegócio
@@ -13,7 +13,7 @@ Assuntos: Agrotóxicos
 ---
 
 
-![](http://mst.org.br/sites/default/files/Agrotoxicos_no_brasil1_0.jpg)
+![](/sites/default/files/Agrotoxicos_no_brasil1_0.jpg)
 Por Caio Cigana
 
 Do Zera HoraA venda descontrolada de agrotóxicos ganhou na internet um novo canal para driblar a lei, dificultando a fiscalização e ampliando o risco à saúde de consumidores e agricultores. A novidade agrava um cenário em que o uso exagerado dos químicos na lavoura e o consumo cresceu muito acima da área plantada, contaminando a água e dificultando a identificação de eventuais excessos de veneno nos alimentos que chegam à mesa e se combinam para elevar o perigo escondido nos alimentos.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Boaventura: contra o “ecologismo dos ricos”, o “ecologismo dos pobres”'
+title: 'Boaventura: contra o “ecologismo dos ricos”, o “ecologismo dos pobres”'
 created: 1386766204
 images: []
 video: 

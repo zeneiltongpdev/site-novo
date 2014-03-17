@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'MST, 30 anos: muito além da distribuição de terras'
+title: 'MST, 30 anos: muito além da distribuição de terras'
 created: 1390921585
 images: []
 video: 

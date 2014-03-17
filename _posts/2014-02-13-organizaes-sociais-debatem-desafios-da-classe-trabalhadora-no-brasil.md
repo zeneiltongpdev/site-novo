@@ -3,7 +3,7 @@ layout: post
 title: Organizações Sociais debatem desafios da classe trabalhadora no Brasil
 created: 1392307557
 images:
-- http://mst.org.br/sites/default/files/DSC_0417.JPG
+- http://mst.org.br:/sites/default/files/DSC_0417.JPG
 video: 
 tags:
 - Reforma Agrária
@@ -19,7 +19,7 @@ Fotos: Pilar Oliva
 Nesta quarta-feira (12/02), no VI Congresso do MST, lideranças de organizações sociais se encontraram para debater quais os desafios da classe trabalhadora na atual conjuntura e como promover mudanças sociais no Brasil.
 Gilmar Mauro, membro da Coordenação Nacional do MST, observou que “este é o momento de troca de ideias entre a classe trabalhadora, principalmente neste período histórico, que é o inicío de um processo de construção da luta para os próximos períodos”.
 O dirigente também pediu para que as organizações sempre homenageiem os lutadores do mundo e do Brasil que batalharam e morreram pelos trabalhadores e trabalhadoras, assim como não esquecer a importância de estudar os pensadores da classe.
-![](http://mst.org.br/sites/default/files/DSC_0417.JPG)
+![](/sites/default/files/DSC_0417.JPG)
 “Ninguém luta pelo que não conhece. Devemos fazer um estudo profundo de forma didática, popular e conjuntamente propor uma nova ordem econômica. A luta tem que ser consciente. Devemos fazer um balanço político e crítico do que deu certo e errado para estabelecer a estratégia na luta pelo socialismo, pois há muito acertos e erros”, declarou Gilmar.
 Outros elementos que destacou são as lutas sociais por mudanças, que partirão sempre de gente nas ruas e mobilização. “Nas lutas somos sujeitos, temos conquistas não somente em negociações, precisamos estar sempre nas ruas”, afirmou Gilmar.
 Para o secretário Geral da Central Única dos Trabalhadores (CUT), Adir do Santos Lima, o congresso do MST é o oxigênio para avançar na luta e disse que estes momentos de encontro de trabalhadores fortalece a ação enquanto classe. O representante da CUT parabenizou o Congresso, afirmando também que não podemos esperar mais 30 anos para fazer a Reforma Agrária.
@@ -29,7 +29,7 @@ Esta também é opinião de João Carlos Gonçalves, da Força Sindical, afirman
 “É da luta dos trabalhadores que avançaremos, com alianças de classe, respeitando a política de cada um. Devemos avançar nas bandeiras unificadas, como as jornadas nacionais de luta, para que haja mudanças políticas e econômicas na organização da classe”, observou o metalúgico.
 Também participante do debate, Viviane Santos, do Movimento Passe Livre, acrescentou que foram as ruas e as lutas unificadas dos movimentos que garantiram melhores condições vida para os trabalhadores. Citada pelos participantes, as recentes manifestações de junho mostraram que os trabalhadores devem continuar na luta por direitos.
 “A luta pelos 25 centavos representou muito mais, foi uma postura classista, uma retomada do espaço urbano. A forma é importante, quando iniciamos a mídia burguesa nos caracterizou baderneiros e vagabundos; quando houve adesão da sociedade, passamos de bandidos a heróis” disse Santos.
-![](http://mst.org.br/sites/default/files/DSC_0463.JPG)
+![](/sites/default/files/DSC_0463.JPG)
 **Desafios da luta**
 
 De acordo com Edson Carneiro Índio, coordenação nacional da IntersindicalDe acordo com Edson Carneiro Índio, da coordenação nacional da Intersindical, os desafios são imensos, mas a disposição é muito maior, as lutas devem estar ligadas a um projeto estratégico de transformação do capital.

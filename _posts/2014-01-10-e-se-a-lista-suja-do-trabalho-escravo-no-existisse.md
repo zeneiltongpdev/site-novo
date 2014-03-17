@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! ' E se a ‘lista suja’ do trabalho escravo não existisse?'
+title: ' E se a ‘lista suja’ do trabalho escravo não existisse?'
 created: 1389360793
 images: []
 video: 

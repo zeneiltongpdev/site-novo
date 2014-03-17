@@ -3,7 +3,7 @@ layout: post
 title: A crítica a agroecologia de Zander Navarro e seu “autismo científico”
 created: 1384779034
 images:
-- http://mst.org.br/sites/default/files/bancada-ruralista.JPG
+- http://mst.org.br:/sites/default/files/bancada-ruralista.JPG
 video: 
 tags:
 - Agricultura camponesa
@@ -15,7 +15,7 @@ Tipo de Matéria: Artigos
 ---
 
 
-![](http://mst.org.br/sites/default/files/bancada-ruralista.JPG)
+![](/sites/default/files/bancada-ruralista.JPG)
 
 
 

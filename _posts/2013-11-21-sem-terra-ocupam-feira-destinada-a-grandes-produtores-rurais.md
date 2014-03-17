@@ -3,7 +3,7 @@ layout: post
 title: Sem Terra 'ocupam' feira destinada a grandes produtores rurais
 created: 1385060577
 images:
-- http://mst.org.br/sites/default/files/feira_SE_IV.jpg
+- http://mst.org.br:/sites/default/files/feira_SE_IV.jpg
 video: 
 tags:
 - Agricultura camponesa
@@ -15,19 +15,19 @@ Assuntos: feira
 ---
 
 
-![](http://mst.org.br/sites/default/files/feira_SE_IV.jpg)
+![](/sites/default/files/feira_SE_IV.jpg)
 
 Da Página do MST
  Entre os dias 21 a 24 de novembro, o MST participa da 16ª edição da Exposição agropecuária do município de Nossa Senhora da Glória, no Alto Sertão de Sergipe. 
 
 Normalmente, este evento é dominado pelas grandes empresas do setor agrícola e grandes criadores de bovinos. Este ano, porém, o MST e o Movimento dos Pequenos Agricultores (MPA) conquistaram um espaço para divulgar a produção da agricultura familiar. 
 
-![](http://mst.org.br/sites/default/files/feira_SE_II%21.jpg)“Antes, a Exposição de Glória era só dos grandes criadores de gado”, diz José Borges Sobrinho, da direção regional do MST. “Hoje, estamos ocupando o espaço, mostrando à sociedade que a luta do MST dá frutos, que são os produtos dos assentamentos”. 
+![](/sites/default/files/feira_SE_II%21.jpg)“Antes, a Exposição de Glória era só dos grandes criadores de gado”, diz José Borges Sobrinho, da direção regional do MST. “Hoje, estamos ocupando o espaço, mostrando à sociedade que a luta do MST dá frutos, que são os produtos dos assentamentos”. 
 
 Cinco assentamentos da região, situados nos municípios de Monte-Alegre, Gararú e Nossa Senhora da Glória, estão representados na banca do Movimento, ao lado dos técnicos da Assistência Técnica e Social (Ates) do Centro de Formação Dom Josué de Castro (CEFAC), que fornecem o apoio técnico aos assentamentos. 
 
 “Estamos aqui para mostrar que tem uma produção de qualidade dentro dos assentamentos”, afirma Natalice Scaramelo, técnica da Ates e militante do MST.
-![](http://mst.org.br/sites/default/files/feirs_SE%21.jpg) 
+![](/sites/default/files/feirs_SE%21.jpg) 
 
 Na região de Glória e Monte Alegre, que formam a bacia leiteira do estado de Sergipe, a criação de bovinos e a produção de leite têm um peso importante nas áreas de assentamento. Mas a banca do MST também traz experiências de diversificação na produção. 
 

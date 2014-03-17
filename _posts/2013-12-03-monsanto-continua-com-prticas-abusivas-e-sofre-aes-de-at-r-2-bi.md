@@ -3,7 +3,7 @@ layout: post
 title: Monsanto continua com práticas abusivas e sofre ações de até R$ 2 bi
 created: 1386073924
 images:
-- http://mst.org.br/sites/default/files/Monsanto_Por-Latuff_0.JPG
+- http://mst.org.br:/sites/default/files/Monsanto_Por-Latuff_0.JPG
 video: 
 tags:
 - Agronegócio
@@ -13,7 +13,7 @@ Assuntos: Monsanto
 ---
 
 
-![](http://mst.org.br/sites/default/files/Monsanto_Por-Latuff_0.JPG)
+![](/sites/default/files/Monsanto_Por-Latuff_0.JPG)
 Por Bárbara Mengardo e Tarso Veloso
 
 Do Valor

@@ -3,7 +3,7 @@ layout: post
 title: Os Sem Terra de ontem, de hoje e de amanhã
 created: 1392123214
 images:
-- http://mst.org.br/sites/default/files/lutar.jpg
+- http://mst.org.br:/sites/default/files/lutar.jpg
 video: 
 tags:
 - Tema da semana
@@ -15,7 +15,7 @@ Assuntos: Reforma Agrária
 ---
 
 
-![](http://mst.org.br/sites/default/files/lutar.jpg)
+![](/sites/default/files/lutar.jpg)
 Por Marina dos Santos\*
 
 Da Carta Capital

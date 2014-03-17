@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Barra da Onça: um marco histórico na luta pela Reforma Agrária em Sergipe'
+title: 'Barra da Onça: um marco histórico na luta pela Reforma Agrária em Sergipe'
 created: 1389357626
 images: []
 video: 

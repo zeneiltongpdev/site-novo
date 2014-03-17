@@ -3,7 +3,7 @@ layout: post
 title: Violeiros organizam semana da cultura caipira e camponesa em São Paulo
 created: 1386596626
 images:
-- http://mst.org.br/sites/default/files/violeiros.jpg
+- http://mst.org.br:/sites/default/files/violeiros.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -15,7 +15,7 @@ Assuntos: Cultura
 ---
 
 
-![](http://mst.org.br/sites/default/files/violeiros.jpg)
+![](/sites/default/files/violeiros.jpg)
 Por Luiz Felipe Albuquerque
 
 Da Página do MST
@@ -26,7 +26,7 @@ O objetivo da atividade foi debater a realização de uma semana temática da cu
 
 
 
-![](http://mst.org.br/sites/default/files/violeiros_IV_0.jpg)Segundo o violeiro Minerin, do setor de cultura do MST, é a primeira vez que a Associação Nacional dos Violeiros realiza um seminário preparatório em que diversas forças do país constroem e organizam comumente algo desse tipo.
+![](/sites/default/files/violeiros_IV_0.jpg)Segundo o violeiro Minerin, do setor de cultura do MST, é a primeira vez que a Associação Nacional dos Violeiros realiza um seminário preparatório em que diversas forças do país constroem e organizam comumente algo desse tipo.
 
 
 “O mais importante é a retomada dessa articulação nacional dos violeiros, debater o papel e a importância da cultura da viola caipira no Brasil, fazendo um trabalho de defesa e de resistência, num momento em que a música caipira sofre tantos reveses”, acredita.
@@ -50,5 +50,5 @@ No caso, seria evidenciar um elemento que está presente na cultura de muitas pe
 
 
 “Quando falamos de fazer uma roda de viola ou comida típica que lembra a infância ou o passado recente das pessoas, em todo lugar que ventilamos essa idéia a adesão é muito grande, porque pouco se fala dessa presença, mas ela existe e é muito maior do que podemos imaginar”, pontua.
-![](http://mst.org.br/sites/default/files/Opa.jpg)
-![](http://mst.org.br/sites/default/files/Violeiros_III.jpg)
+![](/sites/default/files/Opa.jpg)
+![](/sites/default/files/Violeiros_III.jpg)

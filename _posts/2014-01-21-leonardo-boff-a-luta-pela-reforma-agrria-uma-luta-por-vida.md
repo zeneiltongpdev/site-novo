@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Leonardo Boff: A luta pela Reforma Agrária é uma luta por vida'
+title: 'Leonardo Boff: A luta pela Reforma Agrária é uma luta por vida'
 created: 1390338744
 images: []
 video: 

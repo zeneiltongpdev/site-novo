@@ -3,7 +3,7 @@ layout: post
 title: Em São Paulo, Unidos da Lona Preta rege o carnaval paulista
 created: 1392923213
 images: []
-video: http://www.youtube.com/v/aTk_4rm7QD8?controls=0&showinfo=0&rel=0&modestbranding=1
+video: http://www.youtube.com/v/aTk_4rm7QD8
 tags:
 - Educação, Cultura e Comunicação
 - Unidos da Lona Preta

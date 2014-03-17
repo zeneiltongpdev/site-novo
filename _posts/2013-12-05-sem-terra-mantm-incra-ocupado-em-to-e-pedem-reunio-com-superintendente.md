@@ -3,7 +3,7 @@ layout: post
 title: Sem Terra mantêm Incra ocupado em TO e pedem reunião com superintendente
 created: 1386248229
 images:
-- http://mst.org.br/sites/default/files/Incra_TO.jpg
+- http://mst.org.br:/sites/default/files/Incra_TO.jpg
 video: 
 tags:
 - Lutas e mobilizações
@@ -17,7 +17,7 @@ Assuntos: Reforma Agrária
 ---
 
 
-![](http://mst.org.br/sites/default/files/Incra_TO.jpg)
+![](/sites/default/files/Incra_TO.jpg)
 Da Página do MST
 
 Mais de 160 famílias do MST ocupam a unidade avançada do Instituto Nacional de Colonização e Reforma Agrária (Incra) em Araguatins, no Tocantins. 

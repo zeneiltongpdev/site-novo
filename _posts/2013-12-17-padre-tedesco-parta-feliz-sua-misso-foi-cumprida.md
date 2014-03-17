@@ -3,13 +3,13 @@ layout: post
 title: Padre Tedesco, parta feliz, sua missão foi cumprida
 created: 1387291635
 images:
-- http://mst.org.br/sites/default/files/padre%20tedesco.jpg
+- http://mst.org.br:/sites/default/files/padre tedesco.jpg
 video: 
 tags: []
 ---
 
 
-![](http://mst.org.br/sites/default/files/padre%20tedesco.jpg)
+![](/sites/default/files/padre%20tedesco.jpg)
 Da Página do MST
  
 O MST de Santa Catarina e de todo Brasil comunica a todos seus amigos e amigas, com o coração partido, a perda de um dos nossos melhores militantes. 

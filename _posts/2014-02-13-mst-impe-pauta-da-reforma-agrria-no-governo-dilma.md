@@ -3,7 +3,7 @@ layout: post
 title: MST impõe pauta da Reforma Agrária no governo Dilma
 created: 1392323586
 images:
-- http://mst.org.br/sites/default/files/_MG_3633.JPG
+- http://mst.org.br:/sites/default/files/_MG_3633.JPG
 video: 
 tags:
 - Reforma Agrária
@@ -16,7 +16,7 @@ Assuntos: 6° Congresso Nacional
 
 
  
-![](http://mst.org.br/sites/default/files/_MG_3633.JPG)
+![](/sites/default/files/_MG_3633.JPG)
  
 Por Luiz Felipe Albuquerque
 
@@ -27,7 +27,7 @@ Desde o início do governo Dilma, há três anos, que o MST exige uma reunião c
 Mas apenas depois da luta e da pressão social exercida pelos Sem Terra na tarde desta quarta-feira (12/02), em Brasília, que a presidenta finalmente decidiu ouvir as demandas do Movimento, que apresentou seus problemas mais emergenciais neste último ano de mandato.
 Na avaliação dos Sem Terra, grande parte da energia gasta nas lutas nos últimos três anos serviram apenas para que o atual governo não retrocedesse nas conquistas da última década.
 “Toda nossa proposta de Reforma Agrária ficou no meio da estrada. Isso criou uma insatisfação muito grande por parte dos Sem Terra”, disse Jaime Amorim, da coordenação nacional do MST, à presidenta.
-![](http://mst.org.br/sites/default/files/douglas%20marcha_0.jpg)
+![](/sites/default/files/douglas%20marcha_0.jpg)
 Durante a reunião, os Sem Terra levaram uma série de demandas à mesa em torno das questões referentes aos problemas das famílias acampadas e assentadas em todo o Brasil.
 “Passem tudo o que puderem passar de informações para nós do que está errado que faremos as mudanças”, se comprometeu a presidenta ao ouvir as demandas e dizer que é preciso listar e fazer o que é urgente.
 Dentre os pontos, Jaime relembrou a discussão em torno do índice de improdutividade, que se iniciou desde o começo do governo Lula. “O governo tem que criar as condições e enfrentar o problema”, cobrou o dirigente, ao afirmar que é preciso enfrentar as forças mais conservadoras que compõem a gestão da presidência. 
@@ -40,7 +40,7 @@ Nesse sentido, a presidenta concordou em defender a proposta do Movimento, que p
 Durante o governo Dilma, pouco mais de 76 mil famílias foram assentadas, segundo dados do Instituto Nacional de Colonização e Reforma Agrária (Incra). A maioria desses números, entretanto, se refere à regularização fundiária na Amazônia, e não decretos de desapropriação de novas áreas.
 “Todo ano tem luta. Fazemos as jornadas de abril, agosto, outubro. O governo faz a promessa mas nada acontece. Os técnicos do Incra falam que a Reforma Agrária não é a prioridade da presidenta”, disse Amorim.
 Nessa linha, os Sem Terra apontaram a necessidade de criar uma interministerial para agilizar e resolver os problemas dos acampados. “O Incra está desestruturado e sem ingerência, e está sendo conduzido de uma maneira conservadora”, apontou Jaime, ao colocar a prioridade em construir uma meta emergencial para resolver os problemas das áreas que estão com maiores conflitos.
-![](http://mst.org.br/sites/default/files/_MG_3644.JPG)
+![](/sites/default/files/_MG_3644.JPG)
 Há tempos que servidores do Incra relatam para o governo federal um déficit na sua capacidade operacional e uma desvalorização do corpo técnico. Desde 2006, cerca de 40% dos servidores saíram do órgão e mais de 2000 pessoas se aposentaram, diminuindo a capacidade operacional em mais de 50%. 
 **Perímetros Irrigados**
 No objetivo de solucionar parte dos problemas das famílias acampadas, que em todo o país somam cerca de 150 mil, os Sem Terra expuseram a problemática em torno das áreas de perímetro irrigado no nordeste brasileiro.

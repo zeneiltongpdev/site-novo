@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ! 'Violência no campo: uma realidade que ainda mata no Brasil'
+title: 'Violência no campo: uma realidade que ainda mata no Brasil'
 created: 1386590125
 images:
-- http://mst.org.br/sites/default/files/mapa%20de%20%C3%B3rg%C3%A3os%20agr%C3%A1rios.jpg
+- http://mst.org.br:/sites/default/files/mapa de órgãos agrários.jpg
 video: 
 tags:
 - Direitos Humanos
@@ -66,7 +66,7 @@ Ainda segundo Gercino José da Silva, além das reuniões de conciliação, a OA
 
 Juntamente com a Comissão, a OAN elaborou também o Plano Nacional de Combate à Violência no Campo (CNVC) com 15 medidas para prevenir, combater e reduzir as diversas formas de violência praticadas contra trabalhadores rurais, proprietários rurais, remanescentes de quilombos, ribeirinhos e atingidos por barragem.
  
-![](http://mst.org.br/sites/default/files/mapa%20de%20%C3%B3rg%C3%A3os%20agr%C3%A1rios.jpg)
+![](/sites/default/files/mapa%20de%20%C3%B3rg%C3%A3os%20agr%C3%A1rios.jpg)
 Entre as ações estão a criação de varas agrárias federais e estaduais, promotorias, defensorias públicas e ouvidorias agrárias nos Estados e polícias militares e delegacias especializadas em conflitos no campo (confira no mapa abaixo os órgãos agrários em cada estado brasileiro).
 
 

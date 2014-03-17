@@ -3,7 +3,7 @@ layout: post
 title: 50 mil pessoas, 30 toneladas, 600 m² e nenhuma linha na mídia burguesa...
 created: 1386936271
 images:
-- http://mst.org.br/sites/default/files/Feira-MST0080_0.jpg
+- http://mst.org.br:/sites/default/files/Feira-MST0080_0.jpg
 video: 
 tags:
 - Agricultura camponesa
@@ -15,7 +15,7 @@ Assuntos: feira da reforma agrária
 ---
 
 
-![](http://mst.org.br/sites/default/files/Feira-MST0080_0.jpg)
+![](/sites/default/files/Feira-MST0080_0.jpg)
 Por Alan Tygel
 
 Da Página do MST
@@ -26,7 +26,7 @@ O MST realizou durante dois dias a maior feira da Reforma Agrária já feita no 
 [**Feira reafirma necessidade da reforma agrária no Rio de Janeiro**](http://www.mst.org.br/node/15554)
 Estima-se que 50 mil pessoas passaram pelo local durantes as 30 horas de feira. Além da venda de produtos, ainda aconteceram 8 shows de bandas e grupos culturais, e 4 debates. Uma rádio web transmitiu o evento ao vivo.
 
-![](http://mst.org.br/sites/default/files/Feira-MST0088.jpg)
+![](/sites/default/files/Feira-MST0088.jpg)
 Mesmo assim, a 4° Feira Estadual da Reforma Agrária Cícero Guedes não mereceu sequer uma linha nos grandes veículos de comunicação. Nenhum dos veículos da Globo se dignou a noticiar o evento. O jornal O Dia, que à época do assassinato de Cícero deu o destaque de cunho altamente sensacionalista, também fingiu que nada aconteceu. Assim também o fizeram o portal UOL, que também hospeda o site da Folha de São Paulo, Veja, e Estadão.
 
 
@@ -72,5 +72,5 @@ E para não passar 100% em branco, a reportagem da Rede Globo (Bom Dia Rio) conc
 
 
 De fato, se não fizermos nossa própria comunicação, ninguém fará por nós. A Reforma Agrária dos meios de comunicação é mais urgente do que nunca.
-![](http://mst.org.br/sites/default/files/Feira-MST0081.jpg)
+![](/sites/default/files/Feira-MST0081.jpg)
  Fotos: Mariane Matos

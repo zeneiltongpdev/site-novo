@@ -3,7 +3,7 @@ layout: post
 title: Acampamento do 6° Congresso tem área de 4 campos de futebol
 created: 1391960513
 images:
-- http://mst.org.br/sites/default/files/estrutura.jpg
+- http://mst.org.br:/sites/default/files/estrutura.jpg
 video: 
 tags:
 - Reforma Agrária
@@ -15,7 +15,7 @@ Assuntos: 6° Congresso Nacional
 ---
 
 
-![](http://mst.org.br/sites/default/files/estrutura.jpg)
+![](/sites/default/files/estrutura.jpg)
  
 Por Solange Engelmann
 Da Página do MST
@@ -32,7 +32,7 @@ Segundo  Diego Moreira, da direção nacional do MST do Paraná, o Congresso é 
 De caráter massivo, o objetivo central do Congresso é definir a política de atuação do MST para o próximo período, reafirmando a necessidade da luta pela terra e por Reforma Agrária Popular no país.
  
 E celebrar os 30 anos do Movimento, que conquistou o assentamento para cerca de 350 mil famílias, que adquiriram o acesso à terra para o sustento das famílias e melhoria das condições de vida.
-![](http://mst.org.br/sites/default/files/estrutura%202.jpg)
+![](/sites/default/files/estrutura%202.jpg)
  
 **Estrutura **
  
@@ -46,7 +46,7 @@ A preparação da estrutura física do Congresso vem sendo gestada desde o final
  
 A instalação das estruturas externas e internas ao Nilson Nelson tiveram inicio na última terça-feira. Ainda faltam as instalações de algumas tendas de alojamentos, chuveiros e banheiros. A previsão é que estejam todas montadas até o final da tarde de sábado (08/02), para receber as delegações de Sem Terra dos estados e os convidados nacionais e internacionais.
  
-![](http://mst.org.br/sites/default/files/estrutura%203_0.jpg)
+![](/sites/default/files/estrutura%203_0.jpg)
 **Mostra Nacional da Cultura e Produção Camponesa**
  
 Simultâneo ao VI Congresso do MST, de 10 a 13 de fevereiro estará em funcionamento a Mostra Nacional da Cultura e Produção Camponesa, ao lado do Ginásio Nilson Nelson.
@@ -62,4 +62,4 @@ Serão mais de 2 mil metros de tendas com produtos típicos de cada região bras
  
 O evento também conta com espaço para a apresentação da cultura camponesa, troca de mudas e sementes e apresentações culturais das cinco regiões do Brasil. 
  
-![](http://mst.org.br/sites/default/files/estrutura%204.jpg)
+![](/sites/default/files/estrutura%204.jpg)

@@ -3,7 +3,7 @@ layout: post
 title: No Rio, primeiro dia de Feira termina com samba, maracatu e funk carioca
 created: 1386675649
 images:
-- http://mst.org.br/sites/default/files/samba_feira.jpg
+- http://mst.org.br:/sites/default/files/samba_feira.jpg
 video: 
 tags:
 - Agricultura camponesa
@@ -15,7 +15,7 @@ Assuntos: feira da reforma agrária
 ---
 
 
-![](http://mst.org.br/sites/default/files/samba_feira.jpg)
+![](/sites/default/files/samba_feira.jpg)
 Por Alan Tygel
 
 Da Página do MST 
@@ -30,7 +30,7 @@ Desde as 7h, agricultoras e agricultores de assentamentos de todo o estado do Ri
 A movimentação começou lenta pela manhã. O público parecia ainda estar de ressaca pela última rodada do Campeonato Brasileiro, em que dois times do Rio foram rebaixados. 
 
 No entanto, mais para a hora do almoço, os trabalhadores desceram dos prédios e a feira ficou lotada. Algumas barracas venderam todos os seus produtos ainda na metade do primeiro dia.
-![](http://mst.org.br/sites/default/files/1%C2%B0feira_RJ.jpg) 
+![](/sites/default/files/1%C2%B0feira_RJ.jpg) 
 
 “Não esperávamos tanta procura e tanta aceitação dos nossos produtos. Vamos ter que fazer mais para amanhã”, afirmou Ivi Tavares, do Coletivo de Saúde do MST. Os xampus, condicionadores, tinturas e xaropes fizeram sucesso entre os consumidores. 
 
@@ -47,7 +47,7 @@ José Otávio, do Ministério do Desenvolvimento Agrário (MDA), lembrou de Seba
 
 Já Pedro Campeão, técnico da cooperativa dos assentamentos da região Norte (Coopscamp), lembrou que a Reforma Agrária não é uma luta só do MST, mas de toda a sociedade. 
 
-![](http://mst.org.br/sites/default/files/feira_RJ_II.jpg)A assentada Cristina, do Roseli Nunes, disse que “a Feira é prova de que podemos produzir”, e que apesar da tristeza pela ausência do companheiro Cícero, não faria “nem um minuto de silêncio, mas sim toda uma vida de luta.” 
+![](/sites/default/files/feira_RJ_II.jpg)A assentada Cristina, do Roseli Nunes, disse que “a Feira é prova de que podemos produzir”, e que apesar da tristeza pela ausência do companheiro Cícero, não faria “nem um minuto de silêncio, mas sim toda uma vida de luta.” 
 
 Marcelo Durão, da direção nacional do MST, encerrou o ato de abertura lembrando que a Reforma Agrária passa pelo seu pior período no país. Segundo ele, “já podemos falar de uma contra Reforma Agrária. Não conseguimos mais conquistar territórios, e os que tínhamos, estamos perdendo, juntos com os indígenas e os quilombolas.” 
 

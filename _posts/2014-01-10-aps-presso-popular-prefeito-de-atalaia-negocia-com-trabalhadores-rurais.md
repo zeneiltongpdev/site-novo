@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Após pressão popular, prefeito de Atalaia negocia com trabalhadores rurais '
+title: 'Após pressão popular, prefeito de Atalaia negocia com trabalhadores rurais '
 created: 1389358435
 images: []
 video: 

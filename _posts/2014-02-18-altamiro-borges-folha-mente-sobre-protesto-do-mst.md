@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ! 'Altamiro Borges: Folha mente sobre protesto do MST'
+title: 'Altamiro Borges: Folha mente sobre protesto do MST'
 created: 1392727522
 images:
-- http://mst.org.br/sites/default/files/protesto_3.jpg
+- http://mst.org.br:/sites/default/files/protesto_3.jpg
 video: 
 tags:
 - Reforma Agrária
@@ -13,7 +13,7 @@ Assuntos: 6° Congresso Nacional
 ---
 
 
-![](http://mst.org.br/sites/default/files/protesto_3.jpg)
+![](/sites/default/files/protesto_3.jpg)
 Por Altamiro Borges
 
 Do Blog do Miro

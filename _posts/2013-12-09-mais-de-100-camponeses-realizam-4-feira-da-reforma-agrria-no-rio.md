@@ -3,7 +3,7 @@ layout: post
 title: Mais de 100 camponeses realizam 4° Feira da Reforma Agrária, no Rio
 created: 1386588394
 images:
-- http://mst.org.br/sites/default/files/Feira_RJ_0.jpg
+- http://mst.org.br:/sites/default/files/Feira_RJ_0.jpg
 video: 
 tags:
 - Reforma Agrária
@@ -17,7 +17,7 @@ Assuntos: feira da reforma agrária
 ---
 
 
-![](http://mst.org.br/sites/default/files/Feira_RJ_0.jpg)
+![](/sites/default/files/Feira_RJ_0.jpg)
 Da Página do MST
 
 A 4° Feira Estadual da Reforma Agrária Cícero Guedes, no Rio de Janeiro, inicia-se nesta segunda-feira (9) e vai até esta terça-feira (10). 

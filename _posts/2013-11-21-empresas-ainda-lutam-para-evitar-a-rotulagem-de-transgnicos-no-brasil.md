@@ -3,7 +3,7 @@ layout: post
 title: Empresas ainda lutam para evitar a rotulagem de transgênicos no Brasil
 created: 1385038785
 images:
-- http://mst.org.br/sites/default/files/transgenicos-300x281.png
+- http://mst.org.br:/sites/default/files/transgenicos-300x281.png
 video: 
 tags:
 - Transgênicos
@@ -15,7 +15,7 @@ Semana: Tema da semana
 ---
 
 
-![](http://mst.org.br/sites/default/files/transgenicos-300x281.png)
+![](/sites/default/files/transgenicos-300x281.png)
 
 Da Repórter Brasil
 
@@ -53,7 +53,7 @@ A principal iniciativa para flexibilizar a medida foi apresentada em 2008 pelo d
 
 Em carta de repúdio enviada ao Congresso Nacional, diversas organizações do movimento socioambientalista brasileiro afirmam que o PL 4.148/08, ao mesmo tempo, fere o Código de Defesa do Consumidor, revoga o Decreto de Rotulagem (4.680/03), contraria a Lei de Biossegurança aprovada em 2005 e descumpre os compromissos internacionais assumidos pelo Brasil como signatário do Protocolo de Cartagena da ONU.
 No documento, os ambientalistas afirmam que a tentativa de alterar a lei “prejudica o controle adequado dos transgênicos, já que a rotulagem é medida de saúde pública relevante para permitir o monitoramento pós-introdução no mercado e pesquisas sobre os impactos na saúde” e “viola o direito dos agricultores e das empresas alimentícias que optam por produzir alimentos isentos de ingredientes transgênicos”.
-![](http://mst.org.br/sites/default/files/SAM_1142-606x454.png)
+![](/sites/default/files/SAM_1142-606x454.png)
 Além disso, a carta assinada por organizações como Idec, Greenpeace, Articulação Nacional de Agroecologia, Campanha Brasil Livre de Transgênicos e Agrotóxicos, Terra de Direitos e Via Campesina, entre outras, afirma que um relaxamento definitivo na rotulagem dos transgênicos no país “pode impactar fortemente as exportações, na medida em que a rejeição às espécies transgênicas em vários países que importam alimentos do Brasil é grande”.
 
 

@@ -3,7 +3,7 @@ layout: post
 title: Sem Terra conquistam ginásio poliesportivo em Atalaia (AL)
 created: 1387461403
 images:
-- http://mst.org.br/sites/default/files/euniao_alagoas_ginasio.JPG
+- http://mst.org.br:/sites/default/files/euniao_alagoas_ginasio.JPG
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -15,7 +15,7 @@ Assuntos: Esporte
 ---
 
 
-![](http://mst.org.br/sites/default/files/euniao_alagoas_ginasio.JPG)
+![](/sites/default/files/euniao_alagoas_ginasio.JPG)
 Da página do MST\*
 As famílias assentadas do município de Atalaia (AL) conquistaram mais uma vitória na luta pela Reforma Agrária: a construção de um ginásio poliesportivo no assentamento Milton Santos.
 

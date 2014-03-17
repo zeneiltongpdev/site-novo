@@ -3,7 +3,7 @@ layout: post
 title: Sem Terra de Santa Catarina iniciam seu 29° Encontro Estadual do MST
 created: 1386938432
 images:
-- http://mst.org.br/sites/default/files/encontro%20estadual_SC.jpg
+- http://mst.org.br:/sites/default/files/encontro estadual_SC.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -15,7 +15,7 @@ Assuntos: encontro estadual
 ---
 
 
-![](http://mst.org.br/sites/default/files/encontro%20estadual_SC.jpg)
+![](/sites/default/files/encontro%20estadual_SC.jpg)
 Por Rui Fernando
 
 Da Página do MST
@@ -33,4 +33,4 @@ Paralelamente ao Encontro Estadual, acontece a Feira da Reforma Agrária no parq
 O encontro também é uma preparação dos militantes catarinenses para o 6° Congresso Nacional do MST, que acontece em Brasília em fevereiro de 2014, e que leva o lema “Lutar, Construir Reforma Agrária Popular!” 
 
 A atividade será realizada até este sábado, deixando aos que participaram, a tarefa de levar as discussões do encontro aos demais companheiros e companheiras dos assentamentos e acampamentos.
-![](http://mst.org.br/sites/default/files/encontro_estadual_SC.jpg)
+![](/sites/default/files/encontro_estadual_SC.jpg)

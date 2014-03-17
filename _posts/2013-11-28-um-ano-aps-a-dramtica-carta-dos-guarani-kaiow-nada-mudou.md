@@ -3,7 +3,7 @@ layout: post
 title: Um ano após a dramática carta dos Guarani Kaiowá nada mudou
 created: 1385641020
 images:
-- http://mst.org.br/sites/default/files/ruy_sposati.JPG
+- http://mst.org.br:/sites/default/files/ruy_sposati.JPG
 video: 
 tags:
 - Direitos Humanos
@@ -15,7 +15,7 @@ Assuntos: Indígenas
 ---
 
 
-![](http://mst.org.br/sites/default/files/ruy_sposati.JPG)
+![](/sites/default/files/ruy_sposati.JPG)
 Ruy Sposati
 
 Do Cimi

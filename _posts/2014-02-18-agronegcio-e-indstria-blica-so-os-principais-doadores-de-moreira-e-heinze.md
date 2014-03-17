@@ -3,7 +3,7 @@ layout: post
 title: Agronegócio e indústria bélica são os principais doadores de Moreira e Heinze
 created: 1392744538
 images:
-- http://mst.org.br/sites/default/files/moreiraeheinze.jpg
+- http://mst.org.br:/sites/default/files/moreiraeheinze.jpg
 video: 
 tags:
 - Direitos Humanos
@@ -13,7 +13,7 @@ Assuntos: Violência
 ---
 
 
-![](http://mst.org.br/sites/default/files/moreiraeheinze.jpg)
+![](/sites/default/files/moreiraeheinze.jpg)
 Do Sul 21
 
 Uma boa maneira de entender as posições políticas defendidas por nossos parlamentares e governantes é dar uma olhada em suas prestações de contas eleitorais, especialmente no item “doações de campanha”. As relações de afinidade entre doadores e candidatos nem sempre são diretas e automáticas. É comum grandes empresas doarem para candidatos de diferentes orientações políticas, mas elas costumam ter lá suas preferências.

@@ -3,7 +3,7 @@ layout: post
 title: Via Campesina participa do 8° Congresso de Agroecologia, no RS
 created: 1385136333
 images:
-- http://mst.org.br/sites/default/files/congresso%20agroecologia.jpg
+- http://mst.org.br:/sites/default/files/congresso agroecologia.jpg
 video: 
 tags:
 - Agricultura camponesa
@@ -15,7 +15,7 @@ Assuntos: Agroecologia
 ---
 
 
-![](http://mst.org.br/sites/default/files/congresso%20agroecologia.jpg)
+![](/sites/default/files/congresso%20agroecologia.jpg)
 Da Página do MST
 Na próxima segunda-feira (25) começa o 8° Congresso Brasileiro de Agroecologia (CBA), em Porto Alegre (RS). Ao todo, espera-se que mais de 3.500 pessoas participem da atividade, que vai até o dia 28/11. O encontro acontece no campus da PUC.
 
@@ -48,5 +48,5 @@ Entre os painelistas conhecidos mundialmente estão Miguel Altieri, da Universid
 **Leia mais:**
 [**MST realiza 2ª Semana de Cultura, Lazer e Reforma Agrária no povoado Ouricuri**](http://www.mst.org.br/node/15474)****
 [**Para intelectual, a luta contra o agronegócio tem que ser internacional**](http://www.mst.org.br/node/15473)
-![](http://mst.org.br/sites/default/files/programa%C3%A7%C3%A3o_congresso_agroecologia_II.jpg)![](http://mst.org.br/sites/default/files/programa%C3%A7%C3%A3o_congresso_agroecologia_III.jpg)![](http://mst.org.br/sites/default/files/programa%C3%A7%C3%A3o_congresso_agroecologia.jpg)
+![](/sites/default/files/programa%C3%A7%C3%A3o_congresso_agroecologia_II.jpg)![](/sites/default/files/programa%C3%A7%C3%A3o_congresso_agroecologia_III.jpg)![](/sites/default/files/programa%C3%A7%C3%A3o_congresso_agroecologia.jpg)
  

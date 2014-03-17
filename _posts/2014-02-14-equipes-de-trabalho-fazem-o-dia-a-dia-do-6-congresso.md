@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Equipes de trabalho fazem o dia a dia do 6º Congresso '
+title: 'Equipes de trabalho fazem o dia a dia do 6º Congresso '
 created: 1392407550
 images: []
 video: 

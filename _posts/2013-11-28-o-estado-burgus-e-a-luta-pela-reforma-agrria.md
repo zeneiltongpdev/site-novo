@@ -3,7 +3,7 @@ layout: post
 title: O Estado burguês e a luta pela Reforma Agrária
 created: 1385665153
 images:
-- http://mst.org.br/sites/default/files/acusamos%20OS%20TR%C3%8AS%20PODERES.jpg
+- http://mst.org.br:/sites/default/files/acusamos OS TRÊS PODERES.jpg
 video: 
 tags:
 - Especial 6 congresso
@@ -11,7 +11,7 @@ Assuntos: Especial 6 congresso
 ---
 
 
-![](http://mst.org.br/sites/default/files/acusamos%20OS%20TR%C3%8AS%20PODERES.jpg)
+![](/sites/default/files/acusamos%20OS%20TR%C3%8AS%20PODERES.jpg)
 
 
 Por Cedenir de Oliveira\*
@@ -24,7 +24,7 @@ Num processo eleitoral, portanto, se disputa apenas parte do Estado: os poderes 
 Há duas grandes interpretações sobre a natureza do Estado.  De um lado, os liberais, que amparados pelos princípios republicanos, derrotaram violentamente, com guerras e revoluções burguesas, a sociedade feudal. Fundaram a sociedade burguesa, um avanço significativo para a humanidade em relação à sociedade deixada para trás. Para estes, o Estado é um ente neutro, imparcial, está acima das disputas e conflitos de classes. Tem como função mediar esses conflitos, assegurando a estabilidade social e garantindo a manutenção e reprodução da sociedade burguesa.
 
 
-![](http://mst.org.br/sites/default/files/encarte_niemeyer.jpg)Do outro lado, há a elaboração marxista sobre a natureza do Estado. Neste caso, o Estado nasce como consequência de uma sociedade dividida em classes, com interesses e objetivos completamente antagônicos e irreconciliáveis entre os que detêm os meios de produção, e os que sobrevivem apenas com sua força de trabalho.
+![](/sites/default/files/encarte_niemeyer.jpg)Do outro lado, há a elaboração marxista sobre a natureza do Estado. Neste caso, o Estado nasce como consequência de uma sociedade dividida em classes, com interesses e objetivos completamente antagônicos e irreconciliáveis entre os que detêm os meios de produção, e os que sobrevivem apenas com sua força de trabalho.
 
 
 Portanto, exatamente por ser resultante da sociedade dividida em classes, o estado jamais será neutro ou imparcial. Ele sempre estará a serviço dos interesses e objetivos da classe dominante. Na sociedade capitalista, estará voltado aos interesses da burguesia, enquanto numa sociedade socialista, estaria voltado aos interesses do proletariado.
@@ -42,7 +42,7 @@ O aparato repressivo é a ultima medida do Estado burguês para assegurar a soci
 
 
 **Máscaras**
-![](http://mst.org.br/sites/default/files/Marcha%20Nacional%202005%20cred.jpg)
+![](/sites/default/files/Marcha%20Nacional%202005%20cred.jpg)
 As eleições jogam um papel importante nessa tarefa de escamotear o caráter classista do Estado burguês. Participar das eleições e ocupar espaços no poder legislativo e executivo cria a sensação geral que vivemos numa plena democracia. A participação popular nas outras esferas do Estado está vedada! A atuação do estado burguês contra um movimento grevista, por exemplo, ou pela desocupação de um latifúndio é imediata. 
 
 Já os desrespeitos das leis trabalhistas, existência de trabalho escravo, assassinatos de trabalhadores e trabalhadoras rurais, se perdem nos labirintos e gavetas do judiciário, assegurando, quase sempre, a impunidade. Os liberais dirão que isso se deve as imperfeições dos sistemas e a falhas humanas individualizadas. Jamais reconhecerão que essa atuação é ditada pela natureza do Estado burguês.
@@ -57,14 +57,14 @@ Frente a essa realidade, o que cabe aos movimentos populares, como o MST, no seu
 
 
 Quando se trata de um partido classista, que não seja burguês, em torno de seu projeto político aglutina os diversos segmentos da classe trabalhadora, do campo e da cidade. Quando revolucionário, o seu objetivo é transformar a classe trabalhadora em protagonista de sua história e fazer uma revolução social e anticapitalista.
-![](http://mst.org.br/sites/default/files/Marcha%20Nacional%202005%20cred%20Francisco%20Rojas%20%2832%29_0.jpg)
+![](/sites/default/files/Marcha%20Nacional%202005%20cred%20Francisco%20Rojas%20%2832%29_0.jpg)
 
 Já o movimento popular, nas limitações de agregar um segmento social especifico e contemplar, basicamente, o atendimento desse segmento social nas suas pautas reivindicatórias, restringe sua atuação à política de “bater e negociar” com o Estado burguês. Nas acertadas palavras do nosso mestre Florestan Fernandes, cabe aos movimentos populares não se deixar cooptar, não se deixar destruir e sempre obter conquistas.
 
 
 No entanto, esse enfrentamento com o Estado é essencial para organizar e formar uma consciência classista dos integrantes desse movimento popular. É exatamente na luta pela Reforma Agrária que os Sem Terra percebem que os seus problemas são os mesmos dos outros segmentos da classe trabalhadora. 
 
-![](http://mst.org.br/sites/default/files/assentamento%20de%20promiss%C3%A3o-dandara%21.jpg)
+![](/sites/default/files/assentamento%20de%20promiss%C3%A3o-dandara%21.jpg)
 No caso específico da Reforma Agrária, não basta mais apenas a desapropriação do latifúndio improdutivo e repassá-lo às famílias sem terra. Além de lutar e ocupar os latifúndio, cabe ao MST ser o portador de um novo modelo de agricultura para o país, junto às organizações da Via Campesina Brasil. Um modelo de agricultura centrado na produção agroecológica de alimentos,  num sistema de cooperação agrícola e associado a pequenas agroindústrias, que respeite o meio ambiente e garanta a saúde dos produtores e consumidores dos produtos agrícolas, e que contribua para o país conquistar a soberania alimentar.
 
 
@@ -74,7 +74,7 @@ Por meio das lutas e da consolidação desse modelo de agricultura, não devemos
 A população do meio rural é completamente desassistida de políticas públicas, de modo geral. Temos uma identidade de lutas e organização nessas regiões. Por que não se associar à população dos pequenos municípios rurais, compartilhar nossas experiências e motivá-los a lutar para arrancar do Estado melhores condições de vida para o campo? A proposta do agronegócio se restringe em expulsar essa população para as periferias das grandes cidades.
 
 
-![](http://mst.org.br/sites/default/files/Marcha%20Nacional%202005%20cred%20Francisco%20Rojas%20%286%29%21.jpg)O agronegócio não é forte apenas por causa do seu poder econômico e político. Sua força também reside na sua capacidade de criar um consenso junto à sociedade brasileira em torno do seu projeto de agricultura. A sociedade vê apenas os aspectos mais visíveis desse modelo, aparentando ser moderno, produtivo e essencial para a economia do país. Esquece de mostrar que esse modelo se sustenta por meio da destruição das duas principais fontes de produção da riqueza: o ser humano e a natureza. Esconde que essa alta produtividade é uma face da mesma moeda do trabalho escravo, êxodo rural, concentração fundiária e desrespeito as leis trabalhistas e ambientais.
+![](/sites/default/files/Marcha%20Nacional%202005%20cred%20Francisco%20Rojas%20%286%29%21.jpg)O agronegócio não é forte apenas por causa do seu poder econômico e político. Sua força também reside na sua capacidade de criar um consenso junto à sociedade brasileira em torno do seu projeto de agricultura. A sociedade vê apenas os aspectos mais visíveis desse modelo, aparentando ser moderno, produtivo e essencial para a economia do país. Esquece de mostrar que esse modelo se sustenta por meio da destruição das duas principais fontes de produção da riqueza: o ser humano e a natureza. Esconde que essa alta produtividade é uma face da mesma moeda do trabalho escravo, êxodo rural, concentração fundiária e desrespeito as leis trabalhistas e ambientais.
 
 
 Qual é o modelo de agricultura que queremos para o país e levar às gerações futuras? Este deve ser nosso ponto de partida com a sociedade brasileira, começando nas regiões onde estamos organizados.
@@ -85,8 +85,8 @@ Em resumo, para que continuemos obtendo conquistas e organizando o campo, os enf
 
 Se avançarmos nesses quatro pontos, certamente teremos mais forças e condições de obter conquistas junto ao Estado, mesmo sendo ele burguês.
 ![](http://www.mst.org.br/sites/default/files/PE%20ocupa%C3%A7%C3%A3o%20engenho%20cred%20Alexandre%20severo.jpg)
-![](http://mst.org.br/sites/default/files/24%29.jpg)
-![](http://mst.org.br/sites/default/files/Marcha%20Nacional%202005%20cred%20Francisco%20Rojas%20%2817%29.jpg)
+![](/sites/default/files/24%29.jpg)
+![](/sites/default/files/Marcha%20Nacional%202005%20cred%20Francisco%20Rojas%20%2817%29.jpg)
  
-![](http://mst.org.br/sites/default/files/PA%202007%20Ferrovia%21.jpg)
+![](/sites/default/files/PA%202007%20Ferrovia%21.jpg)
 \* Cedenir Oliveira é membro da coordenação nacional do MST

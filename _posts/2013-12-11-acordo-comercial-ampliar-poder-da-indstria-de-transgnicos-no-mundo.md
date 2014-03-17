@@ -3,7 +3,7 @@ layout: post
 title: Acordo comercial ampliará poder da indústria de transgênicos no mundo
 created: 1386786623
 images:
-- http://mst.org.br/sites/default/files/transpacifico.jpg
+- http://mst.org.br:/sites/default/files/transpacifico.jpg
 video: 
 tags:
 - Transgênicos
@@ -13,7 +13,7 @@ Assuntos: Transgênicos
 ---
 
 
-![](http://mst.org.br/sites/default/files/transpacifico.jpg)
+![](/sites/default/files/transpacifico.jpg)
 Da Adital
 A indústria multinacional de agricultura e biotecnologia Monsanto está prestes a mudar os rumos da produção e comercialização de sementes. Baseada no Acordo de Associação Transpacífico (TPP), um grande projeto de livre comércio que inclui 12 países, entre eles Chile, Peru e México, a empresa pode recorrer às leis do acordo para ter livre a rotulagem de alimentos transgênicos, limitando o plantio e a comercialização apenas para a empresa.
 

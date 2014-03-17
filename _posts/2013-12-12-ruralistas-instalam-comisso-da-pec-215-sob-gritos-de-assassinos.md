@@ -3,7 +3,7 @@ layout: post
 title: Ruralistas instalam comissão da PEC 215 sob gritos de “Assassinos!”
 created: 1386846005
 images:
-- http://mst.org.br/sites/default/files/indios-protestam-pec-215.jpg
+- http://mst.org.br:/sites/default/files/indios-protestam-pec-215.jpg
 video: 
 tags:
 - Direitos Humanos
@@ -13,7 +13,7 @@ Assuntos: Indígenas
 ---
 
 
-![](http://mst.org.br/sites/default/files/indios-protestam-pec-215.jpg)
+![](/sites/default/files/indios-protestam-pec-215.jpg)
 Por Renato Santana
 
 Do Cimi

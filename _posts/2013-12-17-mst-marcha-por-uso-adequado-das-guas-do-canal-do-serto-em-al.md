@@ -3,7 +3,7 @@ layout: post
 title: MST marcha por uso adequado das águas do Canal do Sertão em AL
 created: 1387288908
 images:
-- http://mst.org.br/sites/default/files/luta_agua.jpg
+- http://mst.org.br:/sites/default/files/luta_agua.jpg
 video: 
 tags:
 - Lutas e mobilizações
@@ -11,7 +11,7 @@ Menu: Lutas e mobilizações
 ---
 
 
-![](http://mst.org.br/sites/default/files/luta_agua.jpg)
+![](/sites/default/files/luta_agua.jpg)
 Da Página do MST
 
 Milhares de trabalhadores do MST realizam na manhã desta terça-feira (17/12) marcha em defesa da Reforma Agrária no canal para produção de alimentos com irrigação, na cidade de Delmiro Gouveia. A movimentação reúne militantes de vários municípios da região do Semiárido sob a bandeira política das soluções estruturantes para o problema do acesso à água.

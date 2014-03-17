@@ -3,7 +3,7 @@ layout: post
 title: Legado de Egídio Brunetto é lembrado em seminário no MS
 created: 1386011235
 images:
-- http://mst.org.br/sites/default/files/EgidioCartaz%21.jpg
+- http://mst.org.br:/sites/default/files/EgidioCartaz!.jpg
 video: 
 tags:
 - Manchete
@@ -40,7 +40,7 @@ Abaixo, leia a carta de despedida do Poeta e militante do MST, Ademar Bogo, escr
 **DESPEDIDA**
 
 (Egídio em grego, é “aquele que protege")
-![](http://mst.org.br/sites/default/files/EgidioCartaz%21.jpg)
+![](/sites/default/files/EgidioCartaz%21.jpg)
 
 A Terra hoje se alegra por receber de volta quem a cuidou e protegeu
 

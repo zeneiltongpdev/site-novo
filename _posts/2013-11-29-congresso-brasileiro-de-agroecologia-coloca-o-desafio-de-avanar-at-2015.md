@@ -3,7 +3,7 @@ layout: post
 title: Congresso Brasileiro de Agroecologia coloca o desafio de avançar até 2015
 created: 1385739804
 images:
-- http://mst.org.br/sites/default/files/mesa_de_abertura_0.JPG
+- http://mst.org.br:/sites/default/files/mesa_de_abertura_0.JPG
 video: 
 tags:
 - Agricultura camponesa
@@ -15,7 +15,7 @@ Assuntos: Agroecologia
 ---
 
 
-![](http://mst.org.br/sites/default/files/mesa_de_abertura_0.JPG)
+![](/sites/default/files/mesa_de_abertura_0.JPG)
 Por Najar Tubino
 
 Da Carta Maior

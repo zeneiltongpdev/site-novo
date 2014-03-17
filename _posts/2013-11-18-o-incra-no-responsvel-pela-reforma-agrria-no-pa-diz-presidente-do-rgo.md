@@ -3,7 +3,7 @@ layout: post
 title: “O Incra não é responsável pela Reforma Agrária no PA”, diz presidente do órgão
 created: 1384805311
 images:
-- http://mst.org.br/sites/default/files/banner_RA.jpg
+- http://mst.org.br:/sites/default/files/banner_RA.jpg
 video: 
 tags:
 - Reforma Agrária
@@ -15,7 +15,7 @@ Assuntos: Reforma Agrária
 ---
 
 
-![](http://mst.org.br/sites/default/files/banner_RA.jpg)
+![](/sites/default/files/banner_RA.jpg)
 
 
 Da Página do MST

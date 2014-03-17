@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'João Pedro Stedile: “Avanço do capital no campo impede a Reforma Agrária”'
+title: 'João Pedro Stedile: “Avanço do capital no campo impede a Reforma Agrária”'
 created: 1389101256
 images: []
 video: 

@@ -3,7 +3,7 @@ layout: post
 title: Encontro celebra os 27 anos das escolas do MST no Espírito Santo
 created: 1385557564
 images:
-- http://mst.org.br/sites/default/files/educandos%20ES.jpg
+- http://mst.org.br:/sites/default/files/educandos ES.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -15,7 +15,7 @@ Assuntos: Educação
 ---
 
 
-![](http://mst.org.br/sites/default/files/educandos%20ES.jpg)
+![](/sites/default/files/educandos%20ES.jpg)
 
  
 
@@ -39,7 +39,7 @@ Já no dia seguinte, Francisco José de Souza Rodrigues, da Regional das Associa
 No sábado, o companheiro Miles Marcos Gomes Pereira, do Instituto Estadual do Meio Ambiente (IEMA), falou sobre a Agroecologia e os desafios colocados à implementação de um outro modo de se fazer agricultura. 
 
 **Sem Terrinha
-![](http://mst.org.br/sites/default/files/educnados_ES.jpg)** 
+![](/sites/default/files/educnados_ES.jpg)** 
 
 Durante o encontro os participantes também realizaram o lançamento do CD Canta Sem Terrinha Capixaba. 
 
@@ -55,4 +55,4 @@ O 25° Encontro representou um fortalecimento das escolas de assentamentos, alem
 
 Agora, os Sem Terra lutam para que o Conselho Estadual de Educação aprove o documento construído ao longo do encontro, e contribua na gravação do CD Canta Sem Terrinha Capixaba e no Encontro Estadual dos Sem Terrinha.
  
-![](http://mst.org.br/sites/default/files/can%C3%A7%C3%A3o.jpg)
+![](/sites/default/files/can%C3%A7%C3%A3o.jpg)

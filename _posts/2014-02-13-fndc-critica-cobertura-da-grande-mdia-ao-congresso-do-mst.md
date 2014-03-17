@@ -3,7 +3,7 @@ layout: post
 title: FNDC critica cobertura da grande mídia ao Congresso do MST
 created: 1392306779
 images:
-- http://www.fndc.org.br/system/images/e2a854282070cb9b294b32262388a671.jpg
+- 
 video: 
 tags:
 - 6° Congresso Nacional

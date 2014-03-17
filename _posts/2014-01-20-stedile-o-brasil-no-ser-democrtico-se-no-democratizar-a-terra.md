@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Stedile: “O Brasil não será democrático se não democratizar a terra”'
+title: 'Stedile: “O Brasil não será democrático se não democratizar a terra”'
 created: 1390233695
 images: []
 video: 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'ONU: uma em cada oito pessoas no mundo dorme com fome todos os dias'
+title: 'ONU: uma em cada oito pessoas no mundo dorme com fome todos os dias'
 created: 1389185532
 images: []
 video: 

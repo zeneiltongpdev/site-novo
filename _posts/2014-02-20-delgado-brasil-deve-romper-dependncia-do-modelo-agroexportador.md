@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Delgado: Brasil deve romper dependência do modelo agroexportador'
+title: 'Delgado: Brasil deve romper dependência do modelo agroexportador'
 created: 1392901806
 images: []
 video: 

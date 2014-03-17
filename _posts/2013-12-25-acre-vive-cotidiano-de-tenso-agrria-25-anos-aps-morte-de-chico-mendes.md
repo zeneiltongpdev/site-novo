@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Acre vive cotidiano de tensão agrária 25 anos após morte de Chico Mendes '
+title: 'Acre vive cotidiano de tensão agrária 25 anos após morte de Chico Mendes '
 created: 1387981830
 images: []
 video: 

@@ -3,7 +3,7 @@ layout: post
 title: Prochet é condenado a 15 anos de prisão por morte de Sem Terra
 created: 1385422010
 images:
-- http://mst.org.br/sites/default/files/JOKA3972%20%281%29.jpg
+- http://mst.org.br:/sites/default/files/JOKA3972 (1).jpg
 video: 
 tags:
 - Direitos Humanos
@@ -15,7 +15,7 @@ Localização: Paraná
 ---
 
 
-![](http://mst.org.br/sites/default/files/JOKA3972%20%281%29.jpg)
+![](/sites/default/files/JOKA3972%20%281%29.jpg)
 Por Ednubia Ghisi 
 
 Do Terra de Direitos

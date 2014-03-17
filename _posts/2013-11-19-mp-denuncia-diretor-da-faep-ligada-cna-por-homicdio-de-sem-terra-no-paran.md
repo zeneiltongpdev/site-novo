@@ -3,7 +3,7 @@ layout: post
 title: MP denuncia diretor da FAEP, ligada à CNA, por homicídio de Sem Terra no Paraná
 created: 1384862079
 images:
-- http://mst.org.br/sites/default/files/juri_quadro_0.jpg
+- http://mst.org.br:/sites/default/files/juri_quadro_0.jpg
 video: 
 tags:
 - Paraná
@@ -15,7 +15,7 @@ Menu: Direitos Humanos
 ---
 
 
-![](http://mst.org.br/sites/default/files/juri_quadro_0.jpg)
+![](/sites/default/files/juri_quadro_0.jpg)
 
 
 Da Página do MST 

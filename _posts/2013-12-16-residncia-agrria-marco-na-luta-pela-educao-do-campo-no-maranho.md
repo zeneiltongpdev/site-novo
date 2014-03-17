@@ -3,7 +3,7 @@ layout: post
 title: Residência Agrária é marco na luta pela Educação do Campo no Maranhão
 created: 1387188005
 images:
-- http://mst.org.br/sites/default/files/aula.jpg
+- http://mst.org.br:/sites/default/files/aula.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -15,7 +15,7 @@ Assuntos: Educação
 ---
 
 
-![](http://mst.org.br/sites/default/files/aula.jpg)
+![](/sites/default/files/aula.jpg)
 Por Por Romulo Gomes   
 
 Do IFMA
@@ -36,7 +36,7 @@ O longo processo de lutas para que o Pronera fosse reconhecido como política p�
 
 A coordenadora do Pronera, Ceci Gomes, comentou as ameaças que o programa sofreu até ser consolidado. “Aconteceram muitas coisas para acabar com o Pronera, que tem feito tanta diferença na educação do campo”, contou. Ela advertiu os alunos sobre o compromisso que têm com os demais trabalhadores espalhados pelos diversos assentamentos.
 
-![](http://mst.org.br/sites/default/files/aulalI.jpg)
+![](/sites/default/files/aulalI.jpg)
 **Trajetória em prol do campo**
 
 Em sua fala, o diretor de Desenvolvimento Educacional do Campus Maracanã, Jean Magno Moura de Sá, fez um resgate da trajetória da instituição em prol da educação do campo, lembrando o curso de Agropecuária, que já foi oferecido pelo Pronera, a Licenciatura em Educação do Campo (Procampo) e agora o Residência Agrária. “Estamos construindo esse espaço cotidianamente e vocês são convocados a continuar essa luta na instituição”, suscitou Jean.

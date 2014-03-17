@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Delgado: projeto do agronegócio seria impensável numa democracia real'
+title: 'Delgado: projeto do agronegócio seria impensável numa democracia real'
 created: 1386681324
 images: []
 video: 

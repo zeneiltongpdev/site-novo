@@ -3,7 +3,7 @@ layout: post
 title: Cerca de 1.000 crianças lançam CD dos Sem Terrinha no 6° Congresso
 created: 1392119151
 images:
-- http://mst.org.br/sites/default/files/foto_sem%20terrinha_0.jpg
+- http://mst.org.br:/sites/default/files/foto_sem terrinha_0.jpg
 video: 
 tags:
 - Reforma Agrária
@@ -23,7 +23,7 @@ Foto: Jean Brito
 
 As crianças também têm sua vez no 6° Congresso Nacional do MST. Assim como acontece em todas as atividades realizadas pelo Movimento, foi organizada a Ciranda Infantil Paulo Freire durante o Congresso, onde cerca de 1000 Sem Terrinha passam o dia, enquanto seus pais participam das atividades. 
 Nesta terça-feira (11/02), às 14h, a Ciranda faz sua abertura oficial, comemorando os 30 anos do MST e lançando o novo CD dos Sem Terrinha. 
-![](http://mst.org.br/sites/default/files/foto_sem%20terrinha_0.jpg)
+![](/sites/default/files/foto_sem%20terrinha_0.jpg)
 Elisângela Carvalho, coordenadora da Ciranda Infantil, explica que a organização da atividade começou ainda em outubro de 2013. "Fizemos uma oficina nacional que construiu o planejamento destes cinco dias de Ciranda. Além disso, cada educador que participou desta oficina realizou uma formação em seu estado.” 
 Assim foi composta a equipe de 150 educadores e educadoras que trabalham no Congresso, junto com equipes de saúde, cozinha, limpeza, rádio e cultura. "Todo o trabalho é feito em conjunto com outros setores”, diz Elisângela. 
 Desde o dia 01/02, uma equipe de educadores já está em Brasília preparando a Ciranda. Divididas por faixas etárias, que vão de 0 a 12 anos, há atividades específicas preparadas para todas, sempre permeando o tema do congresso - Lutar, Construir Reforma Agrária Popular! - e os 30 anos do MST. 

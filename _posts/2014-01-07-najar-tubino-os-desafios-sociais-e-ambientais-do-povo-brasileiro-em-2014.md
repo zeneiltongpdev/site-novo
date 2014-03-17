@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Najar Tubino: os desafios sociais e ambientais do povo brasileiro em 2014'
+title: 'Najar Tubino: os desafios sociais e ambientais do povo brasileiro em 2014'
 created: 1389098265
 images: []
 video: 

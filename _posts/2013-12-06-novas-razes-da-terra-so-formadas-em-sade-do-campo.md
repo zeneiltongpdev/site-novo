@@ -3,7 +3,7 @@ layout: post
 title: Novas raízes da terra são formadas em saúde do campo
 created: 1386330400
 images:
-- http://mst.org.br/sites/default/files/turmaraizesdaterraepsjv-reprodu%C3%A7%C3%A3ofiocruz.gif
+- http://mst.org.br:/sites/default/files/turmaraizesdaterraepsjv-reproduçãofiocruz.gif
 video: 
 tags:
 - Educação
@@ -11,7 +11,7 @@ Assuntos: Educação
 ---
 
 
-![](http://mst.org.br/sites/default/files/turmaraizesdaterraepsjv-reprodu%C3%A7%C3%A3ofiocruz.gif)
+![](/sites/default/files/turmaraizesdaterraepsjv-reprodu%C3%A7%C3%A3ofiocruz.gif)
 Viviane Tavares
 
 Da EPSJV/Fiocruz

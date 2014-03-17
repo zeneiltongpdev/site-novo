@@ -3,7 +3,7 @@ layout: post
 title: Rádio Camponesa celebra 15 anos com cavalgada em Itapeva
 created: 1386093163
 images:
-- http://mst.org.br/sites/default/files/cavalo.jpg
+- http://mst.org.br:/sites/default/files/cavalo.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -15,7 +15,7 @@ Assuntos: Cultura
 ---
 
 
-![](http://mst.org.br/sites/default/files/cavalo.jpg)
+![](/sites/default/files/cavalo.jpg)
 Por Jade Percassi
 
 Da Página do MST 

@@ -3,7 +3,7 @@ layout: post
 title: Conhecendo o Brasil pelo bucho
 created: 1392328826
 images:
-- http://mst.org.br/sites/default/files/DSC_0117_1.JPG
+- http://mst.org.br:/sites/default/files/DSC_0117_1.JPG
 video: 
 tags:
 - Reforma Agrária
@@ -15,7 +15,7 @@ Assuntos: 6° Congresso Nacional
 ---
 
 
-![](http://mst.org.br/sites/default/files/DSC_0117_1.JPG)
+![](/sites/default/files/DSC_0117_1.JPG)
 
 Por José Coutinho Júnior
 
@@ -31,7 +31,7 @@ Uma pessoa que passa por várias cozinhas durante os dias do congresso consegue 
 O momento de comer é onde todos relaxam. Após horas de debates, místicas e assembleias, as pessoas encontram os companheiros dos estados e aguardam ansiosamente na fila conversando.
 É quando os pais reencontram seus filhos, que ficam o dia inteiro na ciranda Paulo Freire. Um Sem Terra do Mato Grosso do Sul, pai de um garoto pequeno e uma filha de 11 anos, arruma o prato de ambos com muita paciência. 
 “Tudo bem se você não quiser carne hoje querida, não é tão importante assim. Filho, o feijão você tem que comer. Sabe a piada do menino que não queria comer ferro? Sua mãe falou para ele que o feijão tinha ferro. Quando chegou na escola ele não quis comer. A professora perguntou o porquê e ele respondeu: ‘ porque minha mãe disse que tem ferro!’” Apesar de ótimo pai, o companheiro não era bom piadista.
-![](http://mst.org.br/sites/default/files/DSC_0137_0.JPG)
+![](/sites/default/files/DSC_0137_0.JPG)
 Após encher o seu prato de comida (nunca, sob hipótese alguma, traga um prato de inox. Você vai descobrir tarde demais que o aço é um potente condutor de calor, quando suas mãos famintas que seguram o prato começarem a queimar com a quentura do feijão), é hora de sentar e aproveitar a refeição. 
 A comida sempre tem um gosto bom, até familiar. Dona Maria, cozinheira do Piauí, revela o segredo: “não sou uma boa cozinheira. Não sei fazer essas coisas chiques aí, só faço o que é simples”. Em suma, a comida, apesar de muitas vezes ser de um estado do outro lado do país, temperado para paladares com gostos distintos, é feita com o mesmo carinho e atenção que você esperaria da comida da sua mãe ou da sua avó.
 E enquanto todos comem e conversam, o ritmo da cozinha não cessa. A próxima refeição já começa a ser preparada, para 15 mil pessoas que estão satisfeitas no momento, mas em algumas horas estarão famintas e prontas para comer novamente. 

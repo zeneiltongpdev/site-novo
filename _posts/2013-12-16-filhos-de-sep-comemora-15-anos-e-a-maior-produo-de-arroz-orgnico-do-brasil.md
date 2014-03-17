@@ -3,7 +3,7 @@ layout: post
 title: Filhos de Sepé comemora 15 anos e a maior produção de arroz orgânico do Brasil
 created: 1387209654
 images:
-- http://mst.org.br/sites/default/files/filhos%20de%20sep%C3%A9.jpg
+- http://mst.org.br:/sites/default/files/filhos de sepé.jpg
 video: 
 tags:
 - Reforma Agrária
@@ -17,7 +17,7 @@ Assuntos: Reforma Agrária
 ---
 
 
-![](http://mst.org.br/sites/default/files/filhos%20de%20sep%C3%A9.jpg)
+![](/sites/default/files/filhos%20de%20sep%C3%A9.jpg)
 Da Página do MST
 Neste domingo (15), mais de 200 pessoas se reuniram para comemorar os 15 anos do Assentamento Filhos de Sepé, no município de Viamão (RS), a 38 km da capital Porto Alegre.
 
@@ -43,4 +43,4 @@ Há duas agroindústrias de processamento de alimentos, sendo que uma é para o 
 
 
 Outra área de destaque é o Refúgio da Vida Silvestre Banhado dos Pachecos, uma área de 2500 hectares de mata preservada e com uma enorme biodiversidade, incluindo animais em extinção como o Servo do Pantanal.
-![](http://mst.org.br/sites/default/files/filhos%20de%20sep%C3%A9_II.jpg) 
+![](/sites/default/files/filhos%20de%20sep%C3%A9_II.jpg) 

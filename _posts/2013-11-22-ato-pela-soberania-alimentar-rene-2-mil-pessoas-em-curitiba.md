@@ -3,7 +3,7 @@ layout: post
 title: Ato pela soberania alimentar reúne 2 mil pessoas em Curitiba
 created: 1385120817
 images:
-- http://mst.org.br/sites/default/files/ato%20soberania%20alimentar.jpg
+- http://mst.org.br:/sites/default/files/ato soberania alimentar.jpg
 video: 
 tags:
 - Lutas e mobilizações
@@ -15,7 +15,7 @@ Assuntos: Mobilização
 ---
 
 
-![](http://mst.org.br/sites/default/files/ato%20soberania%20alimentar.jpg)
+![](/sites/default/files/ato%20soberania%20alimentar.jpg)
 Da Página do MST
 
 Vindos de várias regiões do Paraná, aproximadamente 2 mil trabalhadores do campo e da cidade se reuniram em Curitiba, nesta quinta-feira (21), para o “Ato em defesa da Agricultura Familiar, Reforma Agrária, Soberania Alimentar, e a da Agroecologia”.      

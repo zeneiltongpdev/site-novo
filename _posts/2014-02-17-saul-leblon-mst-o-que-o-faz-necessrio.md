@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Saul Leblon: MST, o que o faz necessário'
+title: 'Saul Leblon: MST, o que o faz necessário'
 created: 1392632806
 images: []
 video: 

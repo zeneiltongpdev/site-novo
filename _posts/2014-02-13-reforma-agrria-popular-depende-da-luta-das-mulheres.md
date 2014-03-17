@@ -1,12 +1,12 @@
 ---
 layout: post
-title: ! 'Reforma agrária popular depende da luta das mulheres '
+title: 'Reforma agrária popular depende da luta das mulheres '
 created: 1392298260
 images:
-- sites/default/files/IMG_4245.v01_0.JPG
-- sites/default/files/IMG_4245.v01_0.JPG
-- sites/default/files/IMG_4245.v01_0.JPG
-- http://www.mst.org.br/sites/default/files/IMG_4245.v01_0.JPG
+- 
+- 
+- 
+- 
 video: 
 tags:
 - Reforma Agrária

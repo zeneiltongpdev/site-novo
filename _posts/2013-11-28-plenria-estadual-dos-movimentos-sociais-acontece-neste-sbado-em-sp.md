@@ -3,7 +3,7 @@ layout: post
 title: Plenária Estadual dos Movimentos Sociais acontece neste sábado em SP
 created: 1385639685
 images:
-- http://mst.org.br/sites/default/files/reforma%20pol%C3%ADtica.jpg
+- http://mst.org.br:/sites/default/files/reforma política.jpg
 video: 
 tags:
 - Lutas e mobilizações
@@ -15,7 +15,7 @@ Assuntos: Reforma Política
 ---
 
 
-![](http://mst.org.br/sites/default/files/reforma%20pol%C3%ADtica.jpg)
+![](/sites/default/files/reforma%20pol%C3%ADtica.jpg)
 Da Página do MST\*
   
 

@@ -3,7 +3,7 @@ layout: post
 title: Centenas de famílias Sem Terra ocupam terras no Sertão de Alagoas
 created: 1385725856
 images:
-- http://mst.org.br/sites/default/files/ocupa%C3%A7%C3%A3o_AL.jpg
+- http://mst.org.br:/sites/default/files/ocupação_AL.jpg
 video: 
 tags:
 - Lutas e mobilizações
@@ -17,7 +17,7 @@ Assuntos: Ocupação
 ---
 
 
-![](http://mst.org.br/sites/default/files/ocupa%C3%A7%C3%A3o_AL.jpg)
+![](/sites/default/files/ocupa%C3%A7%C3%A3o_AL.jpg)
 
 
 Por Rafael Soriano

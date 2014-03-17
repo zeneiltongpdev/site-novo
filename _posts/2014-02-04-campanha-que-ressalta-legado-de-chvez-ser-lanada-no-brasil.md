@@ -3,13 +3,13 @@ layout: post
 title: Campanha que ressalta legado de Chávez será lançada no Brasil
 created: 1391512953
 images:
-- http://mst.org.br/sites/default/files/jornada%20chavez.jpg
+- http://mst.org.br:/sites/default/files/jornada chavez.jpg
 video: 
 tags: []
 ---
 
 
-![](http://mst.org.br/sites/default/files/jornada%20chavez.jpg)
+![](/sites/default/files/jornada%20chavez.jpg)
 Da Página do MST\*
 Nesta terça-feira (4), começa no Brasil a jornada mundial “Por aqui passou Chávez”, uma iniciativa da Embaixada da República Bolivariana da Venezuela, que conta com o apoio de diversas entidades. 
 

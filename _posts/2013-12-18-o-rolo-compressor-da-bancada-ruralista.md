@@ -3,7 +3,7 @@ layout: post
 title: O rolo compressor da Bancada Ruralista
 created: 1387386994
 images:
-- http://mst.org.br/sites/default/files/ruralistas_genocidas.png
+- http://mst.org.br:/sites/default/files/ruralistas_genocidas.png
 video: 
 tags:
 - Direitos Humanos
@@ -13,7 +13,7 @@ Assuntos: Bancada Ruralista
 ---
 
 
-![](http://mst.org.br/sites/default/files/ruralistas_genocidas.png)
+![](/sites/default/files/ruralistas_genocidas.png)
 Por Artionka Capiberibe e Oiara Bonilla\*
 
 Nos últimos anos, a disputa fundiária no Congresso tornou-se mais aguda, revelando para o grande público a existência da denominada “bancada ruralista”. Essa bancada tem sua atenção voltada principalmente para os direitos indígenas e quilombolas à terra. 

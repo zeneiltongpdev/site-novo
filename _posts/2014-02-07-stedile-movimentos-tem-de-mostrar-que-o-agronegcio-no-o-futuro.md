@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Stedile: Movimentos tem de mostrar que o agronegócio não é o futuro'
+title: 'Stedile: Movimentos tem de mostrar que o agronegócio não é o futuro'
 created: 1391782166
 images: []
 video: 

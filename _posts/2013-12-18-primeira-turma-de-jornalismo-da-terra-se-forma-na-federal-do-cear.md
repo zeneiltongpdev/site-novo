@@ -3,7 +3,7 @@ layout: post
 title: Primeira Turma de Jornalismo da Terra se forma na Federal do Ceará
 created: 1387380594
 images:
-- http://mst.org.br/sites/default/files/materia%20mab.jpg
+- http://mst.org.br:/sites/default/files/materia mab.jpg
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -15,7 +15,7 @@ Assuntos: Educação
 ---
 
 
-![](http://mst.org.br/sites/default/files/materia%20mab.jpg)
+![](/sites/default/files/materia%20mab.jpg)
 Por Maria Aparecida\*
 
 Da Página do MST\*\*Desde novembro de 2009, militantes do MST e do Movimento dos Atingidos por Barragens (MAB), que compõem a Via Campesina, realizam o primeiro Curso de Comunicação Social – Habilitação em Jornalismo, em parceria com a Universidade Federal do Ceará (UFC).

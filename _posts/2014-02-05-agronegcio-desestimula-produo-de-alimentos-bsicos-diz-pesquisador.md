@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ! 'Agronegócio desestimula produção de alimentos básicos, diz pesquisador '
+title: 'Agronegócio desestimula produção de alimentos básicos, diz pesquisador '
 created: 1391605646
 images: []
 video: 

@@ -3,7 +3,7 @@ layout: post
 title: MST e CUT fazem críticas e cobranças ao governo Dilma em congresso do PT
 created: 1387190757
 images:
-- http://mst.org.br/sites/default/files/5_Congresso_PT_5749.JPG
+- http://mst.org.br:/sites/default/files/5_Congresso_PT_5749.JPG
 video: 
 tags:
 - Reforma Agrária
@@ -13,7 +13,7 @@ Assuntos: Reforma Agrária
 ---
 
 
-![](http://mst.org.br/sites/default/files/5_Congresso_PT_5749.JPG)
+![](/sites/default/files/5_Congresso_PT_5749.JPG)
 Por Ricardo Della Coletta e Daiene Cardoso
 
 Do Estadão

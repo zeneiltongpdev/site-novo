@@ -2,7 +2,7 @@
 layout: post
 title: União continental é necessária para enfrentar capital financeiro
 created: 1393340674
-images: ['http://www.mst.org.br/sites/default/files/arroz_sape_II.jpg']
+images: []
 video: 
 tags:
 - Agronegócio

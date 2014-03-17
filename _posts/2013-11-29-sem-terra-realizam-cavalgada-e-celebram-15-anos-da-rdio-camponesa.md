@@ -3,7 +3,7 @@ layout: post
 title: Sem Terra realizam cavalgada e celebram 15 anos da Rádio Camponesa
 created: 1385727473
 images:
-- http://mst.org.br/sites/default/files/radio%20camponesa_1.JPG
+- http://mst.org.br:/sites/default/files/radio camponesa_1.JPG
 video: 
 tags:
 - Educação, Cultura e Comunicação
@@ -15,7 +15,7 @@ Assuntos: Cultura
 ---
 
 
-![](http://mst.org.br/sites/default/files/radio%20camponesa_1.JPG)
+![](/sites/default/files/radio%20camponesa_1.JPG)
 Da Página do MST
 
 Neste domingo (1), o MST realiza a 7° Cavalgada da Reforma Agrária no município de Itapeva, no interior de São Paulo.
@@ -33,4 +33,4 @@ Sintonizado das 6h às 20h, a Rádio Camponesa representa uma grande conquista d
 
 
 Com boa música, cultura de raiz, informando a comunidade e questionando as notícias da grande mídia, a Camponesa compete em audiência com rádios comerciais da região ocupando, assim, o latifúndio do ar.
-![](http://mst.org.br/sites/default/files/cavalgada%20itapeva.jpg)
+![](/sites/default/files/cavalgada%20itapeva.jpg)
