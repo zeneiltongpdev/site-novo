@@ -1,17 +1,17 @@
 {% capture picture %}{{ include.details.images | first }}{% endcapture %}
 
 <article class="{{ include.class }}">
-	{% unless include.semfoto %}
-	{% if picture != "" %}
   <aside class="foto">
     <figure class="thumbnail sombra">
       <a href="{{ site.baseurl }}{{ include.details.url}}">
+      {% if picture != "" %}
         <img src="{{ picture | uri_escape}}">
+      {% else %}
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Arroz_097.jpg/375px-Arroz_097.jpg">
+      {% endif %}
       </a>
     </figure>
   </aside>
-  {% endif %}
-  {% endunless %}
 
   <main class="conteudo">
     <h4 class="manchete">
