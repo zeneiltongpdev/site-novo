@@ -1,22 +1,16 @@
 {% capture picture %}{{ include.details.images | first }}{% endcapture %}
-
 <article class="{{ include.class }}">
-  <aside class="foto">
-    <figure class="thumbnail sombra">
-      <a href="{{ site.baseurl }}{{ include.details.url}}">
-      {% if picture != "" %}
-        <img src="{{ picture | uri_escape}}">
-      {% else %}
-        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Arroz_097.jpg/375px-Arroz_097.jpg">
-      {% endif %}
-      </a>
-    </figure>
-  </aside>
-
-  <main class="conteudo">
-    <h4 class="manchete">
-      <a href="{{ site.baseurl }}{{ include.details.url }}">{{ include.details.title }}</a>
-    </h4>
-    <p class="muted">{{include.details.date | date_to_string }}</p>
-  </main>
+  <figure class="foto">
+    <a href="{{ site.baseurl }}{{ include.details.url}}">
+    {% if picture != "" %}
+      <img src="{{ picture | uri_escape}}">
+    {% else %}
+      <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Arroz_097.jpg/375px-Arroz_097.jpg">
+    {% endif %}
+    </a>
+  </figure>
+  <p class="conteudo manchete">
+    <a href="{{ site.baseurl }}{{ include.details.url }}">{{ include.details.title }}</a>
+  </p>
+  <p class="conteudo muted">{{include.details.date | date_to_string }}</p>
 </article>

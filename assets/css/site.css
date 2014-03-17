@@ -5924,6 +5924,24 @@ nav form[name='search'] #search:focus {
 .destaque:after {
   clear: both;
 }
+.destaque figure {
+  margin-bottom: 0;
+}
+.destaque figure img {
+  width: 180px;
+  min-width: 180px;
+  max-width: 180px;
+}
+.destaque p.manchete {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+.destaque p.conteudo {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .destaque .conteudo {
   display: block;
 }
@@ -6207,6 +6225,14 @@ article.tema header h1 {
 }
 article.tema header p {
   max-width: 800px;
+}
+article.tema header img,
+article.tema section img {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+}
+article.tema section {
+  margin-bottom: 30px;
 }
 @media (min-width: 992px) {
   article.tema {
