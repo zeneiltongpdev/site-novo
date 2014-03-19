@@ -5933,6 +5933,9 @@ nav form[name='search'] #search:focus {
 .destaque figure object {
   height: 150px;
 }
+.destaque figure img:hover {
+  opacity: 0.8;
+}
 .destaque p.manchete {
   font-family: inherit;
   font-size: 20px;
