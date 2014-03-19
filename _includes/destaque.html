@@ -1,7 +1,7 @@
 {% capture picture %}{{ include.details.images | first }}{% endcapture %}
 <article class="{{ include.class }}">
   <figure class="foto">
-    <a href="{{ site.baseurl }}{{ include.details.url}}">
+    <a href="{{ include.details.legacy_url}}">
     {% if picture != "" %}
       <img src="{{ picture | uri_escape}}">
     {% else %}
@@ -10,7 +10,7 @@
     </a>
   </figure>
   <p class="conteudo manchete">
-    <a href="{{ site.baseurl }}{{ include.details.url }}">{{ include.details.title }}</a>
+    <a href="{{ include.details.legacy_url }}">{{ include.details.title }}</a>
   </p>
   <p class="conteudo muted">{{include.details.date | date_to_string }}</p>
 </article>
