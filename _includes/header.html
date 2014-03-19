@@ -11,15 +11,14 @@
     <li class="dropdown">
       {% include menu_link.html menu=menu %}
       {% if menu.submenu %}
-        <span class="dropdown-toggle caret" data-toggle="dropdown"></span>
+        <ul class="dropdown-menu">
+        {% for submenu in menu.submenu %}
+          <li>
+            {% include menu_link.html menu=submenu %}
+          </li>
+        {% endfor %}
+        </ul>
       {% endif %}
-      <ul class="dropdown-menu">
-      {% for submenu in menu.submenu %}
-        <li>
-          {% include menu_link.html menu=submenu %}
-        </li>
-      {% endfor %}
-      </ul>
     </li>
   {% endfor %}
   </ul>

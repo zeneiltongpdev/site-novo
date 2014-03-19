@@ -5778,15 +5778,6 @@ button.close {
     display: none !important;
   }
 }
-.nav.nav-inline li a {
-  display: inline-block;
-}
-.nav.nav-inline li .caret {
-  margin-left: 0;
-  vertical-align: middle;
-  color: #da251c;
-  cursor: pointer;
-}
 body > header {
   position: relative;
   text-align: center;
@@ -5841,8 +5832,14 @@ nav ul {
 nav ul li {
   display: inline;
 }
+nav ul li a {
+  display: inline-block;
+}
 nav ul li + li {
   margin-left: 20px;
+}
+nav ul li:hover ul.dropdown-menu {
+  display: block;
 }
 nav ul.dropdown-menu {
   text-align: left;

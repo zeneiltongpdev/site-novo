@@ -1,15 +1,3 @@
-.nav.nav-inline {
-	li a {
-		display: inline-block;
-	}
-	li .caret {
-	 	margin-left: 0;
-	  vertical-align: middle;
-	  color: @link-color;
-	  cursor: pointer;
-	}
-}
-
 body > header {
   position: relative;
   text-align: center;
@@ -71,10 +59,20 @@ nav {
 
     li {
       display: inline;
+
+      a {
+        display: inline-block;
+      }
     }
 
     li + li {
       margin-left: 20px; 
+    }
+
+    li:hover {
+      ul.dropdown-menu {
+        display: block;
+      }
     }
   }
 
