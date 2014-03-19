@@ -1,7 +1,7 @@
 name: Movimento dos Trabalhadores Rurais Sem Terra
 markdown: redcarpet
 pygments: true
-exclude: [drupal]
+exclude: [deploy, Gemfile, Gemfile.lock, Gruntfile.js, README.md, bower.json, bower_components, drupal_queries.sql, jekyll_mst.rb, node_modules, package.json]
 baseurl: /mst
 # permalink: /:categories/:title
 pages: ./_pages
