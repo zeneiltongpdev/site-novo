@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Acordo comercial ampliará poder da indústria de transgênicos no mundo
+legacy_url: http://www.mst.org.br/node/15543
 created: 1386786623
 images:
 - http://mst.org.br:/sites/default/files/transpacifico.jpg

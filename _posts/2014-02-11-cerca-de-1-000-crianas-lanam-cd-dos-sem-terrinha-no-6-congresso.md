@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cerca de 1.000 crianças lançam CD dos Sem Terrinha no 6° Congresso
+legacy_url: http://www.mst.org.br/node/15696
 created: 1392119151
 images:
 - http://mst.org.br:/sites/default/files/foto_sem terrinha_0.jpg

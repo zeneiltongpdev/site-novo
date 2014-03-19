@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra realizam cavalgada e celebram 15 anos da Rádio Camponesa
+legacy_url: http://www.mst.org.br/node/15496
 created: 1385727473
 images:
 - http://mst.org.br:/sites/default/files/radio camponesa_1.JPG

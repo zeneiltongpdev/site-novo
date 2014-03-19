@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ' Prefeito descumpre acordo e prefeitura de Atalaia continua ocupada'
+legacy_url: http://www.mst.org.br/node/15605
 created: 1389274081
 images: []
 video: 

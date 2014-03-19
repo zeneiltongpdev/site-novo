@@ -2,6 +2,7 @@
 layout: post
 title: Ex-presidente da UDR vai a júri popular nesta sexta acusado de assassinar Sem
   Terra
+legacy_url: http://www.mst.org.br/node/15470
 created: 1385058720
 images: []
 video: 

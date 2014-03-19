@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra saem em marcha rumo à Esplanada dos Ministérios
+legacy_url: http://www.mst.org.br/node/15709
 created: 1392219980
 images: []
 video: 

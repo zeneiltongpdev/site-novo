@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Agronegócio e indústria bélica são os principais doadores de Moreira e Heinze
+legacy_url: http://www.mst.org.br/node/15745
 created: 1392744538
 images:
 - http://mst.org.br:/sites/default/files/moreiraeheinze.jpg

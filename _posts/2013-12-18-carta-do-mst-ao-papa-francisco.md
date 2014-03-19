@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Carta do MST ao Papa Francisco
+legacy_url: http://www.mst.org.br/node/15578
 created: 1387394382
 images: []
 video: 

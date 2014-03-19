@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Uso de agrotóxicos no RS chega a quase o dobro da média nacional
+legacy_url: http://www.mst.org.br/node/15481
 created: 1385480949
 images: []
 video: 

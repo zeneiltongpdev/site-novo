@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A propósito da proposta de mudança na demarcação das terras indígenas
+legacy_url: http://www.mst.org.br/node/15524
 created: 1386335978
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Com alimentos da agricultura familiar, merenda escolar ganha em qualidade
+legacy_url: http://www.mst.org.br/node/15742
 created: 1392729249
 images: []
 video: 

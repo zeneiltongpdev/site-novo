@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Crianças do MST ocupam Ministério da Educação por escolas do campo
+legacy_url: http://www.mst.org.br/node/15704
 created: 1392207028
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Estratégia de comunicação do MST contribui no processo organizativo
+legacy_url: http://www.mst.org.br/node/15683
 created: 1391786039
 images: []
 video: 

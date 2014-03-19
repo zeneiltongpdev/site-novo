@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Eduardo Coutinho transpôs os limites da arte com a militância
+legacy_url: http://www.mst.org.br/node/15658
 created: 1391431351
 images: []
 video: 

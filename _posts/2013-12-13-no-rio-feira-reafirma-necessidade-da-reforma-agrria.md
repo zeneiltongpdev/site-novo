@@ -1,6 +1,7 @@
 ---
 layout: post
 title: No Rio, feira reafirma necessidade da Reforma Agrária
+legacy_url: http://www.mst.org.br/node/15554
 created: 1386936550
 images: []
 video: 

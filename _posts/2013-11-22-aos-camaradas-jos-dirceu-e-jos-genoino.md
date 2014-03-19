@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Aos Camaradas José Dirceu e José Genoino
+legacy_url: http://www.mst.org.br/node/15477
 created: 1385147847
 images: []
 video: 

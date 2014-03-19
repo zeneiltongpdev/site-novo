@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Para juristas, o uso de agrotóxicos é uma afronta ao direito do consumidor
+legacy_url: http://www.mst.org.br/node/15483
 created: 1385554145
 images:
 - http://mst.org.br:/sites/default/files/dr5b.png

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TJ anula júri que absolveu acusado de participar de assassinato de Sem Terra
+legacy_url: http://www.mst.org.br/node/15552
 created: 1386935378
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'MST, 30 anos: muito além da distribuição de terras'
+legacy_url: http://www.mst.org.br/node/15648
 created: 1390921585
 images: []
 video: 

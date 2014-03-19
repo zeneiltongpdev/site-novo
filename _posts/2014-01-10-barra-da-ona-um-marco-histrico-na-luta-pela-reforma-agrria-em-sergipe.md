@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Barra da Onça: um marco histórico na luta pela Reforma Agrária em Sergipe'
+legacy_url: http://www.mst.org.br/node/15606
 created: 1389357626
 images: []
 video: 

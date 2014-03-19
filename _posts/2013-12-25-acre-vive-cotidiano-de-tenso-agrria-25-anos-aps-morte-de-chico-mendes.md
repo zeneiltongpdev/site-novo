@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Acre vive cotidiano de tensão agrária 25 anos após morte de Chico Mendes '
+legacy_url: http://www.mst.org.br/node/15586
 created: 1387981830
 images: []
 video: 

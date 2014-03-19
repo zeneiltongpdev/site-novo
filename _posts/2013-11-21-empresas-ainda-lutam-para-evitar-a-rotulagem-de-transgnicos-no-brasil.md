@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Empresas ainda lutam para evitar a rotulagem de transgênicos no Brasil
+legacy_url: http://www.mst.org.br/node/15469
 created: 1385038785
 images:
 - http://mst.org.br:/sites/default/files/transgenicos-300x281.png

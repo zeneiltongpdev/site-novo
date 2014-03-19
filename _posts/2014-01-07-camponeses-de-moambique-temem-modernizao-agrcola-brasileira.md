@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Camponeses de Moçambique temem modernização agrícola à brasileira
+legacy_url: http://www.mst.org.br/node/15600
 created: 1389113955
 images: []
 video: 

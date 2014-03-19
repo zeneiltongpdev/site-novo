@@ -1,6 +1,7 @@
 ---
 layout: post
 title: João Pedro Stedile participa de debate sobre constituinte exclusiva em Maceió
+legacy_url: http://www.mst.org.br/node/15612
 created: 1389620350
 images: []
 video: 

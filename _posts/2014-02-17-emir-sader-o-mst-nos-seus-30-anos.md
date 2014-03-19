@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Emir Sader: o MST nos seus 30 anos'
+legacy_url: http://www.mst.org.br/node/15733
 created: 1392645278
 images:
 - http://mst.org.br:/sites/default/files/MST.jpg

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Monsanto continua com práticas abusivas e sofre ações de até R$ 2 bi
+legacy_url: http://www.mst.org.br/node/15509
 created: 1386073924
 images:
 - http://mst.org.br:/sites/default/files/Monsanto_Por-Latuff_0.JPG

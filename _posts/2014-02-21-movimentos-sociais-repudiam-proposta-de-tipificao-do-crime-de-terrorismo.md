@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Movimentos sociais repudiam proposta de tipificação do crime de Terrorismo
+legacy_url: http://www.mst.org.br/node/15761
 created: 1392987068
 images:
 - http://mst.org.br:/sites/default/files/congresso-nacional-lei-antiterrorismo-2.JPG

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ' MST ocupa fazenda em protesto ao assassinato de camponeses em PB'
+legacy_url: http://www.mst.org.br/node/15620
 created: 1389877620
 images: []
 video: 

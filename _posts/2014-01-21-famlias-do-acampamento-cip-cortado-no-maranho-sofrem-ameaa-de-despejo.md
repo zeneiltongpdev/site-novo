@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Famílias do acampamento Cipó Cortado no Maranhão sofrem ameaça de despejo '
+legacy_url: http://www.mst.org.br/node/15625
 created: 1390307514
 images: []
 video: 

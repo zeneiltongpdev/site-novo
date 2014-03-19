@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Justiça suspende leilão de ruralistas que financiaria milícias contra indígenas
+legacy_url: http://www.mst.org.br/node/15518
 created: 1386246397
 images: []
 video: 

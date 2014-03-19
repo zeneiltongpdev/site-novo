@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Indígenas brasileiros vivem mal e sofrem com as águas represadas
+legacy_url: http://www.mst.org.br/node/15629
 created: 1390403060
 images: []
 video: 

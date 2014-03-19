@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Agronegócio pressiona agricultores a abandonarem a terra, diz pesquisadora
+legacy_url: http://www.mst.org.br/node/15758
 created: 1392921747
 images: []
 video: 

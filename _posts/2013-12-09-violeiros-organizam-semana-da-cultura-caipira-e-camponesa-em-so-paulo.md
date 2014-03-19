@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Violeiros organizam semana da cultura caipira e camponesa em São Paulo
+legacy_url: http://www.mst.org.br/node/15528
 created: 1386596626
 images:
 - http://mst.org.br:/sites/default/files/violeiros.jpg

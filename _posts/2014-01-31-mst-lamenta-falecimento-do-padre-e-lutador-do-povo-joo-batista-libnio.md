@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST lamenta falecimento do padre e lutador do povo João Batista Libânio
+legacy_url: http://www.mst.org.br/node/15651
 created: 1391170559
 images: []
 video: 

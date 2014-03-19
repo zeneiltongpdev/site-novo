@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Brasil fiscaliza agrotóxico em 13 alimentos; EUA e Europa, 300
+legacy_url: http://www.mst.org.br/node/15652
 created: 1391171149
 images: []
 video: 

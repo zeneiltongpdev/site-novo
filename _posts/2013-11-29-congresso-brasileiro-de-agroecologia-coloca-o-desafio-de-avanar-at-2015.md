@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Congresso Brasileiro de Agroecologia coloca o desafio de avançar até 2015
+legacy_url: http://www.mst.org.br/node/15499
 created: 1385739804
 images:
 - http://mst.org.br:/sites/default/files/mesa_de_abertura_0.JPG

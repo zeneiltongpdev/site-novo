@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'José Elí da Veiga: Especulação imobiliária rural e a nova lei florestal'
+legacy_url: http://www.mst.org.br/node/15501
 created: 1385744513
 images: []
 video: 

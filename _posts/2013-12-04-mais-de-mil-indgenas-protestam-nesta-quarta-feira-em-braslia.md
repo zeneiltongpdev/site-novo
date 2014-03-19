@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mais de mil indígenas protestam nesta quarta-feira em Brasília
+legacy_url: http://www.mst.org.br/node/15513
 created: 1386163289
 images: []
 video: 

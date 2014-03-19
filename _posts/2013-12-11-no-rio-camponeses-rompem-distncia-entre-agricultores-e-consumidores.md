@@ -1,6 +1,7 @@
 ---
 layout: post
 title: No Rio, camponeses rompem distância entre agricultores e consumidores
+legacy_url: http://www.mst.org.br/node/15541
 created: 1386768446
 images:
 - http://mst.org.br:/sites/default/files/1°feira_RJ_0.jpg

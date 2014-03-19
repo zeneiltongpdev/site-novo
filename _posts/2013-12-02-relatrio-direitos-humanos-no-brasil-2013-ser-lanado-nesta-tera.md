@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Relatório Direitos Humanos no Brasil 2013 será lançado nesta terça
+legacy_url: http://www.mst.org.br/node/15502
 created: 1385985406
 images: []
 video: 

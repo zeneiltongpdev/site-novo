@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Nota sobre a Mostra Nacional de Cultura e Produção Camponesa
+legacy_url: http://www.mst.org.br/node/15767
 created: 1393278057
 images: []
 video: 

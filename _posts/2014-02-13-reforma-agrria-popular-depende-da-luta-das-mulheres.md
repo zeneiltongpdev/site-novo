@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Reforma agrária popular depende da luta das mulheres '
+legacy_url: http://www.mst.org.br/node/15717
 created: 1392298260
 images:
 - 

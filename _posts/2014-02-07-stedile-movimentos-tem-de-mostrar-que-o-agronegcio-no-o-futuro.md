@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Stedile: Movimentos tem de mostrar que o agronegócio não é o futuro'
+legacy_url: http://www.mst.org.br/node/15681
 created: 1391782166
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Novas raízes da terra são formadas em saúde do campo
+legacy_url: http://www.mst.org.br/node/15523
 created: 1386330400
 images:
 - http://mst.org.br:/sites/default/files/turmaraizesdaterraepsjv-reproduçãofiocruz.gif

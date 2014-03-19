@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Os 30 anos de ódio ao MST nas páginas da revista Veja
+legacy_url: http://www.mst.org.br/node/15755
 created: 1392903720
 images:
 - http://mst.org.br:/sites/default/files/veja1.png

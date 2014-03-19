@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Integrantes do MST ocupam “fazenda da maconha” em Canarana, na Bahia
+legacy_url: http://www.mst.org.br/node/15468
 created: 1385037608
 images: []
 video: 

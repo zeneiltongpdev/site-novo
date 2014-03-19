@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Encontro celebra os 27 anos das escolas do MST no Espírito Santo
+legacy_url: http://www.mst.org.br/node/15484
 created: 1385557564
 images:
 - http://mst.org.br:/sites/default/files/educandos ES.jpg

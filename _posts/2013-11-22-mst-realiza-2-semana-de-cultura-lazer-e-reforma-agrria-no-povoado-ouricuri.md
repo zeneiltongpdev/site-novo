@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST realiza 2ª Semana de Cultura, Lazer e Reforma Agrária no povoado Ouricuri
+legacy_url: http://www.mst.org.br/node/15474
 created: 1385131662
 images:
 - http://mst.org.br:/sites/default/files/Semana de Cultura.jpg

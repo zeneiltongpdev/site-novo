@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST em Minas Gerais realiza 24º encontro estadual
+legacy_url: http://www.mst.org.br/node/15633
 created: 1390490998
 images: []
 video: 

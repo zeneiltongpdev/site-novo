@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST lamenta o falecimento do cineasta e companheiro Eduardo Coutinho
+legacy_url: http://www.mst.org.br/node/15657
 created: 1391431026
 images: []
 video: 

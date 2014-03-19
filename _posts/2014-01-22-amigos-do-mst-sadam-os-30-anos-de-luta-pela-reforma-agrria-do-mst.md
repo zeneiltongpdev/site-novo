@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Amigos do MST saúdam os 30 anos de luta pela Reforma Agrária do MST
+legacy_url: http://www.mst.org.br/node/15631
 created: 1390415999
 images: []
 video: 

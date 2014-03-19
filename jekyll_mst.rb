@@ -203,6 +203,7 @@ module JekyllImport
           data = {
             'layout' => 'post',
             'title' => title.to_s,
+            'legacy_url' => "http://www.mst.org.br/node/#{node_id}",
             'created' => created,
             'images' => images,
             'video' => video,

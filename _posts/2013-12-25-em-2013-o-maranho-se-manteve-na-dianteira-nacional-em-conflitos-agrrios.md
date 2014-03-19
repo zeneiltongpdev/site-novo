@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Em 2013, o Maranhão se manteve na dianteira nacional em conflitos agrários
+legacy_url: http://www.mst.org.br/node/15587
 created: 1387973892
 images: []
 video: 

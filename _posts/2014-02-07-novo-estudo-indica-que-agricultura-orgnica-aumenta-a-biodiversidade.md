@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Novo estudo indica que agricultura orgânica aumenta a biodiversidade
+legacy_url: http://www.mst.org.br/node/15686
 created: 1391796201
 images: []
 video: 

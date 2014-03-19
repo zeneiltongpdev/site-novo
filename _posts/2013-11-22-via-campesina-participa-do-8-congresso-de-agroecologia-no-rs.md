@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Via Campesina participa do 8° Congresso de Agroecologia, no RS
+legacy_url: http://www.mst.org.br/node/15476
 created: 1385136333
 images:
 - http://mst.org.br:/sites/default/files/congresso agroecologia.jpg

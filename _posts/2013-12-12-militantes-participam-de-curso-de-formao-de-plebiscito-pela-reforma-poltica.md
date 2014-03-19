@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Militantes participam de curso de formação de Plebiscito pela Reforma Política
+legacy_url: http://www.mst.org.br/node/15545
 created: 1386848730
 images: []
 video: 

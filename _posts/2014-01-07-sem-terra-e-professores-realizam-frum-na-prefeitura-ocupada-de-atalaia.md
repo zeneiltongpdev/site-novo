@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra e professores realizam fórum na prefeitura ocupada de Atalaia
+legacy_url: http://www.mst.org.br/node/15599
 created: 1389112526
 images: []
 video: 

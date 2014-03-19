@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pesquisadores alertam para expansão de transgênicos e agrotóxicos no Brasil
+legacy_url: http://www.mst.org.br/node/15610
 created: 1389618680
 images: []
 video: 

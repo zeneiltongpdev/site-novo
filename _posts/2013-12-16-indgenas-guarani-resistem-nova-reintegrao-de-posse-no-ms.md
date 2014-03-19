@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Indígenas Guarani resistem à nova reintegração de posse no MS
+legacy_url: http://www.mst.org.br/node/15558
 created: 1387199078
 images: []
 video: 

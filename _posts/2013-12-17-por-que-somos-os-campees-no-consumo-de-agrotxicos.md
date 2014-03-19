@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Por que somos os campeões no consumo de agrotóxicos?
+legacy_url: http://www.mst.org.br/node/15564
 created: 1387280118
 images:
 - http://mst.org.br:/sites/default/files/superinteressante.jpg

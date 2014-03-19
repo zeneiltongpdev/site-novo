@@ -1,6 +1,7 @@
 ---
 layout: post
 title: O Estado burguês e a luta pela Reforma Agrária
+legacy_url: http://www.mst.org.br/node/15494
 created: 1385665153
 images:
 - http://mst.org.br:/sites/default/files/acusamos OS TRÊS PODERES.jpg

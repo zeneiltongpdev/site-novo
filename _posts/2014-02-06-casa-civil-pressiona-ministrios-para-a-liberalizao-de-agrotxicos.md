@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Casa Civil pressiona ministérios para a liberalização de agrotóxicos
+legacy_url: http://www.mst.org.br/node/15677
 created: 1391694101
 images: []
 video: 

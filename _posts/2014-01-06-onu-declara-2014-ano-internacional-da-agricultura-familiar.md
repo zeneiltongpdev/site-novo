@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ONU declara 2014 Ano Internacional da Agricultura Familiar
+legacy_url: http://www.mst.org.br/node/15593
 created: 1389033127
 images: []
 video: 

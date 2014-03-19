@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Integração latinoamericana é a forma para alcançar soberania
+legacy_url: http://www.mst.org.br/node/15725
 created: 1392333120
 images:
 - http://mst.org.br:/sites/default/files/JOKA1498.jpg

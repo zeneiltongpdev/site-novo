@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST repudia projetos de leis antiterrorismo do Congresso
+legacy_url: http://www.mst.org.br/node/15723
 created: 1392323970
 images: []
 video: 

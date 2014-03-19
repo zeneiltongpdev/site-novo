@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dez documentários que irão mudar suas ideias sobre alimentação
+legacy_url: http://www.mst.org.br/node/15643
 created: 1390830297
 images: []
 video: 

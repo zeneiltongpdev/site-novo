@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lutar, Construir Reforma Agrária Popular!
+legacy_url: http://www.mst.org.br/node/15535
 created: 1386684010
 images: []
 video: 

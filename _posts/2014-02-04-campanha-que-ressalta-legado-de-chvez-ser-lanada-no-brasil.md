@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Campanha que ressalta legado de Chávez será lançada no Brasil
+legacy_url: http://www.mst.org.br/node/15665
 created: 1391512953
 images:
 - http://mst.org.br:/sites/default/files/jornada chavez.jpg

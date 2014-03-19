@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Os descaminhos da Reforma Agrária '
+legacy_url: http://www.mst.org.br/node/15589
 created: 1389013155
 images: []
 video: 

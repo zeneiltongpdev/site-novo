@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST marcha por uso adequado das águas do Canal do Sertão em AL
+legacy_url: http://www.mst.org.br/node/15567
 created: 1387288908
 images:
 - http://mst.org.br:/sites/default/files/luta_agua.jpg

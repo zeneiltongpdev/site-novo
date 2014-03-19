@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Ciranda do VI Congresso do MST '
+legacy_url: http://www.mst.org.br/node/15714
 created: 1392296764
 images: []
 video: 

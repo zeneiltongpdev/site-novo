@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Monsanto censura e difama pesquisas contrárias ao seu milho transgênico
+legacy_url: http://www.mst.org.br/node/15583
 created: 1387556379
 images: []
 video: 

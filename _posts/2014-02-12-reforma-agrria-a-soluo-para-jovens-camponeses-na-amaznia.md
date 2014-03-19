@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reforma Agrária é a solução para jovens camponeses na Amazônia
+legacy_url: http://www.mst.org.br/node/15705
 created: 1392208426
 images:
 - http://mst.org.br:/sites/default/files/Jovens peq-3.jpg

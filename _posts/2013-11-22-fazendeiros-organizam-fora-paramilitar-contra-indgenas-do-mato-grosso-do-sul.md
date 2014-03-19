@@ -2,6 +2,7 @@
 layout: post
 title: Fazendeiros organizam força paramilitar contra indígenas do Mato Grosso do
   Sul
+legacy_url: http://www.mst.org.br/node/15475
 created: 1385130307
 images: []
 video: 

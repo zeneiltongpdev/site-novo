@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Delgado: Brasil deve romper dependência do modelo agroexportador'
+legacy_url: http://www.mst.org.br/node/15754
 created: 1392901806
 images: []
 video: 

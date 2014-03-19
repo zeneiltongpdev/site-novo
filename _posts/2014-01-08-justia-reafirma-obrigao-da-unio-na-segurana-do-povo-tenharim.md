@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Justiça reafirma obrigação da União na segurança do povo Tenharim
+legacy_url: http://www.mst.org.br/node/15603
 created: 1389186187
 images: []
 video: 

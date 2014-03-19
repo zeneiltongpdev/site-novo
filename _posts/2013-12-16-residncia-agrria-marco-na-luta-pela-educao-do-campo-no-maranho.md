@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Residência Agrária é marco na luta pela Educação do Campo no Maranhão
+legacy_url: http://www.mst.org.br/node/15562
 created: 1387188005
 images:
 - http://mst.org.br:/sites/default/files/aula.jpg

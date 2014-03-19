@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Legado de Egídio Brunetto é lembrado em seminário no MS
+legacy_url: http://www.mst.org.br/node/15506
 created: 1386011235
 images:
 - http://mst.org.br:/sites/default/files/EgidioCartaz!.jpg

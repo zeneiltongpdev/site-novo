@@ -1,6 +1,7 @@
 ---
 layout: post
 title: No Rio, primeiro dia de Feira termina com samba, maracatu e funk carioca
+legacy_url: http://www.mst.org.br/node/15532
 created: 1386675649
 images:
 - http://mst.org.br:/sites/default/files/samba_feira.jpg

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mais de 100 camponeses realizam 4° Feira da Reforma Agrária, no Rio
+legacy_url: http://www.mst.org.br/node/15525
 created: 1386588394
 images:
 - http://mst.org.br:/sites/default/files/Feira_RJ_0.jpg

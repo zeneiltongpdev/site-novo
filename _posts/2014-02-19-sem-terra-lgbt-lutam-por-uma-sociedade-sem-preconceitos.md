@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra LGBT lutam por uma sociedade sem preconceitos
+legacy_url: http://www.mst.org.br/node/15752
 created: 1392827501
 images:
 - http://mst.org.br:/sites/default/files/JOKA1831.jpg

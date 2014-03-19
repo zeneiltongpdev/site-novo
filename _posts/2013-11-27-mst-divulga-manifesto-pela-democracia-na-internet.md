@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST divulga manifesto pela democracia na internet
+legacy_url: http://www.mst.org.br/node/15485
 created: 1385558526
 images: []
 video: 

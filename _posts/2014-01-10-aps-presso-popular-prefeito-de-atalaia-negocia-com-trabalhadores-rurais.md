@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Após pressão popular, prefeito de Atalaia negocia com trabalhadores rurais '
+legacy_url: http://www.mst.org.br/node/15607
 created: 1389358435
 images: []
 video: 

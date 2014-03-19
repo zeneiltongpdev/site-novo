@@ -1,6 +1,7 @@
 ---
 layout: post
 title: O papa Francisco, o ataque ao capital e a defesa dos pobres
+legacy_url: http://www.mst.org.br/node/15591
 created: 1389015664
 images: []
 video: 

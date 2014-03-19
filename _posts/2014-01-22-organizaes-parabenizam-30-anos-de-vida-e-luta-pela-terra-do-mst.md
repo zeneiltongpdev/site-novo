@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Organizações parabenizam 30 anos de vida e luta pela terra do MST
+legacy_url: http://www.mst.org.br/node/15628
 created: 1390398052
 images: []
 video: 

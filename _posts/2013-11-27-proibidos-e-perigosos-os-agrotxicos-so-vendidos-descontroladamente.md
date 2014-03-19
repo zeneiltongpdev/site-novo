@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Proibidos e perigosos, os agrotóxicos são vendidos descontroladamente
+legacy_url: http://www.mst.org.br/node/15488
 created: 1385571394
 images:
 - http://mst.org.br:/sites/default/files/Agrotoxicos_no_brasil1_0.jpg

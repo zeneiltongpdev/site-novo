@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST impõe pauta da Reforma Agrária no governo Dilma
+legacy_url: http://www.mst.org.br/node/15722
 created: 1392323586
 images:
 - http://mst.org.br:/sites/default/files/_MG_3633.JPG

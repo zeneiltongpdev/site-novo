@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Escolas do Campo realizam 4ª Semana Pedagógica no Ceará
+legacy_url: http://www.mst.org.br/node/15618
 created: 1389810207
 images: []
 video: 

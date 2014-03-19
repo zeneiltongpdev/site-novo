@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Litoral Norte de Alagoas recebe sua 1ª Feira da Reforma Agrária
+legacy_url: http://www.mst.org.br/node/15529
 created: 1386602810
 images: []
 video: 

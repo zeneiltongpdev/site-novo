@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Justiça limita uso do dinheiro de Leilão. Fazendeiros irão cumprir?
+legacy_url: http://www.mst.org.br/node/15549
 created: 1386860958
 images: []
 video: 

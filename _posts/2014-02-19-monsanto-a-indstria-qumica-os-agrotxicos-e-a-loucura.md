@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Monsanto: a indústria química, os agrotóxicos e a loucura'
+legacy_url: http://www.mst.org.br/node/15748
 created: 1392814515
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Transgênicos resistentes a agrotóxico podem ser liberados
+legacy_url: http://www.mst.org.br/node/15550
 created: 1386863735
 images: []
 video: 

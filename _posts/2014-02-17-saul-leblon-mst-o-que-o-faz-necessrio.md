@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Saul Leblon: MST, o que o faz necessário'
+legacy_url: http://www.mst.org.br/node/15739
 created: 1392632806
 images: []
 video: 

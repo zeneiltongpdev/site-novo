@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Instituto no Chile ensinará agroecologia a mulheres camponesas
+legacy_url: http://www.mst.org.br/node/15596
 created: 1389099471
 images: []
 video: 

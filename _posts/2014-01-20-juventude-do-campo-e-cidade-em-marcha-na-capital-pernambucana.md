@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Juventude do campo e cidade em marcha na capital pernambucana
+legacy_url: http://www.mst.org.br/node/15621
 created: 1390219342
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Mostra Nacional prioriza produtos da agricultura familiar '
+legacy_url: http://www.mst.org.br/node/15747
 created: 1392756230
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Venda de agrotóxicos cresce três vezes mais do que as áreas de lavouras
+legacy_url: http://www.mst.org.br/node/15493
 created: 1385652134
 images: []
 video: 

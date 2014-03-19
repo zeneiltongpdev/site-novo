@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TST multa fazendeiro por aliciar trabalhadores e descumprir obrigações
+legacy_url: http://www.mst.org.br/node/15638
 created: 1390570381
 images: []
 video: 

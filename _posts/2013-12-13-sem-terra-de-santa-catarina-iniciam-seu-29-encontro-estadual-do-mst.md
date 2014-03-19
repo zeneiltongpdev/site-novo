@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra de Santa Catarina iniciam seu 29° Encontro Estadual do MST
+legacy_url: http://www.mst.org.br/node/15555
 created: 1386938432
 images:
 - http://mst.org.br:/sites/default/files/encontro estadual_SC.jpg

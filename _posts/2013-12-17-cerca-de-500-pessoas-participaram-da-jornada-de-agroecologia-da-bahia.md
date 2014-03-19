@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cerca de 500 pessoas participaram da Jornada de Agroecologia da Bahia
+legacy_url: http://www.mst.org.br/node/15569
 created: 1387306772
 images:
 - http://mst.org.br:/sites/default/files/jornada agroecologia Bahia.jpg

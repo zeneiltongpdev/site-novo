@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Em leilão, ruralistas arrecadam R$ 1 milhão para ações contra índios
+legacy_url: http://www.mst.org.br/node/15533
 created: 1386678775
 images:
 - http://mst.org.br:/sites/default/files/leilao-da-resistencia_0.JPG

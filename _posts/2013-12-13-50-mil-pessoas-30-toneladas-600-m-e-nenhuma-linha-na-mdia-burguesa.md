@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 50 mil pessoas, 30 toneladas, 600 m² e nenhuma linha na mídia burguesa...
+legacy_url: http://www.mst.org.br/node/15553
 created: 1386936271
 images:
 - http://mst.org.br:/sites/default/files/Feira-MST0080_0.jpg

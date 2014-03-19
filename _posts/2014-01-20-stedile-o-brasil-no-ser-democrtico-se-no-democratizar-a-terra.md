@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Stedile: “O Brasil não será democrático se não democratizar a terra”'
+legacy_url: http://www.mst.org.br/node/15623
 created: 1390233695
 images: []
 video: 

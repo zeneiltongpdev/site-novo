@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Na Bahia, Sem Terra iniciam série de preparação ao 6° Congresso do MST
+legacy_url: http://www.mst.org.br/node/15479
 created: 1385424133
 images:
 - http://mst.org.br:/sites/default/files/formação BA.jpg

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ' Sem Terrinha em comemoração dupla na Ciranda Infantil Paulo Freire'
+legacy_url: http://www.mst.org.br/node/15706
 created: 1392212141
 images:
 - http://mst.org.br:/sites/default/files/JOKA1637.jpg

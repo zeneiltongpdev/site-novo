@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Jean Pierre Leroy: os caminhos percorridos e o futuro do MST'
+legacy_url: http://www.mst.org.br/node/15688
 created: 1391801849
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Movimentos sociais constroem Plebiscito Popular em Sergipe
+legacy_url: http://www.mst.org.br/node/15768
 created: 1393335183
 images: []
 video: 

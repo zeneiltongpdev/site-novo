@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST ocupa prefeitura e denuncia descaso com a Educação na BA
+legacy_url: http://www.mst.org.br/node/15649
 created: 1390928945
 images: []
 video: 

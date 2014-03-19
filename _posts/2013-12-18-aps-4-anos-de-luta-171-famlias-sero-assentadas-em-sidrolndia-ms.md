@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Após 4 anos de luta, 171 famílias serão assentadas em Sidrolândia (MS)
+legacy_url: http://www.mst.org.br/node/15572
 created: 1387374204
 images: []
 video: 

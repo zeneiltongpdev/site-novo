@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Movimentos sociais lançam carta em apoio à luta na Chapada do Apodi
+legacy_url: http://www.mst.org.br/node/15505
 created: 1386005291
 images: []
 video: 

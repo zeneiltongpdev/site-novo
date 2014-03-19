@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'MST e Sindicato dos Educadores ocupam a Prefeitura municipal de Atalaia '
+legacy_url: http://www.mst.org.br/node/15590
 created: 1389014546
 images: []
 video: 

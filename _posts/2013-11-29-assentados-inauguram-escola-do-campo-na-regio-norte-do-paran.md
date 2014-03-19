@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Assentados inauguram Escola do Campo na região norte do Paraná
+legacy_url: http://www.mst.org.br/node/15497
 created: 1385731644
 images: []
 video: 

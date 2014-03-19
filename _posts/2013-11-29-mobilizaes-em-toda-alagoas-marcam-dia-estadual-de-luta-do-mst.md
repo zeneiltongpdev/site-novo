@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mobilizações em toda Alagoas marcam Dia Estadual de Luta do MST
+legacy_url: http://www.mst.org.br/node/15498
 created: 1385733050
 images:
 - http://mst.org.br:/sites/default/files/soriano.jpg

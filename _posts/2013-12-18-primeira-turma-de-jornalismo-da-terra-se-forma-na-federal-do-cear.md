@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Primeira Turma de Jornalismo da Terra se forma na Federal do Ceará
+legacy_url: http://www.mst.org.br/node/15574
 created: 1387380594
 images:
 - http://mst.org.br:/sites/default/files/materia mab.jpg

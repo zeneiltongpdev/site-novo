@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Barões do campo estão de mãos dadas com os da imprensa, afirma jornalista
+legacy_url: http://www.mst.org.br/node/15514
 created: 1386164248
 images:
 - http://mst.org.br:/sites/default/files/criminalization_of_the_mst_1_by_latuff2.jpg

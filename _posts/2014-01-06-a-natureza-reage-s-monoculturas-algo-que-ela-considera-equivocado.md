@@ -1,6 +1,7 @@
 ---
 layout: post
 title: “A natureza reage às monoculturas. É algo que ela considera equivocado”
+legacy_url: http://www.mst.org.br/node/15588
 created: 1389009881
 images: []
 video: 

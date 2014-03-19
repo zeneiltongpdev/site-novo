@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Acordo entre Incra e Itesp prevê a criação de novos assentamentos em SP
+legacy_url: http://www.mst.org.br/node/15764
 created: 1393010529
 images: []
 video: 

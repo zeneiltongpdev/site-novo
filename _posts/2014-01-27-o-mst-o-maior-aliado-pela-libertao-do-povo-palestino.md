@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'O MST é o maior aliado pela libertação do povo palestino '
+legacy_url: http://www.mst.org.br/node/15646
 created: 1390844202
 images: []
 video: 

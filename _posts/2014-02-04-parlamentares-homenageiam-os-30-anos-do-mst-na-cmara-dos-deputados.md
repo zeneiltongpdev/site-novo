@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Parlamentares homenageiam os 30 anos do MST na Câmara Dos Deputados
+legacy_url: http://www.mst.org.br/node/15669
 created: 1391529747
 images: []
 video: 

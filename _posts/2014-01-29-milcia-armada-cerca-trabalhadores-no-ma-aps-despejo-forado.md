@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Milícia armada cerca trabalhadores no MA após despejo forçado
+legacy_url: http://www.mst.org.br/node/15650
 created: 1390998403
 images: []
 video: 

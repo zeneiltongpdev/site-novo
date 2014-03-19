@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Altamiro Borges: 30 anos do MST e o ódio da mídia'
+legacy_url: http://www.mst.org.br/node/15667
 created: 1391507437
 images:
 - http://mst.org.br:/sites/default/files/criminalization_of_the_mst_1_by_latuff2_0.jpg

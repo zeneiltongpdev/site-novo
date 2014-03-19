@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Filhos de Sepé comemora 15 anos e a maior produção de arroz orgânico do Brasil
+legacy_url: http://www.mst.org.br/node/15559
 created: 1387209654
 images:
 - http://mst.org.br:/sites/default/files/filhos de sepé.jpg

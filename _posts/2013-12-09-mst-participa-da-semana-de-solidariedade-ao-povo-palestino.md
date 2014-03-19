@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST participa da semana de solidariedade ao povo palestino
+legacy_url: http://www.mst.org.br/node/15526
 created: 1386589496
 images:
 - http://mst.org.br:/sites/default/files/unnamed.jpg

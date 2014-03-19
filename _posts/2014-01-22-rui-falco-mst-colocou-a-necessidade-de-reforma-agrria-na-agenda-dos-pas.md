@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Rui Falcão: MST colocou a necessidade de Reforma Agrária na agenda dos país'
+legacy_url: http://www.mst.org.br/node/15630
 created: 1390413311
 images: []
 video: 

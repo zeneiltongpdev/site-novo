@@ -1,6 +1,7 @@
 ---
 layout: post
 title: O legado de Josué de Castro presente na luta pela terra
+legacy_url: http://www.mst.org.br/node/15594
 created: 1389035713
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A caminho do 6° Congresso, Sem Terra do PA trazem sua cultura local
+legacy_url: http://www.mst.org.br/node/15679
 created: 1391776347
 images: []
 video: 

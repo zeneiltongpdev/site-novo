@@ -1,6 +1,7 @@
 ---
 layout: post
 title: “A Reforma Agrária só avançará através de grandes mobilizações”
+legacy_url: http://www.mst.org.br/node/15579
 created: 1387456687
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Juventude do MST '
+legacy_url: http://www.mst.org.br/node/15695
 created: 1392114864
 images: []
 video: 

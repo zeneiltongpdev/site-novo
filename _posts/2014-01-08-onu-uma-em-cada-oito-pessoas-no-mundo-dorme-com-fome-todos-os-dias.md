@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'ONU: uma em cada oito pessoas no mundo dorme com fome todos os dias'
+legacy_url: http://www.mst.org.br/node/15602
 created: 1389185532
 images: []
 video: 

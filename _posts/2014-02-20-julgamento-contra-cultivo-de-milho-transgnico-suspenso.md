@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Julgamento contra cultivo de milho transgênico é suspenso
+legacy_url: http://www.mst.org.br/node/15756
 created: 1392905814
 images: []
 video: 

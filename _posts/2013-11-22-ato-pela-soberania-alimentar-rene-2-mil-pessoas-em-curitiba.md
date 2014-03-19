@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ato pela soberania alimentar reúne 2 mil pessoas em Curitiba
+legacy_url: http://www.mst.org.br/node/15472
 created: 1385120817
 images:
 - http://mst.org.br:/sites/default/files/ato soberania alimentar.jpg

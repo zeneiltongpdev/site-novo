@@ -1,6 +1,7 @@
 ---
 layout: post
 title: FNDC critica cobertura da grande mídia ao Congresso do MST
+legacy_url: http://www.mst.org.br/node/15729
 created: 1392306779
 images:
 - 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: '2013: um balanço negativo para os trabalhadores do campo'
+legacy_url: http://www.mst.org.br/node/15489
 created: 1385572111
 images: []
 video: 

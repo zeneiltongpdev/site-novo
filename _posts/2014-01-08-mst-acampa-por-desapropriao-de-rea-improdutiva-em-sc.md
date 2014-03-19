@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST acampa por desapropriação de área improdutiva em SC
+legacy_url: http://www.mst.org.br/node/15601
 created: 1389184540
 images: []
 video: 

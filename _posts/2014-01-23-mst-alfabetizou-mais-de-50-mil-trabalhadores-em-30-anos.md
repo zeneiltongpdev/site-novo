@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ' MST alfabetizou mais de 50 mil trabalhadores em 30 anos'
+legacy_url: http://www.mst.org.br/node/15632
 created: 1390479420
 images: []
 video: 

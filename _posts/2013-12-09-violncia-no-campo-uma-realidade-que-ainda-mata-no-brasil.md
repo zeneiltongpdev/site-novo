@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Violência no campo: uma realidade que ainda mata no Brasil'
+legacy_url: http://www.mst.org.br/node/15527
 created: 1386590125
 images:
 - http://mst.org.br:/sites/default/files/mapa de órgãos agrários.jpg

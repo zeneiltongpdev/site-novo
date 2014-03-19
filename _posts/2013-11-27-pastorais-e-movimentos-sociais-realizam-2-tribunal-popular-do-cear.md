@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pastorais e Movimentos Sociais realizam 2° Tribunal Popular do Ceará
+legacy_url: http://www.mst.org.br/node/15487
 created: 1385568822
 images:
 - http://mst.org.br:/sites/default/files/Tribunal-Popular-do-Ceará-1500.JPG

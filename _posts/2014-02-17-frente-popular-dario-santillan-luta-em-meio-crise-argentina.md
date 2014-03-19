@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Frente Popular Dario Santillan luta em meio à crise Argentina
+legacy_url: http://www.mst.org.br/node/15737
 created: 1392650205
 images:
 - http://mst.org.br:/sites/default/files/DSC_0156.JPG

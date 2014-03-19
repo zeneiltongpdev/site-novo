@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'João Pedro Stedile: “Avanço do capital no campo impede a Reforma Agrária”'
+legacy_url: http://www.mst.org.br/node/15598
 created: 1389101256
 images: []
 video: 

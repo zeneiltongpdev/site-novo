@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ruralistas respondem ao ‘Leilão da Milícia’ com ameaças de morte
+legacy_url: http://www.mst.org.br/node/15530
 created: 1386591151
 images: []
 video: 

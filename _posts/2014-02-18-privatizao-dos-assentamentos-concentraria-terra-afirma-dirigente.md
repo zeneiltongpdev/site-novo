@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Privatização dos assentamentos concentraria terra, afirma dirigente
+legacy_url: http://www.mst.org.br/node/15743
 created: 1392734484
 images: []
 video: 

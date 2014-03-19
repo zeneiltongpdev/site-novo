@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra ocupam diretoria de ensino em Itararé por construção de escola
+legacy_url: http://www.mst.org.br/node/15575
 created: 1387386987
 images:
 - http://mst.org.br:/sites/default/files/ocupa itapeva2.jpg

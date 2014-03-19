@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Avanço da reforma agrária não depende só do MST, afirma dirigente
+legacy_url: http://www.mst.org.br/node/15694
 created: 1392065833
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Algodão da morte: suicídios de camponeses escandalizam a Índia'
+legacy_url: http://www.mst.org.br/node/15642
 created: 1390829293
 images: []
 video: 

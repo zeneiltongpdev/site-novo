@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Serra Pelada: Sonhos, violência e miséria'
+legacy_url: http://www.mst.org.br/node/15515
 created: 1386173735
 images:
 - http://mst.org.br:/sites/default/files/serra pelada_salgado.jpg

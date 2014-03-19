@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra mantêm Incra ocupado em TO e pedem reunião com superintendente
+legacy_url: http://www.mst.org.br/node/15519
 created: 1386248229
 images:
 - http://mst.org.br:/sites/default/files/Incra_TO.jpg

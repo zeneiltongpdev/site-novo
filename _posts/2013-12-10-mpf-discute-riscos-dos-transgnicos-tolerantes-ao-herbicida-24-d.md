@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MPF discute riscos dos transgênicos tolerantes ao herbicida 2,4-D
+legacy_url: http://www.mst.org.br/node/15538
 created: 1386699860
 images: []
 video: 

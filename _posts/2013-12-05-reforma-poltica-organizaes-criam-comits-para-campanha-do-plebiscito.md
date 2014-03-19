@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Reforma política: organizações criam comitês para campanha do plebiscito'
+legacy_url: http://www.mst.org.br/node/15521
 created: 1386261940
 images: []
 video: http://www.youtube.com/v/bsy7VQL-wrg\

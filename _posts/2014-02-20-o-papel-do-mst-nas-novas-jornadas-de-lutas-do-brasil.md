@@ -1,6 +1,7 @@
 ---
 layout: post
 title: O papel do MST nas novas jornadas de lutas do Brasil
+legacy_url: http://www.mst.org.br/node/15757
 created: 1392916507
 images: []
 video: 

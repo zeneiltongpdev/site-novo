@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Delegações do MST chegam ao local do VI Congresso em Brasília
+legacy_url: http://www.mst.org.br/node/15691
 created: 1391980961
 images: []
 video: 

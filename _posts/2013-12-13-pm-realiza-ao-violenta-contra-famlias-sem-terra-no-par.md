@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PM realiza ação violenta contra famílias Sem Terra no Pará
+legacy_url: http://www.mst.org.br/node/15556
 created: 1386923443
 images: []
 video: 

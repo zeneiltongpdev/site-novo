@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST, importante aliado da democratização da comunicação
+legacy_url: http://www.mst.org.br/node/15740
 created: 1392655494
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Organizações lançam campanha mundial contra a fome e a pobreza
+legacy_url: http://www.mst.org.br/node/15536
 created: 1386687637
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Modelo brasileiro de Reforma Agrária é conservador, diz pesquisadora
+legacy_url: http://www.mst.org.br/node/15666
 created: 1391529953
 images: []
 video: 

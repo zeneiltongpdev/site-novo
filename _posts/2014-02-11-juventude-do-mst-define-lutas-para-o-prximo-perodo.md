@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Juventude do MST define lutas para o próximo período
+legacy_url: http://www.mst.org.br/node/15697
 created: 1392121314
 images:
 - http://mst.org.br:/sites/default/files/140210_CongMST_88.jpg

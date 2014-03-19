@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Policiais entram na mobilização e agridem trabalhadores, veja vídeo
+legacy_url: http://www.mst.org.br/node/15711
 created: 1392245970
 images: []
 video: http://www.youtube.com/v/KdfZuh60xf8&amp;feature

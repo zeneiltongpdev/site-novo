@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Movimento a favor do Plebiscito por reforma política cresce em São Paulo
+legacy_url: http://www.mst.org.br/node/15668
 created: 1391519099
 images: []
 video: 

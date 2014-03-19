@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Via Campesina apoia greve dos trabalhadores rodoviários no RS
+legacy_url: http://www.mst.org.br/node/15673
 created: 1391623677
 images: []
 video: 

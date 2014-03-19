@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Campanha de solidariedade para apoiar o 6° Congresso Nacional do MST
+legacy_url: http://www.mst.org.br/node/15664
 created: 1391511533
 images:
 - http://mst.org.br:/sites/default/files/campanha mst.jpg

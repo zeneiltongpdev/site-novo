@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST agita Brasília com intervenções públicas
+legacy_url: http://www.mst.org.br/node/15689
 created: 1391948763
 images: []
 video: 

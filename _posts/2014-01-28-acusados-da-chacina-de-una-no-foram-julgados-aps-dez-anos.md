@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Acusados da Chacina de Unaí não foram julgados após dez anos
+legacy_url: http://www.mst.org.br/node/15647
 created: 1390914578
 images: []
 video: 

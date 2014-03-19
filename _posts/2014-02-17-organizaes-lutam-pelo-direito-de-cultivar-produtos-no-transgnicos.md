@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Organizações lutam pelo direito de cultivar produtos não transgênicos
+legacy_url: http://www.mst.org.br/node/15734
 created: 1392638527
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST e CUT fazem críticas e cobranças ao governo Dilma em congresso do PT
+legacy_url: http://www.mst.org.br/node/15563
 created: 1387190757
 images:
 - http://mst.org.br:/sites/default/files/5_Congresso_PT_5749.JPG

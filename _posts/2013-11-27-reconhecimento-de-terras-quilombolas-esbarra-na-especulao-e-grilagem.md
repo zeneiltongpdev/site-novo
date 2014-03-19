@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reconhecimento de terras quilombolas esbarra na especulação e grilagem
+legacy_url: http://www.mst.org.br/node/15482
 created: 1385552613
 images: []
 video: 

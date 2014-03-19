@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reforma Agrária pode tirar Pontal da 2ª região mais pobre de SP
+legacy_url: http://www.mst.org.br/node/15522
 created: 1386264144
 images: []
 video: 

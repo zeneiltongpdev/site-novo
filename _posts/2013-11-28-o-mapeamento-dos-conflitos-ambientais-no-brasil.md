@@ -1,6 +1,7 @@
 ---
 layout: post
 title: O mapeamento dos conflitos ambientais no Brasil
+legacy_url: http://www.mst.org.br/node/15492
 created: 1385643846
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Alinhamento do governo às oligarquias impede a Reforma Agrária, diz Stedile
+legacy_url: http://www.mst.org.br/node/15660
 created: 1391441978
 images: []
 video: 

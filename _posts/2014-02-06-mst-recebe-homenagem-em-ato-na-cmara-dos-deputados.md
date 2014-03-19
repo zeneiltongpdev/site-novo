@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST recebe homenagem em ato na Câmara dos Deputados
+legacy_url: http://www.mst.org.br/node/15675
 created: 1391687423
 images:
 - http://mst.org.br:/sites/default/files/camara_30 anos.jpg

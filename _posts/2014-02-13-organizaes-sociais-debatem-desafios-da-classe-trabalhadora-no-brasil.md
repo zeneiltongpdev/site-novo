@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Organizações Sociais debatem desafios da classe trabalhadora no Brasil
+legacy_url: http://www.mst.org.br/node/15719
 created: 1392307557
 images:
 - http://mst.org.br:/sites/default/files/DSC_0417.JPG

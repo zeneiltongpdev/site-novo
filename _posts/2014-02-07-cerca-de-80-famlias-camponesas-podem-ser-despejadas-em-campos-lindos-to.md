@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cerca de 80 famílias camponesas podem ser despejadas em Campos Lindos (TO)
+legacy_url: http://www.mst.org.br/node/15687
 created: 1391769556
 images: []
 video: 

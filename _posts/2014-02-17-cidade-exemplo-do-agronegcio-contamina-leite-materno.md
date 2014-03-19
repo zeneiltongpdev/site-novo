@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cidade exemplo do agronegócio contamina leite materno
+legacy_url: http://www.mst.org.br/node/15738
 created: 1392653995
 images: []
 video: 

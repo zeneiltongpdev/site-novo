@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Altamiro Borges: Folha mente sobre protesto do MST'
+legacy_url: http://www.mst.org.br/node/15741
 created: 1392727522
 images:
 - http://mst.org.br:/sites/default/files/protesto_3.jpg

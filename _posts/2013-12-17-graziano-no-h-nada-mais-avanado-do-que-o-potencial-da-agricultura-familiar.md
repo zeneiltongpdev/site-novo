@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Graziano: não há nada mais avançado do que o potencial da agricultura familiar'
+legacy_url: http://www.mst.org.br/node/15565
 created: 1387282925
 images: []
 video: 

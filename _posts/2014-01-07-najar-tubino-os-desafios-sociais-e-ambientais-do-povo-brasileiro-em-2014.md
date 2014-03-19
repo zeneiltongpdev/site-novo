@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Najar Tubino: os desafios sociais e ambientais do povo brasileiro em 2014'
+legacy_url: http://www.mst.org.br/node/15595
 created: 1389098265
 images: []
 video: 

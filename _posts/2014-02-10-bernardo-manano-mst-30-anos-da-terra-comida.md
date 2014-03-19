@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Bernardo Mançano: MST 30 anos, da terra à comida'
+legacy_url: http://www.mst.org.br/node/15692
 created: 1392039482
 images: []
 video: 

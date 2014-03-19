@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ' E se a ‘lista suja’ do trabalho escravo não existisse?'
+legacy_url: http://www.mst.org.br/node/15608
 created: 1389360793
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PL sobre sementes transgênicas estéreis está pronto para votação
+legacy_url: http://www.mst.org.br/node/15662
 created: 1391446203
 images: []
 video: 

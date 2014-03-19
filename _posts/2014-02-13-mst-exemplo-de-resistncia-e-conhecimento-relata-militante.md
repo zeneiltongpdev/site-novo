@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST é exemplo de resistência e conhecimento, relata militante
+legacy_url: http://www.mst.org.br/node/15721
 created: 1392321287
 images: []
 video: 

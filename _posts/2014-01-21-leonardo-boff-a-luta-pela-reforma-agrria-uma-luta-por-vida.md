@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Leonardo Boff: A luta pela Reforma Agrária é uma luta por vida'
+legacy_url: http://www.mst.org.br/node/15627
 created: 1390338744
 images: []
 video: 

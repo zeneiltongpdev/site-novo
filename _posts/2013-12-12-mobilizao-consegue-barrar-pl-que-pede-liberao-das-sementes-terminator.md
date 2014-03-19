@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mobilização consegue barrar PL que pede liberação das sementes terminator
+legacy_url: http://www.mst.org.br/node/15551
 created: 1386873255
 images: []
 video: 

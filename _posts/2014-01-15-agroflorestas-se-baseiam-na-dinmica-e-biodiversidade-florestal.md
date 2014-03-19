@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Agroflorestas se baseiam na dinâmica e biodiversidade florestal
+legacy_url: http://www.mst.org.br/node/15615
 created: 1389791295
 images: []
 video: 

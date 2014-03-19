@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Milhões de abelhas morrem por causa de agrotóxicos da Bayer e Syngenta
+legacy_url: http://www.mst.org.br/node/15735
 created: 1392647500
 images: []
 video: 

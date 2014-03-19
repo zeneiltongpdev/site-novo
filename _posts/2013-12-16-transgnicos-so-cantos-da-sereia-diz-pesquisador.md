@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Transgênicos são 'cantos da sereia', diz pesquisador
+legacy_url: http://www.mst.org.br/node/15561
 created: 1387212302
 images: []
 video: 

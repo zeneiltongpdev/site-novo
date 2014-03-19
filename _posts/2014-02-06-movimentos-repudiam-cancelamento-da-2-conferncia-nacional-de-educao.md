@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Movimentos repudiam cancelamento da 2ª Conferência Nacional de Educação
+legacy_url: http://www.mst.org.br/node/15674
 created: 1391686149
 images: []
 video: 

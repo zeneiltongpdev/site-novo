@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reforma Agrária assume dimensão estratégica, afirma Gerson Teixeira
+legacy_url: http://www.mst.org.br/node/15732
 created: 1392644270
 images: []
 video: 

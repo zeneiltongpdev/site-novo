@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Agricultor chileno ganha processo contra Monsanto
+legacy_url: http://www.mst.org.br/node/15653
 created: 1391187996
 images: []
 video: 

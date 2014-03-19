@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Negado mandado de segurança contra desapropriação de fazenda na Paraíba
+legacy_url: http://www.mst.org.br/node/15680
 created: 1391772009
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Anita Prestes no Congresso
+legacy_url: http://www.mst.org.br/node/15700
 created: 1392141509
 images: []
 video: 

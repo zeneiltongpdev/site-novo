@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Organizações cobram atuação do MPF contra espionagem da Vale
+legacy_url: http://www.mst.org.br/node/15750
 created: 1392817679
 images: []
 video: 

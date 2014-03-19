@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Policiais militares efetuam despejo de ocupação do MST em Pernambuco
+legacy_url: http://www.mst.org.br/node/15617
 created: 1389794418
 images: []
 video: 

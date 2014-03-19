@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Camponeses comercializam frutos da Reforma Agrária em Porto Calvo
+legacy_url: http://www.mst.org.br/node/15546
 created: 1386850084
 images:
 - http://mst.org.br:/sites/default/files/feira_porto calvo.jpg

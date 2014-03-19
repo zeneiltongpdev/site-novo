@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Autoridades se silenciam frente à ofensiva ruralista
+legacy_url: http://www.mst.org.br/node/15542
 created: 1386774650
 images: []
 video: 

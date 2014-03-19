@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Delgado: projeto do agronegócio seria impensável numa democracia real'
+legacy_url: http://www.mst.org.br/node/15534
 created: 1386681324
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Agronegócio quer comissão de fachada para facilitar entrada de novos agrotóxicos
+legacy_url: http://www.mst.org.br/node/15531
 created: 1386611816
 images: []
 video: 

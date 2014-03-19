@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Em ato político, MST recebe apoio de organizações, igreja e autoridades
+legacy_url: http://www.mst.org.br/node/15726
 created: 1392305807
 images:
 - http://mst.org.br:/sites/default/files/JOKA2235.jpg

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Em Minas Gerais, MST cultiva a luta popular há 25 anos
+legacy_url: http://www.mst.org.br/node/15557
 created: 1386949264
 images: []
 video: 

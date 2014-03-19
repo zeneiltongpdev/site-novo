@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fetraf organiza mobilização no dia 27 e inicia pressões sobre o governo federal
+legacy_url: http://www.mst.org.br/node/15762
 created: 1392975325
 images: []
 video: 

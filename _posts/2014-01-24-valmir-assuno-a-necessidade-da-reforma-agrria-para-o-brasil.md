@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Valmir Assunção: A necessidade da Reforma Agrária para o Brasil'
+legacy_url: http://www.mst.org.br/node/15639
 created: 1390571413
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Um ano após a dramática carta dos Guarani Kaiowá nada mudou
+legacy_url: http://www.mst.org.br/node/15491
 created: 1385641020
 images:
 - http://mst.org.br:/sites/default/files/ruy_sposati.JPG

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Com medo, ruralistas tentam modificar conceito de trabalho escravo
+legacy_url: http://www.mst.org.br/node/15659
 created: 1391439225
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Os Sem Terra de ontem, de hoje e de amanhã
+legacy_url: http://www.mst.org.br/node/15698
 created: 1392123214
 images:
 - http://mst.org.br:/sites/default/files/lutar.jpg

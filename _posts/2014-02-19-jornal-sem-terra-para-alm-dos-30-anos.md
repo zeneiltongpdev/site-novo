@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Jornal Sem Terra: para além dos 30 anos'
+legacy_url: http://www.mst.org.br/node/15749
 created: 1392812111
 images:
 - http://mst.org.br:/sites/default/files/jst.jpg

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Congresso reúne 15 mil camponeses em Brasília
+legacy_url: http://www.mst.org.br/node/15690
 created: 1391780556
 images: []
 video: 

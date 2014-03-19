@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Organizações saúdam o MST pelos 30 anos de lutas e conquistas
+legacy_url: http://www.mst.org.br/node/15635
 created: 1390500749
 images: []
 video: 

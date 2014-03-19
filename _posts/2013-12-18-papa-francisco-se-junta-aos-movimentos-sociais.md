@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Papa Francisco se junta aos movimentos sociais
+legacy_url: http://www.mst.org.br/node/15577
 created: 1387393272
 images: []
 video: http://www.youtube.com/v/FyjErsX-Zd8

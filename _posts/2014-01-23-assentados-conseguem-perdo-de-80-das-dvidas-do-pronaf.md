@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Assentados conseguem perdão de 80% das dívidas do Pronaf
+legacy_url: http://www.mst.org.br/node/15634
 created: 1390497669
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Marcelo Deda sempre esteve presente na luta pela Reforma Agrária
+legacy_url: http://www.mst.org.br/node/15507
 created: 1386069910
 images:
 - http://mst.org.br:/sites/default/files/deda.jpg

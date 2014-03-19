@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Maior extração de ouro é marcada pela derrota da população, diz pesquisador
+legacy_url: http://www.mst.org.br/node/15566
 created: 1387277355
 images: []
 video: 

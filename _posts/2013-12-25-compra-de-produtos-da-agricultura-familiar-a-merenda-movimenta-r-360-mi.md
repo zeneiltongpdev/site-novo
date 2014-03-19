@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Compra de produtos da agricultura familiar a merenda movimenta R$ 360 mi
+legacy_url: http://www.mst.org.br/node/15585
 created: 1387984088
 images: []
 video: 

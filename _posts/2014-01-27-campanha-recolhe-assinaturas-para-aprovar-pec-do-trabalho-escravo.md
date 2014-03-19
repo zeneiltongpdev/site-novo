@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Campanha recolhe assinaturas para aprovar PEC do Trabalho Escravo
+legacy_url: http://www.mst.org.br/node/15644
 created: 1390835400
 images: []
 video: 

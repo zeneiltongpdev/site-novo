@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST quer recolocar a luta pela terra na agenda
+legacy_url: http://www.mst.org.br/node/15670
 created: 1391598509
 images: []
 video: 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pistoleiros do Massacre de Felisburgo são condenados a 100 anos de prisão
+legacy_url: http://www.mst.org.br/node/15640
 created: 1390587283
 images: []
 video: 

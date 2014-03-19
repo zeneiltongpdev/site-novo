@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Em ano ruim para a Reforma Agrária, agronegócio tem saldo de US$ 83 bi
+legacy_url: http://www.mst.org.br/node/15616
 created: 1389793288
 images: []
 video: 

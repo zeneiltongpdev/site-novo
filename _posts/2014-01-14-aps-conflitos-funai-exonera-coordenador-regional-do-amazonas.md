@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Após conflitos, Funai exonera coordenador regional do Amazonas
+legacy_url: http://www.mst.org.br/node/15614
 created: 1389705882
 images: []
 video: 

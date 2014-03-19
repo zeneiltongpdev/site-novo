@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Leia carta do MST a Dilma
+legacy_url: http://www.mst.org.br/node/15712
 created: 1392249658
 images: []
 video: 

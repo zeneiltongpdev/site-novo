@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'De Norte a Sul, Sem Terra mostram a cultura do Brasil '
+legacy_url: http://www.mst.org.br/node/15736
 created: 1392648730
 images:
 - http://mst.org.br:/sites/default/files/IMG_4995.JPG

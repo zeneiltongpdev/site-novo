@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Movimentos sociais apoiam Papa frente ao ataque do poder econômico
+legacy_url: http://www.mst.org.br/node/15581
 created: 1387467922
 images: []
 video: 

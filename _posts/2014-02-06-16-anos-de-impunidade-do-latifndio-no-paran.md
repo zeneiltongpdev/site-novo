@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 16 anos de impunidade do latifúndio no Paraná
+legacy_url: http://www.mst.org.br/node/15682
 created: 1391698617
 images: []
 video: 

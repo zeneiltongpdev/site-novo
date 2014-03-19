@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Juventude Sem Terra se organiza na luta para permanecer no campo
+legacy_url: http://www.mst.org.br/node/15663
 created: 1391454286
 images: []
 video: 

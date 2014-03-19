@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Movimentos devem lutar pela democratização da comunicação
+legacy_url: http://www.mst.org.br/node/15718
 created: 1392299815
 images: []
 video: 

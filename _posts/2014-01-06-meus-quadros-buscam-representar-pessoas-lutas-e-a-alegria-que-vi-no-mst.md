@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Meus quadros buscam representar pessoas, lutas e a alegria que vi no MST  '
+legacy_url: http://www.mst.org.br/node/15592
 created: 1389029154
 images:
 - http://mst.org.br:/sites/default/files/1467214_732636066764122_1582372853_n.jpg

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra conquistam ginásio poliesportivo em Atalaia (AL)
+legacy_url: http://www.mst.org.br/node/15580
 created: 1387461403
 images:
 - http://mst.org.br:/sites/default/files/euniao_alagoas_ginasio.JPG

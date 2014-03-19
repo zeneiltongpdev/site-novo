@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Acampamento do 6° Congresso tem área de 4 campos de futebol
+legacy_url: http://www.mst.org.br/node/15684
 created: 1391960513
 images:
 - http://mst.org.br:/sites/default/files/estrutura.jpg

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ' MST de AL realiza Encontro Estadual em preparação ao 6º Congresso'
+legacy_url: http://www.mst.org.br/node/15619
 created: 1389876750
 images: []
 video: 

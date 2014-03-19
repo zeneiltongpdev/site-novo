@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Agronegócio desestimula produção de alimentos básicos, diz pesquisador '
+legacy_url: http://www.mst.org.br/node/15671
 created: 1391605646
 images: []
 video: 

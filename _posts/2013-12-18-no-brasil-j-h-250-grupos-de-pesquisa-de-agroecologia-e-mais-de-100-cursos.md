@@ -1,6 +1,7 @@
 ---
 layout: post
 title: No Brasil, já há 250 grupos de pesquisa de agroecologia e mais de 100 cursos
+legacy_url: http://www.mst.org.br/node/15573
 created: 1387379405
 images: []
 video: 

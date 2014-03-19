@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Padre Tedesco, parta feliz, sua missão foi cumprida
+legacy_url: http://www.mst.org.br/node/15568
 created: 1387291635
 images:
 - http://mst.org.br:/sites/default/files/padre tedesco.jpg

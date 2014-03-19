@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Movimentos assinam moção contra desmanche da legislação de agrotóxicos
+legacy_url: http://www.mst.org.br/node/15539
 created: 1386762680
 images: []
 video: 

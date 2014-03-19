@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Justiça lacra sede de empresa envolvida em morte de lideranças indígenas
+legacy_url: http://www.mst.org.br/node/15624
 created: 1390237674
 images: []
 video: 

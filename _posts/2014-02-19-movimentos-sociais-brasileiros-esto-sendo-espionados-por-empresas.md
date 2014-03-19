@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Movimentos sociais brasileiros estão sendo espionados por empresas
+legacy_url: http://www.mst.org.br/node/15751
 created: 1392817813
 images: []
 video: 

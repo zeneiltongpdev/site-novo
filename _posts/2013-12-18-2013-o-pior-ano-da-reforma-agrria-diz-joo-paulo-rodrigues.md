@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 2013 é o pior ano da Reforma Agrária, diz João Paulo Rodrigues
+legacy_url: http://www.mst.org.br/node/15571
 created: 1387369595
 images: []
 video: 

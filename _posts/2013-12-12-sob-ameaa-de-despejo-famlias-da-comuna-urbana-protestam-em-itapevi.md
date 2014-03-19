@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sob ameaça de despejo, famílias da Comuna Urbana protestam em Itapevi
+legacy_url: http://www.mst.org.br/node/15547
 created: 1386852884
 images:
 - http://mst.org.br:/sites/default/files/foto 1_itapevi.JPG

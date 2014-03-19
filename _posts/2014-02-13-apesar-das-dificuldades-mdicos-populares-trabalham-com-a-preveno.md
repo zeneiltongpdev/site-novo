@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apesar das dificuldades médicos populares trabalham com a prevenção
+legacy_url: http://www.mst.org.br/node/15720
 created: 1392317205
 images: []
 video: 

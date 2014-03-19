@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reforma Agrária, o povo que vai fazer!
+legacy_url: http://www.mst.org.br/node/15707
 created: 1392212215
 images: []
 video: 

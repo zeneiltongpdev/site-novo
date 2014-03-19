@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Especialistas em questão agrária parabenizam o MST pelos 30 anos '
+legacy_url: http://www.mst.org.br/node/15636
 created: 1390505238
 images: []
 video: 

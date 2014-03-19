@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Modelo de consumo energético estimula desindustrialização brasileira
+legacy_url: http://www.mst.org.br/node/15604
 created: 1389271486
 images: []
 video: 

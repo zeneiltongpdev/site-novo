@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rumo a seu 6° Congresso, MST defende novo tipo de Reforma Agrária
+legacy_url: http://www.mst.org.br/node/15645
 created: 1390844140
 images: []
 video: 

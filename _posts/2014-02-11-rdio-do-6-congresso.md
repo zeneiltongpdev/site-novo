@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rádio do 6º Congresso
+legacy_url: http://www.mst.org.br/node/15699
 created: 1392140581
 images: []
 video: 

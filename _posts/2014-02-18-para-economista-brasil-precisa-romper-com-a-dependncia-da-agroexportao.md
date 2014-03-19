@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Para economista, Brasil precisa romper com a dependência da agroexportação
+legacy_url: http://www.mst.org.br/node/15746
 created: 1392746601
 images: []
 video: 

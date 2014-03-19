@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Festival da Graviola marca os 20 anos do assentamento Frei Gondim, em PE
+legacy_url: http://www.mst.org.br/node/15480
 created: 1385480048
 images:
 - http://mst.org.br:/sites/default/files/graviola.jpg

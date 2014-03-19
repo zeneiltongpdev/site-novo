@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apresentações culturais animam os dias do VI Congresso Nacional
+legacy_url: http://www.mst.org.br/node/15730
 created: 1392406932
 images: []
 video: 

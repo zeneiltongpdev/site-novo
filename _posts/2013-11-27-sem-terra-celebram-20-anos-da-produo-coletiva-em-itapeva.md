@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra celebram 20 anos da produção coletiva em Itapeva
+legacy_url: http://www.mst.org.br/node/15486
 created: 1385564910
 images: []
 video: 

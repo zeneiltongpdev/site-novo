@@ -1,6 +1,7 @@
 ---
 layout: post
 title: O rolo compressor da Bancada Ruralista
+legacy_url: http://www.mst.org.br/node/15576
 created: 1387386994
 images:
 - http://mst.org.br:/sites/default/files/ruralistas_genocidas.png

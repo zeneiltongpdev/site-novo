@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST ocupa Superintendência da Caixa Econômica Federal em Sergipe
+legacy_url: http://www.mst.org.br/node/15582
 created: 1387543348
 images: []
 video: 

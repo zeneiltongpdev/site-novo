@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra 'ocupam' feira destinada a grandes produtores rurais
+legacy_url: http://www.mst.org.br/node/15471
 created: 1385060577
 images:
 - http://mst.org.br:/sites/default/files/feira_SE_IV.jpg

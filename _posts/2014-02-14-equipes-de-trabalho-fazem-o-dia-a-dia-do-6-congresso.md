@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Equipes de trabalho fazem o dia a dia do 6º Congresso '
+legacy_url: http://www.mst.org.br/node/15731
 created: 1392407550
 images: []
 video: 

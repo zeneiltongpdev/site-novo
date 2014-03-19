@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terrinha pintam o MEC por mais escolas
+legacy_url: http://www.mst.org.br/node/15713
 created: 1392295837
 images:
 - http://mst.org.br:/sites/default/files/OliverKornblihtt_140212_CongMST_176.jpg

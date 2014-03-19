@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Para intelectual, a luta contra o agronegócio tem que ser internacional
+legacy_url: http://www.mst.org.br/node/15473
 created: 1385126273
 images: []
 video: 

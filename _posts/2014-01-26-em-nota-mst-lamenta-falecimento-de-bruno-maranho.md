@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Em nota, MST lamenta falecimento de Bruno Maranhão
+legacy_url: http://www.mst.org.br/node/15641
 created: 1390754877
 images: []
 video: 

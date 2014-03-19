@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Boaventura: contra o “ecologismo dos ricos”, o “ecologismo dos pobres”'
+legacy_url: http://www.mst.org.br/node/15540
 created: 1386766204
 images: []
 video: 

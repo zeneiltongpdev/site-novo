@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Conhecendo o Brasil pelo bucho
+legacy_url: http://www.mst.org.br/node/15724
 created: 1392328826
 images:
 - http://mst.org.br:/sites/default/files/DSC_0117_1.JPG

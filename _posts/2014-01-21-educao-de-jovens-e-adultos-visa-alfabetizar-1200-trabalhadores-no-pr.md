@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Educação de Jovens e Adultos visa alfabetizar 1200 trabalhadores no PR
+legacy_url: http://www.mst.org.br/node/15626
 created: 1390309885
 images: []
 video: 

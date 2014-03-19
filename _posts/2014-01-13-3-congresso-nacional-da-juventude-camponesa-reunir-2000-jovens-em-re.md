@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 3° Congresso Nacional da Juventude Camponesa reunirá 2000 jovens em RE
+legacy_url: http://www.mst.org.br/node/15609
 created: 1389618243
 images: []
 video: 

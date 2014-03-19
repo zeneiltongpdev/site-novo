@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Governo oferece 78,5 mi por Buriti e fazendeiros alegam ser pouco
+legacy_url: http://www.mst.org.br/node/15611
 created: 1389619487
 images: []
 video: 

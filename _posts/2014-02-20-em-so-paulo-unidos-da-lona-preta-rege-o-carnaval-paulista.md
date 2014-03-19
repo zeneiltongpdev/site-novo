@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Em São Paulo, Unidos da Lona Preta rege o carnaval paulista
+legacy_url: http://www.mst.org.br/node/15760
 created: 1392923213
 images: []
 video: http://www.youtube.com/v/aTk_4rm7QD8

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Projeto de Lei pretende autorizar o cultivo de cana na Floresta Amazônica
+legacy_url: http://www.mst.org.br/node/15520
 created: 1386256669
 images: []
 video: 

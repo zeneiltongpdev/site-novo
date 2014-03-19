@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Perdemos nosso grande Dom Waldyr Calheiros
+legacy_url: http://www.mst.org.br/node/15503
 created: 1385987009
 images:
 - http://mst.org.br:/sites/default/files/dom-waldyr-calheiros.jpg

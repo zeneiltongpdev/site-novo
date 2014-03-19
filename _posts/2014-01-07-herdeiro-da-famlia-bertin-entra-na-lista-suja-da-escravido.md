@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Herdeiro da família Bertin entra na ‘lista suja’ da escravidão
+legacy_url: http://www.mst.org.br/node/15597
 created: 1389100207
 images: []
 video: 

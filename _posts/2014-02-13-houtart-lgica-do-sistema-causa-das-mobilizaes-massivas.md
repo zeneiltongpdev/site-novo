@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Houtart: Lógica do sistema é causa das mobilizações massivas'
+legacy_url: http://www.mst.org.br/node/15715
 created: 1392296973
 images:
 - http://mst.org.br:/sites/default/files/DSC_0182.JPG

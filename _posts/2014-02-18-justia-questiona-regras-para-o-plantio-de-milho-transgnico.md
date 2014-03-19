@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Justiça questiona regras para o plantio de milho transgênico
+legacy_url: http://www.mst.org.br/node/15744
 created: 1392737695
 images: []
 video: 

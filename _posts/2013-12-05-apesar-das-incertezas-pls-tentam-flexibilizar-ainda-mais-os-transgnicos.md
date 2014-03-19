@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apesar das incertezas PLs tentam flexibilizar ainda mais os transgênicos
+legacy_url: http://www.mst.org.br/node/15517
 created: 1386244167
 images: []
 video: 

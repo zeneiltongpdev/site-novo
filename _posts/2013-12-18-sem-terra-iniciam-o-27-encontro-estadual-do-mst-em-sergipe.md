@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra iniciam o 27º Encontro Estadual do MST em Sergipe
+legacy_url: http://www.mst.org.br/node/15570
 created: 1387366425
 images:
 - http://mst.org.br:/sites/default/files/encontro estadual_SE.jpg

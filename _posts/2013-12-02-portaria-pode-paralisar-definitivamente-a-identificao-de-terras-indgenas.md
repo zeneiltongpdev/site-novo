@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Portaria pode paralisar definitivamente a identificação de Terras Indígenas
+legacy_url: http://www.mst.org.br/node/15504
 created: 1385989276
 images: []
 video: 

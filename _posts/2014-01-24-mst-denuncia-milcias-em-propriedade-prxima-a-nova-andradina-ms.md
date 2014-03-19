@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST denuncia milícias em propriedade próxima a Nova Andradina (MS)
+legacy_url: http://www.mst.org.br/node/15637
 created: 1390567990
 images: []
 video: 

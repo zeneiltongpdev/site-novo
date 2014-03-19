@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST homenageia Cícero Guedes na 4° Feira da Reforma Agrária do RJ
+legacy_url: http://www.mst.org.br/node/15510
 created: 1386082200
 images:
 - http://mst.org.br:/sites/default/files/Feira_RJ.jpg

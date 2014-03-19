@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Após devastação causada por represa no NE, famílias são reassentadas
+legacy_url: http://www.mst.org.br/node/15613
 created: 1389705169
 images: []
 video: 

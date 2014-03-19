@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra marcham por Brasília contra a paralisação da Reforma Agrária
+legacy_url: http://www.mst.org.br/node/15703
 created: 1392201714
 images:
 - http://mst.org.br:/sites/default/files/marcha_0.jpg

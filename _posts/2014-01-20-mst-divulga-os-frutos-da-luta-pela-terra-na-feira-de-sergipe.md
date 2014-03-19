@@ -1,6 +1,7 @@
 ---
 layout: post
 title: MST divulga os frutos da luta pela terra na feira de Sergipe
+legacy_url: http://www.mst.org.br/node/15622
 created: 1390220207
 images: []
 video: 

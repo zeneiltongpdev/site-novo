@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sem Terra ocupam área do Ministério da Fazenda, no Norte de Minas Gerais
+legacy_url: http://www.mst.org.br/node/15661
 created: 1391421648
 images: []
 video: 
