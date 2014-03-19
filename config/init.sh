@@ -5,7 +5,7 @@ if [ ! -e "mst.sql.gz" ];  then
   wget -cv -O mst.sql.gz https://www.dropbox.com/s/rxvsfcf46xp11iu/mst.sql.gz
 fi
 
-echo "Desconpactando o arquivo e atualizando a base de dados"
+echo "Descompactando o arquivo e atualizando a base de dados"
 gunzip -vc mst.sql.gz > mst.sql
 mysql -u root -p -h localhost < mst.sql
 
