@@ -1,0 +1,9 @@
+name: Movimento dos Trabalhadores Rurais Sem Terra
+markdown: redcarpet
+pygments: true
+exclude: [drupal]
+baseurl: /mst
+# permalink: /:categories/:title
+pages: ./_pages
+# paginate: 25
+# paginate_path: "page:num"

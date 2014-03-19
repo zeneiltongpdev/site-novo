@@ -1,0 +1,44 @@
+---
+layout : default
+title  : "Em construção"
+breadcrumb: false
+---
+
+<!-- {% assign noticias   = paginator.posts %} -->
+{% assign noticias   = site.posts %}
+
+<div class="jumbotron">
+  <div class="container">
+  	<section class="colunas">
+	    <article class="logo">
+	    	<h1><img src="{{ site.baseurl }}/assets/img/logo.png"></h1>
+	    </article>
+	    <article class="col-sm-8">
+	    	<h1>MST</h1>
+	    	<p>A página inicial está em construção, veja as páginas em desenvolvimento.</p>
+		    {% include header.html %}
+	    </article>
+    </section>
+  </div>
+</div>
+
+
+<main class="container">
+  <section class="noticias colunas">
+		{% for post in noticias %}
+			{% include destaque.html class="destaque medio vertical" details=post %}
+		{% endfor %}
+  </section>
+  <!-- Pagination links -->
+  {% if paginator.next_page %}
+	<ul class="pager clearfix">
+	  {% if paginator.previous_page %}
+	  	<li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older</a></li>
+	  {% endif %}
+	  	<li class="active"><span>{{ paginator.page }}</span></li>
+	  {% if paginator.next_page %}
+	    <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer</a></li>
+	  {% endif %}
+	</ul>
+	{% endif %}
+</main>

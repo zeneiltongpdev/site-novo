@@ -1,0 +1,54 @@
+- name: Inicio
+  url: http://www.mst.org.br/inicial
+
+- name: O MST
+  url: http://www.mst.org.br/inicial
+
+- name: Biblioteca
+  url: http://www.mst.org.br/taxonomy/term/327%20334%20336%20339%20326%20337%20338%20341%20335%20340
+  submenu:
+    - name: Agricultura camponesa
+      url: http://www.mst.org.br/taxonomy/term/334
+
+    - name: Agronegócio
+      url: /agronegocio
+
+    - name: Direitos Humanos
+      url: http://mst.org.br/taxonomy/term/340
+     
+    - name: Educação, Cultura e Comunicação
+      url: http://mst.org.br/taxonomy/term/339
+
+    - name: Lutas e mobilizações
+      url: http://mst.org.br/taxonomy/term/326
+
+    - name: Internacional
+      url: http://mst.org.br/taxonomy/term/338
+
+    - name: Meio Ambiente
+      url: http://mst.org.br/taxonomy/term/337
+
+    - name: Projeto Popular
+      url: http://mst.org.br/taxonomy/term/341
+
+    - name: Reforma Agrária
+      url: http://mst.org.br/taxonomy/term/692 
+
+    - name: Transgênicos
+      url: http://mst.org.br/taxonomy/term/335
+
+- name: Vídeos
+  url: http://www.mst.org.br/multimidia
+
+- name: Especiais
+  url: http://www.mst.org.br/especiais
+
+- name: Mural
+  url: http://www.mst.org.br/mural
+
+- name: Eu apoio o MST
+  url: http://www.mst.org.br/taxonomy/term/704
+
+- name: SemTerrinha
+  url: http://www.mst.org.br/semterrinha
+
