@@ -3,6 +3,36 @@
 
 - name: O MST
   url: http://www.mst.org.br/inicial
+  submenu:
+   - name: Quem Somos
+     url: http://www.mst.org.br/taxonomy/term/324
+
+   - name: Nossas bandeiras
+     url: http://www.mst.org.br/taxonomy/term/329
+
+   - name: Organização
+     url: http://www.mst.org.br/taxonomy/term/330
+
+   - name: Linhas políticas
+     url: http://www.mst.org.br/taxonomy/term/328
+
+   - name: Notas oficiais
+     url: http://www.mst.org.br/taxonomy/term/333
+
+   - name: Lutadores do povo
+     url: http://www.mst.org.br/taxonomy/term/332
+
+   - name: Poemas e Poesias
+     url: http://www.mst.org.br/taxonomy/term/331
+
+   - name: Letra Viva
+     url: http://www.mst.org.br/letraviva
+
+   - name: Jornal Sem Terra
+     url: http://www.mst.org.br/letraviva
+
+   - name: Revista Sem Terra
+     url: http://www.mst.org.br/revista_sem_terra
 
 - name: Biblioteca
   url: http://www.mst.org.br/taxonomy/term/327%20334%20336%20339%20326%20337%20338%20341%20335%20340
