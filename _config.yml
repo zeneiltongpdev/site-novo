@@ -13,6 +13,7 @@ exclude:
   - jekyll_mst.rb
   - node_modules
   - package.json
+  - vendor
   - assets/less
 
 baseurl: /site-novo
