@@ -34,7 +34,7 @@ function dist {
       --depth=1 $REMOTE_ORIGIN \
       $DIST_DIR
   fi
-  jekyll build
+  bundle exec jekyll build
 }
 
 function deploy {
