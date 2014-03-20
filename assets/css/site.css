@@ -5943,7 +5943,7 @@ nav form[name='search'] #search:focus {
 }
 .destaque p.conteudo {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .destaque .conteudo {
   display: block;
