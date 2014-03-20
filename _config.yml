@@ -1,9 +1,22 @@
 name: Movimento dos Trabalhadores Rurais Sem Terra
 markdown: redcarpet
 pygments: true
-exclude: [deploy, Gemfile, Gemfile.lock, Gruntfile.js, README.md, bower_components, bower.json, drupal_queries.sql, jekyll_mst.rb, node_modules, package.json]
+exclude:
+  - deploy
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - README.md
+  - bower_components
+  - bower.json
+  - drupal_queries.sql
+  - jekyll_mst.rb
+  - node_modules
+  - package.json
+  - assets/less/**/*
 baseurl: /site-novo
 # permalink: /:categories/:title
 pages: ./_pages
-# paginate: 25
+# paginate: 25:wq
+#
 # paginate_path: "page:num"
