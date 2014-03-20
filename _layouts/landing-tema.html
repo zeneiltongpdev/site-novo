@@ -2,18 +2,18 @@
 layout : default
 ---
 
-{% assign title      = page.title %}
-{% assign tema       = page.tema %}
-{% assign noticias   = site.tags['Agronegócio'] %}
-{% assign videos     = site.tags.video %}
+{% assign title = page.title %}
+{% assign tema = page.tema %}
+{% assign image = page.image %}
+{% assign noticias = site.tags[page.title] %}
+{% assign videos = site.tags.video %}
 
-<!-- move to the default layout in the future -->
 {% include header.html %}
 
 <article class="container tema">
   <header>
     <figure>
-      <img alt="Imagem da Wikipedia" src="http://www.mst.org.br/sites/default/files/pulveriza%C3%A7%C3%A3o_7.jpg" />
+      <img alt="Imagem da Agronegocio" src="{{ image }}" />
     </figure>
     <h1>{{ title }}</h1>
     <p>
@@ -24,7 +24,7 @@ O termo agronegócio, de uso relativamente recente em nosso país, guarda corres
   <section class="noticias colunas">
     <h2>Notícias</h2>
     {% for noticia in noticias | limit:3 %}
-      {% include destaque.html class="destaque medio vertical" details=noticia %}
+      {% include destaque.html class="destaque medio vertical" details=noticia default_image=image %}
     {% endfor %}
   </section>
 

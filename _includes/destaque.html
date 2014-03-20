@@ -5,7 +5,7 @@
     {% if picture != "" %}
       <img src="{{ picture | uri_escape}}">
     {% else %}
-      <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Arroz_097.jpg/375px-Arroz_097.jpg">
+      <img alt="Imagem da Agronegocio" src="{{ include.default_image }}" />
     {% endif %}
     </a>
   </figure>
