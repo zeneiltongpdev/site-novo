@@ -14,6 +14,7 @@ exclude:
   - node_modules
   - package.json
   - assets/less
+
 baseurl: /site-novo
 # permalink: /:categories/:title
 pages: ./_pages
