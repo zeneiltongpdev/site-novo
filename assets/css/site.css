@@ -5926,12 +5926,11 @@ nav form[name='search'] #search:focus {
 }
 .destaque figure img,
 .destaque figure object {
-  width: 180px;
-  min-width: 180px;
-  max-width: 180px;
+  width: 100%;
+  max-width: 370px;
 }
 .destaque figure object {
-  height: 150px;
+  height: 200px;
 }
 .destaque figure img:hover {
   opacity: 0.8;
@@ -5980,10 +5979,10 @@ nav form[name='search'] #search:focus {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .destaque.medio.vertical {
     float: left;
-    width: 25%;
+    width: 33.33333333%;
   }
 }
 .destaque.medio.horizontal {
@@ -5992,114 +5991,11 @@ nav form[name='search'] #search:focus {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .destaque.medio.horizontal {
     float: left;
     width: 50%;
   }
-}
-.destaque.grande .manchete {
-  font-size: 28px;
-}
-.destaque.grande.vertical {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .destaque.grande.vertical {
-    float: left;
-    width: 50%;
-  }
-}
-.destaque.grande.horizontal {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .destaque.grande.horizontal {
-    float: left;
-    width: 100%;
-  }
-}
-.destaque.vertical .foto,
-.destaque.vertical .video,
-.destaque.vertical .conteudo,
-.destaque.vertical .extra {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .destaque.vertical .foto,
-  .destaque.vertical .video,
-  .destaque.vertical .conteudo,
-  .destaque.vertical .extra {
-    float: left;
-    width: 100%;
-  }
-}
-.destaque.vertical .video + .conteudo,
-.destaque.vertical .foto + .conteudo {
-  margin-top: 0;
-}
-.destaque.vertical .conteudo + .extra {
-  margin-top: 0;
-}
-.destaque.horizontal .foto,
-.destaque.horizontal .video,
-.destaque.horizontal .conteudo,
-.destaque.horizontal .extra {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .destaque.horizontal .foto,
-  .destaque.horizontal .video,
-  .destaque.horizontal .conteudo,
-  .destaque.horizontal .extra {
-    float: left;
-    width: 50%;
-  }
-}
-.destaque.bordado {
-  border-bottom: 2px dotted rgba(51, 51, 51, 0.3);
-}
-.destaque.importante .manchete {
-  font-size: 28px;
-}
-.destaque.importante.vertical {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .destaque.importante.vertical {
-    float: left;
-    width: 50%;
-  }
-}
-.destaque.importante.horizontal {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .destaque.importante.horizontal {
-    float: left;
-    width: 100%;
-  }
-}
-.destaque.importante .conteudo {
-  margin: 20px 0;
 }
 .thumbnail {
   height: 150px;
