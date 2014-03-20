@@ -6,3 +6,6 @@ gem 'mysql'
 gem 'sequel'
 gem 'html2markdown'
 gem 'jekyll-import'
+
+gem "rake"
+gem "minitest"
