@@ -51,6 +51,7 @@ function deploy {
   popd
 }
 
+gem list | grep jekyll
 dirty_check $1
 gh_pages
 dist
