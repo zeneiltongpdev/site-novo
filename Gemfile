@@ -1,11 +1,15 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 
-gem 'jekyll'
-gem 'mysql'
-gem 'sequel'
-gem 'html2markdown'
-gem 'jekyll-import'
+group :deploy do
+  gem 'mysql'
+  gem 'sequel'
+  gem 'html2markdown'
+  gem 'jekyll'
+  gem 'jekyll-import'
+end
 
-gem "rake"
-gem "minitest"
+group :test do
+  gem "rake"
+  gem "minitest"
+end
