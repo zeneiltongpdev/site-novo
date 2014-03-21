@@ -15,8 +15,10 @@ body footer {
       border-bottom: dashed #e74c3c 1px;
       padding-bottom: 10px;
     }
+  }
 
-    ul.amigos {
+  article.amigos {
+    ul {
       list-style: none;
       margin: 0;
       padding: 0;
@@ -26,8 +28,10 @@ body footer {
         margin: 0 3px 0 3px;
       }
     }
+  }
 
-    ul.parceiros {
+  article.parceiros {
+    ul {
       list-style: none;
       margin: 0;
       padding: 0;
@@ -44,6 +48,23 @@ body footer {
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
         }
       }
+    }
+  }
+
+  @media(min-width: @screen-md) {
+    text-align: center;
+
+    article {
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+      text-align: left;
+      padding: 10px;
+    }
+
+    article.parceiros {
+      display: block;
+      width: 90%;
     }
   }
 
