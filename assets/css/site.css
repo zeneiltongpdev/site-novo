@@ -5816,12 +5816,12 @@ body > header p {
     padding-top: 70px;
   }
 }
-nav {
+body > nav {
   padding: 10px 0 10px;
   text-align: center;
   background-color: #f0f0f0;
 }
-nav ul {
+body > nav ul {
   display: inline;
   list-style: none;
   width: auto;
@@ -5830,35 +5830,35 @@ nav ul {
   margin-right: 20px;
   font-size: 0.9em;
 }
-nav ul li {
+body > nav ul li {
   display: inline;
 }
-nav ul li a {
+body > nav ul li a {
   display: inline-block;
 }
-nav ul li + li {
+body > nav ul li + li {
   margin-left: 20px;
 }
-nav ul li:hover ul.dropdown-menu {
+body > nav ul li:hover ul.dropdown-menu {
   display: block;
 }
-nav ul.dropdown-menu {
+body > nav ul.dropdown-menu {
   text-align: left;
 }
-nav ul.dropdown-menu li {
+body > nav ul.dropdown-menu li {
   margin-left: 0px;
 }
-nav form[name='search'] {
+body > nav form[name='search'] {
   margin: 0;
   display: inline-block;
   width: auto;
 }
-nav form[name='search'] [for='search'] {
+body > nav form[name='search'] [for='search'] {
   font-size: 0;
   position: relative;
   right: -20px;
 }
-nav form[name='search'] #search {
+body > nav form[name='search'] #search {
   min-width: 30px;
   font-size: 0.9em;
   padding-left: 15px;
@@ -5867,7 +5867,7 @@ nav form[name='search'] #search {
   border-radius: 15px;
   box-shadow: inset 3px 2px 4px rgba(0, 0, 0, 0.3);
 }
-nav form[name='search'] #search:focus {
+body > nav form[name='search'] #search:focus {
   outline: none;
   box-shadow: 0px 0px 3pt 2pt #5b9dd9;
 }
