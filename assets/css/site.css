@@ -5890,13 +5890,11 @@ body footer article h1 {
 body footer article ul.amigos {
   list-style: none;
   margin: 0;
-  padding-right: 120px;
-  columns: 3;
-  -moz-columns: 3;
-  -webkit-columns: 3;
+  padding: 0;
 }
-body footer article ul.amigos li + li {
-  margin-top: 20px;
+body footer article ul.amigos li {
+  display: inline;
+  margin: 0 3px 0 3px;
 }
 body footer article ul.parceiros {
   list-style: none;
