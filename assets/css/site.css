@@ -5919,16 +5919,21 @@ body footer article.parceiros ul {
   text-align: center;
 }
 body footer article.parceiros ul li {
-  margin: 20px 0 20px 0;
-  display: inline;
+  display: inline-block;
+  vertical-align: middle;
 }
 body footer article.parceiros ul li a {
   display: inline-block;
-  height: 63px;
-  margin: 5px;
-  border: solid white 2px;
+  height: 64px;
+  padding: 2px;
+  margin: 3px;
+  margin-bottom: 6px;
+  background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+body footer article.parceiros ul li a img {
+  border-radius: 5px;
 }
 @media (min-width: 992px) {
   body footer {
