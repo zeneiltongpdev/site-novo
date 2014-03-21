@@ -5808,6 +5808,7 @@ body > header h1 {
 body > header p {
   font-size: 1.5em;
   font-weight: lighter;
+  margin-bottom: 0;
 }
 @media (min-width: 992px) {
   body > header {
