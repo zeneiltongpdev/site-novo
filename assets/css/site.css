@@ -6230,11 +6230,16 @@ article.tema header figure {
 article.tema header figure img {
   width: 100%;
 }
+@media (max-width: 480px) {
+  article.tema header figure {
+    margin-right: 0;
+  }
+}
 article.tema header h1 {
   margin-top: 0;
 }
 article.tema header p {
-  max-width: 900px;
+  max-width: 100%;
   text-align: justify;
 }
 article.tema header img,
