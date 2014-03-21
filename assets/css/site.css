@@ -5933,6 +5933,10 @@ body footer article.parceiros ul li a {
   border-radius: 3px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
+body footer article.parceiros ul li a:hover {
+  opacity: 0.8;
+  box-shadow: none;
+}
 @media (min-width: 992px) {
   body footer {
     text-align: center;
@@ -6027,6 +6031,7 @@ body footer small {
 }
 .destaque figure img:hover {
   opacity: 0.8;
+  box-shadow: none;
 }
 .destaque p.manchete {
   font-family: inherit;
