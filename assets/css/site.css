@@ -5887,30 +5887,46 @@ body footer article h1 {
   border-bottom: dashed #e74c3c 1px;
   padding-bottom: 10px;
 }
-body footer article ul.amigos {
+body footer article.amigos ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-body footer article ul.amigos li {
+body footer article.amigos ul li {
   display: inline;
   margin: 0 3px 0 3px;
 }
-body footer article ul.parceiros {
+body footer article.parceiros ul {
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
-body footer article ul.parceiros li {
+body footer article.parceiros ul li {
   margin: 20px 0 20px 0;
   display: inline;
 }
-body footer article ul.parceiros li img {
+body footer article.parceiros ul li img {
   border: solid white 2px;
   border-radius: 5px;
   margin: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 992px) {
+  body footer {
+    text-align: center;
+  }
+  body footer article {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: left;
+    padding: 10px;
+  }
+  body footer article.parceiros {
+    display: block;
+    width: 90%;
+  }
 }
 body footer a {
   color: #ffffff;
