@@ -56,7 +56,7 @@ body footer {
 
     article {
       display: inline-block;
-      width: 30%;
+      width: 25%;
       vertical-align: top;
       text-align: left;
       padding: 10px;
@@ -64,7 +64,7 @@ body footer {
 
     article.parceiros {
       display: block;
-      width: 90%;
+      width: 75%;
     }
   }
 
@@ -74,6 +74,36 @@ body footer {
   
   a:hover {
     color: @gray-light;
+  }
+
+  a.social {
+    font-family: 'Glyphicons Social Regular';
+    &:before {
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    /*&[href*='facebook.com'] {
+      content: '\E031'; 
+    }*/
+  }
+
+  a.social.facebook {
+    &:before {
+      content: '\E031'; 
+    }  
+  }
+
+  a.social.twitter {
+    &:before {
+      content: '\E032'; 
+    }  
+  }
+
+  a.social.rss {
+    &:before {
+      content: '\E038'; 
+    }  
   }
 
   small {

@@ -5918,14 +5918,14 @@ body footer article.parceiros ul li img {
   }
   body footer article {
     display: inline-block;
-    width: 30%;
+    width: 25%;
     vertical-align: top;
     text-align: left;
     padding: 10px;
   }
   body footer article.parceiros {
     display: block;
-    width: 90%;
+    width: 75%;
   }
 }
 body footer a {
@@ -5933,6 +5933,25 @@ body footer a {
 }
 body footer a:hover {
   color: #bbbbbb;
+}
+body footer a.social {
+  font-family: 'Glyphicons Social Regular';
+  /*&[href*='facebook.com'] {
+      content: '\E031'; 
+    }*/
+}
+body footer a.social:before {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+body footer a.social.facebook:before {
+  content: '\E031';
+}
+body footer a.social.twitter:before {
+  content: '\E032';
+}
+body footer a.social.rss:before {
+  content: '\E038';
 }
 body footer small {
   display: block;
@@ -6136,6 +6155,13 @@ body footer small {
   100% {
     top: -25%;
   }
+}
+@font-face {
+  font-family: 'Glyphicons Social Regular';
+  src: url('http://glyphicons.com/wp-content/themes/glyphicons/sk/public/fonts/glyphicons-social-regular.eot');
+  src: url('http://glyphicons.com/wp-content/themes/glyphicons/sk/public/fonts/glyphicons-social-regular.eot?#iefix') format('embedded-opentype'), url('http://glyphicons.com/wp-content/themes/glyphicons/sk/public/fonts/glyphicons-social-regular.woff') format('woff'), url('http://glyphicons.com/wp-content/themes/glyphicons/sk/public/fonts/glyphicons-social-regular.ttf') format('truetype'), url('http://glyphicons.com/wp-content/themes/glyphicons/sk/public/fonts/glyphicons-social-regular.svg#glyphicons_socialregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 .colunas {
   margin-left: -15px;
