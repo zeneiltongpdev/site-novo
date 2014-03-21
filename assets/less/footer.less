@@ -64,18 +64,23 @@ body footer {
       text-align: center;
 
       li {
-        margin: 20px 0 20px 0;
-        display: inline;
+        display: inline-block;
+        vertical-align: middle;
 
-        
-        }
-
-        img {
-          border: solid white 2px;
+        a {
+          display: inline-block;
+          height: 64px;
+          padding: 2px;
+          margin: 3px;
+          margin-bottom: 6px;
+          background-color: @body-bg;
           border-radius: 5px;
-          margin: 5px;
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-        }
+
+          img {
+            border-radius: 5px;
+          }
+        } 
       }
     }
   }
