@@ -16,14 +16,41 @@ body footer {
       padding-bottom: 10px;
       font-weight: lighter;
     }
-  }
 
-  article.amigos {
     ul {
       list-style: none;
       margin: 0;
       padding: 0;
+      padding-left: 20px;
 
+    }
+  }
+
+  article.social {
+    a {
+      font-family: 'Glyphicons Social Regular';
+
+      &:before {
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+
+      &.facebook:before {
+        content: '\E031'; 
+      }  
+
+      &.twitter:before {
+        content: '\E032'; 
+      }  
+
+      &.rss:before {
+        content: '\E038'; 
+      }  
+    }
+  }
+
+  article.amigos {
+    ul {
       li {
         display: inline;
         margin: 0 3px 0 3px;
@@ -33,14 +60,15 @@ body footer {
 
   article.parceiros {
     ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
+      padding-left: 0;
       text-align: center;
 
       li {
         margin: 20px 0 20px 0;
         display: inline;
+
+        
+        }
 
         img {
           border: solid white 2px;
@@ -75,36 +103,6 @@ body footer {
   
   a:hover {
     color: @gray-light;
-  }
-
-  a.social {
-    font-family: 'Glyphicons Social Regular';
-    &:before {
-      margin-right: 10px;
-      vertical-align: middle;
-    }
-
-    /*&[href*='facebook.com'] {
-      content: '\E031'; 
-    }*/
-  }
-
-  a.social.facebook {
-    &:before {
-      content: '\E031'; 
-    }  
-  }
-
-  a.social.twitter {
-    &:before {
-      content: '\E032'; 
-    }  
-  }
-
-  a.social.rss {
-    &:before {
-      content: '\E038'; 
-    }  
   }
 
   small {

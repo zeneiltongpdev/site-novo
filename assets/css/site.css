@@ -5888,29 +5888,46 @@ body footer article h1 {
   padding-bottom: 10px;
   font-weight: lighter;
 }
-body footer article.amigos ul {
+body footer article ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-left: 20px;
+}
+body footer article.social a {
+  font-family: 'Glyphicons Social Regular';
+}
+body footer article.social a:before {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+body footer article.social a.facebook:before {
+  content: '\E031';
+}
+body footer article.social a.twitter:before {
+  content: '\E032';
+}
+body footer article.social a.rss:before {
+  content: '\E038';
 }
 body footer article.amigos ul li {
   display: inline;
   margin: 0 3px 0 3px;
 }
 body footer article.parceiros ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  padding-left: 0;
   text-align: center;
 }
 body footer article.parceiros ul li {
   margin: 20px 0 20px 0;
   display: inline;
 }
-body footer article.parceiros ul li img {
+body footer article.parceiros ul li a {
+  display: inline-block;
+  height: 63px;
+  margin: 5px;
   border: solid white 2px;
   border-radius: 5px;
-  margin: 5px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 @media (min-width: 992px) {
@@ -5934,25 +5951,6 @@ body footer a {
 }
 body footer a:hover {
   color: #bbbbbb;
-}
-body footer a.social {
-  font-family: 'Glyphicons Social Regular';
-  /*&[href*='facebook.com'] {
-      content: '\E031'; 
-    }*/
-}
-body footer a.social:before {
-  margin-right: 10px;
-  vertical-align: middle;
-}
-body footer a.social.facebook:before {
-  content: '\E031';
-}
-body footer a.social.twitter:before {
-  content: '\E032';
-}
-body footer a.social.rss:before {
-  content: '\E038';
 }
 body footer small {
   display: block;
