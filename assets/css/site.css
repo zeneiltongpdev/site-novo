@@ -5891,7 +5891,7 @@ body footer article ul {
   padding-left: 20px;
 }
 body footer article.social a {
-  font-family: 'Glyphicons Social Regular';
+  font-family: 'Glyphicons Social Regular', Helvetica, Arial, sans-serif;
 }
 body footer article.social a:before {
   margin-right: 10px;
@@ -5992,8 +5992,8 @@ article.destaque p {
 }
 @font-face {
   font-family: 'Glyphicons Social Regular';
-  src: url('http://glyphicons.com/wp-content/themes/glyphicons/sk/public/fonts/glyphicons-social-regular.eot');
-  src: url('http://glyphicons.com/wp-content/themes/glyphicons/sk/public/fonts/glyphicons-social-regular.eot?#iefix') format('embedded-opentype'), url('http://glyphicons.com/wp-content/themes/glyphicons/sk/public/fonts/glyphicons-social-regular.woff') format('woff'), url('http://glyphicons.com/wp-content/themes/glyphicons/sk/public/fonts/glyphicons-social-regular.ttf') format('truetype'), url('http://glyphicons.com/wp-content/themes/glyphicons/sk/public/fonts/glyphicons-social-regular.svg#glyphicons_socialregular') format('svg');
+  src: url('../fonts/glyphicons-social-regular.eot');
+  src: url('../fonts/glyphicons-social-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-social-regular.woff') format('woff'), url('../fonts/glyphicons-social-regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
