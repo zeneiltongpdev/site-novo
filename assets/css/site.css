@@ -5990,30 +5990,6 @@ article.destaque p {
   margin: 0;
   margin-top: 5px;
 }
-article.destaque.medio.vertical {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 992px) {
-  article.destaque.medio.vertical {
-    float: left;
-    width: 33.33333333%;
-  }
-}
-article.destaque.medio.horizontal {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 992px) {
-  article.destaque.medio.horizontal {
-    float: left;
-    width: 50%;
-  }
-}
 @font-face {
   font-family: 'Glyphicons Social Regular';
   src: url('http://glyphicons.com/wp-content/themes/glyphicons/sk/public/fonts/glyphicons-social-regular.eot');
