@@ -6048,11 +6048,17 @@ article.tema section ul {
   list-style: none;
   padding: 0;
 }
+article.tema section ul li + li {
+  margin-top: 20px;
+}
 @media (min-width: 992px) {
   article.tema {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+  }
+  article.tema section ul li + li {
+    margin: 0;
   }
   article.tema section.noticias ul {
     margin: 0;

@@ -102,6 +102,10 @@ article.tema {
     ul {
       list-style: none;
       padding: 0;
+
+      li + li {
+        margin-top: 20px;
+      }
     }
   }
 
@@ -109,6 +113,14 @@ article.tema {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+
+    section {
+      ul {
+        li + li {
+          margin: 0;
+        }
+      }
+    }
 
     section.noticias {
       ul {
