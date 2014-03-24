@@ -5801,7 +5801,7 @@ body > header h1 {
 }
 body > header p {
   font-size: 2em;
-  text-shadow: black 5px 5px;
+  text-shadow: 3px 3px black;
   margin-bottom: 0;
 }
 @media (min-width: 992px) {
