@@ -23,11 +23,16 @@
 
   <aside class="video">
 	  <div class="thumbnail sombra">
-	    <object data="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1" type="application/x-shockwave-flash">
-  <param name="src" value="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1"/>
-  <param name="allowscriptaccess" value="always"/>
-  <param name="allowFullScreen" value="true"/>
-</object>
+	    <!--embed
+  src="http://www.youtube.com/embed/JW5meKfy3fY?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1" 
+  width="350" height="200"
+  src="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1"
+  type="application/x-shockwave-flash">
+</embed-->
+<iframe class="youtube-player" type="text/html" 
+  src="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1" 
+  allowfullscreen frameborder="0">
+</iframe>
 
 	  </div>
 	</aside>
@@ -83,10 +88,6 @@ Com duração de um ano e meio e carga horária de 960 horas, as aulas foram bas
 <p>O educando Pedro Higo pretende corresponder às expectativas. &quot;Eu já tenho algumas propostas de intervenção no meu território e a primeira delas é envolver mais a minha comunidade com o MST, criar esse vínculo, porque proposta nenhuma vai adiantar se a comunidade não tiver unidade, se não fizermos um debate e uma luta coletiva&quot;.</p>
 
 </article>
-  <script type="text/javascript" src="/site-novo/bower_components/holderjs/holder.js"></script>
-  <script type="text/javascript" src="/site-novo/bower_components/jquery/dist/jquery.js"></script>
-  <script type="text/javascript" src="/site-novo/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <script type="text/javascript" src="/site-novo/assets/js/post.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -95,7 +96,6 @@ Com duração de um ano e meio e carga horária de 960 horas, as aulas foram bas
 
     ga('create', 'UA-49336600-1', 'movimento-sem-terra.github.io');
     ga('send', 'pageview');
-
   </script>
 </body>
 </html>

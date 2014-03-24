@@ -27,11 +27,16 @@
 
   <aside class="video">
 	  <div class="thumbnail sombra">
-	    <object data="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1" type="application/x-shockwave-flash">
-  <param name="src" value="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1"/>
-  <param name="allowscriptaccess" value="always"/>
-  <param name="allowFullScreen" value="true"/>
-</object>
+	    <!--embed
+  src="http://www.youtube.com/embed/JW5meKfy3fY?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1" 
+  width="350" height="200"
+  src="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1"
+  type="application/x-shockwave-flash">
+</embed-->
+<iframe class="youtube-player" type="text/html" 
+  src="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1" 
+  allowfullscreen frameborder="0">
+</iframe>
 
 	  </div>
 	</aside>
@@ -72,10 +77,6 @@ Na aula inaugural, a coordenadora do curso, Rita Nascimento, defendeu a importâ
 <p>O professor Saulo Pinto, por sua vez, fez um apanhado do pensamento de Marx, demonstrando como os diferentes modos de sociabilidade, desde o período clássico até a modernidade, para, em seguida, expor as bases sobre as quais foi organizada a economia do Brasil. “O país mudou pouco a lógica econômica da colônia, que é de acumulação de capital espoliadora”, pontuou. Ao situar o debate no contexto do campo, o professor destacou a aproximação entre socialismo e reforma agrária. “O que dá para dizer é que há um vínculo ideológico de uma contra hegemonia que quer ser hegemonia”, concluiu.</p>
 
 </article>
-  <script type="text/javascript" src="/site-novo/bower_components/holderjs/holder.js"></script>
-  <script type="text/javascript" src="/site-novo/bower_components/jquery/dist/jquery.js"></script>
-  <script type="text/javascript" src="/site-novo/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <script type="text/javascript" src="/site-novo/assets/js/post.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -84,7 +85,6 @@ Na aula inaugural, a coordenadora do curso, Rita Nascimento, defendeu a importâ
 
     ga('create', 'UA-49336600-1', 'movimento-sem-terra.github.io');
     ga('send', 'pageview');
-
   </script>
 </body>
 </html>

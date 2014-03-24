@@ -23,11 +23,16 @@
 
   <aside class="video">
 	  <div class="thumbnail sombra">
-	    <object data="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1" type="application/x-shockwave-flash">
-  <param name="src" value="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1"/>
-  <param name="allowscriptaccess" value="always"/>
-  <param name="allowFullScreen" value="true"/>
-</object>
+	    <!--embed
+  src="http://www.youtube.com/embed/JW5meKfy3fY?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1" 
+  width="350" height="200"
+  src="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1"
+  type="application/x-shockwave-flash">
+</embed-->
+<iframe class="youtube-player" type="text/html" 
+  src="?controls=1&showinfo=0&rel=0&modestbranding=1&fs=1&autohide=1" 
+  allowfullscreen frameborder="0">
+</iframe>
 
 	  </div>
 	</aside>
@@ -69,10 +74,6 @@ Vamos ver dois exemplos: o Pará tem uma população de 7,5 milhões de habitant
 O Mato Grosso, maior produtor de soja, milho e algodão do país, com uma população de pouco mais de dois milhões de habitantes, têm 394.821 famílias no Cadastro Único do governo federal, quer dizer, recebem assistência de algum programa. Onde vai parar os mais de US$30 bilhões da exportação de soja, ou os mais de US$6 bilhões da exportação de carne de boi. Outra questão, para discutir em 2014: qual o limite da expansão da pecuária e da soja na Amazônia? Ou não tem limite? Ou transformaremos a Amazônia numa imensa fazenda de boi e soja, para o deleite da elite rural ultraconservadora desse país?</p>
 
 </article>
-  <script type="text/javascript" src="/site-novo/bower_components/holderjs/holder.js"></script>
-  <script type="text/javascript" src="/site-novo/bower_components/jquery/dist/jquery.js"></script>
-  <script type="text/javascript" src="/site-novo/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  <script type="text/javascript" src="/site-novo/assets/js/post.js"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -81,7 +82,6 @@ O Mato Grosso, maior produtor de soja, milho e algodão do país, com uma popula
 
     ga('create', 'UA-49336600-1', 'movimento-sem-terra.github.io');
     ga('send', 'pageview');
-
   </script>
 </body>
 </html>
