@@ -1,6 +1,6 @@
 {% capture picture %}{{ include.details.images | first }}{% endcapture %}
-<article class="{{ include.class }}">
-  <figure class="foto">
+<article class="destaque">
+  <figure>
     <a href="{{ include.details.legacy_url}}">
     {% if picture != "" %}
       <img src="{{ picture | uri_escape}}">
@@ -9,7 +9,7 @@
     {% endif %}
     </a>
   </figure>
-  <p class="conteudo manchete">
+  <p>
     <a href="{{ include.details.legacy_url }}">{{ include.details.title }}</a>
   </p>
 </article>

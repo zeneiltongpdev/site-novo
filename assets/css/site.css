@@ -5607,8 +5607,6 @@ button.close {
 .panel-body:after,
 .modal-footer:before,
 .modal-footer:after,
-.destaques:before,
-.destaques:after,
 .colunas:before,
 .colunas:after {
   content: " ";
@@ -5628,7 +5626,6 @@ button.close {
 .pager:after,
 .panel-body:after,
 .modal-footer:after,
-.destaques:after,
 .colunas:after {
   clear: both;
 }
@@ -5888,6 +5885,7 @@ body footer article h1 {
   border-bottom: dashed #e74c3c 1px;
   padding-bottom: 10px;
   font-weight: lighter;
+  margin-top: 30px;
 }
 body footer article ul {
   list-style: none;
@@ -5932,7 +5930,7 @@ body footer article.parceiros ul li a {
   margin-bottom: 6px;
   background-color: #ffffff;
   border-radius: 3px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
 }
 body footer article.parceiros ul li a:hover {
   opacity: 0.8;
@@ -5996,102 +5994,53 @@ body footer small {
 .post figure.landscape {
   min-height: 300px;
 }
-.destaques {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-.destaque {
+article.destaque {
   padding: 0 !important;
 }
-.destaque:before,
-.destaque:after {
-  content: " ";
-  display: table;
+article.destaque figure {
+  margin: 0;
+  padding: 0;
 }
-.destaque:after {
-  clear: both;
-}
-.destaque:before,
-.destaque:after {
-  content: " ";
-  display: table;
-}
-.destaque:after {
-  clear: both;
-}
-.destaque figure {
-  margin-bottom: 0;
-}
-.destaque figure img,
-.destaque figure object {
+article.destaque figure img,
+article.destaque figure object {
   width: 100%;
   max-width: 370px;
 }
-.destaque figure object {
-  height: 200px;
-}
-.destaque figure img:hover {
-  opacity: 0.8;
+article.destaque figure img:hover,
+article.destaque figure object:hover {
   box-shadow: none;
+  opacity: 0.8;
 }
-.destaque p.manchete {
-  font-family: inherit;
+article.destaque figure object {
+  min-height: 200px;
+}
+article.destaque p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.1;
-}
-.destaque p.conteudo {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-.destaque .conteudo {
-  display: block;
-}
-.destaque .manchete {
   margin: 0;
+  margin-top: 5px;
 }
-.destaque .thumbnail {
-  margin-bottom: 0;
-}
-.destaque .foto,
-.destaque .video,
-.destaque .conteudo,
-.destaque .extra {
-  margin: 20px 0;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .destaque .foto,
-  .destaque .video,
-  .destaque .conteudo,
-  .destaque .extra {
-    float: left;
-    width: 100%;
-  }
-}
-.destaque.medio.vertical {
+article.destaque.medio.vertical {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 992px) {
-  .destaque.medio.vertical {
+  article.destaque.medio.vertical {
     float: left;
     width: 33.33333333%;
   }
 }
-.destaque.medio.horizontal {
+article.destaque.medio.horizontal {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 992px) {
-  .destaque.medio.horizontal {
+  article.destaque.medio.horizontal {
     float: left;
     width: 50%;
   }
@@ -6175,52 +6124,34 @@ body footer small {
   margin-left: -15px;
   margin-right: -15px;
 }
-.colunas > h2 {
-  margin-left: 15px;
-  margin-right: 15px;
+article.tema {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-.jumbotron .logo {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+article.tema header,
+article.tema section {
+  margin: 0;
+  margin-bottom: 30px;
 }
-@media (max-width: 767px) {
-  .jumbotron .logo {
-    display: none !important;
-  }
+article.tema header h1,
+article.tema section h1,
+article.tema header h2,
+article.tema section h2 {
+  margin: 0;
+  margin-bottom: 10px;
 }
-@media (min-width: 768px) {
-  .jumbotron .logo {
-    float: left;
-    width: 33.33333333%;
-  }
+article.tema header img,
+article.tema section img,
+article.tema header object,
+article.tema section object {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
 }
-@media (min-width: 992px) {
-  .jumbotron .logo {
-    float: left;
-    width: 25%;
-  }
-}
-@media (min-width: 1200px) {
-  .jumbotron .logo {
-    float: left;
-    width: 16.66666667%;
-  }
-}
-.jumbotron .logo h1 {
-  background: #da251c;
-  border-radius: 50%;
-  padding: 10px;
-}
-.jumbotron .logo object,
-.jumbotron .logo img {
-  width: 100%;
-  max-width: 100%;
+article.tema header img,
+article.tema section img {
+  border-radius: 3px;
 }
 article.tema header {
   overflow: auto;
-  margin: 50px 0 30px 0;
 }
 article.tema header figure {
   float: left;
@@ -6235,25 +6166,28 @@ article.tema header figure img {
     margin-right: 0;
   }
 }
-article.tema header h1 {
-  margin-top: 0;
-}
 article.tema header p {
   max-width: 100%;
   text-align: justify;
+  margin: 0;
 }
-article.tema header img,
-article.tema section img {
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
-  border-radius: 10px;
-}
-article.tema section {
-  margin-bottom: 30px;
+article.tema section ul {
+  list-style: none;
+  padding: 0;
 }
 @media (min-width: 992px) {
   article.tema {
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+  article.tema section ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+  }
+  article.tema section ul li {
+    display: inline-block;
+    vertical-align: top;
   }
 }

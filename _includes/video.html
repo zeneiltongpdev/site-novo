@@ -2,12 +2,11 @@
 	{% assign video_url=include.details.video %}
 {% endif %}
 
-<article class="{{ include.class }}">
-  <figure class="video">
+<article class="destaque">
+  <figure>
     {% include video_player.html url=video_url %}
   </figure>
-
-  <p class="conteudo manchete">
+  <p>
     <a href="{{ include.details.legacy_url }}">{{ include.details.title }}</a>
   </p>
 </article>

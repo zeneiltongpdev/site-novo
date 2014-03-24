@@ -1,13 +1,9 @@
-// Core variables and mixins
+// rubish
 @import "bower_components/bootstrap/less/variables.less";
 @import "mstvariables.less";
 @import "bower_components/bootstrap/less/mixins.less";
-
-// Reset
 @import "bower_components/bootstrap/less/normalize.less";
 @import "bower_components/bootstrap/less/print.less";
-
-// Core CSS
 @import "bower_components/bootstrap/less/scaffolding.less";
 @import "bower_components/bootstrap/less/type.less";
 @import "bower_components/bootstrap/less/code.less";
@@ -15,8 +11,6 @@
 @import "bower_components/bootstrap/less/tables.less";
 @import "bower_components/bootstrap/less/forms.less";
 @import "bower_components/bootstrap/less/buttons.less";
-
-// Components
 @import "bower_components/bootstrap/less/component-animations.less";
 @import "bower_components/bootstrap/less/glyphicons.less";
 @import "bower_components/bootstrap/less/dropdowns.less";
@@ -38,18 +32,14 @@
 @import "bower_components/bootstrap/less/panels.less";
 @import "bower_components/bootstrap/less/wells.less";
 @import "bower_components/bootstrap/less/close.less";
-
-// Components w/ JavaScript
 @import "bower_components/bootstrap/less/modals.less";
 @import "bower_components/bootstrap/less/tooltip.less";
 @import "bower_components/bootstrap/less/popovers.less";
 @import "bower_components/bootstrap/less/carousel.less";
-
-// Utility classes
 @import "bower_components/bootstrap/less/utilities.less";
 @import "bower_components/bootstrap/less/responsive-utilities.less";
 
-// Custom Components
+// our stuff
 @import "header";
 @import "footer";
 @import "post";
@@ -66,30 +56,32 @@
 
 .colunas {
 	.make-row();
-	> h2 {
-		margin-left: @grid-gutter-width/2;
-		margin-right: @grid-gutter-width/2;
-	}
-}
-
-.jumbotron .logo {
-	.hidden-xs;
-	.make-sm-column(4);
-	.make-md-column(3);
-	.make-lg-column(2);
-	h1 {
-		background: @brand-primary;
-		border-radius: 50%;
-		padding: @padding-large-vertical;
-	}
-
-	object, img { width: 100%; max-width: 100%; }
 }
 
 article.tema {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  header, section {
+    margin: 0;
+    margin-bottom: 30px;
+
+    h1, h2 {
+      margin: 0;  
+      margin-bottom: 10px;
+    }
+
+    img, object {
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
+    }
+    
+    img {
+      border-radius: 3px;
+    }
+  }
+
   header {
     overflow: auto;
-    margin: 50px 0 30px 0;
 
     figure {
       float: left;
@@ -105,32 +97,37 @@ article.tema {
       }
     }
 
-    h1 {
-      margin-top: 0;
-    }
-
     p {
       max-width: 100%;
       text-align: justify;
-    }
-  }
-
-  header, section {
-    img {
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.125);
-      border-radius: 10px;
+      margin: 0;
     }
   }
 
   section {
-    margin-bottom: 30px;
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  }
+
+  @media(min-width: @screen-md){ 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    section {
+      ul {
+        columns: 3;
+        -webkit-columns: 3;
+        -moz-columns: 3;
+
+        li {
+          display: inline-block;
+          vertical-align: top;
+        }
+      }
+    }
   }
 }
 
-@media(min-width: @screen-md){ 
-  article.tema{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}

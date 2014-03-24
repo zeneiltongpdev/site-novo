@@ -22,18 +22,26 @@ layout : default
     </p>
   </header>
 
-  <section class="noticias colunas">
+  <section class="noticias">
     <h2>Notícias</h2>
-    {% for noticia in noticias | limit:3 %}
-      {% include destaque.html class="destaque medio vertical" details=noticia default_image=image %}
-    {% endfor %}
+    <ul>
+      {% for noticia in noticias | limit:3 %}
+        <li>
+          {% include destaque.html details=noticia default_image=image %}
+        </li>
+      {% endfor %}
+    </ul>
   </section>
 
   <section class="videos colunas">
     <h2>Vídeos</h2>
-    {% for video in videos | limit:3 %}
-      {% include video.html class="destaque medio vertical" details=video %}
-    {% endfor %}
+    <ul>
+      {% for video in videos | limit:3 %}
+        <li>
+          {% include video.html details=video %}
+        </li>
+      {% endfor %}
+    </ul>
   </section>
 </article>
 
