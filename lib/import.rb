@@ -247,12 +247,3 @@ module JekyllImport
   end
 end
 
-
-JekyllImport::Importers::Drupal6.run({
-  "dbname"   => "mst2",
-  "user"     => "root",
-  "password" => "",
-  "host"     => "localhost",
-  "prefix"   => ""
-})
-

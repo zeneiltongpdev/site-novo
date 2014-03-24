@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require 'net/http'
 
-class SmokeTesti < Minitest::Unit::TestCase
+class SmokeTest < Minitest::Unit::TestCase
 
   def test_ok
     url = URI.encode(ENV['url_app'])
