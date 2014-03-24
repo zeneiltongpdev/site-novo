@@ -65,7 +65,7 @@ article.tema {
       margin-bottom: 10px;
     }
 
-    img, object {
+    img, iframe {
       box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
     }
     
@@ -106,21 +106,36 @@ article.tema {
   }
 
   @media(min-width: @screen-md){ 
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 
-    section {
+    section.noticias {
       ul {
-        columns: 3;
-        -webkit-columns: 3;
-        -moz-columns: 3;
+        margin: 0;
+        column-count:3;
+        -moz-column-count:3;
+        -webkit-column-count:3;
 
         li {
-          display: inline-block;
           vertical-align: top;
+          display: inline-block;
         }
       }
+    }
+
+    section.videos {
+      ul {
+        li {
+          vertical-align: top;
+          display: inline-block;
+          width: 32%; 
+
+          & + li {
+            margin-left: 1%;
+          }
+        }
+      }  
     }
   }
 }
