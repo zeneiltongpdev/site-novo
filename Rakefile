@@ -1,10 +1,8 @@
-require 'rake/testtask'
+require 'rspec/core/rake_task'
 
-Rake::TestTask.new do |t|
-  t.libs << "test"
-  t.test_files = FileList['test/**/*.rb']
-  t.verbose = true
-end
+
+RSpec::Core::RakeTask.new(:spec)
+task :test => :spec
 
 desc 'Import data from local drupal to Jekyll project'
 task :import do
@@ -12,7 +10,7 @@ task :import do
   JekyllImport::Importers::Drupal6.run({
     "dbname"   => "mst2",
     "user"     => "root",
-    "password" => "",
+    "password" => "root",
     "host"     => "localhost",
     "prefix"   => ""
   })
