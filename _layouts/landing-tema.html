@@ -5,6 +5,7 @@ layout : default
 {% assign title = page.title %}
 {% assign tema = page.tema %}
 {% assign image = page.image %}
+{% assign all_news_url = page.all_news_url %}
 {% assign description = page.description %}
 {% assign noticias = site.tags[page.title] %}
 {% assign videos = site.tags.video %}
@@ -31,6 +32,9 @@ layout : default
         </li>
       {% endfor %}
     </ul>
+    <p class="mais">
+      <a href="{{ all_news_url }}">Mais notícias...</a>
+    </p>
   </section>
 
   <section class="videos">
