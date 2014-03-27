@@ -6013,6 +6013,12 @@ article.tema section h2 {
   margin: 0;
   margin-bottom: 10px;
 }
+article.tema header h2,
+article.tema section h2 {
+  margin-bottom: 0.5em;
+  border-bottom: dashed 1px lightgray;
+  padding-bottom: 0.3em;
+}
 article.tema header img,
 article.tema section img,
 article.tema header iframe,
@@ -6050,6 +6056,18 @@ article.tema section ul {
 }
 article.tema section ul li + li {
   margin-top: 20px;
+}
+article.tema p.mais {
+  margin-top: 1.2em;
+  display: block;
+  text-align: right;
+  font-weight: bold;
+}
+article.tema p.mais a {
+  color: darkgreen;
+}
+article.tema p.mais a:hover {
+  opacity: 0.8;
 }
 @media (min-width: 992px) {
   article.tema {
