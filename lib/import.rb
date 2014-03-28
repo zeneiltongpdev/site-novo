@@ -57,7 +57,7 @@ module JekyllImport
                  WHERE tn.tid in (336, 382, 347) \
                        AND (f.status = 1 OR f.status is null) \
                        AND (u.list = 1 OR u.list is null) \
-                       AND nr.body NOT LIKE '%youtube.com/%' \
+                       AND nr.body NOT LIKE '%youtube.com/v/%' \
                 GROUP BY n.nid \
                 ORDER BY created DESC \
                 LIMIT 3);" 
