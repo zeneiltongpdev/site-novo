@@ -17,27 +17,50 @@ module JekyllImport
             <meta http-equiv=\"refresh\" content=\"0;url={{ page.refresh_to_post_id }}.html\" /> \
           </head>
         </html>"
-
-      QUERY = "SELECT n.nid, \
-                   n.title, \
-                   nr.body, \
-                   n.created, \
-                   n.status, \
-                   DATEDIFF(n.created, NOW()) as days_ago, \
-                   GROUP_CONCAT( CONCAT(v.name,':', tags.name) SEPARATOR '|' ) as 'tags', \
-                   GROUP_CONCAT( CONCAT(f.filepath) SEPARATOR '|' ) as 'images' \
-              FROM node_revisions AS nr, node AS n \
-   LEFT OUTER JOIN term_node as tn ON tn.nid = n.nid \
-   LEFT OUTER JOIN term_data as tags on tn.tid = tags.tid \
-   LEFT OUTER JOIN vocabulary as v on v.vid = tags.vid \
-   LEFT OUTER JOIN upload as u on u.nid = n.nid \
-   LEFT OUTER JOIN files AS f on f.fid = u.fid \
-             WHERE 1 = 1 \
-               AND DATEDIFF(NOW(), FROM_UNIXTIME(created)) < 120
-               AND n.vid = nr.vid \
-               AND (f.status = 1 OR f.status is null)\
-               AND (u.list = 1 OR u.list is null)\
-          GROUP BY n.nid;"
+        
+      QUERY = " (SELECT  n.nid, \ 
+                         n.title, \
+                         nr.body,\
+                         n.created, \
+                         n.status, \
+                         GROUP_CONCAT( CONCAT(v.name,':', tags.name) SEPARATOR '|' ) as 'tags', \
+                         GROUP_CONCAT( CONCAT(f.filepath) SEPARATOR '|' ) as 'images' \
+                 FROM  node as n \
+                       INNER JOIN node_revisions as nr ON (n.vid = nr.vid) \
+                       LEFT OUTER JOIN term_node as tn ON tn.nid = n.nid  \
+                       LEFT OUTER JOIN term_data as tags on tn.tid = tags.tid  \
+                       LEFT OUTER JOIN vocabulary as v on v.vid = tags.vid \
+                       LEFT OUTER JOIN upload as u on u.nid =n.nid \
+                       LEFT OUTER JOIN files AS f on f.fid = u.fid \
+                 WHERE tn.tid in (336, 382, 347) \
+                       AND (f.status = 1 OR f.status is null) \
+                       AND (u.list = 1 OR u.list is null) \
+                       AND nr.body LIKE '%youtube.com/v/%' \
+                GROUP BY n.nid \
+                ORDER BY created DESC \
+                LIMIT 3)
+                UNION
+                (SELECT   n.nid, \ 
+                         n.title, \
+                         nr.body,\
+                         n.created, \
+                         n.status, \
+                         GROUP_CONCAT( CONCAT(v.name,':', tags.name) SEPARATOR '|' ) as 'tags', \
+                         GROUP_CONCAT( CONCAT(f.filepath) SEPARATOR '|' ) as 'images' \
+                 FROM  node as n \
+                       INNER JOIN node_revisions as nr ON (n.vid = nr.vid) \
+                       LEFT OUTER JOIN term_node as tn ON tn.nid = n.nid  \
+                       LEFT OUTER JOIN term_data as tags on tn.tid = tags.tid  \
+                       LEFT OUTER JOIN vocabulary as v on v.vid = tags.vid \
+                       LEFT OUTER JOIN upload as u on u.nid =n.nid \
+                       LEFT OUTER JOIN files AS f on f.fid = u.fid \
+                 WHERE tn.tid in (336, 382, 347) \
+                       AND (f.status = 1 OR f.status is null) \
+                       AND (u.list = 1 OR u.list is null) \
+                       AND nr.body NOT LIKE '%youtube.com/v/%' \
+                GROUP BY n.nid \
+                ORDER BY created DESC \
+                LIMIT 3);" 
 
       def self.require_deps
         JekyllImport.require_with_fallback(%w[
@@ -111,7 +134,9 @@ module JekyllImport
           QUERY[" term_node "] = " " + prefix + "term_node "
           QUERY[" term_data "] = " " + prefix + "term_data "
         end
-
+        
+        FileUtils.remove_dir "_posts"        
+        
         FileUtils.mkdir_p "_posts"
         FileUtils.mkdir_p "_drafts"
         FileUtils.mkdir_p "_layouts"
