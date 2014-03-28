@@ -5813,7 +5813,22 @@ body > header p {
 body > nav {
   padding: 10px 0 10px;
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: #961913;
+}
+body > nav figure {
+  display: inline;
+}
+body > nav figure img {
+  display: inline;
+  width: 50px;
+  margin-right: 10px;
+}
+body > nav figure h1 {
+  text-shadow: 3px 3px black;
+  color: white;
+  display: inline;
+  vertical-align: middle;
+  margin-right: 100px;
 }
 body > nav ul {
   display: inline;
@@ -5829,6 +5844,10 @@ body > nav ul li {
 }
 body > nav ul li a {
   display: inline-block;
+  color: lightgray;
+}
+body > nav ul li a:hover {
+  color: white;
 }
 body > nav ul li + li {
   margin-left: 20px;

@@ -45,7 +45,25 @@ body > header {
 body > nav {
   padding: 10px 0 10px;
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: @link-hover-color;
+  
+  figure {
+    display: inline;
+
+    img {
+      display: inline;
+      width: 50px;
+      margin-right: 10px;
+    }
+    
+    h1 {
+      text-shadow: 3px 3px black;
+      color: white;
+      display: inline;
+      vertical-align: middle;
+      margin-right: 100px;
+    }
+  }
 
   ul {
     display: inline;
@@ -61,6 +79,10 @@ body > nav {
 
       a {
         display: inline-block;
+        color: lightgray;
+        &:hover {
+          color: white;
+        }
       }
     }
 
