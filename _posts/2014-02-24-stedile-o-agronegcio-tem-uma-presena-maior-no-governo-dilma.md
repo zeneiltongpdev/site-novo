@@ -4,9 +4,10 @@ title: 'Stedile: O Agronegócio tem uma presença maior no governo Dilma'
 legacy_url: http://www.mst.org.br/node/15766
 created: 1393259293
 images: []
-video: 
+video: ''
 tags:
 - Agronegócio
+- news
 Menu: Agronegócio
 ---
 
