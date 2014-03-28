@@ -24,7 +24,8 @@ module JekyllImport
                          n.created, \
                          n.status, \
                          GROUP_CONCAT( CONCAT(v.name,':', tags.name) SEPARATOR '|' ) as 'tags', \
-                         GROUP_CONCAT( CONCAT(f.filepath) SEPARATOR '|' ) as 'images' \
+                         GROUP_CONCAT( CONCAT(f.filepath) SEPARATOR '|' ) as 'images', \
+                         'video' as type
                  FROM  node as n \
                        INNER JOIN node_revisions as nr ON (n.vid = nr.vid) \
                        LEFT OUTER JOIN term_node as tn ON tn.nid = n.nid  \
@@ -46,7 +47,8 @@ module JekyllImport
                          n.created, \
                          n.status, \
                          GROUP_CONCAT( CONCAT(v.name,':', tags.name) SEPARATOR '|' ) as 'tags', \
-                         GROUP_CONCAT( CONCAT(f.filepath) SEPARATOR '|' ) as 'images' \
+                         GROUP_CONCAT( CONCAT(f.filepath) SEPARATOR '|' ) as 'images', \
+                         'news' as type
                  FROM  node as n \
                        INNER JOIN node_revisions as nr ON (n.vid = nr.vid) \
                        LEFT OUTER JOIN term_node as tn ON tn.nid = n.nid  \
@@ -155,9 +157,11 @@ module JekyllImport
           content = post[:body]
           content_markdown = markdonify(content)
           tags = post_tags(post)
-          video = youtube_video(content)
           images = post_images(post) + content_images(content_markdown)
-
+          
+          type = post[:type]
+          video = (type == 'video' ? youtube_video(content) : "")
+          
           created = post[:created]
           time = Time.at(created)
           is_published = post[:status] == 1
@@ -174,7 +178,7 @@ module JekyllImport
             'created' => created,
             'images' => images,
             'video' => video,
-            'tags' => tags.values + (video ? ['video'] : [])
+            'tags' => tags.values +  (type ? [type] : [])
           }.each_pair {
             |k,v| ((v.is_a? String) ? v.force_encoding("UTF-8") : v)
           }
