@@ -6057,16 +6057,16 @@ article.tema section ul {
 article.tema section ul li + li {
   margin-top: 20px;
 }
-article.tema p.mais {
+article.tema section p.mais {
   margin-top: 1.2em;
   display: block;
   text-align: right;
   font-weight: bold;
 }
-article.tema p.mais a {
+article.tema section p.mais a {
   color: darkgreen;
 }
-article.tema p.mais a:hover {
+article.tema section p.mais a:hover {
   opacity: 0.8;
 }
 @media (min-width: 992px) {
