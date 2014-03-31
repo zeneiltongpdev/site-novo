@@ -1,20 +1,40 @@
-mst
+MST site-novo
 ===
+Projeto da TW Brasil em conjunto com MST e Brasil de Fato.
 
-Projeto da TW Brasil em conjunto com MST e Brasil de Fato
+## Requirements
+* mysql >= 5.0
+* ruby >= 2.0
+* node >= 0.10
 
-# setup
+## Setup
 
-INSTRUÇÕES:
+Clone the repository:
 
-1) git clone https://github.com/movimento-sem-terra/site-novo.git
+```
+git clone https://github.com/movimento-sem-terra/site-novo.git && cd site-novo
+```
 
-2) bundle install
+Run the setup script:
 
-3) npm install
+```
+./setup
+```
 
-4) ./node_modules/.bin/grunt watch
+## Run
 
-5) jekyll serve -w
+Start Grunt:
 
-Acesse: http://localhost:4000/site-novo/agronegocio/
+```
+./node_modules/.bin/grunt watch
+```
+
+Start Jekyll:
+
+```
+jekyll serve -w
+```
+
+Point you browser to [http://localhost:4000/site-novo/agronegocio/]()
+
+Done :)
