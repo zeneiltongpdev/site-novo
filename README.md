@@ -24,7 +24,7 @@ Assuming your Mysql installation has an user called "root" with no password:
 Otherwise, provide the password for "root":
 
 ```
-./setup mysqlpassword
+./setup rootpassword
 ```
 
 ## Run
