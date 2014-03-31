@@ -1,78 +1,35 @@
+body > header, body > nav {
+  background-color: @link-hover-color;
+}
+
 body > header {
-  position: relative;
+  padding: 20px 0 10px;
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding-top: 10px; 
 
-  &:after {
-    content: "";
-    background: url(http://3.bp.blogspot.com/_RJ5ERFaftvw/S1-PLQHIrMI/AAAAAAAAAiM/BfpLVh2v_ck/S1600-R/foto.twitter1.gif.png);
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1; 
-  }
-
-  figure {
-    img {
-      height: 150px;
-    }
+  img {
+    height: 150px;
   }
 
   h1 {
-    padding: 0;
     margin: 0;
-    font-size: 6em;
-    font-weight: bold;
-    text-shadow: 3px 3px black;
+    font-size: 50px;
+    font-weight: 100;
+    text-shadow: 1px 1px black;
   }
-
-  p {
-    font-size: 2em;
-    text-shadow: 3px 3px black;
-    margin-bottom: 0;
-  }
-
-  @media(min-width: @screen-md) {
-    height: 400px;
-    padding-top: 70px; 
-  }
- }
+}
 
 body > nav {
-  padding: 10px 0 10px;
-  text-align: center;
-  background-color: @link-hover-color;
-  
-  figure {
-    display: inline;
-
-    img {
-      display: inline;
-      width: 50px;
-      margin-right: 10px;
-    }
-    
-    h1 {
-      text-shadow: 3px 3px black;
-      color: white;
-      display: inline;
-      vertical-align: middle;
-      margin-right: 100px;
-    }
-  }
+  padding-bottom: 5px;
 
   ul {
-    display: inline;
+    margin: 0 20px;
+    padding: 5px 0;
     list-style: none;
     width: auto;
-    padding: 0;
-    padding-top: 2px;
-    margin-right: 20px;
     font-size: 0.9em;
+    text-align: center;
+    border-top: dashed #e74c3c 1px;
 
     li {
       display: inline;
@@ -87,7 +44,7 @@ body > nav {
     }
 
     li + li {
-      margin-left: 20px; 
+      margin-left: 15px; 
     }
 
     li:hover {
@@ -106,29 +63,81 @@ body > nav {
   }
 
   form[name='search'] {
-    margin: 0;
-    display: inline-block;
-    width: auto;
+    display: block;
+    margin: 0 20px;
+    padding: 5px 0;
+    text-align: center;
+    position: relative;
 
     [for='search'] {
+      position: absolute;
       font-size: 0;
-      position: relative;
       right: -20px;
     }
 
     #search {
-      min-width: 30px;
+      width: 100%;
       font-size: 0.9em;
-      padding-left: 15px;
-      padding-right: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
       border-style: none;
-      border-radius: 15px;
-      box-shadow: inset 3px 2px 4px rgba(0, 0, 0, 0.3);
+      border-radius: 2px;
+      box-shadow: inset 2px 1px 2px rgba(0, 0, 0, 0.5);
     }
 
     #search:focus {
       outline: none;
-      box-shadow: 0px 0px 3pt 2pt rgb(91, 157, 217);
+      box-shadow: 0px 0px 3px 2px rgb(91, 157, 217);
     }
   }
 }
+
+@media(min-width: @screen-xs) {
+  body > header {
+    img {
+      height: 60px;
+    }
+
+    h1 {
+      display: inline;
+      font-size: 40px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+  }
+
+  body > nav {
+    form[name='search'] {
+      width: 200px; 
+      margin: auto;
+    }
+  }
+}
+
+@media(min-width: @screen-md) {
+  body > header {
+    width: 16%;
+    float: left;
+    padding: 5px;
+    text-align: center;
+  }
+
+  body > nav {
+    width: 100%;
+    height: 70px;
+    text-align: left;
+    padding-top: 18px;
+
+    ul {
+      display: inline-block;
+      border: none;
+    }
+
+    form[name='search'] {
+      display: inline-block;
+      width: 150px; 
+      margin: auto;
+    }
+  }
+}
+
