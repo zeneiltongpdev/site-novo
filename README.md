@@ -15,10 +15,16 @@ Clone the repository:
 git clone https://github.com/movimento-sem-terra/site-novo.git && cd site-novo
 ```
 
-Run the setup script:
+Assuming your Mysql installation has an user called "root" with no password:
 
 ```
 ./setup
+```
+
+Otherwise, provide the password for "root":
+
+```
+./setup mysqlpassword
 ```
 
 ## Run
