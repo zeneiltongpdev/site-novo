@@ -5772,72 +5772,32 @@ button.close {
     display: none !important;
   }
 }
+body > header,
+body > nav {
+  background-color: #961913;
+}
 body > header {
-  position: relative;
+  padding: 20px 0 10px;
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding-top: 10px;
 }
-body > header:after {
-  content: "";
-  background: url(http://3.bp.blogspot.com/_RJ5ERFaftvw/S1-PLQHIrMI/AAAAAAAAAiM/BfpLVh2v_ck/S1600-R/foto.twitter1.gif.png);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-body > header figure img {
+body > header img {
   height: 150px;
 }
 body > header h1 {
-  padding: 0;
   margin: 0;
-  font-size: 6em;
+  font-size: 40px;
   font-weight: bold;
-  text-shadow: 3px 3px black;
-}
-body > header p {
-  font-size: 2em;
-  text-shadow: 3px 3px black;
-  margin-bottom: 0;
-}
-@media (min-width: 992px) {
-  body > header {
-    height: 400px;
-    padding-top: 70px;
-  }
-}
-body > nav {
-  padding: 10px 0 10px;
-  text-align: center;
-  background-color: #961913;
-}
-body > nav figure {
-  display: inline;
-}
-body > nav figure img {
-  display: inline;
-  width: 50px;
-  margin-right: 10px;
-}
-body > nav figure h1 {
-  text-shadow: 3px 3px black;
-  color: white;
-  display: inline;
-  vertical-align: middle;
-  margin-right: 100px;
+  text-shadow: 1px 1px black;
 }
 body > nav ul {
-  display: inline;
+  margin: 0 20px;
+  padding: 5px 0;
   list-style: none;
   width: auto;
-  padding: 0;
-  padding-top: 2px;
-  margin-right: 20px;
   font-size: 0.9em;
+  text-align: center;
+  border-top: dashed #e74c3c 1px;
 }
 body > nav ul li {
   display: inline;
@@ -5862,27 +5822,29 @@ body > nav ul.dropdown-menu li {
   margin-left: 0px;
 }
 body > nav form[name='search'] {
-  margin: 0;
-  display: inline-block;
-  width: auto;
+  display: block;
+  margin: 0 20px;
+  padding: 5px 0;
+  text-align: center;
+  position: relative;
 }
 body > nav form[name='search'] [for='search'] {
+  position: absolute;
   font-size: 0;
-  position: relative;
   right: -20px;
 }
 body > nav form[name='search'] #search {
-  min-width: 30px;
+  width: 100%;
   font-size: 0.9em;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   border-style: none;
-  border-radius: 15px;
-  box-shadow: inset 3px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  box-shadow: inset 2px 1px 2px rgba(0, 0, 0, 0.5);
 }
 body > nav form[name='search'] #search:focus {
   outline: none;
-  box-shadow: 0px 0px 3pt 2pt #5b9dd9;
+  box-shadow: 0px 0px 3px 2px #5b9dd9;
 }
 body footer {
   height: 100%;

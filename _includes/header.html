@@ -1,26 +1,24 @@
+<header>
+  <img alt="Logotipo" src="{{ site.baseurl }}/assets/img/logo.png" />
+  <h1>MST</h1>
+</header>
 <nav>
-  <figure>
-    <img alt="Logotipo" src="{{ site.baseurl }}/assets/img/logo.png" />
-    <h1>MST</h1>
-  </figure>
-
   <ul>
-  {% for menu in site.data.menu %}
-    <li class="dropdown">
-      {% include menu_link.html menu=menu %}
-      {% if menu.submenu %}
-        <ul class="dropdown-menu">
-        {% for submenu in menu.submenu %}
-          <li>
-            {% include menu_link.html menu=submenu %}
-          </li>
-        {% endfor %}
-        </ul>
-      {% endif %}
-    </li>
-  {% endfor %}
+    {% for menu in site.data.menu %}
+      <li class="dropdown">
+        {% include menu_link.html menu=menu %}
+        {% if menu.submenu %}
+          <ul class="dropdown-menu">
+          {% for submenu in menu.submenu %}
+            <li>
+              {% include menu_link.html menu=submenu %}
+            </li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
   </ul>
-
   <form action="http://www.mst.org.br/" accept-charset="UTF-8" method="post" name="search">
     <label for="search">Busca:</label>
     <input type="search" id="search" placeholder="Pesquisar..." name="search_block_form" />
