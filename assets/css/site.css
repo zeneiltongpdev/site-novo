@@ -6119,3 +6119,16 @@ article.tema section p.mais a:hover {
     margin-left: 1%;
   }
 }
+@media (max-width: 480px) {
+  article.tema header {
+    position: relative;
+    padding-top: 60px;
+  }
+  article.tema header h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
