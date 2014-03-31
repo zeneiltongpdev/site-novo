@@ -1,44 +1,71 @@
 #!/bin/bash
 
-function check_installation {
-  hash $1 2>/dev/null || { echo >&2 "$1 is not available; aborting."; exit 1; }
+function abort {
+  echo >&2 "setup failed."; exit 1;
 }
 
-function check_ruby {
-  check_installation ruby
-  ruby -v | grep "ruby 2" >/dev/null || {
-    echo >&2 "! you need ruby version >= 2; aborting."; exit 1;
-  }
-  echo "✓ ruby is ok."
+function check_installation {
+  hash $1 2>/dev/null || { echo >&2 "ERROR: $1 is not available."; abort; }
 }
 
 function check_mysql {
   check_installation mysql
   mysql --version | grep "Distrib 5" >/dev/null || {
-    echo >&2 "You need mysql version >= 5; aborting."; exit 1;
+    echo >&2 "you need mysql version >= 5."; abort;
   }
   echo "✓ mysql is ok."
 }
 
+function check_ruby {
+  check_installation ruby
+  ruby -v | grep "ruby 2" >/dev/null || {
+    echo >&2 "you need ruby version >= 2."; abort;
+  }
+  echo "✓ ruby is ok."
+}
+
+function check_node {
+  check_installation node
+  node -v | grep "v0.10" >/dev/null || {
+    echo >&2 "you need node version >= 0.10."; abort;
+  }
+  echo "✓ node is ok."
+}
+
 function restore_database {
   echo "restoring the database..."
-  curl "https://dl.dropboxusercontent.com/u/83384696/mst2.sql.gz" > mst2.sql.gz
+  curl "https://dl.dropboxusercontent.com/u/83384696/mst2.sql.gz" > mst2.sql.gz || abort
   gzip -d mst2.sql.gz
-  mysql -u root -e "drop database if exists mst2; create database mst2; SET GLOBAL max_allowed_packet=1073741824;"
-  mysql -u root mst2 < mst2.sql
+
+  drop_db="drop database if exists mst2;"
+  create_db="create database mst2;"
+  increase_mem="SET GLOBAL max_allowed_packet=1073741824;"
+
+  mysql -u root --password=$1 -e "$drop_db $create_db $increase_mem" || abort
+  mysql -u root --password=$1 mst2 < mst2.sql || abort
+
   rm mst2.sql
-  echo "✓ database is restored."
+  echo "✓ database restored."
 }
 
 function install_gems {
-  echo "installing gems"
-  gem install bundler >/dev/null && bundle install && echo "✓ gems are installed."
+  echo "installing gems..."
+  (gem install bundler >/dev/null && bundle install) || abort 
+  echo "✓ gems installed."
+}
+
+function install_node_packages {
+  echo "installing node packages..."
+  npm install || abort 
+  echo "✓ node packages installed."
 }
 
 echo "setting up movimento-sem-terra/site-novo..."
 check_mysql
 check_ruby
-restore_database
+check_node
+restore_database $1
 install_gems
+install_node_packages
 echo "setup is complete!"
 
