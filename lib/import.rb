@@ -111,23 +111,22 @@ module JekyllImport
 
         db[sql].each do |post|
 
-          # Get required fields and construct Jekyll compatible name
           node_id = post[:nid]
           title = post[:title].gsub(/"/, '')
           content = post[:body]
           content_markdown = markdonify(content)
           tags = post_tags(post)
           images = "http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/" + post[:images].to_s
-          
           type = post[:type]
           video = (type == 'video' ? youtube_video(content) : "")
-          
+
           created = post[:created]
           time = Time.at(created)
           is_published = post[:status] == 1
           dir = is_published ? "_posts" : "_drafts"
           slug = title.strip.downcase.gsub(/(&|&amp;)/, ' and ').gsub(/[\s\.\/\\]/, '-').gsub(/[^\w-]/, '').gsub(/[-_]{2,}/, '-').gsub(/^[-_]/, '').gsub(/[-_]$/, '')
           name = time.strftime("%Y-%m-%d-") + slug + '.md'
+
 
           # Get the relevant fields as a hash, delete empty fields and convert
           # to YAML for the header
@@ -182,3 +181,23 @@ module JekyllImport
   end
 end
 
+
+class ProcessPost
+  attr_reader :struct_post
+
+  PUBLISHED = 1
+  Struct.new("Post", :node_id, :title, :content, :type, :created, :is_published?)
+
+  def initialize post
+    # Get required fields and construct Jekyll compatible name
+    @struct_post = Struct::Post.new(
+      post[:nid],
+      post[:title].gsub(/"/, ''),
+      post[:body],
+      post[:type],
+      post[:created],
+      (post[:status] == PUBLISHED)
+    )
+
+  end
+end

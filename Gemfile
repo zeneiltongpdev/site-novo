@@ -10,6 +10,7 @@ gem 'jekyll-import'
 group :test do
   gem "rspec"
   gem "rake"
-  gem "minitest"
+  gem "mocha"
+  gem "pry"
 end
 
