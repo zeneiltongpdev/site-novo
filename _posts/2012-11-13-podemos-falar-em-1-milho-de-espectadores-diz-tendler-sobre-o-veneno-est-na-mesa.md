@@ -4,8 +4,7 @@ title: “Podemos falar em 1 milhão de espectadores”, diz Tendler sobre O Ven
   na Mesa
 legacy_url: http://www.mst.org.br/node/14090
 created: 1352827120
-images:
-- 
+images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/
 video: http://www.youtube.com/v/z0Em-RTYDAw&amp;feature
 tags:
 - Agronegócio
