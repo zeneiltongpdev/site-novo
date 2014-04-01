@@ -183,14 +183,18 @@ end
 
 
 class ProcessPost
-  attr_reader :struct_post
+  attr_reader :post 
+  Struct.new("Post", :node_id, :title, :content, :type, :created, :is_published?)
+  Struct.new("Vars", :tags, :images, :video, :name)
 
   PUBLISHED = 1
-  Struct.new("Post", :node_id, :title, :content, :type, :created, :is_published?)
 
   def initialize post
-    # Get required fields and construct Jekyll compatible name
-    @struct_post = Struct::Post.new(
+    prepare_post post
+  end
+
+  def prepare_post post
+    @post = Struct::Post.new(
       post[:nid],
       post[:title].gsub(/"/, ''),
       post[:body],
@@ -198,6 +202,39 @@ class ProcessPost
       post[:created],
       (post[:status] == PUBLISHED)
     )
+  end
 
+  def post_tags
+
+  end
+  
+  def post_images
+    ""
+  end
+
+  def post_name
+#    time = Time.at(@post.created)
+#    slug = @post.title.strip.downcase.gsub(/(&|&amp;)/, ' and ').gsub(/[\s\.\/\\]/, '-').gsub(/[^\w-]/, '').gsub(/[-_]{2,}/, '-').gsub(/^[-_]/, '').gsub(/[-_]$/, '')
+#    name = time.strftime("%Y-%m-%d-") + slug + '.md'
+    "2010-12-30-my-strange-title.md"
+  end
+
+  def content_images
+#    content_markdown = markdonify(content)
+#    images = post_images(post) + content_images(content_markdown)
+    ""
+  end
+
+  def youtube_video
+    @post[:type] == 'video' ? 'youtube.com/123' : ''
+  end
+
+  def content_vars
+    @content_vars = Struct::Vars.new(
+      post_tags,
+      post_images + content_images,
+      youtube_video,
+      post_name
+    )
   end
 end
