@@ -59,18 +59,45 @@ article.tema {
   header, section {
     margin: 0;
     margin-bottom: 30px;
+    text-align: justify;
 
     h1, h2 {
       margin: 0;  
       margin-bottom: 10px;
     }
+    
+    details {
+      
+      &[open], &.open {
+        summary {
+          display: none;
+        }
+      }
 
+      summary {
+        cursor: pointer;
+        color: @mstgreen;
+        font-size: smaller;
+        font-weight: bold;
+        float: right;
+        
+        &:focus {
+          outline: none;
+        }
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    
+    }
+    
     h2 {
       margin-bottom: 0.5em;
       border-bottom: dashed 1px lightgray;
       padding-bottom: 0.3em;
     }
-
+    
     img, iframe {
       box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
     }
@@ -78,6 +105,7 @@ article.tema {
     img {
       border-radius: 3px;
     }
+    
   }
 
   header {

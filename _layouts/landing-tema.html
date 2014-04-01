@@ -6,6 +6,7 @@ layout : default
 {% assign tema = page.tema %}
 {% assign image = page.image %}
 {% assign all_news_url = page.all_news_url %}
+{% assign summary = page.summary %}
 {% assign description = page.description %}
 {% assign noticias = site.tags.news %}
 {% assign videos = site.tags.video %}
@@ -18,9 +19,14 @@ layout : default
       <img alt="Imagem da Agronegocio" src="{{ image }}" />
     </figure>
     <h1>{{ title }}</h1>
-    <p>
-      {{ description }} [Fonte: <a href="https://www.expressaopopular.com.br/livros/expressao-popular/dicionario-da-educacao-do-campo">Dicionário da Educação do Campo</a>]
-    </p>
+    {{ summary }}
+    <details>
+      <summary>Leia mais...</summary>
+      <p>
+        {{ description }}
+        <span>[Fonte: <a href="https://www.expressaopopular.com.br/livros/expressao-popular/dicionario-da-educacao-do-campo">Dicionário da Educação do Campo</a>]</span>
+      </p>
+    </details>
   </header>
 
   <section class="noticias">

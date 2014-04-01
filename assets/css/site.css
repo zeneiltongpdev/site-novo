@@ -6030,6 +6030,7 @@ article.tema header,
 article.tema section {
   margin: 0;
   margin-bottom: 30px;
+  text-align: justify;
 }
 article.tema header h1,
 article.tema section h1,
@@ -6037,6 +6038,28 @@ article.tema header h2,
 article.tema section h2 {
   margin: 0;
   margin-bottom: 10px;
+}
+article.tema header details[open] summary,
+article.tema section details[open] summary,
+article.tema header details.open summary,
+article.tema section details.open summary {
+  display: none;
+}
+article.tema header details summary,
+article.tema section details summary {
+  cursor: pointer;
+  color: #006400;
+  font-size: smaller;
+  font-weight: bold;
+  float: right;
+}
+article.tema header details summary:focus,
+article.tema section details summary:focus {
+  outline: none;
+}
+article.tema header details summary:hover,
+article.tema section details summary:hover {
+  text-decoration: underline;
 }
 article.tema header h2,
 article.tema section h2 {
