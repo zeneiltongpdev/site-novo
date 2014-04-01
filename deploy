@@ -51,6 +51,7 @@ function deploy {
   popd
 }
 
+bundle install --path vendor --without test
 dirty_check $1
 gh_pages
 dist
