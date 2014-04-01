@@ -50,10 +50,10 @@ function restore_database {
 
   drop_db="drop database if exists mst2;"
   create_db="create database mst2;"
-  increase_mem="SET GLOBAL max_allowed_packet=1073741824;"
+  increase_mem="set global max_allowed_packet=1073741824;"
+  use_db="use mst2;"
 
-  mysql -u root --password=$1 -e "$drop_db $create_db $increase_mem" || abort
-  mysql -u root --password=$1 mst2 < mst2.sql || abort
+  (( echo "$drop_db $create_db $increase_mem $use_db" && cat mst2.sql ) | mysql -u root -p  ) || abort
 
   rm mst2.sql
   echo "✓ database restored."
