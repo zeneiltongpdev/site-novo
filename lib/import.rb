@@ -3,6 +3,7 @@ require "mysql"
 require "jekyll-import"
 require "open-uri"
 require_relative "html2markdown_monkeypatch"
+require "yaml"
 
 # monkey patching the drupal 6 importer
 # adding more metadatas ( tags and images ) do each post
@@ -17,51 +18,7 @@ module JekyllImport
             <meta http-equiv=\"refresh\" content=\"0;url={{ page.refresh_to_post_id }}.html\" /> \
           </head>
         </html>"
-        
-      QUERY = " (SELECT  n.nid, \ 
-                         n.title, \
-                         nr.body,\
-                         n.created, \
-                         n.status, \
-                         GROUP_CONCAT( CONCAT(v.name,':', tags.name) SEPARATOR '|' ) as 'tags', \
-                         GROUP_CONCAT( CONCAT(f.filepath) SEPARATOR '|' ) as 'images', \
-                         'video' as type
-                 FROM  node as n \
-                       INNER JOIN node_revisions as nr ON (n.vid = nr.vid) \
-                       LEFT OUTER JOIN term_node as tn ON tn.nid = n.nid  \
-                       LEFT OUTER JOIN term_data as tags on tn.tid = tags.tid  \
-                       LEFT OUTER JOIN vocabulary as v on v.vid = tags.vid \
-                       LEFT OUTER JOIN upload as u on u.nid =n.nid \
-                       LEFT OUTER JOIN files AS f on f.fid = u.fid \
-                 WHERE tn.tid in (336, 382, 347) \
-                       AND (f.status = 1 OR f.status is null) \
-                       AND (u.list = 1 OR u.list is null) \
-                       AND nr.body LIKE '%youtube.com/v/%' \
-                GROUP BY n.nid \
-                ORDER BY created DESC \
-                LIMIT 3)
-                UNION
-                (SELECT  n.nid,   \ 
-                         n.title,  \ 
-                         nr.body, \ 
-                         n.created,  \ 
-                         n.status,  \ 
-                         GROUP_CONCAT( CONCAT(v.name,':', tags.name) SEPARATOR '|' ) as 'tags',  \ 
-						             files.filename, \ 
-                         'news' as type \ 
-                   FROM  node as n  \ 
-                         INNER JOIN node_revisions as nr ON (n.vid = nr.vid)  \ 
-                         LEFT OUTER JOIN term_node as tn ON tn.nid = n.nid   \ 
-                         LEFT OUTER JOIN term_data as tags on tn.tid = tags.tid \   
-                         LEFT OUTER JOIN vocabulary as v on v.vid = tags.vid  \ 
-                         LEFT OUTER JOIN content_type_story as image on image.nid = n.nid  \ 
-  					   LEFT OUTER JOIN files on files.fid = image.field_foto_fid \ 
-                   WHERE tn.tid in (336, 382, 347)  \ 
-                         AND nr.body NOT LIKE '%youtube.com/v/%'  \ 
-                  GROUP BY n.nid  \ 
-                  ORDER BY created DESC  \ 
-                  LIMIT 3);" 
-
+      
       def self.require_deps
         JekyllImport.require_with_fallback(%w[
           rubygems
@@ -127,13 +84,6 @@ module JekyllImport
         prefix = options.fetch('prefix', "")
 
         db = Sequel.mysql(dbname, :user => user, :password => pass, :host => host, :encoding => 'utf8')
-
-        if prefix != ''
-          QUERY[" node "] = " " + prefix + "node "
-          QUERY[" node_revisions "] = " " + prefix + "node_revisions "
-          QUERY[" term_node "] = " " + prefix + "term_node "
-          QUERY[" term_data "] = " " + prefix + "term_data "
-        end
         
         FileUtils.remove_dir "_posts"        
         
@@ -147,7 +97,19 @@ module JekyllImport
           f.puts REFRESH_HTML
         end
 
-        db[QUERY].each do |post|
+        queries = load_query_file
+        sql = queries['retrieve_news_and_videos_from_tags'].gsub('#ids#', '336, 382, 347')
+        
+        if prefix != ''
+          sql[" node "] = " " + prefix + "node "
+          sql[" node_revisions "] = " " + prefix + "node_revisions "
+          sql[" term_node "] = " " + prefix + "term_node "
+          sql[" term_data "] = " " + prefix + "term_data "
+          sql[" vocabulary "] = " " + prefix + "vocabulary "
+          sql[" content_type_story "] = " " + prefix + "content_type_story "
+        end
+
+        db[sql].each do |post|
 
           # Get required fields and construct Jekyll compatible name
           node_id = post[:nid]
@@ -211,6 +173,10 @@ module JekyllImport
 
         # TODO: Make dirs & files for nodes of type 'page'
         # Make refresh pages for these as well
+      end
+      
+      def self.load_query_file
+        YAML.load_file(File.dirname(__FILE__) + "/queries.yml")
       end
     end
   end
