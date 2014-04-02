@@ -244,14 +244,9 @@ class ProcessPost
   def youtube_video raw_content
     return "" unless @post[:type] == 'video'
     body = raw_content[:body]
-    regex = /"((http|https):\/\/www.youtube.com\/\S+)"/
+    regex = /^.*(youtube\/|v\/|e\/|u\/\w+\/|embed\/|v=)(?<id>[^#\&\?]*).*("|')/
     match =  body.match(regex)
-
-    if match      
-      match.captures.first.gsub(/#.*/, '') 
-    else
-      ""
-    end
+    (match) ? match[:id].to_s : ""
   end
 
 end

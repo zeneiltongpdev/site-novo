@@ -138,9 +138,10 @@ class ProcessPostTest < ActiveSupport::TestCase
     assert_equal expected, @process.format_title(title)
   end
 
-  test 'youtube video retrieve correct video url when the type is video' do
-    @metadata[:body] = '<object href="http://www.youtube.com/v/IUdasiiu" />'
-    expected = 'http://www.youtube.com/v/IUdasiiu'
+  test 'youtube video retrieve correct video id when the type is video' do
+    real_video = '<object data="http://www.youtube.com/v/9mw5Wg02yAA&amp;feature" />'
+    @metadata[:body] = real_video
+    expected = '9mw5Wg02yAA'
     @metadata[:type] = 'video'
 
     process = ProcessPost.new @metadata
@@ -148,9 +149,9 @@ class ProcessPostTest < ActiveSupport::TestCase
     assert_equal expected, process.youtube_video(@metadata)
   end
 
-  test 'youtube video retrieve correct video url when it use https' do
-    @metadata[:body] = '<object href="https://www.youtube.com/v/IUdasiiu" />'
-    expected = 'https://www.youtube.com/v/IUdasiiu'
+  test 'youtube video retrieve correct video id when it finish with single quotes' do
+    @metadata[:body] = '<object href=\'https://www.youtube.com/v/IUdasiiu\' />'
+    expected = 'IUdasiiu'
     @metadata[:type] = 'video'
 
     process = ProcessPost.new @metadata
