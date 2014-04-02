@@ -1,82 +1,118 @@
 require_relative '../test_helper.rb'
 require_relative '../../lib/import.rb'
+require 'date'
  
 class ProcessPostTest < ActiveSupport::TestCase
 
   setup do
-    @post = { :nid => 'node_id',
+    @metadata = { :nid => 'node_id',
               :title => 'title',
               :body => 'body',
               :type => 'type',
-              :created => 'created',
-              :status => 'status'}
-    @process = ProcessPost.new @post
+              :created => 1262314800,
+              :status => 'status',
+              :tags => "tags:tags",
+              :images => "vini.jpg"}
+    @process = ProcessPost.new @metadata
   end
-
 
   test 'post size' do
-    processPost = @process.prepare_post @post
-    assert_equal processPost.size, @post.size
+    processmetadata = @process.prepare_post @metadata
+    assert_equal 6,processmetadata.size
   end
 
-  test 'post is published' do
-    @post[:status] = 0 
-    processPost = @process.prepare_post @post
+  test 'metadata is published' do
+    @metadata[:status] = 0 
+    processmetadata = @process.prepare_post @metadata
 
-    assert processPost.is_published? == false
+    assert processmetadata.is_published? == false
 
-    @post[:status] = 1
-    processPost = @process.prepare_post @post
+    @metadata[:status] = 1
+    processmetadata = @process.prepare_post @metadata
 
-    assert processPost.is_published?
+    assert processmetadata.is_published?
   end
 
-  test 'post title' do
-    @post[:title] = 'Testin"g q"uotes'
+  test 'metadata title' do
+    @metadata[:title] = 'Testin"g q"uotes'
 
-    processPost = @process.prepare_post @post
+    post = @process.prepare_post @metadata
 
-    assert_equal 'Testing quotes', processPost.title
+    assert_equal 'Testing quotes', post.title
   end
 
   test 'content vars size' do
     content_vars = @process.content_vars
-    assert_equal content_vars.size, 4
+    assert_equal 4,content_vars.size
   end
 
   test 'content vars tags' do
-    @process.stubs(:post_tags).returns('resultado')
+    process = ProcessPost.new @metadata
+    process.stubs(:post_tags).with(@metadata).returns('resultado')
+    process.prepare_content_vars @metadata
 
-    assert_equal  'resultado', @process.content_vars.tags
+    assert_equal  'resultado', process.content_vars.tags
   end
 
   test 'content vars images' do
-    @process.stubs(:post_images).returns('A')
-    @process.stubs(:content_images).returns('B')
+    process = ProcessPost.new @metadata
+    process.stubs(:post_images).returns('AB')
+    process.prepare_content_vars @metadata
 
-    assert_equal 'AB', @process.content_vars.images
+    assert_equal 'AB', process.content_vars.images
   end
 
-  test 'content vars video when post type video' do
-    @post[:type] = 'video'
-    @process = ProcessPost.new @post
+  test 'content vars video when metadata type video' do
+    @metadata[:type] = 'video'
+    @process = ProcessPost.new @metadata
     assert_equal 'youtube.com/123', @process.content_vars.video
   end
 
-  test 'content vars video when post type is not video' do
-    @post[:type] = 'other'
-    @process = ProcessPost.new @post
+  test 'content vars video when metadata type is not video' do
+    @metadata[:type] = 'other'
+    @process = ProcessPost.new @metadata
 
     assert_equal '', @process.content_vars.video
   end
 
   test 'content vars name without special caracters' do
-    @post[:title] = 'MY STRANGE Title.'
-    @post[:created] = '1262314800'
+    @metadata[:title] = 'MY STRANGE Title'
+    @metadata[:created] = DateTime.new(2012,12,30,12,30).to_time.to_i
 
-    @process = ProcessPost.new @post
+    @process = ProcessPost.new @metadata
 
-    assert_equal '2010-12-30-my-strange-title.md', @process.content_vars.name
+    assert_equal '2012-12-30-my-strange-title.md', @process.content_vars.name
   end
 
+  test 'metadata tags method' do
+    @metadata[:tags] = "Audio:FM|Video:Vimeo|Music:BYOB"
+    result = {'Audio' => 'FM', 'Video' => 'Vimeo', 'Music' => 'BYOB'}
+
+    process = ProcessPost.new @metadata
+
+    assert_equal result, process.post_tags(@metadata)
+  end
+
+  test 'post images method' do
+    @metadata[:images] = "vini.jpg"
+    result = "#{ProcessPost::ADDRESS_IMAGES}vini.jpg"
+
+    process = ProcessPost.new @metadata
+
+    assert_equal result, process.post_images(@metadata)
+  end
+  
+  test 'post name method' do
+    @metadata[:title] = 'Congresso do MST'
+    @metadata[:created] = 1293712200
+    process = ProcessPost.new @metadata
+    assert_equal "2010-12-30-congresso-do-mst.md", process.post_name
+  end
+
+  test 'format title removing & and &amp;' do
+    title = "One & Two & Three &amp; Four"
+    expected = "one-and-two-and-three-and-four"
+
+    assert_equal expected, @process.format_title(title)
+  end
 end

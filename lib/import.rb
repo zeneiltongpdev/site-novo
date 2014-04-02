@@ -183,58 +183,70 @@ end
 
 
 class ProcessPost
-  attr_reader :post 
+  attr_reader :post, :content_vars
+  
   Struct.new("Post", :node_id, :title, :content, :type, :created, :is_published?)
   Struct.new("Vars", :tags, :images, :video, :name)
 
   PUBLISHED = 1
+  ADDRESS_IMAGES = 'http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/' #don't forget slash in the end
 
-  def initialize post
-    prepare_post post
+  def initialize raw_content
+    prepare_post raw_content
+    prepare_content_vars raw_content
   end
 
-  def prepare_post post
+  def prepare_post raw_content
     @post = Struct::Post.new(
-      post[:nid],
-      post[:title].gsub(/"/, ''),
-      post[:body],
-      post[:type],
-      post[:created],
-      (post[:status] == PUBLISHED)
+      raw_content[:nid],
+      raw_content[:title].gsub(/"/, ''),
+      raw_content[:body],
+      raw_content[:type],
+      raw_content[:created],
+      (raw_content[:status] == PUBLISHED)
     )
   end
 
-  def post_tags
+  def prepare_content_vars raw_content
+    @content_vars = Struct::Vars.new(
+      post_tags(raw_content),
+      post_images(raw_content),
+      youtube_video,
+      post_name
+    )
+  end
 
+  def post_tags raw_content
+    return "" if raw_content[:tags].empty?
+    raw_content[:tags].split('|').reduce({}) do |result, pair|
+      result.merge(Hash[*pair.split(':')]) 
+    end
   end
   
-  def post_images
-    ""
+  def post_images raw_content
+    ADDRESS_IMAGES + raw_content[:images]
   end
 
   def post_name
-#    time = Time.at(@post.created)
+    time = Time.at(@post.created.to_i).strftime "%Y-%m-%d"
+    title = format_title @post.title
+     "#{time}-#{title}.md"
 #    slug = @post.title.strip.downcase.gsub(/(&|&amp;)/, ' and ').gsub(/[\s\.\/\\]/, '-').gsub(/[^\w-]/, '').gsub(/[-_]{2,}/, '-').gsub(/^[-_]/, '').gsub(/[-_]$/, '')
 #    name = time.strftime("%Y-%m-%d-") + slug + '.md'
-    "2010-12-30-my-strange-title.md"
+  end
+
+  def format_title title
+    title.downcase.split.join("-").
+    gsub(/(&amp;|&)/, 'and') 
   end
 
   def content_images
 #    content_markdown = markdonify(content)
 #    images = post_images(post) + content_images(content_markdown)
-    ""
   end
 
   def youtube_video
     @post[:type] == 'video' ? 'youtube.com/123' : ''
   end
 
-  def content_vars
-    @content_vars = Struct::Vars.new(
-      post_tags,
-      post_images + content_images,
-      youtube_video,
-      post_name
-    )
-  end
 end
