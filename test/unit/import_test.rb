@@ -129,4 +129,20 @@ class ProcessPostTest < ActiveSupport::TestCase
 
     assert_equal expected, @process.format_title(title)
   end
+
+  test 'format title removing underlines in the begining of title' do
+    title = "_One"
+    expected = "one"
+
+    assert_equal expected, @process.format_title(title)
+  end
+
+  test 'format title removing underlines in the end of title' do
+    title = "One_"
+    expected = "one"
+
+    assert_equal expected, @process.format_title(title)
+  end
+
+
 end
