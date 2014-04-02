@@ -115,4 +115,18 @@ class ProcessPostTest < ActiveSupport::TestCase
 
     assert_equal expected, @process.format_title(title)
   end
+
+  test 'format title removing special characteres' do
+    title = "One;Two:Three[Four]"
+    expected = "onetwothreefour"
+
+    assert_equal expected, @process.format_title(title)
+  end
+
+  test 'format title removing duplicates underlines and dashes' do
+    title = "One__Two--Three---Four__--Five"
+    expected = "one-two-three-four-five"
+
+    assert_equal expected, @process.format_title(title)
+  end
 end
