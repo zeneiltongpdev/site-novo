@@ -1,0 +1,5 @@
+require 'minitest/autorun'
+require 'minitest/pride'
+require 'active_support/test_case'
+require 'pry'
+require 'mocha/mini_test'

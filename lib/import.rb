@@ -3,6 +3,7 @@ require "mysql"
 require "jekyll-import"
 require "open-uri"
 require_relative "html2markdown_monkeypatch"
+require "yaml"
 
 # monkey patching the drupal 6 importer
 # adding more metadatas ( tags and images ) do each post
@@ -17,51 +18,7 @@ module JekyllImport
             <meta http-equiv=\"refresh\" content=\"0;url={{ page.refresh_to_post_id }}.html\" /> \
           </head>
         </html>"
-        
-      QUERY = " (SELECT  n.nid, \ 
-                         n.title, \
-                         nr.body,\
-                         n.created, \
-                         n.status, \
-                         GROUP_CONCAT( CONCAT(v.name,':', tags.name) SEPARATOR '|' ) as 'tags', \
-                         GROUP_CONCAT( CONCAT(f.filepath) SEPARATOR '|' ) as 'images', \
-                         'video' as type
-                 FROM  node as n \
-                       INNER JOIN node_revisions as nr ON (n.vid = nr.vid) \
-                       LEFT OUTER JOIN term_node as tn ON tn.nid = n.nid  \
-                       LEFT OUTER JOIN term_data as tags on tn.tid = tags.tid  \
-                       LEFT OUTER JOIN vocabulary as v on v.vid = tags.vid \
-                       LEFT OUTER JOIN upload as u on u.nid =n.nid \
-                       LEFT OUTER JOIN files AS f on f.fid = u.fid \
-                 WHERE tn.tid in (336, 382, 347) \
-                       AND (f.status = 1 OR f.status is null) \
-                       AND (u.list = 1 OR u.list is null) \
-                       AND nr.body LIKE '%youtube.com/v/%' \
-                GROUP BY n.nid \
-                ORDER BY created DESC \
-                LIMIT 3)
-                UNION
-                (SELECT  n.nid,   \ 
-                         n.title,  \ 
-                         nr.body, \ 
-                         n.created,  \ 
-                         n.status,  \ 
-                         GROUP_CONCAT( CONCAT(v.name,':', tags.name) SEPARATOR '|' ) as 'tags',  \ 
-						             files.filename, \ 
-                         'news' as type \ 
-                   FROM  node as n  \ 
-                         INNER JOIN node_revisions as nr ON (n.vid = nr.vid)  \ 
-                         LEFT OUTER JOIN term_node as tn ON tn.nid = n.nid   \ 
-                         LEFT OUTER JOIN term_data as tags on tn.tid = tags.tid \   
-                         LEFT OUTER JOIN vocabulary as v on v.vid = tags.vid  \ 
-                         LEFT OUTER JOIN content_type_story as image on image.nid = n.nid  \ 
-  					   LEFT OUTER JOIN files on files.fid = image.field_foto_fid \ 
-                   WHERE tn.tid in (336, 382, 347)  \ 
-                         AND nr.body NOT LIKE '%youtube.com/v/%'  \ 
-                  GROUP BY n.nid  \ 
-                  ORDER BY created DESC  \ 
-                  LIMIT 3);" 
-
+      
       def self.require_deps
         JekyllImport.require_with_fallback(%w[
           rubygems
@@ -127,13 +84,6 @@ module JekyllImport
         prefix = options.fetch('prefix', "")
 
         db = Sequel.mysql(dbname, :user => user, :password => pass, :host => host, :encoding => 'utf8')
-
-        if prefix != ''
-          QUERY[" node "] = " " + prefix + "node "
-          QUERY[" node_revisions "] = " " + prefix + "node_revisions "
-          QUERY[" term_node "] = " " + prefix + "term_node "
-          QUERY[" term_data "] = " " + prefix + "term_data "
-        end
         
         FileUtils.remove_dir "_posts"        
         
@@ -147,25 +97,36 @@ module JekyllImport
           f.puts REFRESH_HTML
         end
 
-        db[QUERY].each do |post|
+        queries = load_query_file
+        sql = queries['retrieve_news_and_videos_from_tags'].gsub('#ids#', '336, 382, 347')
+        
+        if prefix != ''
+          sql[" node "] = " " + prefix + "node "
+          sql[" node_revisions "] = " " + prefix + "node_revisions "
+          sql[" term_node "] = " " + prefix + "term_node "
+          sql[" term_data "] = " " + prefix + "term_data "
+          sql[" vocabulary "] = " " + prefix + "vocabulary "
+          sql[" content_type_story "] = " " + prefix + "content_type_story "
+        end
 
-          # Get required fields and construct Jekyll compatible name
+        db[sql].each do |post|
+
           node_id = post[:nid]
           title = post[:title].gsub(/"/, '')
           content = post[:body]
           content_markdown = markdonify(content)
           tags = post_tags(post)
           images = "http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/" + post[:images].to_s
-          
           type = post[:type]
           video = (type == 'video' ? youtube_video(content) : "")
-          
+
           created = post[:created]
           time = Time.at(created)
           is_published = post[:status] == 1
           dir = is_published ? "_posts" : "_drafts"
           slug = title.strip.downcase.gsub(/(&|&amp;)/, ' and ').gsub(/[\s\.\/\\]/, '-').gsub(/[^\w-]/, '').gsub(/[-_]{2,}/, '-').gsub(/^[-_]/, '').gsub(/[-_]$/, '')
           name = time.strftime("%Y-%m-%d-") + slug + '.md'
+
 
           # Get the relevant fields as a hash, delete empty fields and convert
           # to YAML for the header
@@ -212,7 +173,80 @@ module JekyllImport
         # TODO: Make dirs & files for nodes of type 'page'
         # Make refresh pages for these as well
       end
+      
+      def self.load_query_file
+        YAML.load_file(File.dirname(__FILE__) + "/queries.yml")
+      end
     end
   end
 end
 
+
+class ProcessPost
+  attr_reader :post, :content_vars
+  
+  Struct.new("Post", :node_id, :title, :content, :type, :created, :is_published?)
+  Struct.new("Vars", :tags, :images, :video, :name)
+
+  PUBLISHED = 1
+  ADDRESS_IMAGES = 'http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/' #don't forget slash in the end
+
+  def initialize raw_content
+    prepare_post raw_content
+    prepare_content_vars raw_content
+  end
+
+  def prepare_post raw_content
+    @post = Struct::Post.new(
+      raw_content[:nid],
+      raw_content[:title].gsub(/"/, ''),
+      raw_content[:body],
+      raw_content[:type],
+      raw_content[:created],
+      (raw_content[:status] == PUBLISHED)
+    )
+  end
+
+  def prepare_content_vars raw_content
+    @content_vars = Struct::Vars.new(
+      post_tags(raw_content),
+      post_images(raw_content),
+      youtube_video,
+      post_name
+    )
+  end
+
+  def post_tags raw_content
+    return "" if raw_content[:tags].empty?
+    raw_content[:tags].split('|').reduce({}) do |result, pair|
+      result.merge(Hash[*pair.split(':')]) 
+    end
+  end
+  
+  def post_images raw_content
+    ADDRESS_IMAGES + raw_content[:images]
+  end
+
+  def post_name
+    time = Time.at(@post.created.to_i).strftime "%Y-%m-%d"
+    title = format_title @post.title
+     "#{time}-#{title}.md"
+#    slug = @post.title.strip.downcase.gsub(/(&|&amp;)/, ' and ').gsub(/[\s\.\/\\]/, '-').gsub(/[^\w-]/, '').gsub(/[-_]{2,}/, '-').gsub(/^[-_]/, '').gsub(/[-_]$/, '')
+#    name = time.strftime("%Y-%m-%d-") + slug + '.md'
+  end
+
+  def format_title title
+    title.downcase.split.join("-").
+    gsub(/(&amp;|&)/, 'and') 
+  end
+
+  def content_images
+#    content_markdown = markdonify(content)
+#    images = post_images(post) + content_images(content_markdown)
+  end
+
+  def youtube_video
+    @post[:type] == 'video' ? 'youtube.com/123' : ''
+  end
+
+end
