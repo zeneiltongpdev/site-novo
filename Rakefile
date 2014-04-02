@@ -1,5 +1,5 @@
 require 'rspec/core/rake_task'
-
+require 'rake/testtask'
 
 RSpec::Core::RakeTask.new(:spec)
 task :test => :spec
@@ -14,4 +14,10 @@ task :import do
     "host"     => ENV['HOST'] || 'localhost',
     "prefix"   => ""
   })
+end
+
+Rake::TestTask.new("test:unit") do |t|
+  t.libs << "test"
+  t.test_files = FileList['test/unit/**/*.rb']
+  t.verbose = true
 end

@@ -46,6 +46,7 @@ module JekyllImport
         end
       end
 
+      # Remove after refactoring
       def self.content_images(markdown)
         regex = /(!\[.*?\]\(.+?\))/
         match = markdown.match(regex)
@@ -211,7 +212,7 @@ class ProcessPost
     @content_vars = Struct::Vars.new(
       post_tags(raw_content),
       post_images(raw_content),
-      youtube_video,
+      youtube_video(raw_content),
       post_name
     )
   end
@@ -231,24 +232,28 @@ class ProcessPost
     time = Time.at(@post.created.to_i).strftime "%Y-%m-%d"
     title = format_title @post.title
      "#{time}-#{title}.md"
-#    slug = gsub(/^[-_]/, '').gsub(/[-_]$/, '')
-#    name = time.strftime("%Y-%m-%d-") + slug + '.md'
   end
 
   def format_title title
     title.downcase.split.join("-").
       gsub(/(&amp;|&)/, 'and').  
       gsub(/[^\w-]/, '').
-      gsub(/[-_]{2,}/, '-')
+      gsub(/[-_]{1,}/, '-').
+      gsub(/^[-_]/, '').
+      gsub(/[-_]$/, '')
   end
 
-  def content_images
-#    content_markdown = markdonify(content)
-#    images = post_images(post) + content_images(content_markdown)
-  end
+  def youtube_video raw_content
+    return "" unless @post[:type] == 'video'
+    body = raw_content[:body]
+    regex = /"((http|https):\/\/www.youtube.com\/\S+)"/
+    match =  body.match(regex)
 
-  def youtube_video
-    @post[:type] == 'video' ? 'youtube.com/123' : ''
+    if match      
+      match.captures.first.gsub(/#.*/, '') 
+    else
+      ""
+    end
   end
 
 end

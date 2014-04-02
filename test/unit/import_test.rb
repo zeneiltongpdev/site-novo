@@ -62,12 +62,6 @@ class ProcessPostTest < ActiveSupport::TestCase
     assert_equal 'AB', process.content_vars.images
   end
 
-  test 'content vars video when metadata type video' do
-    @metadata[:type] = 'video'
-    @process = ProcessPost.new @metadata
-    assert_equal 'youtube.com/123', @process.content_vars.video
-  end
-
   test 'content vars video when metadata type is not video' do
     @metadata[:type] = 'other'
     @process = ProcessPost.new @metadata
@@ -128,5 +122,39 @@ class ProcessPostTest < ActiveSupport::TestCase
     expected = "one-two-three-four-five"
 
     assert_equal expected, @process.format_title(title)
+  end
+
+  test 'format title removing underlines in the begining of title' do
+    title = "_One"
+    expected = "one"
+
+    assert_equal expected, @process.format_title(title)
+  end
+
+  test 'format title removing underlines in the end of title' do
+    title = "One_"
+    expected = "one"
+
+    assert_equal expected, @process.format_title(title)
+  end
+
+  test 'youtube video retrieve correct video url when the type is video' do
+    @metadata[:body] = '<object href="http://www.youtube.com/v/IUdasiiu" />'
+    expected = 'http://www.youtube.com/v/IUdasiiu'
+    @metadata[:type] = 'video'
+
+    process = ProcessPost.new @metadata
+    
+    assert_equal expected, process.youtube_video(@metadata)
+  end
+
+  test 'youtube video retrieve correct video url when it use https' do
+    @metadata[:body] = '<object href="https://www.youtube.com/v/IUdasiiu" />'
+    expected = 'https://www.youtube.com/v/IUdasiiu'
+    @metadata[:type] = 'video'
+
+    process = ProcessPost.new @metadata
+    
+    assert_equal expected, process.youtube_video(@metadata)
   end
 end
