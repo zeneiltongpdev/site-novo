@@ -15,9 +15,5 @@ exclude:
   - package.json
   - vendor
   - assets/less
-
-# permalink: /:categories/:title
 pages: ./_pages
-# paginate: 25:wq
-#
-# paginate_path: "page:num"
+
