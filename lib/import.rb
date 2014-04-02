@@ -231,13 +231,15 @@ class ProcessPost
     time = Time.at(@post.created.to_i).strftime "%Y-%m-%d"
     title = format_title @post.title
      "#{time}-#{title}.md"
-#    slug = @post.title.strip.downcase.gsub(/(&|&amp;)/, ' and ').gsub(/[\s\.\/\\]/, '-').gsub(/[^\w-]/, '').gsub(/[-_]{2,}/, '-').gsub(/^[-_]/, '').gsub(/[-_]$/, '')
+#    slug = gsub(/^[-_]/, '').gsub(/[-_]$/, '')
 #    name = time.strftime("%Y-%m-%d-") + slug + '.md'
   end
 
   def format_title title
     title.downcase.split.join("-").
-    gsub(/(&amp;|&)/, 'and') 
+      gsub(/(&amp;|&)/, 'and').  
+      gsub(/[^\w-]/, '').
+      gsub(/[-_]{2,}/, '-')
   end
 
   def content_images
