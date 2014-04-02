@@ -8,7 +8,6 @@ gem 'jekyll'
 gem 'jekyll-import'
 
 group :test do
-  gem "rspec"
   gem "rake"
   gem "mocha"
   gem "activesupport"
