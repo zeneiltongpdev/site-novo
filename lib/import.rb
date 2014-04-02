@@ -81,9 +81,25 @@ module JekyllImport
         sql
       end
 
-      def self.process(options)
+      def self.create_file_to_redirect_old_drupal(post, db, options)
         prefix = options.fetch('prefix', "")
 
+        aliases = db["SELECT CONCAT('_pages/',dst) as dst FROM #{prefix}url_alias WHERE src = ?", "node/#{post.node_id}"].all
+
+        aliases.push(:dst => "_pages/node/#{post.node_id}")
+
+        aliases.each do |url_alias|
+          FileUtils.mkdir_p url_alias[:dst]
+          File.open("#{url_alias[:dst]}/index.md", "w") do |f|
+            f.puts "---"
+            f.puts "layout: refresh"
+            f.puts "refresh_to_post_id: #{post.url}"
+            f.puts "---"
+          end
+        end
+      end
+
+      def self.process(options)
         configure_dirs
         db = prepare_database(options)
         sql = prepare_sql(options)
@@ -119,24 +135,9 @@ module JekyllImport
           end
 
           # Make a file to redirect from the old Drupal URL
-          if post.is_published?
-            aliases = db["SELECT CONCAT('_pages/',dst) as dst FROM #{prefix}url_alias WHERE src = ?", "node/#{post.node_id}"].all
-
-            aliases.push(:dst => "_pages/node/#{post.node_id}")
-
-            aliases.each do |url_alias|
-              FileUtils.mkdir_p url_alias[:dst]
-              File.open("#{url_alias[:dst]}/index.md", "w") do |f|
-                f.puts "---"
-                f.puts "layout: refresh"
-                f.puts "refresh_to_post_id: #{post.url}"
-                f.puts "---"
-              end
-            end
-          end
+          create_file_to_redirect_old_drupal(post, db, options) if post.is_published?
         end
       end
-      
     end
   end
 end
