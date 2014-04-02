@@ -61,10 +61,8 @@ module JekyllImport
       end
 
       def self.youtube_video(content)
-        regex = /"(http:\/\/www.youtube.com\/\S+)"/
-        match = content.match(regex)
-        url = match.captures.first.gsub(/#.*/, '') if match
-        "#{url}" if url
+        match = content.match(/^.*(youtube\/|v\/|e\/|u\/\w+\/|embed\/|v=)(?<id>[^#\&\?]*).*/)
+        match[:id].to_s if match
       end
 
       def self.markdonify(content)
