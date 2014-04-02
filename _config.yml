@@ -16,7 +16,6 @@ exclude:
   - vendor
   - assets/less
 
-baseurl: /site-novo
 # permalink: /:categories/:title
 pages: ./_pages
 # paginate: 25:wq
