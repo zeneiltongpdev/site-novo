@@ -3,19 +3,19 @@ n = namespace :test do
 
   Rake::TestTask.new(:unit) do |t|
     t.pattern = 'test/unit/*_test.rb'
-    t.verbose = true
-    t.warning = true
+    t.verbose = false
+    t.warning = false
   end
 
   Rake::TestTask.new(:smoke) do |t|
     t.pattern = 'test/smoke/*_test.rb'
-    t.verbose = true
-    t.warning = true
+    t.verbose = false
+    t.warning = false
   end
 end
 
 task :test => [n[:unit], n[:smoke]]
-task :default => n[:unit]
+task :default => :test
 
 desc 'Import data from local drupal to Jekyll project'
 task :import do
