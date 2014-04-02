@@ -2,20 +2,5 @@
 layout: default
 ---
 
-<article class="container post">
-	<header class="page-header">
-    <h2>{{page.title}}<p><small>{{ page.date | date_to_string }}</small></p></h2>
-    {% for tag in page.tags %}
-	  	<span class="label label-primary">{{ tag }}</span>
-	  {% endfor %}
-  </header>
-  {% include breadcrumb.html title=page.title %}
+{{ content }}
 
-  <aside class="video">
-	  <div class="thumbnail sombra">
-	    {% include video_player.html url=page.video %}
-	  </div>
-	</aside>
-
-	{{ content }}
-</article>

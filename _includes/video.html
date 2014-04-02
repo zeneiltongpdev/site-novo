@@ -1,10 +1,9 @@
 {% if include.details.tags contains 'video' %}
-	{% assign video_url=include.details.video %}
+	{% assign video_id=include.details.video %}
 {% endif %}
-
 <article class="destaque">
   <figure>
-    {% include video_player.html url=video_url %}
+    <iframe src="http://www.youtube.com/embed/{{ video_id }}" allowfullscreen frameborder="0"></iframe>
   </figure>
   <p>
     <a href="{{ include.details.legacy_url }}">{{ include.details.title }}</a>

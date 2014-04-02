@@ -4,7 +4,7 @@ title: Shell e Basf irão pagar indenização por contaminação em fábrica de 
 legacy_url: http://www.mst.org.br/node/14646
 created: 1365682140
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/
-video: http://www.youtube.com/v/9mw5Wg02yAA&amp;feature
+video: 9mw5Wg02yAA
 tags:
 - Agronegócio
 - video
