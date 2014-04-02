@@ -35,6 +35,6 @@ Start Jekyll:
 jekyll serve -w
 ```
 
-Point you browser to [http://localhost:4000/site-novo/agronegocio/]()
+Point you browser to [http://localhost:4000/agronegocio/]()
 
 Done :)

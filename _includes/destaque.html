@@ -1,11 +1,11 @@
 {% capture picture %}{{ include.details.images }}{% endcapture %}
 <article class="destaque">
   <figure>
-    <a href="{{ include.details.legacy_url}}">
+    <a href="{{ include.details.legacy_url }}">
     {% if picture != "" %}
-      <img src="{{ picture | uri_escape}}">
+      <img src="{{ picture | uri_escape}}" />
     {% else %}
-      <img alt="Imagem da Agronegocio" src="{{ include.default_image }}" />
+      <img src="{{ include.default_image }}" />
     {% endif %}
     </a>
   </figure>

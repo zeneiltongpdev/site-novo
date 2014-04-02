@@ -6039,6 +6039,11 @@ article.tema section h2 {
   margin: 0;
   margin-bottom: 10px;
 }
+article.tema header h1,
+article.tema section h1 {
+  letter-spacing: -2px;
+  font-weight: bold;
+}
 article.tema header details[open] summary,
 article.tema section details[open] summary,
 article.tema header details.open summary,
