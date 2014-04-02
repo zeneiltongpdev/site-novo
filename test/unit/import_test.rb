@@ -18,7 +18,18 @@ class ProcessPostTest < ActiveSupport::TestCase
 
   test 'post size' do
     processmetadata = @process.prepare_post @metadata
-    assert_equal 6,processmetadata.size
+    assert_equal 8,processmetadata.size
+  end
+
+  test 'url to post in jekyll' do
+    expected = '/mst/2010/12/30/movimento-mst'
+
+    @metadata[:title] = 'Movimento MST'
+    @metadata[:created] = DateTime.new(2010,12,30,12,30).to_time.to_i
+
+    @process = ProcessPost.new @metadata
+
+    assert_equal expected, @process.post.url
   end
 
   test 'metadata is published' do
@@ -43,7 +54,7 @@ class ProcessPostTest < ActiveSupport::TestCase
 
   test 'content vars size' do
     content_vars = @process.content_vars
-    assert_equal 4,content_vars.size
+    assert_equal 3,content_vars.size
   end
 
   test 'content vars tags' do
@@ -62,6 +73,13 @@ class ProcessPostTest < ActiveSupport::TestCase
     assert_equal 'AB', process.content_vars.images
   end
 
+  test 'post images when images from raw content is nil' do
+    @metadata[:images] = nil
+    process = ProcessPost.new @metadata
+
+    assert_equal "", process.post_images(@metadata)
+  end
+
   test 'content vars video when metadata type is not video' do
     @metadata[:type] = 'other'
     @process = ProcessPost.new @metadata
@@ -69,18 +87,19 @@ class ProcessPostTest < ActiveSupport::TestCase
     assert_equal '', @process.content_vars.video
   end
 
-  test 'content vars name without special caracters' do
+  test 'post name without special caracters' do
     @metadata[:title] = 'MY STRANGE Title'
     @metadata[:created] = DateTime.new(2012,12,30,12,30).to_time.to_i
 
     @process = ProcessPost.new @metadata
 
-    assert_equal '2012-12-30-my-strange-title.md', @process.content_vars.name
+    assert_equal '2012-12-30-my-strange-title.md', @process.post.name
   end
 
-  test 'metadata tags method' do
+  test 'append metadata tags with post type' do
     @metadata[:tags] = "Audio:FM|Video:Vimeo|Music:BYOB"
-    result = {'Audio' => 'FM', 'Video' => 'Vimeo', 'Music' => 'BYOB'}
+    @metadata[:type] = "Video"
+    result = {'Audio' => 'FM', 'Video' => 'Vimeo', 'Music' => 'BYOB', 'Type' => "Video"}
 
     process = ProcessPost.new @metadata
 
@@ -100,7 +119,7 @@ class ProcessPostTest < ActiveSupport::TestCase
     @metadata[:title] = 'Congresso do MST'
     @metadata[:created] = 1293712200
     process = ProcessPost.new @metadata
-    assert_equal "2010-12-30-congresso-do-mst.md", process.post_name
+    assert_equal "2010-12-30-congresso-do-mst.md", process.post_name(@metadata)
   end
 
   test 'format title removing & and &amp;' do

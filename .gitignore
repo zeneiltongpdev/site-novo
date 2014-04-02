@@ -4,3 +4,4 @@ node_modules
 .bundle/
 .swp
 vendor/
+.ruby-version
