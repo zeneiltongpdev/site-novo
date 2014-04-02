@@ -28,41 +28,8 @@ module JekyllImport
         ])
       end
 
-      def self.post_tags(post)
-        pairs = post[:tags].to_s.split("|")
-        tags  = pairs.collect_concat do |pair|
-          pair.force_encoding("UTF-8").split(":")
-        end
-
-        Hash[*tags]
-      end
-
-      def self.post_images(post)
-        images = post[:images].to_s.split("|") || []
-        images.reduce([]) do |collection, img|
-          puts "post_images: #{img}"
-          url = absolute_url img.force_encoding("UTF-8")
-          img.downcase.scan(/\.jpg/).empty? ? collection : collection << url
-        end
-      end
-
-      # Remove after refactoring
-      def self.content_images(markdown)
-        regex = /(!\[.*?\]\(.+?\))/
-        match = markdown.match(regex)
-        (match ? match.captures : []).map do |img|
-          puts "content_images: #{URI.decode img}"
-          absolute_url URI.decode(img.gsub(/[!\[\]\(\)]/,""))
-        end
-      end
-
-      def self.absolute_url(path)
-        "http://mst.org.br:#{path}" if path.start_with?("/")
-      end
-
-      def self.youtube_video(content)
-        match = content.match(/^.*(youtube\/|v\/|e\/|u\/\w+\/|embed\/|v=)(?<id>[^#\&\?]*).*/)
-        match[:id].to_s if match
+      def self.load_query_file
+        YAML.load_file(File.dirname(__FILE__) + "/queries.yml")
       end
 
       def self.markdonify(content)
@@ -75,15 +42,7 @@ module JekyllImport
         page.markdown.force_encoding("UTF-8")
       end
 
-      def self.process(options)
-        dbname = options.fetch('dbname')
-        user   = options.fetch('user')
-        pass   = options.fetch('password', "")
-        host   = options.fetch('host', "localhost")
-        prefix = options.fetch('prefix', "")
-
-        db = Sequel.mysql(dbname, :user => user, :password => pass, :host => host, :encoding => 'utf8')
-        
+      def self.configure_dirs 
         FileUtils.remove_dir "_posts"        
         
         FileUtils.mkdir_p "_posts"
@@ -95,7 +54,19 @@ module JekyllImport
         File.open("_layouts/refresh.html", "w") do |f|
           f.puts REFRESH_HTML
         end
+      end
 
+      def self.prepare_database(options)
+        dbname = options.fetch('dbname')
+        user   = options.fetch('user')
+        pass   = options.fetch('password', "")
+        host   = options.fetch('host', "localhost")
+
+        Sequel.mysql(dbname, :user => user, :password => pass, :host => host, :encoding => 'utf8')
+      end
+
+      def self.prepare_sql(options)
+        prefix = options.fetch('prefix', "")
         queries = load_query_file
         sql = queries['retrieve_news_and_videos_from_tags'].gsub('#ids#', '336, 382, 347')
         
@@ -107,74 +78,65 @@ module JekyllImport
           sql[" vocabulary "] = " " + prefix + "vocabulary "
           sql[" content_type_story "] = " " + prefix + "content_type_story "
         end
+        sql
+      end
 
-        db[sql].each do |post|
+      def self.create_file_to_redirect_old_drupal(post, db, options)
+        prefix = options.fetch('prefix', "")
 
-          node_id = post[:nid]
-          title = post[:title].gsub(/"/, '')
-          content = post[:body]
-          content_markdown = markdonify(content)
-          tags = post_tags(post)
-          images = "http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/" + post[:images].to_s
-          type = post[:type]
-          video = (type == 'video' ? youtube_video(content) : "")
+        aliases = db["SELECT CONCAT('_pages/',dst) as dst FROM #{prefix}url_alias WHERE src = ?", "node/#{post.node_id}"].all
 
-          created = post[:created]
-          time = Time.at(created)
-          is_published = post[:status] == 1
-          dir = is_published ? "_posts" : "_drafts"
-          slug = title.strip.downcase.gsub(/(&|&amp;)/, ' and ').gsub(/[\s\.\/\\]/, '-').gsub(/[^\w-]/, '').gsub(/[-_]{2,}/, '-').gsub(/^[-_]/, '').gsub(/[-_]$/, '')
-          name = time.strftime("%Y-%m-%d-") + slug + '.md'
+        aliases.push(:dst => "_pages/node/#{post.node_id}")
 
+        aliases.each do |url_alias|
+          FileUtils.mkdir_p url_alias[:dst]
+          File.open("#{url_alias[:dst]}/index.md", "w") do |f|
+            f.puts "---"
+            f.puts "layout: refresh"
+            f.puts "refresh_to_post_id: #{post.url}"
+            f.puts "---"
+          end
+        end
+      end
+
+      def self.process(options)
+        configure_dirs
+        db = prepare_database(options)
+        sql = prepare_sql(options)
+
+        db[sql].each do |raw|
+
+          content_markdown = markdonify(raw[:body])
+          post_process = ProcessPost.new(raw)
+          post = post_process.post
+          content_vars = post_process.content_vars
 
           # Get the relevant fields as a hash, delete empty fields and convert
           # to YAML for the header
           data = {
             'layout' => 'post',
-            'title' => title.to_s,
-            'legacy_url' => "http://www.mst.org.br/node/#{node_id}",
-            'created' => created,
-            'images' => images,
-            'video' => video,
-            'tags' => tags.values +  (type ? [type] : [])
+            'title' => post.title,
+            'legacy_url' => "http://www.mst.org.br/node/#{post.node_id}",
+            'created' => post.created,
+            'images' => content_vars.images,
+            'video' => content_vars.video,
+            'tags' => content_vars.tags.values
           }.each_pair {
             |k,v| ((v.is_a? String) ? v.force_encoding("UTF-8") : v)
           }
 
-          puts "importing: #{post[:title]}"
-
+          puts "importing: #{post.title}"
 
           # Write out the data and content to file
-          File.open("#{dir}/#{name}", "w") do |f|
-            f.puts data.merge(tags).to_yaml()
+          File.open("_posts/#{post.name}", "w") do |f|
+            f.puts data.merge(content_vars.tags).to_yaml()
             f.puts "---"
             f.puts content_markdown
           end
 
           # Make a file to redirect from the old Drupal URL
-          if is_published
-            aliases = db["SELECT CONCAT('_pages/',dst) as dst FROM #{prefix}url_alias WHERE src = ?", "node/#{node_id}"].all
-
-            aliases.push(:dst => "_pages/node/#{node_id}")
-
-            aliases.each do |url_alias|
-              FileUtils.mkdir_p url_alias[:dst]
-              File.open("#{url_alias[:dst]}/index.md", "w") do |f|
-                f.puts "---"
-                f.puts "layout: refresh"
-                f.puts "refresh_to_post_id: /mst/#{time.strftime("%Y/%m/%d/") + slug}"
-                f.puts "---"
-              end
-            end
-          end
+          create_file_to_redirect_old_drupal(post, db, options) if post.is_published?
         end
-
-        # TODO: Make dirs & files for nodes of type 'page'
-        # Make refresh pages for these as well
-      end
-      
-      def self.load_query_file
-        YAML.load_file(File.dirname(__FILE__) + "/queries.yml")
       end
     end
   end
@@ -184,8 +146,8 @@ end
 class ProcessPost
   attr_reader :post, :content_vars
   
-  Struct.new("Post", :node_id, :title, :content, :type, :created, :is_published?)
-  Struct.new("Vars", :tags, :images, :video, :name)
+  Struct.new("Post", :node_id, :title, :content, :type, :created, :is_published?, :name, :url)
+  Struct.new("Vars", :tags, :images, :video)
 
   PUBLISHED = 1
   ADDRESS_IMAGES = 'http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/' #don't forget slash in the end
@@ -202,7 +164,9 @@ class ProcessPost
       raw_content[:body],
       raw_content[:type],
       raw_content[:created],
-      (raw_content[:status] == PUBLISHED)
+      (raw_content[:status] == PUBLISHED),
+      post_name(raw_content),
+      post_url(raw_content)
     )
   end
 
@@ -210,26 +174,34 @@ class ProcessPost
     @content_vars = Struct::Vars.new(
       post_tags(raw_content),
       post_images(raw_content),
-      youtube_video(raw_content),
-      post_name
+      youtube_video(raw_content)
     )
   end
 
   def post_tags raw_content
     return "" if raw_content[:tags].empty?
-    raw_content[:tags].split('|').reduce({}) do |result, pair|
-      result.merge(Hash[*pair.split(':')]) 
+    tags = raw_content[:tags].split('|').reduce({}) do |result, pair|
+      result.merge(Hash[*pair.force_encoding("UTF-8").split(':')]) 
     end
+    tags['Type'] = raw_content[:type]
+    tags
   end
   
   def post_images raw_content
+    return "" if raw_content[:images].nil? or raw_content[:images].empty? 
     ADDRESS_IMAGES + raw_content[:images]
   end
 
-  def post_name
-    time = Time.at(@post.created.to_i).strftime "%Y-%m-%d"
-    title = format_title @post.title
+  def post_name raw_content
+    time = Time.at(raw_content[:created].to_i).strftime "%Y-%m-%d"
+    title = format_title raw_content[:title]
      "#{time}-#{title}.md"
+  end
+
+  def post_url raw_content
+    time = Time.at(raw_content[:created].to_i).strftime "%Y/%m/%d"
+    title = format_title raw_content[:title]
+     "/mst/#{time}/#{title}"
   end
 
   def format_title title
@@ -244,14 +216,9 @@ class ProcessPost
   def youtube_video raw_content
     return "" unless @post[:type] == 'video'
     body = raw_content[:body]
-    regex = /"((http|https):\/\/www.youtube.com\/\S+)"/
+    regex = /^.*(youtube\/|v\/|e\/|u\/\w+\/|embed\/|v=)(?<id>[^#\&\?]*).*("|')/
     match =  body.match(regex)
-
-    if match      
-      match.captures.first.gsub(/#.*/, '') 
-    else
-      ""
-    end
+    (match) ? match[:id].to_s : ""
   end
 
 end
