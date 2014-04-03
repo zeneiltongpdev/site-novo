@@ -19,7 +19,10 @@ module JekyllImport
           </head>
         </html>"
 
-      TAGS_IDS = ['336, 382, 347', '334']
+      TAGS_IDS = ['336, 382, 347', # agronegócio
+                  '334',           # agricultura camponesa
+                  '326, 211',      # mobilização
+                  '692']           # reforma agrária
       
       def self.require_deps
         JekyllImport.require_with_fallback(%w[
