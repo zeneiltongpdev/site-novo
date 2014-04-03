@@ -71,31 +71,6 @@ article.tema {
       font-weight: bold;
     }
 
-    details {
-      
-      &[open], &.open {
-        summary {
-          display: none;
-        }
-      }
-
-      summary {
-        cursor: pointer;
-        color: @mstgreen;
-        font-weight: bold;
-        float: right;
-        
-        &:focus {
-          outline: none;
-        }
-        
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    
-    }
-    
     h2 {
       margin-bottom: 0.5em;
       border-bottom: dashed 1px lightgray;
@@ -133,6 +108,29 @@ article.tema {
       max-width: 100%;
       text-align: justify;
       margin: 0;
+    }
+
+    details {
+      &[open], &.open {
+        summary {
+          display: none;
+        }
+      }
+
+      summary {
+        cursor: pointer;
+        color: @mstgreen;
+        font-weight: bold;
+        float: right;
+        
+        &:focus {
+          outline: none;
+        }
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 

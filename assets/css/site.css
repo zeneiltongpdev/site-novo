@@ -6044,27 +6044,6 @@ article.tema section h1 {
   letter-spacing: -2px;
   font-weight: bold;
 }
-article.tema header details[open] summary,
-article.tema section details[open] summary,
-article.tema header details.open summary,
-article.tema section details.open summary {
-  display: none;
-}
-article.tema header details summary,
-article.tema section details summary {
-  cursor: pointer;
-  color: #006400;
-  font-weight: bold;
-  float: right;
-}
-article.tema header details summary:focus,
-article.tema section details summary:focus {
-  outline: none;
-}
-article.tema header details summary:hover,
-article.tema section details summary:hover {
-  text-decoration: underline;
-}
 article.tema header h2,
 article.tema section h2 {
   margin-bottom: 0.5em;
@@ -6101,6 +6080,22 @@ article.tema header p {
   max-width: 100%;
   text-align: justify;
   margin: 0;
+}
+article.tema header details[open] summary,
+article.tema header details.open summary {
+  display: none;
+}
+article.tema header details summary {
+  cursor: pointer;
+  color: #006400;
+  font-weight: bold;
+  float: right;
+}
+article.tema header details summary:focus {
+  outline: none;
+}
+article.tema header details summary:hover {
+  text-decoration: underline;
 }
 article.tema section ul {
   list-style: none;
