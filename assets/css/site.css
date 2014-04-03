@@ -5991,6 +5991,9 @@ article.destaque {
 article.destaque figure {
   margin: 0;
   padding: 0;
+  min-height: 150px;
+  max-height: 180px;
+  overflow: hidden;
 }
 article.destaque figure img,
 article.destaque figure iframe {
