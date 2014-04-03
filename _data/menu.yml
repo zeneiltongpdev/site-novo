@@ -38,7 +38,7 @@
   url: http://www.mst.org.br/taxonomy/term/327%20334%20336%20339%20326%20337%20338%20341%20335%20340
   submenu:
     - name: Agricultura camponesa
-      url: /agricultura-camponesa
+      url: agricultura-camponesa
 
     - name: Agronegócio
       url: agronegocio
