@@ -18,6 +18,8 @@ module JekyllImport
             <meta http-equiv=\"refresh\" content=\"0;url={{ page.refresh_to_post_id }}.html\" /> \
           </head>
         </html>"
+
+      TAGS_IDS = ['336, 382, 347', '334']
       
       def self.require_deps
         JekyllImport.require_with_fallback(%w[
@@ -65,10 +67,10 @@ module JekyllImport
         Sequel.mysql(dbname, :user => user, :password => pass, :host => host, :encoding => 'utf8')
       end
 
-      def self.prepare_sql(options)
+      def self.prepare_sql(options, tags)
         prefix = options.fetch('prefix', "")
         queries = load_query_file
-        sql = queries['retrieve_news_and_videos_from_tags'].gsub('#ids#', '336, 382, 347')
+        sql = queries['retrieve_news_and_videos_from_tags'].gsub('#ids#', tags)
         
         if prefix != ''
           sql[" node "] = " " + prefix + "node "
@@ -102,40 +104,43 @@ module JekyllImport
       def self.process(options)
         configure_dirs
         db = prepare_database(options)
-        sql = prepare_sql(options)
+        
+        TAGS_IDS.each do |tags|
+          sql = prepare_sql(options, tags)
 
-        db[sql].each do |raw|
+          db[sql].each do |raw|
 
-          content_markdown = markdonify(raw[:body])
-          post_process = ProcessPost.new(raw)
-          post = post_process.post
-          content_vars = post_process.content_vars
+            content_markdown = markdonify(raw[:body])
+            post_process = ProcessPost.new(raw)
+            post = post_process.post
+            content_vars = post_process.content_vars
 
-          # Get the relevant fields as a hash, delete empty fields and convert
-          # to YAML for the header
-          data = {
-            'layout' => 'post',
-            'title' => post.title,
-            'legacy_url' => "http://www.mst.org.br/node/#{post.node_id}",
-            'created' => post.created,
-            'images' => content_vars.images,
-            'video' => content_vars.video,
-            'tags' => content_vars.tags.values
-          }.each_pair {
-            |k,v| ((v.is_a? String) ? v.force_encoding("UTF-8") : v)
-          }
+            # Get the relevant fields as a hash, delete empty fields and convert
+            # to YAML for the header
+            data = {
+              'layout' => 'post',
+              'title' => post.title,
+              'legacy_url' => "http://www.mst.org.br/node/#{post.node_id}",
+              'created' => post.created,
+              'images' => content_vars.images,
+              'video' => content_vars.video,
+              'tags' => content_vars.tags.values
+            }.each_pair {
+              |k,v| ((v.is_a? String) ? v.force_encoding("UTF-8") : v)
+            }
 
-          puts "importing: #{post.title}"
+            puts "importing: #{post.title}"
 
-          # Write out the data and content to file
-          File.open("_posts/#{post.name}", "w") do |f|
-            f.puts data.merge(content_vars.tags).to_yaml()
-            f.puts "---"
-            f.puts content_markdown
+            # Write out the data and content to file
+            File.open("_posts/#{post.name}", "w") do |f|
+              f.puts data.merge(content_vars.tags).to_yaml()
+              f.puts "---"
+              f.puts content_markdown
+            end
+
+            # Make a file to redirect from the old Drupal URL
+            create_file_to_redirect_old_drupal(post, db, options) if post.is_published?
           end
-
-          # Make a file to redirect from the old Drupal URL
-          create_file_to_redirect_old_drupal(post, db, options) if post.is_published?
         end
       end
     end
