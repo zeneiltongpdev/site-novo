@@ -6054,7 +6054,6 @@ article.tema header details summary,
 article.tema section details summary {
   cursor: pointer;
   color: #006400;
-  font-size: smaller;
   font-weight: bold;
   float: right;
 }
