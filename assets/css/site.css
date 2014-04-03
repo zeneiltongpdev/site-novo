@@ -5910,7 +5910,7 @@ body footer article ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-left: 20px;
+  padding-left: 5px;
 }
 body footer article.social a {
   font-family: 'Glyphicons Social Regular', Helvetica, Arial, sans-serif;
