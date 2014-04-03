@@ -6,9 +6,9 @@ created: 1393340674
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/diego abre.JPG
 video: ''
 tags:
-- Agronegócio
-- news
-Menu: Agronegócio
+- agronegócio
+type: news
+menu: agronegócio
 ---
 
 

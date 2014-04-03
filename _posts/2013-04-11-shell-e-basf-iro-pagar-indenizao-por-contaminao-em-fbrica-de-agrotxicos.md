@@ -3,12 +3,12 @@ layout: post
 title: Shell e Basf irão pagar indenização por contaminação em fábrica de agrotóxicos
 legacy_url: http://www.mst.org.br/node/14646
 created: 1365682140
-images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/
+images: ''
 video: 9mw5Wg02yAA
 tags:
-- Agronegócio
-- video
-Menu: Agronegócio
+- agronegócio
+type: video
+menu: agronegócio
 ---
 
 

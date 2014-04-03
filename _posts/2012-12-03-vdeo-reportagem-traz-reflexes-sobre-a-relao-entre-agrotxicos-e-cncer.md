@@ -3,12 +3,12 @@ layout: post
 title: Vídeo-reportagem traz reflexões sobre a relação entre agrotóxicos e câncer
 legacy_url: http://www.mst.org.br/node/14156
 created: 1354552330
-images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/
+images: ''
 video: G3urWwIwwoc
 tags:
-- Agronegócio
-- video
-Menu: Agronegócio
+- agronegócio
+type: video
+menu: agronegócio
 ---
 
 

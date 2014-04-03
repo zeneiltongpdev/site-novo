@@ -6,9 +6,9 @@ created: 1393250781
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/agrotoxicos2.jpg
 video: ''
 tags:
-- Agronegócio
-- news
-Menu: Agronegócio
+- agronegócio
+type: news
+menu: agronegócio
 ---
 
 
