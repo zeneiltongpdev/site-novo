@@ -5910,7 +5910,7 @@ body footer article ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  padding-left: 20px;
+  padding-left: 5px;
 }
 body footer article.social a {
   font-family: 'Glyphicons Social Regular', Helvetica, Arial, sans-serif;
@@ -6029,7 +6029,6 @@ article.tema {
 article.tema header,
 article.tema section {
   margin: 0;
-  margin-bottom: 30px;
   text-align: justify;
 }
 article.tema header h1,
@@ -6062,19 +6061,14 @@ article.tema section img {
 }
 article.tema header {
   overflow: auto;
+  margin-bottom: 30px;
 }
 article.tema header figure {
-  float: left;
-  margin-right: 30px;
-  max-width: 400px;
+  margin: 0 0 10px;
+  max-width: 350px;
 }
 article.tema header figure img {
   width: 100%;
-}
-@media (max-width: 480px) {
-  article.tema header figure {
-    margin-right: 0;
-  }
 }
 article.tema header p {
   max-width: 100%;
@@ -6097,6 +6091,15 @@ article.tema header details summary:focus {
 article.tema header details summary:hover {
   text-decoration: underline;
 }
+@media (min-width: 480px) {
+  article.tema header figure {
+    float: left;
+    margin-right: 30px;
+  }
+}
+article.tema section {
+  margin-bottom: 10px;
+}
 article.tema section ul {
   list-style: none;
   padding: 0;
@@ -6108,7 +6111,8 @@ article.tema section p {
   text-align: left;
 }
 article.tema section p.mais {
-  margin-top: 1.2em;
+  margin: 0;
+  padding-top: 1.2em;
   display: block;
   text-align: right;
   font-weight: bold;
@@ -6126,25 +6130,23 @@ article.tema section p.mais a:hover {
     margin-left: auto;
     margin-right: auto;
   }
-  article.tema section ul li + li {
+  article.tema section ul {
     margin: 0;
   }
-  article.tema section.noticias ul {
-    margin: 0;
-  }
-  article.tema section.noticias ul li {
-    vertical-align: top;
+  article.tema section ul li {
+    width: 32.6%;
     display: block;
     float: left;
-    width: 32%;
+    vertical-align: top;
     margin-right: 1%;
   }
-  article.tema section.noticias ul li:last-child {
+  article.tema section ul li + li {
+    margin-top: 0;
+  }
+  article.tema section ul li:last-child {
     margin-right: 0;
   }
   article.tema section.videos ul li {
-    vertical-align: top;
-    display: inline-block;
     width: 32%;
   }
   article.tema section.videos ul li + li {

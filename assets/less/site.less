@@ -58,7 +58,6 @@ article.tema {
 
   header, section {
     margin: 0;
-    margin-bottom: 30px;
     text-align: justify;
 
     h1, h2 {
@@ -89,18 +88,14 @@ article.tema {
 
   header {
     overflow: auto;
+    margin-bottom: 30px;
 
     figure {
-      float: left;
-      margin-right: 30px;
-      max-width: 400px;
+      margin: 0 0 10px;
+      max-width: 350px;
 
       img {
         width: 100%;  
-      }
-
-      @media(max-width: @screen-xs-min) {
-        margin-right: 0; 
       }
     }
 
@@ -132,9 +127,18 @@ article.tema {
         }
       }
     }
+
+    @media(min-width: @screen-xs) { 
+      figure {
+        float: left;
+        margin-right: 30px;
+      }
+    }
   }
 
   section {
+    margin-bottom: 10px;
+
     ul {
       list-style: none;
       padding: 0;
@@ -149,7 +153,8 @@ article.tema {
     }
 
     p.mais {
-      margin-top: 1.2em;
+      margin: 0;
+      padding-top: 1.2em;
       display: block;
       text-align: right;
       font-weight: bold;
@@ -165,43 +170,36 @@ article.tema {
     }
   }
 
-  @media(min-width: @screen-md){ 
+  @media(min-width: @screen-md) { 
     width: 70%;
     margin-left: auto;
     margin-right: auto;
 
     section {
       ul {
-        li + li {
-          margin: 0;
-        }
-      }
-    }
-
-    section.noticias {
-      ul {
         margin: 0;
 
         li {
-          vertical-align: top;
+          width: 32.6%;
           display: block;
           float: left;
-          width: 32%;
+          vertical-align: top;
           margin-right: 1%;
+
+          & + li {
+            margin-top: 0;
+          }
         }
 
         li:last-child {
           margin-right: 0;
         }
       }
-      
     }
 
     section.videos {
       ul {
         li {
-          vertical-align: top;
-          display: inline-block;
           width: 32%; 
 
           & + li {
@@ -209,6 +207,10 @@ article.tema {
           }
         }
       }  
+    }
+
+    section.noticias {
+
     }
   }
 }
