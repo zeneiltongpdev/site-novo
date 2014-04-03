@@ -124,7 +124,8 @@ module JekyllImport
               'created' => post.created,
               'images' => content_vars.images,
               'video' => content_vars.video,
-              'tags' => content_vars.tags.values
+              'tags' => content_vars.tags.values,
+              'type' => post.type
             }.each_pair {
               |k,v| ((v.is_a? String) ? v.force_encoding("UTF-8") : v)
             }
@@ -186,10 +187,8 @@ class ProcessPost
   def post_tags raw_content
     return "" if raw_content[:tags].empty?
     tags = raw_content[:tags].split('|').reduce({}) do |result, pair|
-      result.merge(Hash[*pair.force_encoding("UTF-8").split(':')]) 
+      result.merge(Hash[*pair.downcase.force_encoding("UTF-8").split(':')]) 
     end
-    tags['Type'] = raw_content[:type]
-    tags
   end
   
   def post_images raw_content
