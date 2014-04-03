@@ -22,7 +22,8 @@ module JekyllImport
       TAGS_IDS = ['336, 382, 347', # agronegócio
                   '334',           # agricultura camponesa
                   '326, 211',      # mobilização
-                  '692']           # reforma agrária
+                  '692',           # reforma agrária
+                  '335, 214, 60']  # transgênicos
       
       def self.require_deps
         JekyllImport.require_with_fallback(%w[
