@@ -96,10 +96,9 @@ class ProcessPostTest < ActiveSupport::TestCase
     assert_equal '2012-12-30-my-strange-title.md', @process.post.name
   end
 
-  test 'append metadata tags with post type' do
+  test 'post tags are lowercase' do
     @metadata[:tags] = "Audio:FM|Video:Vimeo|Music:BYOB"
-    @metadata[:type] = "Video"
-    result = {'Audio' => 'FM', 'Video' => 'Vimeo', 'Music' => 'BYOB', 'Type' => "Video"}
+    result = {'audio' => 'fm', 'video' => 'vimeo', 'music' => 'byob'}
 
     process = ProcessPost.new @metadata
 

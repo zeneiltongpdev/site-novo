@@ -8,8 +8,7 @@ layout : default
 {% assign all_news_url = page.all_news_url %}
 {% assign summary = page.summary %}
 {% assign description = page.description %}
-{% assign noticias = site.tags.news %}
-{% assign videos = site.tags.video %}
+{% assign content = site.tags[tema] %}
 
 {% include header.html %}
 
@@ -34,10 +33,12 @@ layout : default
   <section class="noticias">
     <h2>Notícias</h2>
     <ul>
-      {% for noticia in noticias | limit:3 %}
-        <li>
-          {% include destaque.html details=noticia default_image=image %}
-        </li>
+      {% for noticia in content  %}
+        {% if noticia.type == 'news' %}
+          <li>
+            {% include destaque.html details=noticia default_image=image %}
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
     <p class="mais">
@@ -48,10 +49,12 @@ layout : default
   <section class="videos">
     <h2>Vídeos</h2>
     <ul>
-      {% for video in videos | limit:3 %}
-        <li>
-          {% include video.html details=video %}
-        </li>
+      {% for video in content  %}
+        {% if video.type == 'video' %}
+          <li>
+            {% include video.html details=video %}
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
     <p class="mais">
