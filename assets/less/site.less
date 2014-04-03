@@ -91,16 +91,11 @@ article.tema {
     margin-bottom: 30px;
 
     figure {
-      float: left;
-      margin-right: 30px;
+      margin: 0 0 10px;
       max-width: 400px;
 
       img {
         width: 100%;  
-      }
-
-      @media(max-width: @screen-xs-min) {
-        margin-right: 0; 
       }
     }
 
@@ -130,6 +125,13 @@ article.tema {
         &:hover {
           text-decoration: underline;
         }
+      }
+    }
+
+    @media(min-width: @screen-xs) { 
+      figure {
+        float: left;
+        margin-right: 30px;
       }
     }
   }
@@ -168,7 +170,7 @@ article.tema {
     }
   }
 
-  @media(min-width: @screen-md){ 
+  @media(min-width: @screen-md) { 
     width: 70%;
     margin-left: auto;
     margin-right: auto;

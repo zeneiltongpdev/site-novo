@@ -6064,17 +6064,11 @@ article.tema header {
   margin-bottom: 30px;
 }
 article.tema header figure {
-  float: left;
-  margin-right: 30px;
+  margin: 0 0 10px;
   max-width: 400px;
 }
 article.tema header figure img {
   width: 100%;
-}
-@media (max-width: 480px) {
-  article.tema header figure {
-    margin-right: 0;
-  }
 }
 article.tema header p {
   max-width: 100%;
@@ -6096,6 +6090,12 @@ article.tema header details summary:focus {
 }
 article.tema header details summary:hover {
   text-decoration: underline;
+}
+@media (min-width: 480px) {
+  article.tema header figure {
+    float: left;
+    margin-right: 30px;
+  }
 }
 article.tema section {
   margin-bottom: 10px;
