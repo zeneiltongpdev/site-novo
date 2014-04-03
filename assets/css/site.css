@@ -6029,7 +6029,6 @@ article.tema {
 article.tema header,
 article.tema section {
   margin: 0;
-  margin-bottom: 30px;
   text-align: justify;
 }
 article.tema header h1,
@@ -6062,6 +6061,7 @@ article.tema section img {
 }
 article.tema header {
   overflow: auto;
+  margin-bottom: 30px;
 }
 article.tema header figure {
   float: left;
@@ -6097,6 +6097,9 @@ article.tema header details summary:focus {
 article.tema header details summary:hover {
   text-decoration: underline;
 }
+article.tema section {
+  margin-bottom: 10px;
+}
 article.tema section ul {
   list-style: none;
   padding: 0;
@@ -6108,7 +6111,8 @@ article.tema section p {
   text-align: left;
 }
 article.tema section p.mais {
-  margin-top: 1.2em;
+  margin: 0;
+  padding-top: 1.2em;
   display: block;
   text-align: right;
   font-weight: bold;
