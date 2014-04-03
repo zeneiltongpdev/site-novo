@@ -6104,6 +6104,9 @@ article.tema section ul {
 article.tema section ul li + li {
   margin-top: 20px;
 }
+article.tema section p {
+  text-align: left;
+}
 article.tema section p.mais {
   margin-top: 1.2em;
   display: block;
