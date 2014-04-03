@@ -5994,7 +5994,6 @@ article.destaque figure {
   padding: 0;
   height: 190px;
   max-width: 370px;
-  overflow: hidden;
 }
 article.destaque figure img:hover,
 article.destaque figure iframe:hover {
@@ -6036,15 +6035,6 @@ article.tema header,
 article.tema section {
   margin: 0;
   text-align: justify;
-  /*
-    img, iframe {
-      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
-    }
-    
-    img {
-      border-radius: 3px;
-    }
-   */
 }
 article.tema header h1,
 article.tema section h1,
@@ -6063,6 +6053,12 @@ article.tema section h2 {
   margin-bottom: 0.5em;
   border-bottom: dashed 1px lightgray;
   padding-bottom: 0.3em;
+}
+article.tema header figure,
+article.tema section figure {
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
+  overflow: hidden;
 }
 article.tema header {
   overflow: auto;
