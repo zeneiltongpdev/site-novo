@@ -5792,6 +5792,7 @@ body > header h1 {
 }
 body > nav {
   padding-bottom: 5px;
+  box-shadow: 0 5px 5px -5px #000000;
 }
 body > nav ul {
   margin: 0 20px;
