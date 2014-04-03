@@ -172,36 +172,29 @@ article.tema {
 
     section {
       ul {
-        li + li {
-          margin: 0;
-        }
-      }
-    }
-
-    section.noticias {
-      ul {
         margin: 0;
 
         li {
-          vertical-align: top;
+          width: 32.6%;
           display: block;
           float: left;
-          width: 32%;
+          vertical-align: top;
           margin-right: 1%;
+
+          & + li {
+            margin-top: 0;
+          }
         }
 
         li:last-child {
           margin-right: 0;
         }
       }
-      
     }
 
     section.videos {
       ul {
         li {
-          vertical-align: top;
-          display: inline-block;
           width: 32%; 
 
           & + li {
@@ -209,6 +202,10 @@ article.tema {
           }
         }
       }  
+    }
+
+    section.noticias {
+
     }
   }
 }

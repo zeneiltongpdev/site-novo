@@ -6126,25 +6126,23 @@ article.tema section p.mais a:hover {
     margin-left: auto;
     margin-right: auto;
   }
-  article.tema section ul li + li {
+  article.tema section ul {
     margin: 0;
   }
-  article.tema section.noticias ul {
-    margin: 0;
-  }
-  article.tema section.noticias ul li {
-    vertical-align: top;
+  article.tema section ul li {
+    width: 32.6%;
     display: block;
     float: left;
-    width: 32%;
+    vertical-align: top;
     margin-right: 1%;
   }
-  article.tema section.noticias ul li:last-child {
+  article.tema section ul li + li {
+    margin-top: 0;
+  }
+  article.tema section ul li:last-child {
     margin-right: 0;
   }
   article.tema section.videos ul li {
-    vertical-align: top;
-    display: inline-block;
     width: 32%;
   }
   article.tema section.videos ul li + li {
