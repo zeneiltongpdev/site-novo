@@ -1,4 +1,4 @@
-{% if include.details.tags contains 'video' %}
+{% if include.details.type == 'video' %}
 	{% assign video_id=include.details.video %}
 {% endif %}
 <article class="destaque">
