@@ -20,10 +20,10 @@ module JekyllImport
         </html>"
 
       TAGS_IDS = ['336, 382, 347', # agronegócio
-                 '334',           # agricultura camponesa
-                 '326, 211',      # mobilização
-                 '692',           # reforma agrária
-                 '335, 214, 60']  # transgênicos
+                  '334',           # agricultura camponesa
+                  '326, 211',      # mobilização
+                  '692',           # reforma agrária
+                  '335, 214, 60']  # transgênicos
       
       def self.require_deps
         JekyllImport.require_with_fallback(%w[
@@ -114,37 +114,6 @@ module JekyllImport
 
           db[sql].each do |raw|
 
-<<<<<<< Local Changes
-<<<<<<< Local Changes
-<<<<<<< Local Changes
-            content_markdown = markdonify(raw[:body])
-            post_process = ProcessPost.new(raw)
-            post = post_process.post
-            content_vars = post_process.content_vars
-
-            # Get the relevant fields as a hash, delete empty fields and convert
-            # to YAML for the header
-            data = {
-              'layout' => 'post',
-              'title' => post.title,
-              'legacy_url' => "http://www.mst.org.br/node/#{post.node_id}",
-              'created' => post.created,
-              'images' => content_vars.images,
-              'video' => content_vars.video,
-              'tags' => content_vars.tags.values
-            }.each_pair {
-              |k,v| ((v.is_a? String) ? v.force_encoding("UTF-8") : v)
-            }
-
-            puts "importing: #{post.title}"
-
-            # Write out the data and content to file
-            File.open("_posts/#{post.name}", "w") do |f|
-              f.puts data.merge(content_vars.tags).to_yaml()
-              f.puts "---"
-              f.puts content_markdown
-            end
-=======
             content_markdown = markdonify(raw[:body])
             post_process = ProcessPost.new(raw)
             post = post_process.post
@@ -173,67 +142,6 @@ module JekyllImport
               f.puts "---"
               f.puts content_markdown
             end
->>>>>>> External Changes
-=======
-            content_markdown = markdonify(raw[:body])
-            post_process = ProcessPost.new(raw)
-            post = post_process.post
-            content_vars = post_process.content_vars
-
-            # Get the relevant fields as a hash, delete empty fields and convert
-            # to YAML for the header
-            data = {
-              'layout' => 'post',
-              'title' => post.title,
-              'legacy_url' => "http://www.mst.org.br/node/#{post.node_id}",
-              'created' => post.created,
-              'images' => content_vars.images,
-              'video' => content_vars.video,
-              'tags' => content_vars.tags.values,
-              'type' => post.type
-            }.each_pair {
-              |k,v| ((v.is_a? String) ? v.force_encoding("UTF-8") : v)
-            }
-
-            puts "importing: #{post.title}"
-
-            # Write out the data and content to file
-            File.open("_posts/#{post.name}", "w") do |f|
-              f.puts data.merge(content_vars.tags).to_yaml()
-              f.puts "---"
-              f.puts content_markdown
-            end
->>>>>>> External Changes
-=======
-            content_markdown = markdonify(raw[:body])
-            post_process = ProcessPost.new(raw)
-            post = post_process.post
-            content_vars = post_process.content_vars
-
-            # Get the relevant fields as a hash, delete empty fields and convert
-            # to YAML for the header
-            data = {
-              'layout' => 'post',
-              'title' => post.title,
-              'legacy_url' => "http://www.mst.org.br/node/#{post.node_id}",
-              'created' => post.created,
-              'images' => content_vars.images,
-              'video' => content_vars.video,
-              'tags' => content_vars.tags.values,
-              'type' => post.type
-            }.each_pair {
-              |k,v| ((v.is_a? String) ? v.force_encoding("UTF-8") : v)
-            }
-
-            puts "importing: #{post.title}"
-
-            # Write out the data and content to file
-            File.open("_posts/#{post.name}", "w") do |f|
-              f.puts data.merge(content_vars.tags).to_yaml()
-              f.puts "---"
-              f.puts content_markdown
-            end
->>>>>>> External Changes
 
             # Make a file to redirect from the old Drupal URL
             create_file_to_redirect_old_drupal(post, db, options) if post.is_published?
