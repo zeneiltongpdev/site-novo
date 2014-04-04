@@ -5992,13 +5992,7 @@ article.destaque {
 article.destaque figure {
   margin: 0;
   padding: 0;
-  min-height: 150px;
-  max-height: 180px;
-  overflow: hidden;
-}
-article.destaque figure img,
-article.destaque figure iframe {
-  width: 100%;
+  height: 190px;
   max-width: 370px;
 }
 article.destaque figure img:hover,
@@ -6007,7 +6001,14 @@ article.destaque figure iframe:hover {
   opacity: 0.8;
 }
 article.destaque figure iframe {
-  min-height: 200px;
+  width: 100%;
+  height: 190px;
+}
+article.destaque figure img {
+  width: auto;
+  display: block;
+  min-height: 100%;
+  min-width: 100%;
 }
 article.destaque p {
   font-size: 20px;
@@ -6044,6 +6045,8 @@ article.tema section h2 {
 }
 article.tema header h1,
 article.tema section h1 {
+  width: 100%;
+  text-align: center;
   letter-spacing: -2px;
   font-weight: bold;
 }
@@ -6053,22 +6056,18 @@ article.tema section h2 {
   border-bottom: dashed 1px lightgray;
   padding-bottom: 0.3em;
 }
-article.tema header img,
-article.tema section img,
-article.tema header iframe,
-article.tema section iframe {
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
-}
-article.tema header img,
-article.tema section img {
+article.tema header figure,
+article.tema section figure {
   border-radius: 3px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
+  overflow: hidden;
 }
 article.tema header {
   overflow: auto;
   margin-bottom: 30px;
 }
 article.tema header figure {
-  margin: 0 0 10px;
+  margin: 0 auto 10px auto;
   max-width: 350px;
 }
 article.tema header figure img {
@@ -6094,12 +6093,6 @@ article.tema header details summary:focus {
 }
 article.tema header details summary:hover {
   text-decoration: underline;
-}
-@media (min-width: 480px) {
-  article.tema header figure {
-    float: left;
-    margin-right: 30px;
-  }
 }
 article.tema section {
   margin-bottom: 10px;
@@ -6134,6 +6127,13 @@ article.tema section p.mais a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+  article.tema header figure {
+    float: left;
+    margin-right: 20px;
+  }
+  article.tema header h1 {
+    text-align: left;
+  }
   article.tema section ul {
     margin: 0;
   }
@@ -6155,18 +6155,5 @@ article.tema section p.mais a:hover {
   }
   article.tema section.videos ul li + li {
     margin-left: 1%;
-  }
-}
-@media (max-width: 480px) {
-  article.tema header {
-    position: relative;
-    padding-top: 60px;
-  }
-  article.tema header h1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
   }
 }

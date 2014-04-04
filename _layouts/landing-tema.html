@@ -21,19 +21,23 @@ layout : default
     <p>
       {{ summary }}
     </p>
-    <details>
-      <summary>Leia mais...</summary>
-      <p>
-        {{ description }}
-        <span>[Fonte: <a href="https://www.expressaopopular.com.br/livros/expressao-popular/dicionario-da-educacao-do-campo">Dicionário da Educação do Campo</a>]</span>
-      </p>
-    </details>
+
+    {% if description %}
+       <details>
+         <summary>Leia mais...</summary>
+         <p>
+           {{ description }}
+           <span>[Fonte: <a href="https://www.expressaopopular.com.br/livros/expressao-popular/dicionario-da-educacao-do-campo">Dicionário da Educação do Campo</a>]</span>
+         </p>
+       </details>
+     {% endif %}
+    
   </header>
 
   <section class="noticias">
     <h2>Notícias</h2>
     <ul>
-      {% for noticia in content  %}
+      {% for noticia in content | limit:3 %}
         {% if noticia.type == 'news' %}
           <li>
             {% include destaque.html details=noticia default_image=image %}

@@ -50,7 +50,7 @@
       url: http://mst.org.br/taxonomy/term/339
 
     - name: Lutas e mobilizações
-      url: http://mst.org.br/taxonomy/term/326
+      url: lutas-e-mobilizacoes
 
     - name: Internacional
       url: http://mst.org.br/taxonomy/term/338
@@ -62,7 +62,7 @@
       url: http://mst.org.br/taxonomy/term/341
 
     - name: Reforma Agrária
-      url: http://mst.org.br/taxonomy/term/692 
+      url: reforma-agraria
 
     - name: Transgênicos
       url: http://mst.org.br/taxonomy/term/335

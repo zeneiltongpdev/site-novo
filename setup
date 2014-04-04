@@ -10,7 +10,7 @@ function check_installation {
 
 function check_ruby {
   check_installation ruby
-  ruby -v | grep "ruby 2" >/dev/null || {
+  ruby -v | grep -q "ruby 2" || {
     echo >&2 "you need ruby version >= 2."; abort;
   }
   echo "✓ ruby is ok."
@@ -18,7 +18,7 @@ function check_ruby {
 
 function check_node {
   check_installation node
-  node -v | grep "v0.10" >/dev/null || {
+  node -v | grep -q "v0.10" || {
     echo >&2 "you need node version >= 0.10."; abort;
   }
   echo "✓ node is ok."
@@ -26,7 +26,7 @@ function check_node {
 
 function check_mysql {
   check_installation mysql
-  mysql --version | grep "Distrib 5" >/dev/null || {
+  mysql --version | grep -q "Distrib 5" || {
     echo >&2 "you need mysql version >= 5."; abort;
   }
   echo "✓ mysql is ok."
@@ -34,10 +34,10 @@ function check_mysql {
 
 function check_mysqld {
   if [ ! -h /var/mysql/mysql.sock ]; then
-    ln -s /var/mysql/mysql.sock /tmp/mysql.sock  && chmod 755 /tmp/mysql.sock
+    ln -s /var/mysql/mysql.sock /tmp/mysql.sock && chmod 755 /tmp/mysql.sock
   fi
 
-  mysqladmin ping | grep "mysqld is alive" >/dev/null || {
+  mysqladmin ping | grep -q "mysqld is alive" || {
     echo >&2 "mysqld is not currently running."; abort;
   }
   echo "✓ mysqld is running"
