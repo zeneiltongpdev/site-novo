@@ -61,7 +61,7 @@ function restore_database {
 
 function install_gems {
   echo "installing gems..."
-  (gem install -q bundler && bundle install) || abort 
+  (gem install bundler >/dev/null && bundle install) || abort 
   echo "✓ gems installed."
 }
 
@@ -76,7 +76,7 @@ check_ruby
 check_node
 check_mysql
 check_mysqld
-restore_database
+restore_database $1
 install_gems
 install_node_packages
 echo "setup is complete!"
