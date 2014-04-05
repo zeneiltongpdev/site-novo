@@ -54,9 +54,9 @@ function deploy {
 function install_gems {
   if [ "$1" ];
   then
-    bundle install --path /tmp/.bundle --without test
+    bundle install --path /tmp/.bundle
   else
-    bundle install --path vendor --without test
+    bundle install --path vendor 
   fi
 }
 
