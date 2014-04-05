@@ -51,7 +51,16 @@ function deploy {
   popd
 }
 
-bundle install --path vendor --without test
+function install_gems {
+  if [ "$1" ];
+  then
+    bundle install --path /tmp/.bundle --without test
+  else
+    bundle install --path vendor --without test
+  fi
+}
+
+install_gems $1
 dirty_check $1
 gh_pages
 dist
