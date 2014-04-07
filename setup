@@ -76,8 +76,8 @@ check_ruby
 check_node
 check_mysql
 check_mysqld
-restore_database $1
 install_gems
 install_node_packages
+restore_database
 echo "setup is complete!"
 
