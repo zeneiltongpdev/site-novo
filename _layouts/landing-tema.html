@@ -8,7 +8,8 @@ layout : default
 {% assign all_news_url = page.all_news_url %}
 {% assign summary = page.summary %}
 {% assign description = page.description %}
-{% assign content = site.tags[tema] %}
+{% assign theme = 'menu:'| append: tema %}
+{% assign content = site.tags[theme] %}
 
 {% include header.html %}
 
