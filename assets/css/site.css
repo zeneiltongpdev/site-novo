@@ -5772,73 +5772,83 @@ button.close {
     display: none !important;
   }
 }
-body > header,
-body > nav {
+body > header {
   background-color: #961913;
   background: linear-gradient(#961913, #7f1510);
-}
-body > header {
-  padding: 20px 0 10px;
-  text-align: center;
   color: white;
+  padding: 5px;
+  box-shadow: 0 5px 5px -5px #000000;
+}
+body > header div {
+  display: inline;
+  padding: 0 4% 0 4%;
 }
 body > header img {
-  height: 150px;
+  height: 60px;
 }
 body > header h1 {
   margin: 0;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 100;
   text-shadow: 1px 1px black;
+  display: inline;
+  vertical-align: middle;
+  margin-left: 5px;
 }
-body > nav {
+body > header nav {
   padding-bottom: 5px;
-  box-shadow: 0 5px 5px -5px #000000;
+  width: 100%;
+  height: 70px;
+  text-align: left;
+  padding-top: 18px;
+  display: inline;
 }
-body > nav ul {
+body > header nav ul {
+  display: inline-block;
+  border: none;
   margin: 0 20px;
   padding: 5px 0;
   list-style: none;
   width: auto;
   font-size: 0.9em;
   text-align: center;
-  border-top: dashed #e74c3c 1px;
 }
-body > nav ul li {
+body > header nav ul li {
   display: inline;
 }
-body > nav ul li a {
+body > header nav ul li a {
   display: inline-block;
   color: lightgray;
 }
-body > nav ul li a:hover {
+body > header nav ul li a:hover {
   color: white;
 }
-body > nav ul li + li {
+body > header nav ul li + li {
   margin-left: 15px;
 }
-body > nav ul li:hover ul.dropdown-menu {
+body > header nav ul li:hover ul.dropdown-menu {
   display: block;
 }
-body > nav ul.dropdown-menu {
+body > header nav ul.dropdown-menu {
   text-align: left;
 }
-body > nav ul.dropdown-menu li {
+body > header nav ul.dropdown-menu li {
   margin-left: 0px;
 }
-body > nav form[name='search'] {
-  display: block;
-  margin: 0 20px;
+body > header form[name='search'] {
+  display: inline-block;
+  width: 150px;
+  margin: auto;
   padding: 5px 0;
   text-align: center;
   position: relative;
 }
-body > nav form[name='search'] [for='search'] {
+body > header form[name='search'] [for='search'] {
   position: absolute;
   font-size: 0;
   right: -20px;
 }
-body > nav form[name='search'] #search {
+body > header form[name='search'] #search {
   width: 100%;
   font-size: 0.9em;
   padding-left: 10px;
@@ -5847,48 +5857,156 @@ body > nav form[name='search'] #search {
   border-radius: 2px;
   box-shadow: inset 2px 1px 2px rgba(0, 0, 0, 0.5);
 }
-body > nav form[name='search'] #search:focus {
+body > header form[name='search'] #search:focus {
   outline: none;
   box-shadow: 0px 0px 3px 2px #5b9dd9;
 }
-@media (min-width: 480px) {
-  body > header img {
-    height: 60px;
+/*body > header, body > nav {
+  background-color: @mstred;
+  background: linear-gradient(@mstred, darken(@mstred, 5%));
+}
+
+body > header {
+  padding: 20px 0 10px;
+  text-align: center;
+  color: white;
+
+  img {
+    height: 150px;
   }
-  body > header h1 {
-    display: inline;
-    font-size: 40px;
-    vertical-align: middle;
-    margin-left: 5px;
-  }
-  body > nav form[name='search'] {
-    width: 200px;
-    margin: auto;
+
+  h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 100;
+    text-shadow: 1px 1px black;
   }
 }
-@media (min-width: 992px) {
+
+body > nav {
+  padding-bottom: 5px;
+  box-shadow: 0 5px 5px -5px black;
+
+  ul {
+    margin: 0 20px;
+    padding: 5px 0;
+    list-style: none;
+    width: auto;
+    font-size: 0.9em;
+    text-align: center;
+    border-top: dashed #e74c3c 1px;
+
+    li {
+      display: inline;
+
+      a {
+        display: inline-block;
+        color: lightgray;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+
+    li + li {
+      margin-left: 15px; 
+    }
+
+    li:hover {
+      ul.dropdown-menu {
+        display: block;
+      }
+    }
+  }
+
+  ul.dropdown-menu {
+    text-align: left;
+
+    li {
+      margin-left: 0px;
+    }
+  }
+
+  form[name='search'] {
+    display: block;
+    margin: 0 20px;
+    padding: 5px 0;
+    text-align: center;
+    position: relative;
+
+    [for='search'] {
+      position: absolute;
+      font-size: 0;
+      right: -20px;
+    }
+
+    #search {
+      width: 100%;
+      font-size: 0.9em;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-style: none;
+      border-radius: 2px;
+      box-shadow: inset 2px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    #search:focus {
+      outline: none;
+      box-shadow: 0px 0px 3px 2px rgb(91, 157, 217);
+    }
+  }
+}
+
+@media(min-width: @screen-xs) {
+  body > header {
+    img {
+      height: 60px;
+    }
+
+    h1 {
+      display: inline;
+      font-size: 40px;
+      vertical-align: middle;
+      margin-left: 5px;
+    }
+  }
+
+  body > nav {
+    form[name='search'] {
+      width: 200px; 
+      margin: auto;
+    }
+  }
+}
+
+@media(min-width: @screen-md) {
   body > header {
     width: 16%;
     float: left;
     padding: 5px;
     text-align: center;
   }
+
   body > nav {
     width: 100%;
     height: 70px;
     text-align: left;
     padding-top: 18px;
-  }
-  body > nav ul {
-    display: inline-block;
-    border: none;
-  }
-  body > nav form[name='search'] {
-    display: inline-block;
-    width: 150px;
-    margin: auto;
+
+    ul {
+      display: inline-block;
+      border: none;
+    }
+
+    form[name='search'] {
+      display: inline-block;
+      width: 150px; 
+      margin: auto;
+    }
   }
 }
+
+*/
 body footer {
   height: 100%;
   width: 100%;
