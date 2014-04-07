@@ -5775,6 +5775,7 @@ button.close {
 body > header,
 body > nav {
   background-color: #961913;
+  background: linear-gradient(#961913, #7f1510);
 }
 body > header {
   padding: 20px 0 10px;
