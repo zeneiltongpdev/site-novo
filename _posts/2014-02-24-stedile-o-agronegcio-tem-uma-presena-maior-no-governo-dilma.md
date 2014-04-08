@@ -6,9 +6,8 @@ created: 1393259293
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/joao pedro.JPG
 video: ''
 tags:
-- agronegócio
+- menu:agronegócio
 type: news
-menu: agronegócio
 ---
 
 

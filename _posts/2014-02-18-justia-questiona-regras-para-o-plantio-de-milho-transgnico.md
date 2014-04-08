@@ -6,11 +6,9 @@ created: 1392737695
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/transgenico_duvida!.jpg
 video: ''
 tags:
-- transgênicos
-- transgênicos
+- assuntos:transgênicos
+- menu:transgênicos
 type: news
-assuntos: transgênicos
-menu: transgênicos
 ---
 
 

@@ -6,9 +6,8 @@ created: 1366725135
 images: ''
 video: Bmeb7-4OAKw
 tags:
-- lutas e mobilizações
+- menu:lutas e mobilizações
 type: video
-menu: lutas e mobilizações
 ---
 
 

@@ -6,9 +6,8 @@ created: 1389791295
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/video-agroflorestar-canteiro-agroflorestal33.jpg
 video: ''
 tags:
-- agricultura camponesa
+- menu:agricultura camponesa
 type: news
-menu: agricultura camponesa
 ---
 
 

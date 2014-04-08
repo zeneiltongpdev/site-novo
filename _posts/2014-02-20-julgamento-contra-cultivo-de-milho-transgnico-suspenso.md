@@ -6,9 +6,8 @@ created: 1392905814
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/milho blehabre.jpg
 video: ''
 tags:
-- transgênicos
+- menu:transgênicos
 type: news
-menu: transgênicos
 ---
 
 

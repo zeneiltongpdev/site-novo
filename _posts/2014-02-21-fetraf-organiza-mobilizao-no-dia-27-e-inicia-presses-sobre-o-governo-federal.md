@@ -6,11 +6,9 @@ created: 1392975325
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/fetraf.jpg
 video: ''
 tags:
-- mobilização
-- lutas e mobilizações
+- assuntos:mobilização
+- menu:lutas e mobilizações
 type: news
-assuntos: mobilização
-menu: lutas e mobilizações
 ---
 
 

@@ -6,9 +6,8 @@ created: 1392916507
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/mst 302.jpg
 video: ''
 tags:
-- lutas e mobilizações
+- menu:lutas e mobilizações
 type: news
-menu: lutas e mobilizações
 ---
 
 

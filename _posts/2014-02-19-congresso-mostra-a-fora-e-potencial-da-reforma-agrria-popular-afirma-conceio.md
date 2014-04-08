@@ -6,9 +6,8 @@ created: 1392831482
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/congresso_talles!.jpg
 video: ''
 tags:
-- reforma agrária
+- menu:reforma agrária
 type: news
-menu: reforma agrária
 ---
 
 

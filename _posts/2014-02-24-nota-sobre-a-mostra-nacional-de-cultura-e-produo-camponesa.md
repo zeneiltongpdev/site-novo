@@ -6,9 +6,8 @@ created: 1393278057
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/mst 302.jpg
 video: ''
 tags:
-- reforma agrária
+- menu:reforma agrária
 type: news
-menu: reforma agrária
 ---
 
 

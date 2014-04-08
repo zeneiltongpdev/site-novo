@@ -6,9 +6,8 @@ created: 1392088298
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/feira_melgarejo.JPG
 video: ''
 tags:
-- agricultura camponesa
+- menu:agricultura camponesa
 type: news
-menu: agricultura camponesa
 ---
 
 
