@@ -56,12 +56,10 @@ layout : default
     <section class="videos">
       <h2>Vídeos</h2>
       <ul>
-        {% for video in content  %}
-          {% if video.type == 'video' %}
-            <li>
-              {% include video.html details=video %}
-            </li>
-          {% endif %}
+        {% for video in videos  %}
+          <li>
+            {% include video.html details=video %}
+          </li>
         {% endfor %}
       </ul>
       <p class="mais">
