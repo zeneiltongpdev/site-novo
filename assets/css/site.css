@@ -5829,6 +5829,9 @@ body > header nav ul li + li {
 body > header nav ul li:hover ul.dropdown-menu {
   display: block;
 }
+body > header nav ul .dropdown a:first-child:nth-last-child(2):after {
+  content: " ▾";
+}
 body > header nav ul.dropdown-menu {
   text-align: left;
 }
