@@ -37,19 +37,21 @@ layout : default
     
   </header>
 
-  <section class="noticias">
-    <h2>Notícias</h2>
-    <ul>
-      {% for noticia in noticias | limit:3 %}
-        <li>
-          {% include destaque.html details=noticia default_image=image %}
-        </li>
-      {% endfor %}
-    </ul>
-    <p class="mais">
-      <a href="{{ all_news_url }}">Mais notícias...</a>
-    </p>
-  </section>
+  {% if noticias.size > 0 %}
+    <section class="noticias">
+      <h2>Notícias</h2>
+      <ul>
+        {% for noticia in noticias | limit:3 %}
+          <li>
+            {% include destaque.html details=noticia default_image=image %}
+          </li>
+        {% endfor %}
+      </ul>
+      <p class="mais">
+        <a href="{{ all_news_url }}">Mais notícias...</a>
+      </p>
+    </section>
+  {% endif %}
 
   {% if videos.size > 0 %}
     <section class="videos">
