@@ -6030,6 +6030,9 @@ article.post h1 {
 article.post time {
   display: block;
 }
+article.post span.label-primary {
+  background-color: #006400;
+}
 article.post img {
   display: block;
   float: none;
@@ -6147,7 +6150,7 @@ article.tema section p.mais {
   clear: both;
 }
 article.tema section p.mais a {
-  color: darkgreen;
+  color: #006400;
 }
 article.tema section p.mais a:hover {
   opacity: 0.8;
