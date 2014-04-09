@@ -5784,6 +5784,12 @@ body > header {
 body > header img {
   height: 60px;
 }
+body > header a,
+body > header a:hover,
+body > header a:visited {
+  color: white;
+  text-decoration: none;
+}
 body > header h1 {
   display: inline;
   vertical-align: middle;
