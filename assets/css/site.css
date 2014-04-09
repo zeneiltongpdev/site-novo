@@ -5772,40 +5772,33 @@ button.close {
     display: none !important;
   }
 }
-body > header {
+body > header,
+body > nav {
   background-color: #961913;
-  background: linear-gradient(#961913, #7f1510);
-  color: white;
-  padding: 5px;
-  box-shadow: 0 5px 5px -5px #000000;
 }
-body > header div {
-  display: inline;
-  padding: 0 4% 0 4%;
+body > header {
+  padding: 20px 0 10px;
+  text-align: center;
+  color: white;
 }
 body > header img {
   height: 60px;
 }
 body > header h1 {
+  display: inline;
+  vertical-align: middle;
   margin: 0;
+  margin-left: 5px;
   font-size: 40px;
   font-weight: 100;
   text-shadow: 1px 1px black;
-  display: inline;
-  vertical-align: middle;
-  margin-left: 5px;
 }
-body > header nav {
+body > nav {
   padding-bottom: 5px;
-  width: 100%;
-  height: 70px;
-  text-align: left;
-  padding-top: 18px;
-  display: inline;
+  box-shadow: 0 5px 5px -5px #000000;
+  background: linear-gradient(#961913, #7f1510);
 }
-body > header nav ul {
-  display: inline-block;
-  border: none;
+body > nav ul {
   margin: 0 20px;
   padding: 5px 0;
   list-style: none;
@@ -5813,45 +5806,44 @@ body > header nav ul {
   font-size: 0.9em;
   text-align: center;
 }
-body > header nav ul li {
+body > nav ul li {
   display: inline;
 }
-body > header nav ul li a {
+body > nav ul li a {
   display: inline-block;
   color: lightgray;
 }
-body > header nav ul li a:hover {
+body > nav ul li a:hover {
   color: white;
 }
-body > header nav ul li + li {
+body > nav ul li + li {
   margin-left: 15px;
 }
-body > header nav ul li:hover ul.dropdown-menu {
+body > nav ul li:hover ul.dropdown-menu {
   display: block;
 }
-body > header nav ul .dropdown a:first-child:nth-last-child(2):after {
+body > nav ul li.dropdown a:first-child:nth-last-child(2):after {
   content: " ▾";
 }
-body > header nav ul.dropdown-menu {
+body > nav ul.dropdown-menu {
   text-align: left;
 }
-body > header nav ul.dropdown-menu li {
+body > nav ul.dropdown-menu li {
   margin-left: 0px;
 }
-body > header form[name='search'] {
-  display: inline-block;
-  width: 150px;
-  margin: auto;
+body > nav form[name='search'] {
+  display: block;
+  margin: 0 20px;
   padding: 5px 0;
   text-align: center;
   position: relative;
 }
-body > header form[name='search'] [for='search'] {
+body > nav form[name='search'] [for='search'] {
   position: absolute;
   font-size: 0;
   right: -20px;
 }
-body > header form[name='search'] #search {
+body > nav form[name='search'] #search {
   width: 100%;
   font-size: 0.9em;
   padding-left: 10px;
@@ -5859,21 +5851,39 @@ body > header form[name='search'] #search {
   border-style: none;
   border-radius: 2px;
   box-shadow: inset 2px 1px 2px rgba(0, 0, 0, 0.5);
-  color: black;
 }
-body > header form[name='search'] #search:focus {
+body > nav form[name='search'] #search:focus {
   outline: none;
   box-shadow: 0px 0px 3px 2px #5b9dd9;
 }
-@media (max-width: 992px) {
+@media (min-width: 480px) {
+  body > nav form[name='search'] {
+    width: 200px;
+    margin: auto;
+  }
+}
+@media (min-width: 992px) {
   body > header {
+    width: 16%;
+    float: left;
+    padding: 5px;
     text-align: center;
+    background: linear-gradient(#961913, #7f1510);
   }
-  body > header div {
-    display: block;
+  body > nav {
+    width: 100%;
+    height: 70px;
+    text-align: left;
+    padding-top: 18px;
   }
-  body > header form[name='search'] {
-    display: block;
+  body > nav ul {
+    display: inline-block;
+    border: none;
+  }
+  body > nav form[name='search'] {
+    display: inline-block;
+    width: 150px;
+    margin: auto;
   }
 }
 body footer {
