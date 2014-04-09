@@ -9,7 +9,7 @@ layout: default
     {{ page.date | date: "%-d/%-m/%Y" }}
   </time>
   {% for tag in page.tags %}
-    <span class="label label-primary">{{ tag }}</span>
+    <span class="label label-primary">{{ tag | split: ':' | last }}</span>
   {% endfor %}
   {{ content }}
 </article>
