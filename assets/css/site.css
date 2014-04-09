@@ -6018,10 +6018,6 @@ article.destaque p {
 article.destaque p a {
   display: block;
 }
-article.post {
-  width: 70%;
-  margin: auto;
-}
 article.post time {
   display: block;
 }
