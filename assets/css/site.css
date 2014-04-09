@@ -6032,9 +6032,8 @@ article.post time {
   font-weight: normal;
   font-style: normal;
 }
-article.tema {
-  padding-top: 30px;
-  padding-bottom: 30px;
+body > article {
+  padding: 30px 15px;
 }
 article.tema header,
 article.tema section {
@@ -6127,7 +6126,7 @@ article.tema section p.mais a:hover {
   opacity: 0.8;
 }
 @media (min-width: 992px) {
-  article.tema {
+  body > article {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
