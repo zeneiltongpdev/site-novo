@@ -2,5 +2,16 @@
 layout: default
 ---
 
-{{ content }}
+{% include header.html %}
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <time datetime="{{ page.date }}">
+    {{ page.date | date: "%-d/%-m/%Y" }}
+  </time>
+  {% for tag in page.tags %}
+    <span class="label label-primary">{{ tag }}</span>
+  {% endfor %}
+  {{ content }}
+</article>
+{% include footer.html %}
 
