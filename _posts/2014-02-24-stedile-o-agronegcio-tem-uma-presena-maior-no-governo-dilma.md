@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Stedile: O Agronegócio tem uma presença maior no governo Dilma'
+title: 'Stedile: "O Agronegócio tem uma presença maior no governo Dilma"'
 legacy_url: http://www.mst.org.br/node/15766
 created: 1393259293
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/joao pedro.JPG

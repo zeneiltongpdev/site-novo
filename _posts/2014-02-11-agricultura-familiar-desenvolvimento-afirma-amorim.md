@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Agricultura familiar é desenvolvimento”, afirma Amorim
+title: '"Agricultura familiar é desenvolvimento”, afirma Amorim'
 legacy_url: http://www.mst.org.br/node/15701
 created: 1392088298
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/feira_melgarejo.JPG

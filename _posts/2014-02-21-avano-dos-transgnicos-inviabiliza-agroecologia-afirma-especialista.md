@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Avanço dos transgênicos inviabiliza agroecologia, afirma especialista
+title: '"Avanço dos transgênicos inviabiliza agroecologia", afirma especialista'
 legacy_url: http://www.mst.org.br/node/15763
 created: 1392991551
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/transgenicos.jpg

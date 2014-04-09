@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Congresso mostra a força e potencial da Reforma Agrária Popular, afirma Conceição
+title: '"Congresso mostra a força e potencial da Reforma Agrária Popular", afirma
+  Conceição'
 legacy_url: http://www.mst.org.br/node/15753
 created: 1392831482
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/congresso_talles!.jpg

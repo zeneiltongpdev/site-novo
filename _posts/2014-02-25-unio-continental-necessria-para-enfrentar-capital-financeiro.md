@@ -1,6 +1,6 @@
 ---
 layout: post
-title: União continental é necessária para enfrentar capital financeiro
+title: '"União continental é necessária para enfrentar capital financeiro"'
 legacy_url: http://www.mst.org.br/node/15769
 created: 1393340674
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/diego abre.JPG
