@@ -394,8 +394,13 @@
 			ga('require', 'linkid', 'linkid.js');
 			ga('send', 'pageview');
 
-			var tracked_links = [ [ '.parceiros ul li a', 'parceiros'] ];
+			var tracked_links = [['.parceiros ul li a', 'parceiros'], ['.social ul li a', 'social'], 
+			['.amigos ul li a', 'amigos'], ['.links ul li a', 'links'], 
+			['.noticias .mais a', 'mais-noticias'], ['.videos .mais a', 'mais-videos']];
+
 			tracked_links.forEach(function(trackableItems) {
+				var selector = null;
+				var category = null;
 				selector = trackableItems[0];
 				category = trackableItems[1];
 				$(selector).each( function(index) {
@@ -404,11 +409,9 @@
 							'hitType': 'event',          
 							'eventCategory': category,
 							'eventAction': 'click',   
-							'eventLabel': $(this).attr('href'),
-							'eventValue': 1
+							'eventLabel': $(this).attr('href')
 						});
-					}
-					)
+					})
 				});
 			});
 		</script>
