@@ -23,8 +23,10 @@
 			</div>
 		</div>
 		<header>
-  <img alt="Logotipo" src="/assets/img/logo.png" />
-  <h1>MST</h1>
+  <a href=http://www.mst.org.br/inicial>
+    <img alt="Logotipo" src="/assets/img/logo.png" />
+    <h1>MST</h1>
+  </a>
 </header><!--
 --><nav>
   <ul>
@@ -308,7 +310,8 @@
 
 			var tracked_links = [['.parceiros ul li a', 'parceiros'], ['.social ul li a', 'social'], 
 			['.amigos ul li a', 'amigos'], ['.links ul li a', 'links'], 
-			['.noticias .mais a', 'mais-noticias'], ['.videos .mais a', 'mais-videos']];
+			['.noticias .mais a', 'mais-noticias'], ['.videos .mais a', 'mais-videos'],
+			['nav ul li a', 'header-links']];
 
 			tracked_links.forEach(function(trackableItems) {
 				var selector = null;
@@ -326,6 +329,24 @@
 					})
 				});
 			});
+			
+			$(".details-inited summary").on('click', function() {
+				ga('send', {
+					'hitType': 'event',          
+					'eventCategory': 'leia-mais',
+					'eventAction': 'click',   
+					'eventLabel': $('.tema h1').text()
+				});
+			})
+			
+			$("header > a").on('click', function() {
+				ga('send', {
+					'hitType': 'event',          
+					'eventCategory': 'header-links',
+					'eventAction': 'click',   
+					'eventLabel': 'Logotipo'
+				});
+			})
 		</script>
 	</body>
 </html>
