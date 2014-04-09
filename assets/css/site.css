@@ -6032,7 +6032,7 @@ article.post time {
   font-weight: normal;
   font-style: normal;
 }
-article.tema {
+body > article {
   padding: 30px 15px;
 }
 article.tema header,
