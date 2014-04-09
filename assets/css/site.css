@@ -6018,12 +6018,17 @@ article.destaque p {
 article.destaque p a {
   display: block;
 }
-article.post {
-  width: 70%;
-  margin: auto;
-}
 article.post time {
   display: block;
+}
+article.post img {
+  display: block;
+  float: none;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
 }
 @font-face {
   font-family: 'Glyphicons Social Regular';
