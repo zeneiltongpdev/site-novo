@@ -6018,6 +6018,9 @@ article.destaque p {
 article.destaque p a {
   display: block;
 }
+article.post h1 {
+  word-wrap: break-word;
+}
 article.post time {
   display: block;
 }
