@@ -14,3 +14,20 @@ article.post {
   }
 }
 
+@media(min-width: @screen-sm) { 
+  article.post {
+    img {
+      margin: 20px;
+    }
+
+    img:nth-child(odd) {
+      float: right;  
+      margin-right: 0;
+    }
+
+    img:nth-child(even) {
+      float: left;
+      margin-left: 0;
+    }
+  }
+}
