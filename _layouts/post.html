@@ -5,8 +5,9 @@ layout: default
 {% include header.html %}
 <article class="post">
   <time datetime="{{ page.date }}">
-    {{ page.date | date: "%-d/%-m/%Y" }}
+    {{ page.date | pretty_date }}
   </time>
+  
   {% for tag in page.tags %}
     <span class="tag">{{ tag | split: ':' | last }}</span>
   {% endfor %}
