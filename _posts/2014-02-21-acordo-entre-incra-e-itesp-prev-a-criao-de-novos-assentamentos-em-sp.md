@@ -6,6 +6,7 @@ created: 1393010529
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/reformaagraria.jpg
 video: ''
 tags:
+- assuntos:reforma agrária
 - menu:reforma agrária
 type: news
 ---

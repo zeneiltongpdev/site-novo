@@ -6,6 +6,7 @@ created: 1343236431
 images: ''
 video: FpEL21Lr8kk
 tags:
+- assuntos:agroecologia
 - menu:agricultura camponesa
 type: video
 ---

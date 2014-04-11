@@ -6,6 +6,7 @@ created: 1391796201
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/organic1.jpg
 video: ''
 tags:
+- assuntos:agroecologia
 - menu:agricultura camponesa
 type: news
 ---
