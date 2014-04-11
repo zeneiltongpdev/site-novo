@@ -5892,7 +5892,25 @@ body > nav form[name='search'] #search:focus {
     margin: auto;
   }
 }
-body footer {
+article > footer ul {
+  list-style: none;
+  padding: 0;
+  border-top: 4px solid black;
+}
+article > footer ul li {
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding: 2px 0;
+  font-size: 0.9em;
+}
+article > footer ul li a {
+  color: #961913;
+}
+article > footer ul li:first-child {
+  font-weight: normal;
+  font-size: 1.1em;
+}
+body > footer {
   height: 100%;
   width: 100%;
   background-color: #961913;
@@ -5900,52 +5918,52 @@ body footer {
   padding: 20px 0 20px;
   color: #ffffff;
 }
-body footer article {
+body > footer article {
   width: 80%;
   margin: auto;
 }
-body footer article h1 {
+body > footer article h1 {
   font-size: 1.8em;
   border-bottom: dashed #e74c3c 1px;
   padding-bottom: 10px;
   font-weight: lighter;
   margin-top: 30px;
 }
-body footer article ul {
+body > footer article ul {
   list-style: none;
   margin: 0;
   padding: 0;
   padding-left: 5px;
 }
-body footer article.social a {
+body > footer article.social a {
   font-family: 'Glyphicons Social Regular', Helvetica, Arial, sans-serif;
 }
-body footer article.social a:before {
+body > footer article.social a:before {
   margin-right: 10px;
   vertical-align: middle;
 }
-body footer article.social a.facebook:before {
+body > footer article.social a.facebook:before {
   content: '\E031';
 }
-body footer article.social a.twitter:before {
+body > footer article.social a.twitter:before {
   content: '\E032';
 }
-body footer article.social a.rss:before {
+body > footer article.social a.rss:before {
   content: '\E038';
 }
-body footer article.amigos ul li {
+body > footer article.amigos ul li {
   display: inline;
   margin: 0 3px 0 3px;
 }
-body footer article.parceiros ul {
+body > footer article.parceiros ul {
   padding-left: 0;
   text-align: center;
 }
-body footer article.parceiros ul li {
+body > footer article.parceiros ul li {
   display: inline-block;
   vertical-align: middle;
 }
-body footer article.parceiros ul li a {
+body > footer article.parceiros ul li a {
   display: inline-block;
   height: 64px;
   line-height: 55px;
@@ -5956,33 +5974,33 @@ body footer article.parceiros ul li a {
   border-radius: 3px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
 }
-body footer article.parceiros ul li a:hover {
+body > footer article.parceiros ul li a:hover {
   opacity: 0.8;
   box-shadow: none;
 }
 @media (min-width: 992px) {
-  body footer {
+  body > footer {
     text-align: center;
   }
-  body footer article {
+  body > footer article {
     display: inline-block;
     width: 25%;
     vertical-align: top;
     text-align: left;
     padding: 10px;
   }
-  body footer article.parceiros {
+  body > footer article.parceiros {
     display: block;
     width: 75%;
   }
 }
-body footer a {
+body > footer a {
   color: #ffffff;
 }
-body footer a:hover {
+body > footer a:hover {
   color: #bbbbbb;
 }
-body footer small {
+body > footer small {
   display: block;
   margin-top: 40px;
   margin-bottom: 0;
