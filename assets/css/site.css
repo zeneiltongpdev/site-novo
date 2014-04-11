@@ -6051,6 +6051,10 @@ article.post img {
   border-radius: 3px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
 }
+article.post object,
+article.post iframe {
+  max-width: 100%;
+}
 @media (min-width: 768px) {
   article.post img {
     margin: 20px;
