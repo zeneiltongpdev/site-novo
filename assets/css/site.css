@@ -6025,13 +6025,22 @@ article.destaque p a {
   display: block;
 }
 article.post h1 {
+  margin-top: 0.7em;
   word-wrap: break-word;
 }
-article.post time {
-  display: block;
-}
-article.post span.label-primary {
+article.post span.tag {
   background-color: #006400;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  float: right;
+  margin-left: 0.4em;
 }
 article.post img {
   display: block;
