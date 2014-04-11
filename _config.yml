@@ -1,5 +1,6 @@
 name: Movimento dos Trabalhadores Rurais Sem Terra
 markdown: redcarpet
+highlighter: true
 exclude:
   - deploy
   - Gemfile
