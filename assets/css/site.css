@@ -6037,7 +6037,7 @@ article.post img {
   display: block;
   float: none;
   margin: auto;
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   border-radius: 3px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
@@ -6045,6 +6045,7 @@ article.post img {
 @media (min-width: 768px) {
   article.post img {
     margin: 20px;
+    max-width: 50%;
   }
   article.post img:nth-child(odd) {
     float: right;
