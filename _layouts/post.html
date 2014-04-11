@@ -12,6 +12,7 @@ layout: default
     <span class="label label-primary">{{ tag | split: ':' | last }}</span>
   {% endfor %}
   {{ content }}
+  {% include read-more.html %}
 </article>
 {% include footer.html %}
 
