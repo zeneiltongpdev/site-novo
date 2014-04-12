@@ -60,8 +60,6 @@ function install_gems {
   fi
 }
 
-git config --global push.default tracking
-
 install_gems $1
 dirty_check $1
 gh_pages
