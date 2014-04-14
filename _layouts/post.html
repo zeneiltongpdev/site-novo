@@ -3,17 +3,18 @@ layout: default
 ---
 
 {% include header.html %}
-<article class="post">
-  <time datetime="{{ page.date }}">
-    {{ page.date | pretty_date }}
-  </time>
-  
-  {% for tag in page.tags %}
-    <span class="tag">{{ tag | split: ':' | last }}</span>
-  {% endfor %}
-  <h1>{{ page.title }}</h1>
-  {{ content }}
-  {% include read-more.html %}
-</article>
+<main>
+  <article class="post">
+    <time datetime="{{ page.date }}">
+      {{ page.date | pretty_date }}
+    </time>
+    
+    {% for tag in page.tags %}
+      <span class="tag">{{ tag | split: ':' | last }}</span>
+    {% endfor %}
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </article>
+</main>
 {% include footer.html %}
 
