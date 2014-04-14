@@ -6,8 +6,8 @@ created: 1368813908
 images: ''
 video: 2NB61WU1WfM
 tags:
-- destaque:destaque
 - menu:direitos humanos
+- destaque:destaque
 - assuntos:indígenas
 type: video
 ---

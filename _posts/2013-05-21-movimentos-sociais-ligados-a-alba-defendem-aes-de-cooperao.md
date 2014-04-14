@@ -6,9 +6,9 @@ created: 1369154155
 images: ''
 video: uCs-Te9COUU
 tags:
-- assuntos:alba
-- destaque:destaque
 - menu:internacional
+- destaque:destaque
+- assuntos:alba
 type: video
 ---
 <p><object data="http://www.youtube.com/v/uCs-Te9COUU" type="application/x-shockwave-flash" height="500" width="600"><param name="data" value="http://www.youtube.com/v/uCs-Te9COUU"><param name="src" value="http://www.youtube.com/v/uCs-Te9COUU"></object></p>

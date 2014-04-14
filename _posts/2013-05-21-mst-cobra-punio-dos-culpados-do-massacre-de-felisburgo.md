@@ -6,11 +6,11 @@ created: 1369153998
 images: ''
 video: CqvmOzGt2v4
 tags:
-- destaque:destaque
-- localização:minas gerais
-- menu:direitos humanos
-- localização:felisburgo
 - assuntos:massacre de felisburgo
+- localização:felisburgo
+- localização:minas gerais
+- destaque:destaque
+- menu:direitos humanos
 type: video
 ---
 <p>&nbsp;</p><p style="text-align: center;"><object data="http://www.youtube.com/v/CqvmOzGt2v4" type="application/x-shockwave-flash" height="500" width="600"><param name="src" value="http://www.youtube.com/v/CqvmOzGt2v4"></object></p>

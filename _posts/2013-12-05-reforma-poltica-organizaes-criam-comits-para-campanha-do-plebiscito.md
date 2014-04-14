@@ -6,8 +6,8 @@ created: 1386261940
 images: ''
 video: bsy7VQL-wrg
 tags:
-- destaque:destaque
 - menu:lutas e mobilizações
+- destaque:destaque
 - assuntos:reforma política
 type: video
 ---
