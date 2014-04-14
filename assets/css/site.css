@@ -6097,86 +6097,86 @@ article > footer ul li:first-child {
   font-weight: normal;
   font-style: normal;
 }
-body > article {
+body > main {
   padding: 30px 15px;
 }
-article.tema header,
-article.tema section {
+main.tema header,
+main.tema section {
   margin: 0;
   text-align: justify;
 }
-article.tema header h1,
-article.tema section h1,
-article.tema header h2,
-article.tema section h2 {
+main.tema header h1,
+main.tema section h1,
+main.tema header h2,
+main.tema section h2 {
   margin: 0;
   margin-bottom: 10px;
 }
-article.tema header h1,
-article.tema section h1 {
+main.tema header h1,
+main.tema section h1 {
   width: 100%;
   text-align: center;
   letter-spacing: -2px;
   font-weight: bold;
 }
-article.tema header h2,
-article.tema section h2 {
+main.tema header h2,
+main.tema section h2 {
   margin-bottom: 0.5em;
   border-bottom: dashed 1px lightgray;
   padding-bottom: 0.3em;
 }
-article.tema header figure,
-article.tema section figure {
+main.tema header figure,
+main.tema section figure {
   border-radius: 3px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
   overflow: hidden;
 }
-article.tema header {
+main.tema header {
   overflow: auto;
   margin-bottom: 30px;
 }
-article.tema header figure {
+main.tema header figure {
   margin: 0 auto 10px auto;
   max-width: 350px;
 }
-article.tema header figure img {
+main.tema header figure img {
   width: 100%;
 }
-article.tema header p {
+main.tema header p {
   max-width: 100%;
   text-align: justify;
   margin: 0;
 }
-article.tema header details[open] summary,
-article.tema header details.open summary {
+main.tema header details[open] summary,
+main.tema header details.open summary {
   display: none;
 }
-article.tema header details summary {
+main.tema header details summary {
   cursor: pointer;
   color: #006400;
   font-weight: bold;
   float: right;
 }
-article.tema header details summary:focus {
+main.tema header details summary:focus {
   outline: none;
 }
-article.tema header details summary:hover {
+main.tema header details summary:hover {
   text-decoration: underline;
 }
-article.tema section {
+main.tema section {
   margin-bottom: 10px;
 }
-article.tema section ul {
+main.tema section ul {
   list-style: none;
   padding: 0;
 }
-article.tema section ul li + li {
+main.tema section ul li + li {
   margin-top: 20px;
 }
-article.tema section p {
+main.tema section p {
   text-align: left;
 }
-article.tema section p.mais {
+main.tema section p.mais {
   margin: 0;
   padding-top: 1.2em;
   display: block;
@@ -6184,45 +6184,45 @@ article.tema section p.mais {
   font-weight: bold;
   clear: both;
 }
-article.tema section p.mais a {
+main.tema section p.mais a {
   color: #006400;
 }
-article.tema section p.mais a:hover {
+main.tema section p.mais a:hover {
   opacity: 0.8;
 }
 @media (min-width: 992px) {
-  body > article {
+  body > main {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
-  article.tema header figure {
+  main.tema header figure {
     float: left;
     margin-right: 20px;
   }
-  article.tema header h1 {
+  main.tema header h1 {
     text-align: left;
   }
-  article.tema section ul {
+  main.tema section ul {
     margin: 0;
   }
-  article.tema section ul li {
+  main.tema section ul li {
     width: 32.6%;
     display: block;
     float: left;
     vertical-align: top;
     margin-right: 1%;
   }
-  article.tema section ul li + li {
+  main.tema section ul li + li {
     margin-top: 0;
   }
-  article.tema section ul li:last-child {
+  main.tema section ul li:last-child {
     margin-right: 0;
   }
-  article.tema section.videos ul li {
+  main.tema section.videos ul li {
     width: 32%;
   }
-  article.tema section.videos ul li + li {
+  main.tema section.videos ul li + li {
     margin-left: 1%;
   }
 }
