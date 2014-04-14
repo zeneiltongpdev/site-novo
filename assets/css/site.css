@@ -6069,24 +6069,24 @@ article.post iframe {
     margin-left: 0;
   }
 }
-article > footer {
+main > footer {
   padding-top: 10px;
 }
-article > footer ul {
+main > footer ul {
   list-style: none;
   padding: 0;
   border-top: 4px solid black;
 }
-article > footer ul li {
+main > footer ul li {
   font-weight: bold;
   border-bottom: 1px solid #ddd;
   padding: 2px 0;
   font-size: 0.9em;
 }
-article > footer ul li a {
+main > footer ul li a {
   color: #961913;
 }
-article > footer ul li:first-child {
+main > footer ul li:first-child {
   font-weight: normal;
   font-size: 1.1em;
 }
