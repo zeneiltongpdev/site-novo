@@ -27,6 +27,15 @@ class ProcessPostTest < ActiveSupport::TestCase
 		assert res.code == '200',"/transgenicos is not accessible. response code: #{res.code}"
 	end
 
+	test '/solidariedade-internacional is accessible' do
+		res = Net::HTTP.get_response(path_to('solidariedade-internacional'))							
+		assert res.code == '200',"/solidariedade-internacional is not accessible. response code: #{res.code}"
+	end
+
+	test '/projeto-popular is accessible' do
+		res = Net::HTTP.get_response(path_to('projeto-popular'))							
+		assert res.code == '200',"/projeto-popular is not accessible. response code: #{res.code}"
+	end
 	def path_to(page)
 		URI.parse(URI.encode("http://0.0.0.0:4000/#{page}/"))
 	end
