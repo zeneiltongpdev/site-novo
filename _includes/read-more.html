@@ -2,8 +2,11 @@
   <nav>
     <ul>
       <li>leia também</li>
-      <li><a href="www.gnu.com">Gnu</a></li>
-      <li><a href="www.gnome.com">Gnome</a></li>
+      {% for post in site.posts limit:5 %}
+      <li>
+        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
     </ul>
   </nav>
 </footer>
