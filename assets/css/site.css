@@ -6097,7 +6097,7 @@ article > footer ul li:first-child {
   font-weight: normal;
   font-style: normal;
 }
-body > article {
+body > main {
   padding: 30px 15px;
 }
 main.tema header,
@@ -6191,7 +6191,7 @@ main.tema section p.mais a:hover {
   opacity: 0.8;
 }
 @media (min-width: 992px) {
-  body > article {
+  body > main {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
