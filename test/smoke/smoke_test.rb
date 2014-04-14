@@ -36,6 +36,12 @@ class ProcessPostTest < ActiveSupport::TestCase
 		res = Net::HTTP.get_response(path_to('projeto-popular'))							
 		assert res.code == '200',"/projeto-popular is not accessible. response code: #{res.code}"
 	end
+
+	test '/educacao-cultura-e-comunicacao is accessible' do
+		res = Net::HTTP.get_response(path_to('educacao-cultura-e-comunicacao'))							
+		assert res.code == '200',"/educacao-cultura-e-comunicacao is not accessible. response code: #{res.code}"
+	end
+
 	def path_to(page)
 		URI.parse(URI.encode("http://0.0.0.0:4000/#{page}/"))
 	end
