@@ -7,7 +7,7 @@ module Jekyll
       2 => "fevereiro",
       3 => "março",
       4 => "abril",
-      5 => "maior",
+      5 => "maio",
       6 => "junho",
       7 => "julho",
       8 => "agosto",
