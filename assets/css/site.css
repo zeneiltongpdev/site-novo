@@ -5892,24 +5892,6 @@ body > nav form[name='search'] #search:focus {
     margin: auto;
   }
 }
-article > footer ul {
-  list-style: none;
-  padding: 0;
-  border-top: 4px solid black;
-}
-article > footer ul li {
-  font-weight: bold;
-  border-bottom: 1px solid #ddd;
-  padding: 2px 0;
-  font-size: 0.9em;
-}
-article > footer ul li a {
-  color: #961913;
-}
-article > footer ul li:first-child {
-  font-weight: normal;
-  font-size: 1.1em;
-}
 body > footer {
   height: 100%;
   width: 100%;
@@ -6086,6 +6068,27 @@ article.post iframe {
     float: left;
     margin-left: 0;
   }
+}
+article > footer {
+  padding-top: 10px;
+}
+article > footer ul {
+  list-style: none;
+  padding: 0;
+  border-top: 4px solid black;
+}
+article > footer ul li {
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding: 2px 0;
+  font-size: 0.9em;
+}
+article > footer ul li a {
+  color: #961913;
+}
+article > footer ul li:first-child {
+  font-weight: normal;
+  font-size: 1.1em;
 }
 @font-face {
   font-family: 'Glyphicons Social Regular';
