@@ -8,12 +8,12 @@ exclude:
   - Gruntfile.js
   - README.md
   - bower_components
-  - bower.json
-  - drupal_queries.sql
-  - jekyll_mst.rb
   - node_modules
   - package.json
-  - vendor
   - assets/less
+  - test
+  - Rakefile
+  - job_status.txt
+  - setup
 pages: ./_pages
 
