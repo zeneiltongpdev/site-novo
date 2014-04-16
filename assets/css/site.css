@@ -1933,6 +1933,9 @@ article.post iframe {
   max-width: 100%;
 }
 @media (min-width: 768px) {
+  article.post {
+    padding-right: 7%;
+  }
   article.post img {
     margin: 20px;
     max-width: 50%;
@@ -1968,12 +1971,14 @@ main > footer ul li:first-child {
   font-size: 1.1em;
 }
 article.post > aside {
-  padding-top: 5%;
-  padding-left: 10px;
-  float: right;
-  width: 40%;
+  position: absolute;
+  right: 0;
+  padding-top: 20px;
+  padding-right: 10px;
+  width: 20%;
 }
 article.post > aside ul {
+  padding: 0;
   list-style-type: none;
 }
 article.post > aside ul li {
