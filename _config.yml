@@ -15,5 +15,6 @@ exclude:
   - Rakefile
   - job_status.txt
   - setup
+  - vendor 
 pages: ./_pages
 
