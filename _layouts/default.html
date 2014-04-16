@@ -73,6 +73,12 @@
 					'eventLabel': 'Logotipo'
 				});
 			})
+
+      $('.dropdown').children('a').on('click', function(event) {
+        event.preventDefault();
+        $(this).siblings('.dropdown-menu').toggleClass('active');
+      })
+      
 		</script>
 	</body>
 </html>

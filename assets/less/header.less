@@ -53,10 +53,6 @@ body > nav {
       }
     }
 
-    ul.dropdown-menu.active {
-      display: block;
-    }
-
     li.dropdown > a:after {
       content: " ▾"
     }
@@ -64,6 +60,11 @@ body > nav {
 
   ul.dropdown-menu {
     text-align: left;
+    display: none;
+    
+    &.active {
+      display: block;
+    }
 
     li {
       margin-left: 0px;
@@ -72,49 +73,41 @@ body > nav {
 
   form[name='search'] {
     display: block;
-    margin: 0 20px;
-    padding: 5px 0;
+    padding: 10px;
     text-align: center;
-    position: relative;
 
     [for='search'] {
       position: absolute;
       font-size: 0;
       right: -20px;
     }
-
-    #search {
-      width: 100%;
-      font-size: 0.9em;
-      padding-left: 10px;
-      padding-right: 10px;
-      border-style: none;
-      border-radius: 2px;
-      box-shadow: inset 2px 1px 2px rgba(0, 0, 0, 0.5);
-    }
-
-    #search:focus {
-      outline: none;
-      box-shadow: 0px 0px 3px 2px rgb(91, 157, 217);
-    }
   }
 }
 
+#search {
+  width: 100%;
+  font-size: 0.9em;
+  border-style: none;
+  text-indent: 10px;
+  border-radius: 2px;
+  box-shadow: inset 2px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#search:focus {
+  outline: none;
+  box-shadow: 0px 0px 3px 2px rgb(91, 157, 217);
+}
+
 @media(min-width: @screen-xs) {
-  body > nav {
-    form[name='search'] {
-      width: 200px; 
-      margin: auto;
-      background: red;
-    }
-  }
+  
 }
 
 @media(min-width: @screen-md) {
   form[name='search'] {
     display: inline-block;
-    width: 150px; 
-    margin: auto;
+    // width: 150px; 
+//     margin: auto;
+    background: red;
   }
 }
 
