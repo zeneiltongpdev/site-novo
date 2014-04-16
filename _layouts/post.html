@@ -9,9 +9,8 @@ layout: default
       <time datetime="{{ page.date }}">
         {{ page.date | pretty_date }}
       </time>
-
       {% for tag in page.tags %}
-      <span class="tag">{{ tag | split: ':' | last }}</span>
+        <span class="tag">{{ tag | split: ':' | last }}</span>
       {% endfor %}
       <h1>{{ page.title }}</h1>
     </header>
