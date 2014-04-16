@@ -1901,9 +1901,6 @@ article.destaque p {
 article.destaque p a {
   display: block;
 }
-article.post {
-  display: table;
-}
 article.post h1 {
   margin-top: 0.4em;
   word-wrap: break-word;
@@ -1969,51 +1966,6 @@ main > footer ul li a {
 main > footer ul li:first-child {
   font-weight: normal;
   font-size: 1.1em;
-}
-article.post > aside {
-  padding-top: 5%;
-  padding-left: 10px;
-  float: right;
-  width: 40%;
-}
-article.post > aside ul {
-  list-style-type: none;
-}
-article.post > aside ul li {
-  border-bottom: 1px solid #ddd;
-}
-article.post > aside ul li:first-child {
-  font-weight: bold;
-  font-size: 1.1em;
-  border-bottom: 4px solid black;
-}
-article.post > aside ul li + li {
-  margin-top: 10px;
-}
-article.post > aside ul li a {
-  color: #961913;
-}
-article.post > aside ul li a:hover {
-  text-decoration: none;
-}
-article.post > aside ul li a span {
-  display: block;
-}
-article.post > aside ul li a span:first-child {
-  font-size: 100%;
-}
-article.post > aside ul li a span:first-child:hover {
-  text-decoration: underline;
-}
-article.post > aside ul li a span:last-child {
-  font-size: 0.8em;
-  color: gray;
-  margin-bottom: 5px;
-}
-@media (max-width: 992px) {
-  article.post > aside {
-    display: none;
-  }
 }
 @font-face {
   font-family: 'Glyphicons Social Regular';
