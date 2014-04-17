@@ -2002,16 +2002,15 @@ article.post > aside {
   article.post > aside ul li a:hover {
     text-decoration: none;
   }
-  article.post > aside ul li a span {
-    display: block;
-  }
-  article.post > aside ul li a span:first-child {
+  article.post > aside ul li a p {
     font-size: 100%;
+    margin: 0;
   }
-  article.post > aside ul li a span:first-child:hover {
+  article.post > aside ul li a p:hover {
     text-decoration: underline;
   }
-  article.post > aside ul li a span:last-child {
+  article.post > aside ul li a time {
+    display: block;
     font-size: 0.8em;
     color: gray;
     margin-bottom: 5px;

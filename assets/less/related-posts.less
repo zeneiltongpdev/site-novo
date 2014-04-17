@@ -34,22 +34,20 @@ article.post > aside{
             text-decoration: none;  
           }
 
-          span {
+          p {
+            font-size: 100%;
+            margin: 0;
+
+            &:hover {
+              text-decoration: underline;  
+            }
+          }
+
+          time {
             display: block;  
-
-            &:first-child {
-              font-size: 100%;
-
-              &:hover {
-                text-decoration: underline;  
-              }
-            }
-
-            &:last-child {
-              font-size: 0.8em;
-              color: gray;  
-              margin-bottom: 5px;
-            }
+            font-size: 0.8em;
+            color: gray;  
+            margin-bottom: 5px;
           }
         }
       }
