@@ -1901,6 +1901,9 @@ article.destaque p {
 article.destaque p a {
   display: block;
 }
+article.post {
+  overflow: hidden;
+}
 article.post h1 {
   margin-top: 0.4em;
   word-wrap: break-word;
