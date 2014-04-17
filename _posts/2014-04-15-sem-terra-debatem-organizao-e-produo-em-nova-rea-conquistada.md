@@ -2,7 +2,7 @@
 layout: post
 title: Sem Terra debatem organização e produção em nova área conquistada
 legacy_url: http://www.mst.org.br/node/15975
-created: 1397581711
+created: 1397588911
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/formação_lagoinha!.jpg
 video: ''
 tags:
