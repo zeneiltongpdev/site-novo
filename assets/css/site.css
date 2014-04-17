@@ -1,3 +1,4 @@
+/* mixins */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -315,6 +316,8 @@ img {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out 1s linear;
+  transition: all 0.2s ease-in-out 1s linear;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
@@ -1292,143 +1295,6 @@ address {
 .glyphicon-tree-deciduous:before {
   content: "\e200";
 }
-.caret {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: 2px;
-  vertical-align: middle;
-  border-top: 4px solid;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
-}
-.dropdown {
-  position: relative;
-}
-.dropdown-toggle:focus {
-  outline: 0;
-}
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 160px;
-  padding: 5px 0;
-  margin: 2px 0 0;
-  list-style: none;
-  font-size: 16px;
-  background-color: #ffffff;
-  border: 1px solid #cccccc;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  background-clip: padding-box;
-}
-.dropdown-menu.pull-right {
-  right: 0;
-  left: auto;
-}
-.dropdown-menu .divider {
-  height: 1px;
-  margin: 10px 0;
-  overflow: hidden;
-  background-color: #e5e5e5;
-}
-.dropdown-menu > li > a {
-  display: block;
-  padding: 3px 20px;
-  clear: both;
-  font-weight: normal;
-  line-height: 1.42857143;
-  color: #555555;
-  white-space: nowrap;
-}
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-  text-decoration: none;
-  color: #484848;
-  background-color: #f5f5f5;
-}
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-  color: #ffffff;
-  text-decoration: none;
-  outline: 0;
-  background-color: #da251c;
-}
-.dropdown-menu > .disabled > a,
-.dropdown-menu > .disabled > a:hover,
-.dropdown-menu > .disabled > a:focus {
-  color: #bbbbbb;
-}
-.dropdown-menu > .disabled > a:hover,
-.dropdown-menu > .disabled > a:focus {
-  text-decoration: none;
-  background-color: transparent;
-  background-image: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  cursor: not-allowed;
-}
-.open > .dropdown-menu {
-  display: block;
-}
-.open > a {
-  outline: 0;
-}
-.dropdown-menu-right {
-  left: auto;
-  right: 0;
-}
-.dropdown-menu-left {
-  left: 0;
-  right: auto;
-}
-.dropdown-header {
-  display: block;
-  padding: 3px 20px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #bbbbbb;
-}
-.dropdown-backdrop {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  z-index: 990;
-}
-.pull-right > .dropdown-menu {
-  right: 0;
-  left: auto;
-}
-.dropup .caret,
-.navbar-fixed-bottom .dropdown .caret {
-  border-top: 0;
-  border-bottom: 4px solid;
-  content: "";
-}
-.dropup .dropdown-menu,
-.navbar-fixed-bottom .dropdown .dropdown-menu {
-  top: auto;
-  bottom: 100%;
-  margin-bottom: 1px;
-}
-@media (min-width: 768px) {
-  .navbar-right .dropdown-menu {
-    left: auto;
-    right: 0;
-  }
-  .navbar-right .dropdown-menu-left {
-    left: 0;
-    right: auto;
-  }
-}
 .carousel {
   position: relative;
 }
@@ -1440,6 +1306,8 @@ address {
 .carousel-inner > .item {
   display: none;
   position: relative;
+  -webkit-transition: 0.6s ease-in-out left 1s linear;
+  transition: 0.6s ease-in-out left 1s linear;
   -webkit-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left;
 }
@@ -1649,25 +1517,16 @@ address {
 .affix {
   position: fixed;
 }
-body > header,
-body > nav {
-  background-color: #961913;
-}
-body > header {
-  padding: 20px 0 10px;
-  text-align: center;
-  color: white;
-}
-body > header img {
+#logo {
+  display: block;
   height: 60px;
+  text-align: center;
 }
-body > header a,
-body > header a:hover,
-body > header a:visited {
-  color: white;
-  text-decoration: none;
+#logo img {
+  display: inline-block;
+  height: 100%;
 }
-body > header h1 {
+#logo h1 {
   display: inline;
   vertical-align: middle;
   margin: 0;
@@ -1676,97 +1535,221 @@ body > header h1 {
   font-weight: 100;
   text-shadow: 1px 1px black;
 }
-body > nav {
-  padding-bottom: 5px;
-  box-shadow: 0 5px 5px -5px #000000;
+#site-header {
   background: linear-gradient(#961913, #7f1510);
+  padding: 20px 0 10px;
+  text-align: center;
+  color: white;
 }
-body > nav ul {
-  margin: 0 20px;
-  padding: 5px 0;
+#site-header a,
+#site-header a:hover,
+#site-header a:visited {
+  color: white;
+  text-decoration: none;
+}
+#site-header nav {
+  padding-bottom: 5px;
+}
+#site-header ul {
   list-style: none;
   width: auto;
   font-size: 0.9em;
-  text-align: center;
-}
-body > nav ul li {
-  display: inline;
-}
-body > nav ul li a {
-  display: inline-block;
-  color: lightgray;
-}
-body > nav ul li a:hover {
-  color: white;
-}
-body > nav ul li + li {
-  margin-left: 15px;
-}
-body > nav ul li:hover ul.dropdown-menu {
-  display: block;
-}
-body > nav ul li.dropdown a:first-child:nth-last-child(2):after {
-  content: " ▾";
-}
-body > nav ul.dropdown-menu {
   text-align: left;
 }
-body > nav ul.dropdown-menu li {
-  margin-left: 0px;
-}
-body > nav form[name='search'] {
+#site-header ul li {
   display: block;
+}
+#site-header ul li a,
+#site-header ul li a:hover,
+#site-header ul li a:visited {
+  padding: 10px 0px;
+  display: block;
+  color: lightgray;
+}
+#site-header ul li a:hover,
+#site-header ul li a:hover:hover,
+#site-header ul li a:visited:hover {
+  color: white;
+}
+#site-header ul li.dropdown > a:after {
+  font-family: 'Glyphicons Halflings Regular', Helvetica, Arial, sans-serif;
+  content: " \E114";
+  font-size: 0.7em;
+  word-spacing: -0.5em;
+}
+#main-menu {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
   margin: 0 20px;
   padding: 5px 0;
-  text-align: center;
-  position: relative;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
 }
-body > nav form[name='search'] [for='search'] {
+#main-menu.open {
+  height: auto;
+  opacity: 1;
+  overflow: visible;
+}
+ul.dropdown-menu {
+  text-align: left;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+}
+ul.dropdown-menu.active {
+  margin: 0 20px;
+  padding: 5px 0;
+  height: auto;
+  opacity: 1;
+  overflow: visible;
+}
+ul.dropdown-menu li {
+  margin-left: 0px;
+}
+#open-menu {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  height: 60px;
+  width: 60px;
+  background: none;
+  border: none;
+  padding: 0;
+  text-indent: -9999px;
+  z-index: 5;
+  outline: none;
+}
+#open-menu:after {
+  font-family: 'Glyphicons Halflings Regular', Helvetica, Arial, sans-serif;
+  content: '\E055';
+  text-indent: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 60px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.5em;
+}
+#search-form {
+  padding: 10px;
+  text-align: center;
+  display: none;
+}
+#search-form label {
   position: absolute;
   font-size: 0;
   right: -20px;
 }
-body > nav form[name='search'] #search {
-  width: 100%;
+#search-form input[type=submit] {
+  width: 25%;
+  display: inline-block;
+  background: none;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+#search {
+  width: 70%;
+  display: inline-block;
   font-size: 0.9em;
-  padding-left: 10px;
-  padding-right: 10px;
   border-style: none;
+  text-indent: 10px;
   border-radius: 2px;
   box-shadow: inset 2px 1px 2px rgba(0, 0, 0, 0.5);
+  color: #444444;
+  outline: none;
 }
-body > nav form[name='search'] #search:focus {
+#search:focus {
   outline: none;
   box-shadow: 0px 0px 3px 2px #5b9dd9;
 }
 @media (min-width: 480px) {
-  body > nav form[name='search'] {
-    width: 200px;
-    margin: auto;
+  #site-header ul {
+    text-align: center;
+  }
+  #site-header ul li {
+    display: inline-block;
+  }
+  #site-header ul li a,
+  #site-header ul li a:hover,
+  #site-header ul li a:visited {
+    display: inline-block;
+    padding: 10px 5px;
+  }
+  #open-menu {
+    display: none;
+  }
+  #main-menu {
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+  }
+  #main-menu li.dropdown {
+    position: relative;
+  }
+  #main-menu ul.dropdown-menu {
+    background: #fff;
+    position: absolute;
+    left: -9999px;
+    top: 100%;
+    max-width: 250px;
+    margin: 0;
+    border-radius: 4px;
+    white-space: nowrap;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    border: 1px solid #555555;
+    border-color: rgba(0, 0, 0, 0.15);
+    text-align: left;
+  }
+  #main-menu ul.dropdown-menu.active {
+    left: 0;
+  }
+  #main-menu ul.dropdown-menu li {
+    display: block;
+    margin: 0px 5px;
+  }
+  #main-menu ul.dropdown-menu li a {
+    display: block;
+    padding: 5px;
+    color: #555555;
+  }
+  #main-menu ul.dropdown-menu li a:hover {
+    color: #444444;
+  }
+  #search-form {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
   }
 }
 @media (min-width: 992px) {
-  body > header {
-    width: 16%;
-    float: left;
-    padding: 5px;
-    text-align: center;
-    background: linear-gradient(#961913, #7f1510);
+  #site-header {
+    padding: 20px 10%;
   }
-  body > nav {
-    width: 100%;
-    height: 70px;
+  #site-header nav {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 0;
+    width: 77%;
+  }
+  #logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 22%;
     text-align: left;
-    padding-top: 18px;
   }
-  body > nav ul {
-    display: inline-block;
-    border: none;
-  }
-  body > nav form[name='search'] {
-    display: inline-block;
-    width: 150px;
-    margin: auto;
+  #main-menu {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
   }
 }
 body > footer {
@@ -2023,6 +2006,13 @@ article.post > aside {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Glyphicons Halflings Regular';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body > main {
   padding: 30px 15px;
 }
@@ -2118,7 +2108,7 @@ main.tema section p.mais a:hover {
 }
 @media (min-width: 992px) {
   body > main {
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }

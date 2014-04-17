@@ -75,9 +75,20 @@
 			})
 
       $('.dropdown').children('a').on('click', function(event) {
-        event.preventDefault();
-        $(this).siblings('.dropdown-menu').toggleClass('active');
+      	var myTarget = $(this).siblings('.dropdown-menu');
+
+      	$('.dropdown-menu.active').each(function () {
+      		if (this != myTarget[0]) {
+      			$(this).removeClass('active');
+      		}
+      	});
+
+		myTarget.toggleClass('active');
       })
+      
+      $('#open-menu').on('click', function () {
+        $(this).siblings('ul').toggleClass('open');        
+      });
       
 		</script>
 	</body>
