@@ -1955,7 +1955,7 @@ article.post iframe {
 main > footer {
   padding-top: 10px;
 }
-main > footer nav h1 {
+main > footer h1 {
   font-weight: normal;
   font-size: 1.1em;
   margin: 0;
@@ -1963,17 +1963,17 @@ main > footer nav h1 {
   border-top: 4px solid black;
   border-bottom: 1px solid #ddd;
 }
-main > footer nav ul {
+main > footer ul {
   list-style: none;
   padding: 0;
 }
-main > footer nav ul li {
+main > footer ul li {
   font-weight: bold;
   border-bottom: 1px solid #ddd;
   padding: 2px 0;
   font-size: 0.9em;
 }
-main > footer nav ul li a {
+main > footer ul li a {
   color: #961913;
 }
 article.post > aside {
