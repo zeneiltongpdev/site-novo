@@ -1971,50 +1971,50 @@ main > footer ul li:first-child {
   font-size: 1.1em;
 }
 article.post > aside {
-  position: absolute;
-  right: 0;
-  padding-top: 20px;
-  padding-right: 10px;
-  width: 20%;
+  display: none;
 }
-article.post > aside ul {
-  padding: 0;
-  list-style-type: none;
-}
-article.post > aside ul li {
-  border-bottom: 1px solid #ddd;
-}
-article.post > aside ul li:first-child {
-  font-weight: bold;
-  font-size: 1.1em;
-  border-bottom: 4px solid black;
-}
-article.post > aside ul li + li {
-  margin-top: 10px;
-}
-article.post > aside ul li a {
-  color: #961913;
-}
-article.post > aside ul li a:hover {
-  text-decoration: none;
-}
-article.post > aside ul li a span {
-  display: block;
-}
-article.post > aside ul li a span:first-child {
-  font-size: 100%;
-}
-article.post > aside ul li a span:first-child:hover {
-  text-decoration: underline;
-}
-article.post > aside ul li a span:last-child {
-  font-size: 0.8em;
-  color: gray;
-  margin-bottom: 5px;
-}
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   article.post > aside {
-    display: none;
+    display: block;
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+    width: 20%;
+  }
+  article.post > aside ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  article.post > aside ul li {
+    border-bottom: 1px solid #ddd;
+  }
+  article.post > aside ul li:first-child {
+    font-weight: bold;
+    font-size: 1.1em;
+    border-bottom: 4px solid black;
+  }
+  article.post > aside ul li + li {
+    margin-top: 10px;
+  }
+  article.post > aside ul li a {
+    color: #961913;
+  }
+  article.post > aside ul li a:hover {
+    text-decoration: none;
+  }
+  article.post > aside ul li a span {
+    display: block;
+  }
+  article.post > aside ul li a span:first-child {
+    font-size: 100%;
+  }
+  article.post > aside ul li a span:first-child:hover {
+    text-decoration: underline;
+  }
+  article.post > aside ul li a span:last-child {
+    font-size: 0.8em;
+    color: gray;
+    margin-bottom: 5px;
   }
 }
 @font-face {
