@@ -1955,23 +1955,26 @@ article.post iframe {
 main > footer {
   padding-top: 10px;
 }
-main > footer ul {
+main > footer nav h1 {
+  font-weight: normal;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 4px 0;
+  border-top: 4px solid black;
+  border-bottom: 1px solid #ddd;
+}
+main > footer nav ul {
   list-style: none;
   padding: 0;
-  border-top: 4px solid black;
 }
-main > footer ul li {
+main > footer nav ul li {
   font-weight: bold;
   border-bottom: 1px solid #ddd;
   padding: 2px 0;
   font-size: 0.9em;
 }
-main > footer ul li a {
+main > footer nav ul li a {
   color: #961913;
-}
-main > footer ul li:first-child {
-  font-weight: normal;
-  font-size: 1.1em;
 }
 article.post > aside {
   display: none;
