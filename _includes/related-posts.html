@@ -1,15 +1,13 @@
 <aside>
+  <h1>Relacionadas</h1>
   <ul>
-    <li>
-      Relacionadas
-    </li>
     {% for post in site.related_posts limit:3 %}
-    <li>
-      <a href="{{ BASE_PATH }}{{ post.url }}">
-        <span>{{ post.title }}</span>
-        <span>{{ post.date | pretty_date }}</span>
-      </a>
-    </li>
+      <li>
+        <a href="{{ BASE_PATH }}{{ post.url }}">
+          <span>{{ post.title }}</span>
+          <span>{{ post.date | pretty_date }}</span>
+        </a>
+      </li>
     {% endfor %}
   </ul>
 </aside>

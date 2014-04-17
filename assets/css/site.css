@@ -1981,17 +1981,17 @@ article.post > aside {
     padding-right: 10px;
     width: 20%;
   }
+  article.post > aside h1 {
+    font-weight: bold;
+    font-size: 1.1em;
+    border-bottom: 4px solid black;
+  }
   article.post > aside ul {
     padding: 0;
     list-style-type: none;
   }
   article.post > aside ul li {
     border-bottom: 1px solid #ddd;
-  }
-  article.post > aside ul li:first-child {
-    font-weight: bold;
-    font-size: 1.1em;
-    border-bottom: 4px solid black;
   }
   article.post > aside ul li + li {
     margin-top: 10px;
