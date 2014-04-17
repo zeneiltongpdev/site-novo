@@ -31,6 +31,11 @@ class GoogleAnalyticsEventTrackTest < ActiveSupport::TestCase
 		assert links_links, "Links links are not accessible. This will break Google Analytics event track!"
 	end
 
+	test 'Header links should be accessible through the Selector defined for Google Analytics event track' do
+		header_links = @browser.nav.ul.li.a.exists?
+		assert header_links, "Header links are not accessible. This will break Google Analytics event track!"
+	end
+	
 	def path_to(page)
 		"http://0.0.0.0:4000/#{page}/"
 	end
