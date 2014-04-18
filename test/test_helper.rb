@@ -5,21 +5,22 @@ require 'pry'
 require 'mocha/mini_test'
 require 'erubis'
 require 'mechanize'
-require 'fakeweb'
 
 DIR = File.expand_path(File.dirname(__FILE__))
-BASE_URL = 'http://localhost:4000'
+BASE_URL = 'http://0.0.0.0:4000'
+
+def uri(resource)
+  "#{BASE_URL}/#{resource}"
+end
 
 module IntegrationTestHelper
+  require 'fakeweb'
+
   TEMPLATES = {
     :tag => File.join(DIR, 'fixtures', 'tag.html.erb'),
     :video => File.join(DIR, 'fixtures', 'video.md.erb'),
     :noticia => File.join(DIR, 'fixtures', 'noticia.md.erb')
   }
-
-  def uri(resource)
-    "#{BASE_URL}/#{resource}"
-  end
 
   def build_site(*tags)
     tags.each{ |tag| tag.compile }

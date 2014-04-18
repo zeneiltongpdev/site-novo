@@ -8,7 +8,6 @@ group :test do
   gem 'mocha'
   gem 'activesupport'
   gem 'pry'
-  gem 'watir-webdriver'
   gem 'erubis'
   gem 'fakeweb'
   gem 'mechanize'
