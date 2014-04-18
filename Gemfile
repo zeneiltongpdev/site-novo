@@ -4,10 +4,13 @@ ruby '2.0.0'
 gem 'jekyll', :github => 'jekyll/jekyll'
 
 group :test do
-  gem "rake"
-  gem "mocha"
-  gem "activesupport"
-  gem "pry"
+  gem 'rake'
+  gem 'mocha'
+  gem 'activesupport'
+  gem 'pry'
   gem 'watir-webdriver'
+  gem 'erubis'
+  gem 'fakeweb'
+  gem 'mechanize'
 end
 
