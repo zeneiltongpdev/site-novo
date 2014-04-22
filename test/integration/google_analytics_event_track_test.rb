@@ -3,7 +3,7 @@ require_relative '../test_helper.rb'
 class GoogleAnalyticsEventTrackTest < ActiveSupport::TestCase
   include IntegrationTestHelper
 
-	def setup 
+	setup do
     tag = Tag.new('esporte')
     tag.add(Post.new(:noticia, tag))
     tag.add(Post.new(:video, tag))
