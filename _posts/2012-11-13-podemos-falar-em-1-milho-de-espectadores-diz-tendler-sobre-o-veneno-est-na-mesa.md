@@ -1,7 +1,7 @@
 ---
 layout: post
-title: “Podemos falar em 1 milhão de espectadores”, diz Tendler sobre O Veneno está
-  na Mesa
+title: "“Podemos falar em 1 milhão de espectadores”, diz Tendler sobre O Veneno está
+  na Mesa"
 legacy_url: http://www.mst.org.br/node/14090
 created: 1352827120
 images: ''
