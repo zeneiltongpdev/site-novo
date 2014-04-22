@@ -1536,6 +1536,7 @@ address {
   text-shadow: 1px 1px black;
 }
 #site-header {
+  background: #961913;
   background: linear-gradient(#961913, #7f1510);
   padding: 20px 0 10px;
   text-align: center;
@@ -1564,12 +1565,13 @@ address {
 #site-header ul li a:visited {
   padding: 10px 0px;
   display: block;
-  color: lightgray;
+  color: #fff;
 }
 #site-header ul li a:hover,
 #site-header ul li a:hover:hover,
 #site-header ul li a:visited:hover {
-  color: white;
+  color: #bbbbbb;
+  text-decoration: underline;
 }
 #site-header ul li.dropdown > a:after {
   font-family: 'Glyphicons Halflings Regular', Helvetica, Arial, sans-serif;
@@ -1635,11 +1637,16 @@ ul.dropdown-menu li {
   position: absolute;
   left: 0;
   top: 0;
-  font-size: 2.5em;
+  font-size: 2.3em;
+}
+#open-search {
+  display: none;
 }
 #search-form {
-  padding: 10px;
-  text-align: center;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: left;
   display: none;
 }
 #search-form label {
@@ -1647,29 +1654,44 @@ ul.dropdown-menu li {
   font-size: 0;
   right: -20px;
 }
-#search-form input[type=submit] {
-  width: 25%;
+#search-form button[type=submit] {
+  width: 15%;
   display: inline-block;
   background: none;
   border: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 0.8em;
+  color: #961913;
+  font-size: 0.9em;
+  padding: 0;
+  font-weight: bold;
+  text-indent: -9999px;
+  position: relative;
+}
+#search-form button[type=submit]:after {
+  content: "\E003";
+  font-family: 'Glyphicons Halflings Regular', Helvetica, Arial, sans-serif;
+  display: block;
+  text-indent: 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  outline: 0;
+}
+#search-form button[type=submit]:focus {
+  outline: none;
 }
 #search {
-  width: 70%;
+  width: 82%;
   display: inline-block;
   font-size: 0.9em;
   border-style: none;
   text-indent: 10px;
-  border-radius: 2px;
-  box-shadow: inset 2px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
   color: #444444;
   outline: none;
 }
 #search:focus {
   outline: none;
-  box-shadow: 0px 0px 3px 2px #5b9dd9;
+  box-shadow: none;
 }
 @media (min-width: 480px) {
   #site-header ul {
@@ -1726,7 +1748,7 @@ ul.dropdown-menu li {
   }
   #search-form {
     display: block;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
   }
 }
@@ -1736,13 +1758,19 @@ ul.dropdown-menu li {
   }
   #site-header nav {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     padding-bottom: 0;
     width: 77%;
+    text-align: right;
+    position: relative;
+  }
+  #site-header ul {
+    text-align: right;
+    display: inline-block;
   }
   #logo {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     width: 22%;
     text-align: left;
   }
@@ -1750,6 +1778,76 @@ ul.dropdown-menu li {
     margin: 0;
     padding: 0;
     white-space: nowrap;
+  }
+  #open-search {
+    display: inline-block;
+    background: #fff;
+    color: #961913;
+    border: none;
+    padding: 0;
+    font-weight: bold;
+    text-indent: -9999px;
+    position: relative;
+    border-radius: 5px;
+    line-height: 200%;
+    width: 40px;
+    float: right;
+    margin-left: 5px;
+    -webkit-transition: border-radius 0.2s ease-in;
+    transition: border-radius 0.2s ease-in;
+  }
+  #open-search.active {
+    border-radius: 5px 5px 0 0;
+  }
+  #open-search:focus {
+    outline: none;
+  }
+  #open-search:after {
+    content: "\E003";
+    font-family: 'Glyphicons Halflings Regular', Helvetica, Arial, sans-serif;
+    display: block;
+    text-indent: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    outline: 0;
+    text-align: center;
+  }
+  #search-form {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    top: 75%;
+    right: 0;
+    border-radius: 5px 0 5px 5px;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+  }
+  #search-form.open {
+    overflow: visible;
+    padding: 0.5em;
+    height: auto;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    opacity: 1;
+  }
+  #search-form button[type=submit] {
+    border: none;
+    color: #961913;
+    font-size: 0.8em;
+    padding: 0;
+    text-indent: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 20%;
+  }
+  #search-form button[type=submit]:after {
+    content: "";
+    display: none;
+  }
+  #search {
+    width: 77%;
   }
 }
 body > footer {
@@ -1920,7 +2018,7 @@ article.post iframe {
 }
 @media (min-width: 768px) {
   article.post {
-    padding-right: 7%;
+    padding-right: 13%;
   }
   article.post img {
     margin: 20px;
