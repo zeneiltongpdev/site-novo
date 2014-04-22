@@ -1,5 +1,6 @@
 main > footer {
-  padding-top: 10px;
+  overflow: auto;
+  padding-top: 50px;
 
   h1 {
     font-weight: normal;
@@ -7,24 +8,46 @@ main > footer {
     margin: 0;
     padding: 4px 0;
     border-top: 4px solid black;
-    border-bottom: 1px solid #ddd;
+  }
+
+  figure {
+    padding: 0;
+    height: 190px;
+    max-width: 370px;
+    border-radius: 3px;
+    overflow: hidden;
+    
+    img {
+      display: block;
+      min-height: 100%;
+      min-width: 100%;
+      
+      &:hover {
+        box-shadow: none;
+        opacity: 0.8;
+      }
+    }
+
   }
 
   ul {
-    list-style: none;  
-    padding: 0;
+    list-style: none;
+    padding: 10px 0 0;
 
     li {
-      font-weight: bold;
-      border-bottom: 1px solid #ddd;
-      padding: 2px 0;
-      font-size: 0.9em;
+
+      @media(min-width: @screen-md) {
+        display: block;
+        margin-right: 1%;
+        width: 32%;
+        float: left;
+      }
 
       a {
+        font-weight: bold;
+        font-size: 0.9em;
         color: @mstred;
       }
     }
   }
 }
-
-
