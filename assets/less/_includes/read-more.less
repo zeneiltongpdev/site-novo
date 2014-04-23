@@ -12,15 +12,13 @@ main > footer {
 
   figure {
     padding: 0;
-    height: 190px;
     max-width: 370px;
     border-radius: 3px;
     overflow: hidden;
+    min-width: 100%;
     
     img {
-      display: block;
-      min-height: 100%;
-      min-width: 100%;
+      display: inline;
       
       &:hover {
         box-shadow: none;
@@ -31,16 +29,33 @@ main > footer {
   }
 
   ul {
+    text-align: center;
+    @media(min-width: @screen-md) {
+      text-align: left;
+    }
+
     list-style: none;
     padding: 10px 0 0;
 
     li {
 
       @media(min-width: @screen-md) {
-        display: block;
-        margin-right: 1%;
-        width: 32%;
-        float: left;
+        display: inline-block;
+        width: 23%;
+        height: 180px;
+        border-right: 1px dashed gray;
+        margin-right: 2%;
+        padding-right: 2%;
+
+        &:last-child {
+          border-right: none;
+          margin-right: 0;
+          padding-right: 0;
+        }
+        
+        figure {
+          height: 100px;
+        }
       }
 
       a {

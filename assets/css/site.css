@@ -1978,7 +1978,6 @@ ul.carousel {
   min-height: 100%;
   min-width: 100%;
 }
-<<<<<<< HEAD
 .featured-news ul {
   display: inline-block;
   list-style: none;
@@ -1995,110 +1994,6 @@ ul.carousel {
 .featured-news ul li + li {
   padding-left: 10px;
   border-left: 1px solid;
-=======
-article.destaque p {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.1;
-  margin: 0;
-  margin-top: 5px;
-}
-article.destaque p a {
-  display: block;
-}
-main > footer {
-  overflow: auto;
-  padding-top: 50px;
-}
-main > footer h1 {
-  font-weight: normal;
-  font-size: 1.1em;
-  margin: 0;
-  padding: 4px 0;
-  border-top: 4px solid black;
-}
-main > footer figure {
-  padding: 0;
-  height: 190px;
-  max-width: 370px;
-  border-radius: 3px;
-  overflow: hidden;
-}
-main > footer figure img {
-  display: block;
-  min-height: 100%;
-  min-width: 100%;
-}
-main > footer figure img:hover {
-  box-shadow: none;
-  opacity: 0.8;
-}
-main > footer ul {
-  list-style: none;
-  padding: 10px 0 0;
-}
-@media (min-width: 992px) {
-  main > footer ul li {
-    display: block;
-    margin-right: 1%;
-    width: 32%;
-    float: left;
-  }
-}
-main > footer ul li a {
-  font-weight: bold;
-  font-size: 0.9em;
-  color: #961913;
-}
-article.post > aside {
-  display: none;
-}
-@media (min-width: 992px) {
-  article.post > aside {
-    display: block;
-    position: absolute;
-    right: 0;
-    padding-right: 10px;
-    width: 20%;
-  }
-  article.post > aside h1 {
-    font-weight: bold;
-    font-size: 1.1em;
-    border-bottom: 4px solid black;
-  }
-  article.post > aside ul {
-    padding: 0;
-    list-style-type: none;
-  }
-  article.post > aside ul li {
-    border-bottom: 1px solid #ddd;
-  }
-  article.post > aside ul li + li {
-    margin-top: 10px;
-  }
-  article.post > aside ul li a {
-    color: #961913;
-  }
-  article.post > aside ul li a:hover {
-    text-decoration: none;
-  }
-  article.post > aside ul li a p {
-    font-size: 100%;
-    margin: 0;
-  }
-  article.post > aside ul li a p:hover {
-    text-decoration: underline;
-  }
-  article.post > aside ul li a time {
-    display: block;
-    font-size: 0.8em;
-    color: gray;
-    margin-bottom: 5px;
-  }
-}
-ul.carousel {
-  list-style: none;
->>>>>>> add images to a post's "read more"
 }
 .featured-news ul li a > strong {
   color: #961913;
@@ -2262,7 +2157,8 @@ article.destaque p a {
   display: block;
 }
 main > footer {
-  padding-top: 10px;
+  overflow: auto;
+  padding-top: 50px;
 }
 main > footer h1 {
   font-weight: normal;
@@ -2270,19 +2166,52 @@ main > footer h1 {
   margin: 0;
   padding: 4px 0;
   border-top: 4px solid black;
-  border-bottom: 1px solid #ddd;
+}
+main > footer figure {
+  padding: 0;
+  max-width: 370px;
+  border-radius: 3px;
+  overflow: hidden;
+  min-width: 100%;
+}
+main > footer figure img {
+  display: inline;
+}
+main > footer figure img:hover {
+  box-shadow: none;
+  opacity: 0.8;
 }
 main > footer ul {
+  text-align: center;
   list-style: none;
-  padding: 0;
+  padding: 10px 0 0;
 }
-main > footer ul li {
-  font-weight: bold;
-  border-bottom: 1px solid #ddd;
-  padding: 2px 0;
-  font-size: 0.9em;
+@media (min-width: 992px) {
+  main > footer ul {
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  main > footer ul li {
+    display: inline-block;
+    width: 23%;
+    height: 180px;
+    border-right: 1px dashed gray;
+    margin-right: 2%;
+    padding-right: 2%;
+  }
+  main > footer ul li:last-child {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  main > footer ul li figure {
+    height: 100px;
+  }
 }
 main > footer ul li a {
+  font-weight: bold;
+  font-size: 0.9em;
   color: #961913;
 }
 article.post {
