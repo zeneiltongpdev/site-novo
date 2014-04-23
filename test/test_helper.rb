@@ -40,6 +40,8 @@ module IntegrationTestHelper
     def initialize(name)
       @name = name
       @path = "#{@name}/index.html"
+      @source_dir = "source/#{@name}"
+      @source_path = "source/#{@path}"
       @posts = []
     end
 
@@ -48,16 +50,16 @@ module IntegrationTestHelper
     end
 
     def compile
-      FileUtils.mkdir_p(@name)
+      FileUtils.mkdir_p(@source_dir)
       template = File.read(TEMPLATES[:tag])
       result = Erubis::Eruby.new(template).result(:tag_name => @name)
-      File.open(@path, 'w'){ |f| f.write(result) }
+      File.open(@source_path, 'w'){ |f| f.write(result) }
       @posts.each{ |post| post.compile }
     end
 
     def clear
-      FileUtils.remove(@path)
-      FileUtils.remove_dir(@name)
+      FileUtils.remove(@source_path)
+      FileUtils.remove_dir(@source_dir)
       @posts.each{ |post| post.clear }
     end
   end
@@ -66,17 +68,17 @@ module IntegrationTestHelper
     def initialize(type, tag)
       @type = type
       @tag = tag
-      @path = "_posts/2014-04-17-#{@tag.name}-#{@type.to_s}-#{Time.now.to_f}.md"
+      @source_path = "source/_posts/2014-04-17-#{@tag.name}-#{@type.to_s}-#{Time.now.to_f}.md"
     end
 
     def compile
       template = File.read(TEMPLATES[@type])
       result = Erubis::Eruby.new(template).result(:tag_name => @tag.name)
-      File.open(@path, 'w'){ |f| f.write(result) }
+      File.open(@source_path, 'w'){ |f| f.write(result) }
     end
 
     def clear
-      FileUtils.remove(@path)
+      FileUtils.remove(@source_path)
     end
   end
 end

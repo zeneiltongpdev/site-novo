@@ -1,18 +1,3 @@
 name: Movimento dos Trabalhadores Rurais Sem Terra
 markdown: redcarpet
-exclude:
-  - deploy
-  - Gemfile
-  - Gemfile.lock
-  - Gruntfile.js
-  - README.md
-  - bower_components
-  - node_modules
-  - package.json
-  - assets/less
-  - test
-  - Rakefile
-  - job_status.txt
-  - setup
-  - vendor 
-
+source: source
