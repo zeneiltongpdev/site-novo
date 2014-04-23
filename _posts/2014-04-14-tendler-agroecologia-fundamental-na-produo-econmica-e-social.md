@@ -6,6 +6,7 @@ created: 1397498043
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/tendler!.png
 video: ''
 tags:
+- tipo de matéria:entrevistas
 - menu:educação, cultura e comunicação
 - assuntos:cultura
 type: news
