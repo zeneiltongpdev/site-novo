@@ -5,7 +5,7 @@ class TagWithSomeContentTest < ActiveSupport::TestCase
 
   setup do
     tag = Tag.new('esporte')
-    4.times{ tag.add(Post.new(:noticia, tag)) }
+    4.times{ tag.add(Post.new(:news, tag)) }
     4.times{ tag.add(Post.new(:video, tag)) }
     build_site(tag)
     @agent = Mechanize.new

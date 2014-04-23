@@ -18,8 +18,8 @@ module IntegrationTestHelper
 
   TEMPLATES = {
     :tag => File.join(DIR, 'fixtures', 'tag.html.erb'),
-    :video => File.join(DIR, 'fixtures', 'video.md.erb'),
-    :noticia => File.join(DIR, 'fixtures', 'noticia.md.erb')
+    :news => File.join(DIR, 'fixtures', 'news.md.erb'),
+    :video => File.join(DIR, 'fixtures', 'video.md.erb')
   }
 
   def build_site(*tags)

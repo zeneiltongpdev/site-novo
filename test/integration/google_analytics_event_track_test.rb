@@ -5,7 +5,7 @@ class GoogleAnalyticsEventTrackTest < ActiveSupport::TestCase
 
 	setup do
     tag = Tag.new('esporte')
-    tag.add(Post.new(:noticia, tag))
+    tag.add(Post.new(:news, tag))
     tag.add(Post.new(:video, tag))
     build_site(tag)
     @agent = Mechanize.new
