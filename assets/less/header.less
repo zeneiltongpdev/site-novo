@@ -140,7 +140,8 @@ ul.dropdown-menu {
   border-radius: 5px;
   overflow: hidden;
   text-align: left;
-  display: none;
+  margin: 0 20px;
+  padding: 5px;
 
   label {
     position: absolute;
@@ -169,6 +170,7 @@ ul.dropdown-menu {
       width: 100%;
       top: 0;
       outline: 0;
+      text-align: right;
     }
 
     &:focus {
@@ -309,7 +311,7 @@ ul.dropdown-menu {
     line-height: 200%;
     width: 40px;
     float: right;
-    margin-left: 5px;
+    margin-left: 10px;
     .transition(border-radius, 0.2s, ease-in);
 
     &.active {
@@ -342,6 +344,7 @@ ul.dropdown-menu {
     right: 0;
     border-radius: 5px 0 5px 5px;
     opacity: 0;
+    display: none;
     .transition(opacity, 0.2s, ease-in);
 
     &.open {
