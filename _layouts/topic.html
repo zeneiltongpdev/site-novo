@@ -43,7 +43,7 @@ layout : default
       <ul>
         {% for noticia in noticias | limit:3 %}
           <li>
-            {% include destaque.html details=noticia default_image=image %}
+            {% include topic-news.html details=noticia default_image=image %}
           </li>
         {% endfor %}
       </ul>
@@ -59,7 +59,7 @@ layout : default
       <ul>
         {% for video in videos | limit:3 %}
           <li>
-            {% include video.html details=video %}
+            {% include topic-video.html details=video %}
           </li>
         {% endfor %}
       </ul>
