@@ -1,0 +1,32 @@
+.featured-news {
+  margin-top: 1%;
+  margin-left: 2%;
+
+  ul {
+    display: inline-block;
+    list-style: none;  
+    padding: 0;
+    width: 100%;
+
+    li {
+      float: left;
+      font-weight: bold;
+      font-size: 0.9em;
+      padding: 2px 0;
+      padding-right: 10px;
+
+      & + li {
+        padding-left: 10px;
+        border-left: 1px solid;
+      }
+
+      a > strong {
+        color: @mstred;
+      }
+
+      img {
+        display: block;
+      }
+    }
+  }
+}
