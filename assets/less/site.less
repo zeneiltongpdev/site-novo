@@ -6,7 +6,6 @@
 @import "bower_components/bootstrap/less/scaffolding.less";
 @import "bower_components/bootstrap/less/type.less";
 @import "bower_components/bootstrap/less/glyphicons.less";
-@import "bower_components/bootstrap/less/dropdowns.less";
 @import "bower_components/bootstrap/less/carousel.less";
 @import "bower_components/bootstrap/less/utilities.less";
 
@@ -23,6 +22,16 @@
   src: url('../fonts/glyphicons-social-regular.eot?#iefix') format('embedded-opentype'),
        url('../fonts/glyphicons-social-regular.woff') format('woff'),
        url('../fonts/glyphicons-social-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings Regular';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../fonts/glyphicons-halflings-regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -141,7 +150,7 @@ main.tema {
 
 @media(min-width: @screen-md) { 
   body > main {
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }

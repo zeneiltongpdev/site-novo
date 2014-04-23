@@ -6,22 +6,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/site.css" />
-		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/construction_banner.css" />
 		<link rel="shortcut icon" href="{{ site.baseurl }}assets/img/logo.png" type="image/png" />
 		<!--[if lt IE 9]>
-		<script src="{{ site.baseurl }}assets/js/html5shiv.js"></script>
-		<script src="{{ site.baseurl }}assets/js/respond.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}assets/css/construction_banner_ie_hack.css" />
+		<script type= "text/javascript" src="{{ site.baseurl }}assets/js/html5shiv.js"></script>
+		<script type= "text/javascript" src="{{ site.baseurl }}assets/js/respond.min.js"></script>
 		<![endif]-->
-		<script src="{{ site.baseurl }}assets/js/jquery-1.11.0.min.js"></script>
-		<script src="{{ site.baseurl }}assets/js/jquery.details-1.7.min.js"></script>
+		<script type= "text/javascript" src="{{ site.baseurl }}assets/js/jquery-1.11.0.min.js"></script>
+		<script type= "text/javascript" src="{{ site.baseurl }}assets/js/jquery.details-1.7.min.js"></script>
 	</head>
 	<body>
-		<div class="github-fork-ribbon-wrapper right">
-			<div class="github-fork-ribbon">
-				<a>Site em construção!</a>
-			</div>
-		</div>
 		{{ content }}
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -31,7 +24,7 @@
 
 			ga('create', 'UA-49336600-2', 'mst.org.br');
 			ga('require', 'linkid', 'linkid.js');
-      ga('require', 'displayfeatures');
+      		ga('require', 'displayfeatures');
 			ga('send', 'pageview');
 
 			var tracked_links = [['.parceiros ul li a', 'parceiros'], ['.social ul li a', 'social'], 
@@ -39,7 +32,8 @@
 			['.noticias .mais a', 'mais-noticias'], ['.videos .mais a', 'mais-videos'],
 			['nav ul li a', 'header-links']];
 
-			tracked_links.forEach(function(trackableItems) {
+			for (i=0; i<tracked_links.length; i++) {
+				trackableItems = tracked_links[i];
 				var selector = null;
 				var category = null;
 				selector = trackableItems[0];
@@ -54,7 +48,7 @@
 						});
 					})
 				});
-			});
+			}
 			
 			$(".details-inited summary").on('click', function() {
 				ga('send', {
@@ -63,7 +57,7 @@
 					'eventAction': 'click',   
 					'eventLabel': $('.tema h1').text()
 				});
-			})
+			});
 			
 			$("header > a").on('click', function() {
 				ga('send', {
@@ -72,7 +66,43 @@
 					'eventAction': 'click',   
 					'eventLabel': 'Logotipo'
 				});
-			})
+			});
+
+
+			
+			$('.dropdown').children('a').on('click', function(event) {
+				var myTarget = $(this).siblings('.dropdown-menu');
+
+				$('.dropdown-menu.active').each(function () {
+					if (this != myTarget[0]) {
+						$(this).removeClass('active');
+					}
+				});
+
+				$('#search-form').removeClass('open');
+				$('#open-search').removeClass('active');
+
+				myTarget.toggleClass('active');
+
+				event.preventDefault();
+			});
+
+			$('#open-menu').on('click', function () {
+				$(this).siblings('ul').toggleClass('open');        
+			});
+
+			$('#open-search').on('click', function () {
+				var myTarget = $(this).siblings('form');
+				myTarget.toggleClass('open');
+
+				$('.dropdown-menu').removeClass('active');
+				if (myTarget.hasClass('open')) {
+					$(this).addClass('active');
+				} else {
+					$(this).removeClass('active');
+				}
+			});
+			
 		</script>
 	</body>
 </html>
