@@ -2103,77 +2103,77 @@ section#recent ul.carousel li p {
 .featured-news ul li img {
   display: block;
 }
-main.tema header,
-main.tema section {
+main.topic header,
+main.topic section {
   margin: 0;
   text-align: justify;
 }
-main.tema header h1,
-main.tema section h1,
-main.tema header h2,
-main.tema section h2 {
+main.topic header h1,
+main.topic section h1,
+main.topic header h2,
+main.topic section h2 {
   margin: 0;
   margin-bottom: 10px;
 }
-main.tema header h1,
-main.tema section h1 {
+main.topic header h1,
+main.topic section h1 {
   width: 100%;
   text-align: center;
   letter-spacing: -2px;
   font-weight: bold;
 }
-main.tema header h2,
-main.tema section h2 {
+main.topic header h2,
+main.topic section h2 {
   margin-bottom: 0.5em;
   border-bottom: dashed 1px lightgray;
   padding-bottom: 0.3em;
 }
-main.tema header {
+main.topic header {
   overflow: auto;
   margin-bottom: 30px;
 }
-main.tema header figure {
+main.topic header figure {
   margin: 0 auto 10px auto;
   max-width: 350px;
 }
-main.tema header figure img {
+main.topic header figure img {
   width: 100%;
 }
-main.tema header p {
+main.topic header p {
   max-width: 100%;
   text-align: justify;
   margin: 0;
 }
-main.tema header details[open] summary,
-main.tema header details.open summary {
+main.topic header details[open] summary,
+main.topic header details.open summary {
   display: none;
 }
-main.tema header details summary {
+main.topic header details summary {
   cursor: pointer;
   color: #006400;
   font-weight: bold;
   float: right;
 }
-main.tema header details summary:focus {
+main.topic header details summary:focus {
   outline: none;
 }
-main.tema header details summary:hover {
+main.topic header details summary:hover {
   text-decoration: underline;
 }
-main.tema section {
+main.topic section {
   margin-bottom: 10px;
 }
-main.tema section ul {
+main.topic section ul {
   list-style: none;
   padding: 0;
 }
-main.tema section ul li + li {
+main.topic section ul li + li {
   margin-top: 20px;
 }
-main.tema section p {
+main.topic section p {
   text-align: left;
 }
-main.tema section p.mais {
+main.topic section p.mais {
   margin: 0;
   padding-top: 1.2em;
   display: block;
@@ -2181,40 +2181,40 @@ main.tema section p.mais {
   font-weight: bold;
   clear: both;
 }
-main.tema section p.mais a {
+main.topic section p.mais a {
   color: #006400;
 }
-main.tema section p.mais a:hover {
+main.topic section p.mais a:hover {
   opacity: 0.8;
 }
 @media (min-width: 992px) {
-  main.tema header figure {
+  main.topic header figure {
     float: left;
     margin-right: 20px;
   }
-  main.tema header h1 {
+  main.topic header h1 {
     text-align: left;
   }
-  main.tema section ul {
+  main.topic section ul {
     margin: 0;
   }
-  main.tema section ul li {
+  main.topic section ul li {
     width: 32.6%;
     display: block;
     float: left;
     vertical-align: top;
     margin-right: 1%;
   }
-  main.tema section ul li + li {
+  main.topic section ul li + li {
     margin-top: 0;
   }
-  main.tema section ul li:last-child {
+  main.topic section ul li:last-child {
     margin-right: 0;
   }
-  main.tema section.videos ul li {
+  main.topic section.videos ul li {
     width: 32%;
   }
-  main.tema section.videos ul li + li {
+  main.topic section.videos ul li + li {
     margin-left: 1%;
   }
 }
