@@ -2313,14 +2313,14 @@ main > footer ul li a {
   font-size: 0.9em;
   color: #961913;
 }
-article.post {
+main.post article {
   overflow: hidden;
 }
-article.post h1 {
+main.post article h1 {
   margin-top: 0.4em;
   word-wrap: break-word;
 }
-article.post span.tag {
+main.post article span.tag {
   background-color: #006400;
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -2334,7 +2334,7 @@ article.post span.tag {
   float: right;
   margin-left: 0.4em;
 }
-article.post img {
+main.post article img {
   display: block;
   float: none;
   margin: auto;
@@ -2343,61 +2343,61 @@ article.post img {
   border-radius: 3px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
 }
-article.post object,
-article.post iframe {
+main.post article object,
+main.post article iframe {
   max-width: 100%;
 }
 @media (min-width: 768px) {
-  article.post {
+  main.post article {
     padding-right: 13%;
   }
-  article.post img {
+  main.post article img {
     margin: 20px;
     max-width: 50%;
     float: left;
     margin-left: 0;
   }
 }
-article.post > aside {
+main.post > article > aside {
   display: none;
 }
 @media (min-width: 992px) {
-  article.post > aside {
+  main.post > article > aside {
     display: block;
     position: absolute;
     right: 0;
     padding-right: 10px;
     width: 20%;
   }
-  article.post > aside h1 {
+  main.post > article > aside h1 {
     font-weight: bold;
     font-size: 1.1em;
     border-bottom: 4px solid black;
   }
-  article.post > aside ul {
+  main.post > article > aside ul {
     padding: 0;
     list-style-type: none;
   }
-  article.post > aside ul li {
+  main.post > article > aside ul li {
     border-bottom: 1px solid #ddd;
   }
-  article.post > aside ul li + li {
+  main.post > article > aside ul li + li {
     margin-top: 10px;
   }
-  article.post > aside ul li a {
+  main.post > article > aside ul li a {
     color: #961913;
   }
-  article.post > aside ul li a:hover {
+  main.post > article > aside ul li a:hover {
     text-decoration: none;
   }
-  article.post > aside ul li a p {
+  main.post > article > aside ul li a p {
     font-size: 100%;
     margin: 0;
   }
-  article.post > aside ul li a p:hover {
+  main.post > article > aside ul li a p:hover {
     text-decoration: underline;
   }
-  article.post > aside ul li a time {
+  main.post > article > aside ul li a time {
     display: block;
     font-size: 0.8em;
     color: gray;
