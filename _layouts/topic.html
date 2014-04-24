@@ -13,8 +13,6 @@ layout: default
 {% assign noticias = content | where: 'type', 'news' %}
 {% assign videos = content | where: 'type', 'video' %}
 
-{% include header.html %}
-
 <main class="tema">
   <header>
     <figure>
@@ -69,6 +67,4 @@ layout: default
     </section>
   {% endif %}
 </main>
-
-{% include footer.html %}
 
