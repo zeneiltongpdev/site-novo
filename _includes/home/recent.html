@@ -1,14 +1,18 @@
 {% assign posts = site.posts %}
-<ul class="carousel">
-{% for post in posts | limit:5 %}
-  <li>
-  <a href= "{{ post.url }}">
-  <figure>
-      <img src=" {{ post.images | url_escape }}"/>
-      <figcaption>
-        {{ post.title }}
-      </figcaption>
-    </figure>
-  </li>
-{% endfor %}
-</ul>
+<section id="recent">
+  <div class="carousel">
+    <ul class="panes">
+    {% for post in posts | limit:5 %}
+      <li>
+      <a href= "{{ post.url }}">
+      <figure>
+          <img src=" {{ post.images | url_escape }}"/>
+          <figcaption>
+            {{ post.title }}
+          </figcaption>
+        </figure>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>

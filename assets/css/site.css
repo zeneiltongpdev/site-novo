@@ -1950,8 +1950,86 @@ body > footer small {
   font-weight: lighter;
   text-align: center;
 }
-ul.carousel {
+section#recent {
+  width: 70%;
+  border: solid 3px green;
+}
+section#recent .carousel {
+  overflow: hidden;
+  width: 50%;
+}
+section#recent .carousel ul.panes {
   list-style: none;
+  position: relative;
+  width: 500%;
+  overflow: hidden;
+  padding: 0;
+  -moz-animation: carousel 5s infinite;
+  -webkit-animation: carousel 5s infinite;
+  animation: carousel 5s infinite;
+}
+@-webkit-keyframes carousel {
+  0% {
+    left: 0;
+  }
+  11% {
+    left: 0;
+  }
+  12.5% {
+    left: -100%;
+  }
+  23.5% {
+    left: -100%;
+  }
+  25% {
+    left: -200%;
+  }
+  36% {
+    left: -200%;
+  }
+  37.5% {
+    left: -300%;
+  }
+  48.5% {
+    left: -300%;
+  }
+  50% {
+    left: -400%;
+  }
+  61% {
+    left: -400%;
+  }
+  62.5% {
+    left: -300%;
+  }
+  73.5% {
+    left: -300%;
+  }
+  75% {
+    left: -200%;
+  }
+  86% {
+    left: -200%;
+  }
+  87.5% {
+    left: -100%;
+  }
+  98.5% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+section#recent .carousel ul.panes li {
+  position: relative;
+  float: left;
+  width: 20%;
+}
+section#recent .carousel ul.panes li img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
 }
 .featured-news {
   margin-top: 1%;
