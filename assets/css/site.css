@@ -1954,82 +1954,57 @@ section#recent {
   width: 70%;
   border: solid 3px green;
 }
-section#recent .carousel {
-  overflow: hidden;
-  width: 50%;
-}
-section#recent .carousel ul.panes {
-  list-style: none;
-  position: relative;
-  width: 500%;
-  overflow: hidden;
-  padding: 0;
-  -moz-animation: carousel 5s infinite;
-  -webkit-animation: carousel 5s infinite;
-  animation: carousel 5s infinite;
-}
-@-webkit-keyframes carousel {
-  0% {
-    left: 0;
-  }
-  11% {
-    left: 0;
-  }
-  12.5% {
-    left: -100%;
-  }
-  23.5% {
-    left: -100%;
-  }
-  25% {
-    left: -200%;
-  }
-  36% {
-    left: -200%;
-  }
-  37.5% {
-    left: -300%;
-  }
-  48.5% {
-    left: -300%;
-  }
-  50% {
-    left: -400%;
-  }
-  61% {
-    left: -400%;
-  }
-  62.5% {
-    left: -300%;
-  }
-  73.5% {
-    left: -300%;
-  }
-  75% {
-    left: -200%;
-  }
-  86% {
-    left: -200%;
-  }
-  87.5% {
-    left: -100%;
-  }
-  98.5% {
-    left: -100%;
-  }
-  100% {
-    left: 0;
-  }
-}
-section#recent .carousel ul.panes li {
-  position: relative;
-  float: left;
-  width: 20%;
-}
-section#recent .carousel ul.panes li img {
-  display: block;
+section#recent ul.carousel {
   width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+section#recent ul.carousel li {
   max-width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-animation: carousel-fade 25s linear infinite;
+  -moz-animation: carousel-fade 25s linear infinite;
+  -ms-animation: carousel-fade 25s linear infinite;
+  animation: carousel-fade 25s linear infinite;
+}
+section#recent ul.carousel li:nth-child(2) {
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  -ms-animation-delay: 5s;
+  animation-delay: 5s;
+}
+section#recent ul.carousel li:nth-child(3) {
+  -webkit-animation-delay: 10s;
+  -moz-animation-delay: 10s;
+  -ms-animation-delay: 10s;
+  animation-delay: 10s;
+}
+section#recent ul.carousel li:nth-child(4) {
+  -webkit-animation-delay: 15s;
+  -moz-animation-delay: 15s;
+  -ms-animation-delay: 15s;
+  animation-delay: 15s;
+}
+section#recent ul.carousel li:nth-child(5) {
+  -webkit-animation-delay: 20s;
+  -moz-animation-delay: 20s;
+  -ms-animation-delay: 20s;
+  animation-delay: 20s;
+}
+@-webkit-keyframes carousel-fade {
+  0%,
+  20%,
+  100% {
+    opacity: 0;
+  }
+  5%,
+  15% {
+    opacity: 1;
+  }
 }
 .featured-news {
   margin-top: 1%;
