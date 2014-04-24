@@ -1964,10 +1964,10 @@ body > footer small {
   font-weight: lighter;
   text-align: center;
 }
-section#recent {
+main.home > section#recent {
   width: 70%;
 }
-section#recent ul.carousel {
+main.home > section#recent ul.carousel {
   height: 350px;
   max-width: 370px;
   position: relative;
@@ -1975,7 +1975,7 @@ section#recent ul.carousel {
   padding: 0;
   margin: 20px;
 }
-section#recent ul.carousel li {
+main.home > section#recent ul.carousel li {
   max-width: 100%;
   position: absolute;
   left: 0;
@@ -1986,31 +1986,31 @@ section#recent ul.carousel li {
   -ms-animation: carousel-fade 25s linear infinite;
   animation: carousel-fade 25s linear infinite;
 }
-section#recent ul.carousel li:nth-child(2) {
+main.home > section#recent ul.carousel li:nth-child(2) {
   -webkit-animation-delay: 5s;
   -moz-animation-delay: 5s;
   -ms-animation-delay: 5s;
   animation-delay: 5s;
 }
-section#recent ul.carousel li:nth-child(3) {
+main.home > section#recent ul.carousel li:nth-child(3) {
   -webkit-animation-delay: 10s;
   -moz-animation-delay: 10s;
   -ms-animation-delay: 10s;
   animation-delay: 10s;
 }
-section#recent ul.carousel li:nth-child(4) {
+main.home > section#recent ul.carousel li:nth-child(4) {
   -webkit-animation-delay: 15s;
   -moz-animation-delay: 15s;
   -ms-animation-delay: 15s;
   animation-delay: 15s;
 }
-section#recent ul.carousel li:nth-child(5) {
+main.home > section#recent ul.carousel li:nth-child(5) {
   -webkit-animation-delay: 20s;
   -moz-animation-delay: 20s;
   -ms-animation-delay: 20s;
   animation-delay: 20s;
 }
-section#recent ul.carousel li figure {
+main.home > section#recent ul.carousel li figure {
   margin: 0;
   padding: 0;
   height: 190px;
@@ -2019,22 +2019,22 @@ section#recent ul.carousel li figure {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
   overflow: hidden;
 }
-section#recent ul.carousel li figure img:hover,
-section#recent ul.carousel li figure iframe:hover {
+main.home > section#recent ul.carousel li figure img:hover,
+main.home > section#recent ul.carousel li figure iframe:hover {
   box-shadow: none;
   opacity: 0.8;
 }
-section#recent ul.carousel li figure iframe {
+main.home > section#recent ul.carousel li figure iframe {
   width: 100%;
   height: 190px;
 }
-section#recent ul.carousel li figure img {
+main.home > section#recent ul.carousel li figure img {
   width: auto;
   display: block;
   min-height: 100%;
   min-width: 100%;
 }
-section#recent ul.carousel li p {
+main.home > section#recent ul.carousel li p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.1;
