@@ -1962,6 +1962,9 @@ ul.carousel {
   padding: 0;
   height: 190px;
   max-width: 370px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
+  overflow: hidden;
 }
 .featured-news figure img:hover,
 .featured-news figure iframe:hover {
@@ -2025,12 +2028,6 @@ main.tema section h2 {
   margin-bottom: 0.5em;
   border-bottom: dashed 1px lightgray;
   padding-bottom: 0.3em;
-}
-main.tema header figure,
-main.tema section figure {
-  border-radius: 3px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
-  overflow: hidden;
 }
 main.tema header {
   overflow: auto;
@@ -2130,6 +2127,9 @@ article.destaque figure {
   padding: 0;
   height: 190px;
   max-width: 370px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
+  overflow: hidden;
 }
 article.destaque figure img:hover,
 article.destaque figure iframe:hover {
