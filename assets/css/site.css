@@ -1541,6 +1541,23 @@ body > main {
     margin-right: auto;
   }
 }
+figure {
+  margin: 0;
+  padding: 0;
+  max-width: 370px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
+  overflow: hidden;
+}
+figure img:hover,
+figure iframe:hover {
+  box-shadow: none;
+  opacity: 0.8;
+}
+figure iframe {
+  width: 100%;
+  height: 190px;
+}
 #logo {
   display: block;
   height: 60px;
@@ -2021,21 +2038,6 @@ main.home > section#recent ul.carousel li:nth-child(5) {
   animation-delay: 20s;
 }
 main.home > section#recent ul.carousel li figure {
-  margin: 0;
-  padding: 0;
-  height: 190px;
-  max-width: 370px;
-  border-radius: 3px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
-  overflow: hidden;
-}
-main.home > section#recent ul.carousel li figure img:hover,
-main.home > section#recent ul.carousel li figure iframe:hover {
-  box-shadow: none;
-  opacity: 0.8;
-}
-main.home > section#recent ul.carousel li figure iframe {
-  width: 100%;
   height: 190px;
 }
 main.home > section#recent ul.carousel li figure img {
@@ -2067,21 +2069,6 @@ main.home > section#recent ul.carousel li p {
   margin-left: 2%;
 }
 .featured-news figure {
-  margin: 0;
-  padding: 0;
-  height: 190px;
-  max-width: 370px;
-  border-radius: 3px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
-  overflow: hidden;
-}
-.featured-news figure img:hover,
-.featured-news figure iframe:hover {
-  box-shadow: none;
-  opacity: 0.8;
-}
-.featured-news figure iframe {
-  width: 100%;
   height: 190px;
 }
 .featured-news figure img {
@@ -2144,7 +2131,6 @@ main.topic header {
 }
 main.topic header figure {
   margin: 0 auto 10px auto;
-  max-width: 350px;
 }
 main.topic header figure img {
   width: 100%;
@@ -2232,21 +2218,6 @@ article.destaque {
   padding: 0 !important;
 }
 article.destaque figure {
-  margin: 0;
-  padding: 0;
-  height: 190px;
-  max-width: 370px;
-  border-radius: 3px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
-  overflow: hidden;
-}
-article.destaque figure img:hover,
-article.destaque figure iframe:hover {
-  box-shadow: none;
-  opacity: 0.8;
-}
-article.destaque figure iframe {
-  width: 100%;
   height: 190px;
 }
 article.destaque figure img {
