@@ -6,8 +6,8 @@
         <a href= "{{ post.url }}">
           <figure>
             <img src=" {{ post.images | url_escape }}"/>
-            <figcaption>{{ post.title }}</figcaption>
           </figure>
+          <p>{{ post.title }}</p>
         </a>
       </li>
     {% endfor %}
