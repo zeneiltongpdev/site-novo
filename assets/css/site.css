@@ -1966,7 +1966,6 @@ body > footer small {
 }
 section#recent {
   width: 70%;
-  border: solid 3px green;
 }
 section#recent ul.carousel {
   height: 350px;
