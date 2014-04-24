@@ -1531,6 +1531,16 @@ address {
   font-weight: normal;
   font-style: normal;
 }
+body > main {
+  padding: 30px 15px;
+}
+@media (min-width: 992px) {
+  body > main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 #logo {
   display: block;
   height: 60px;
@@ -2402,15 +2412,5 @@ main.post > article > aside {
     font-size: 0.8em;
     color: gray;
     margin-bottom: 5px;
-  }
-}
-body > main {
-  padding: 30px 15px;
-}
-@media (min-width: 992px) {
-  body > main {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
