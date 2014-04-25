@@ -1776,6 +1776,7 @@ ul.dropdown-menu li {
   }
   #main-menu ul.dropdown-menu.active {
     left: 0;
+    z-index: 1;
   }
   #main-menu ul.dropdown-menu li {
     display: block;
