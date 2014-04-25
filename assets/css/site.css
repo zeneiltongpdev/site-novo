@@ -365,6 +365,11 @@ body > main {
     margin-right: auto;
   }
 }
+h1,
+h2 {
+  line-height: 1.1;
+  margin-bottom: 11px;
+}
 figure {
   margin: 0;
   padding: 0;
