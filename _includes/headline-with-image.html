@@ -4,7 +4,11 @@
       {% if include.post.images != "" %}
         <img src="{{ include.post.images | uri_escape }}" />
       {% else %}
-        <img src="{{ include.default_image }}" />
+        {% if include.post.type == 'video' %}
+          <img src="http://i1.ytimg.com/vi/{{ include.post.video }}/hqdefault.jpg" />
+        {% else %}
+          <img src="{{ include.default_image }}" />
+        {% endif %}
       {% endif %}
     </a>
   </figure>
