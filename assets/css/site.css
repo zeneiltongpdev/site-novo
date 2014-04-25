@@ -369,6 +369,20 @@ h1,
 h2 {
   line-height: 1.1;
   margin-bottom: 11px;
+  font-weight: 500;
+}
+h1 {
+  font-size: 41px;
+}
+h2 {
+  font-size: 34px;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+p {
+  margin: 0 0 11px;
 }
 figure {
   margin: 0;
