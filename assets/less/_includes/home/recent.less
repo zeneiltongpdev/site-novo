@@ -49,16 +49,41 @@ main.home > section#recent {
       }
     }
 
-    @-webkit-keyframes carousel-fade {
-        0%, 20%, 100% {
-          opacity: 0;
-          z-index: -1;
-        }
+    @-moz-keyframes carousel-fade {
+      0%, 20%, 100% {
+        opacity: 0;
+        z-index: -1;
+      }
 
-        5%, 15% {
-          opacity: 1;
-          z-index: 0;
-        }
+      5%, 15% {
+        opacity: 1;
+        z-index: 2;
+      }
     }
+
+    @-webkit-keyframes carousel-fade {
+      0%, 20%, 100% {
+        opacity: 0;
+        z-index: -1;
+      }
+
+      5%, 15% {
+        opacity: 1;
+        z-index: 2;
+      }
+    }
+
+    @keyframes carousel-fade {
+      0%, 20%, 100% {
+        opacity: 0;
+        z-index: -1;
+      }
+
+      5%, 15% {
+        opacity: 1;
+        z-index: 2;
+      }
+    }
+
   }
 }
