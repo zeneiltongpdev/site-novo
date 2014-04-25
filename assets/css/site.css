@@ -1992,6 +1992,28 @@ body > footer small {
   font-weight: lighter;
   text-align: center;
 }
+article.headline {
+  padding: 0 !important;
+}
+article.headline figure {
+  height: 190px;
+}
+article.headline figure img {
+  width: auto;
+  display: block;
+  min-height: 100%;
+  min-width: 100%;
+}
+article.headline p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 0;
+  margin-top: 5px;
+}
+article.headline p a {
+  display: block;
+}
 main.home > section#recent {
   width: 70%;
 }
@@ -2214,28 +2236,6 @@ main.topic section p.mais a:hover {
   main.topic section.videos ul li + li {
     margin-left: 1%;
   }
-}
-article.headline {
-  padding: 0 !important;
-}
-article.headline figure {
-  height: 190px;
-}
-article.headline figure img {
-  width: auto;
-  display: block;
-  min-height: 100%;
-  min-width: 100%;
-}
-article.headline p {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.1;
-  margin: 0;
-  margin-top: 5px;
-}
-article.headline p a {
-  display: block;
 }
 main > footer {
   overflow: auto;
