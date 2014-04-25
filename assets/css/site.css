@@ -2214,26 +2214,26 @@ main.topic section p.mais a:hover {
     margin-left: 1%;
   }
 }
-article.destaque {
+article.headline {
   padding: 0 !important;
 }
-article.destaque figure {
+article.headline figure {
   height: 190px;
 }
-article.destaque figure img {
+article.headline figure img {
   width: auto;
   display: block;
   min-height: 100%;
   min-width: 100%;
 }
-article.destaque p {
+article.headline p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.1;
   margin: 0;
   margin-top: 5px;
 }
-article.destaque p a {
+article.headline p a {
   display: block;
 }
 main > footer {
