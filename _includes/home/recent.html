@@ -3,8 +3,15 @@
   <ul class="carousel">
     {% for post in posts | limit:5 %}
       <li>
-        {% include headline-with-image.html post=post default_image=page.image %}
+        {% include headline-with-image.html post=post support_line=true default_image=page.image %}
       </li>
     {% endfor %}
   </ul>
+<!--
+    {% for post in posts | limit:5 %}
+      <li>
+        {% include headline-with-image.html post=post default_image=page.image %}
+      </li>
+    {% endfor %}
+    -->
 </section>

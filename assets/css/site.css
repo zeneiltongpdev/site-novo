@@ -2014,6 +2014,10 @@ article.headline p {
 article.headline p a {
   display: block;
 }
+article.headline p.support-line {
+  font-size: 14px;
+  font-weight: normal;
+}
 main.home > section#recent {
   width: 70%;
 }
