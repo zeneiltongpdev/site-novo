@@ -2060,22 +2060,6 @@ main.home > section#recent ul.carousel li:nth-child(5) {
   -ms-animation-delay: 20s;
   animation-delay: 20s;
 }
-main.home > section#recent ul.carousel li figure {
-  height: 190px;
-}
-main.home > section#recent ul.carousel li figure img {
-  width: auto;
-  display: block;
-  min-height: 100%;
-  min-width: 100%;
-}
-main.home > section#recent ul.carousel li p {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.1;
-  margin: 0;
-  margin-top: 5px;
-}
 @-webkit-keyframes carousel-fade {
   0%,
   20%,
