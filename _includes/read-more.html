@@ -3,16 +3,7 @@
   <ul>
     {% for post in site.posts limit:4 %}
       <li>
-        {% if post.images != "" %}
-          <figure>
-            <a href="{{ post.url }}">
-              <img src="{{ post.images | uri_escape }}" />
-            </a>
-          </figure>
-        {% endif %}
-        <p>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </p>
+        {% include headline-with-image.html post=post %}
       </li>
     {% endfor %}
   </ul>
