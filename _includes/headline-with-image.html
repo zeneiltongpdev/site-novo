@@ -1,0 +1,14 @@
+<article class="headline">
+  <figure>
+    <a href="{{ include.post.url }}">
+      {% if include.post.images != "" %}
+        <img src="{{ include.post.images | uri_escape }}" />
+      {% else %}
+        <img src="{{ include.default_image }}" />
+      {% endif %}
+    </a>
+  </figure>
+  <p>
+    <a href="{{ include.post.url }}">{{ include.post.title }}</a>
+  </p>
+</article>

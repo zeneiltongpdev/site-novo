@@ -41,7 +41,7 @@ layout: default
       <ul>
         {% for noticia in noticias | limit:3 %}
           <li>
-            {% include topic-news.html details=noticia default_image=image %}
+            {% include headline-with-image.html post=noticia default_image=page.image %}
           </li>
         {% endfor %}
       </ul>
@@ -57,7 +57,7 @@ layout: default
       <ul>
         {% for video in videos | limit:3 %}
           <li>
-            {% include topic-video.html details=video %}
+            {% include headline-with-video.html post=video %}
           </li>
         {% endfor %}
       </ul>
