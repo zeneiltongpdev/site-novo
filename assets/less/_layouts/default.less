@@ -12,6 +12,11 @@
   outline-offset: -2px;
 }
 
+.transition (@prop: all, @time: 1s, @ease: linear) {
+    -webkit-transition: @prop @time @ease;
+    transition: @prop @time @ease;
+}
+
 * {
   .box-sizing(border-box);
 }

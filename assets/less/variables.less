@@ -9,16 +9,16 @@
 @mstred: #961913;
 @body-bg: white;
 
+@link-hover-color: darken(@brand-primary, 15%);
+@link-color: @brand-primary;
+
+@text-color: @gray-dark;
 @font-size-base: 16px;
 
-@link-hover-color: darken(@brand-primary, 15%);
+@font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@line-height-base: 1.428571429;
 
 @screen-xs: 480px;
 @screen-sm: 768px;
 @screen-md: 992px;
 
-/* mixins */
-.transition (@prop: all, @time: 1s, @ease: linear) {
-    -webkit-transition: @prop @time @ease;
-    transition: @prop @time @ease;
-}
