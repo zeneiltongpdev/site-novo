@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% assign tema = page.tema %}
-{% assign summary = page.summary %}
 {% assign description = page.description %}
 {% assign theme = 'menu:'| append: tema %}
 {% assign content = site.tags[theme] %}
@@ -17,7 +16,7 @@ layout: default
     </figure>
     <h1>{{ page.title }}</h1>
     <p>
-      {{ summary }}
+      {{ page.summary }}
     </p>
 
     {% if description %}
