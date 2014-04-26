@@ -1,25 +1,23 @@
+{% assign content = site.posts %}
+{% assign featured-news = content | where: 'section', 'feature-news' %}
+
 <section class="featured-news">
   <ul>
+    {% for news in featured-news | limit:3 %}
+    {% capture picture %}{{ news.images }}{% endcapture %}
     <li>
       <figure>
-        <img src='http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/agrotoxico-morte.jpg'/>
+        <a href=" {{ news.url }} ">
+            {% if picture != "" %}
+            <img src="{{ picture | uri_escape}}" />
+            {% else %}
+            <img src="{{ inclu.default_image }}" />
+            {% endif %}
+        </a>
       </figure>
-      <strong>title</strong>
-      <p>description</p>
+      <strong>{{ news.title  }}</strong>
+      <p>{{ news.content |  strip_html | truncate: 120  }}</p>
     </li>
-    <li>
-      <figure>
-        <img src='http://s2.glbimg.com/RqjDt1o_p7MD-Dh1mKs8SrzGFdk=/475x0:1275x1065/300x400/s.glbimg.com/jo/g1/f/original/2014/04/23/2014-04-23t191941z_35281873.jpg'/>
-      </figure>
-      <strong>title</strong>
-      <p>description</p>
-    </li>
-    <li>
-      <figure>
-        <img src='http://3.bp.blogspot.com/_AP_Z69LRAl8/SwJ1izrDxzI/AAAAAAAABTg/TfMJFb2misg/s1600/membros_do_mst.jpg'/>
-      </figure>
-      <strong>title</strong>
-      <p>description</p>
-    </li>
+    {% endfor %}
   </ul>
 </section>
