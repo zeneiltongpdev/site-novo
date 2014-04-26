@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% assign title = page.title %}
 {% assign tema = page.tema %}
 {% assign image = page.image %}
 {% assign all_news_url = page.all_news_url %}
@@ -18,7 +17,7 @@ layout: default
     <figure>
       <img alt="imagem de {{ tema }}" src="{{ image }}" />
     </figure>
-    <h1>{{ title }}</h1>
+    <h1>{{ page.title }}</h1>
     <p>
       {{ summary }}
     </p>
