@@ -13,5 +13,7 @@ tags:
 - menu:direitos humanos
 type: video
 support_line: ''
+section: 
+hat: ''
 ---
 <p>&nbsp;</p><p style="text-align: center;"><object data="http://www.youtube.com/v/CqvmOzGt2v4" type="application/x-shockwave-flash" height="500" width="600"><param name="src" value="http://www.youtube.com/v/CqvmOzGt2v4"></object></p>

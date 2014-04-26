@@ -11,5 +11,7 @@ tags:
 - assuntos:reforma política
 type: video
 support_line: ''
+section: 
+hat: ''
 ---
 <p><object data="http://www.youtube.com/v/bsy7VQL-wrg#t" type="application/x-shockwave-flash" height="500" width="600"><param name="data" value="http://www.youtube.com/v/bsy7VQL-wrg#t"><param name="src" value="http://www.youtube.com/v/bsy7VQL-wrg#t"></object></p>

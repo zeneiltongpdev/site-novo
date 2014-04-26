@@ -10,6 +10,8 @@ tags:
 type: news
 support_line: 80 famílias ocuparam a Fazenda Renegado, região Noroeste MG. A fazenda
   estava abandonada no momento da ocupação e possui aproximadamente 2.000 hectares.
+section: 
+hat: ''
 ---
 <p>&nbsp;</p><p><em>Da&nbsp;Página do&nbsp;MST</em></p><p><!--[if gte mso 9]><xml>
  <w:WordDocument>
