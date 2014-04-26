@@ -4,9 +4,9 @@ layout: default
 
 {% assign tema = page.tema %}
 {% assign tag_filter = 'menu:'| append: tema %}
-{% assign content = site.tags[tag_filter] %}
-{% assign noticias = content | where: 'type', 'news' %}
-{% assign videos = content | where: 'type', 'video' %}
+{% assign posts = site.tags[tag_filter] %}
+{% assign noticias = posts | where: 'type', 'news' %}
+{% assign videos = posts | where: 'type', 'video' %}
 
 <main class="topic">
   <header>
