@@ -3,8 +3,8 @@ layout: default
 ---
 
 {% assign tema = page.tema %}
-{% assign theme = 'menu:'| append: tema %}
-{% assign content = site.tags[theme] %}
+{% assign tag_filter = 'menu:'| append: tema %}
+{% assign content = site.tags[tag_filter] %}
 {% assign noticias = content | where: 'type', 'news' %}
 {% assign videos = content | where: 'type', 'video' %}
 
