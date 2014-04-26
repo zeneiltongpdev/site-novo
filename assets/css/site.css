@@ -666,6 +666,9 @@ main.home > section#recent ul.carousel li:nth-child(5) {
   min-height: 100%;
   min-width: 100%;
 }
+.featured-news figure {
+  max-width: 200px;
+}
 .featured-news ul {
   display: inline-block;
   list-style: none;
@@ -678,13 +681,18 @@ main.home > section#recent ul.carousel li:nth-child(5) {
   font-size: 0.9em;
   padding: 2px 0;
   padding-right: 10px;
+  max-width: 230px;
 }
 .featured-news ul li + li {
   padding-left: 10px;
-  border-left: 1px solid;
+  border-left: 1px solid #dddddd;
 }
 .featured-news ul li a > strong {
   color: #961913;
+}
+.featured-news ul li > p {
+  font-weight: normal;
+  line-height: 1.5em;
 }
 .featured-news ul li img {
   display: block;
