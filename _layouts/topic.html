@@ -50,9 +50,9 @@ layout: default
     <section class="videos">
       <h2>Vídeos</h2>
       <ul>
-        {% for video in videos | limit:3 %}
+        {% for post in videos | limit:3 %}
           <li>
-            {% include headline-with-video.html post=video %}
+            {% include headline-with-video.html post=post %}
           </li>
         {% endfor %}
       </ul>
