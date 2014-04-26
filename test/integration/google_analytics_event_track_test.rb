@@ -37,7 +37,7 @@ class GoogleAnalyticsEventTrackTest < ActiveSupport::TestCase
 
 	test 'Mais Noticias link should be accessible through the Selector defined for Google Analytics event track' do
     page = @agent.get(uri('esporte'))
-		links = page.search('.noticias .mais a')
+		links = page.search('.news .mais a')
 		assert links.count > 0, 'Mais Noticias link is not accessible. This will break Google Analytics event track!'
 	end
 

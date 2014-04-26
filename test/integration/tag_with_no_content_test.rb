@@ -8,10 +8,10 @@ class TagWithNoContentTest < ActiveSupport::TestCase
     @agent = Mechanize.new
   end
 
-  test 'noticias section is not present' do
+  test 'news section is not present' do
     page = @agent.get(uri('esporte'))
-    section = page.search('section.noticias')
-    assert section.empty?, 'noticias section is present.'
+    section = page.search('section.news')
+    assert section.empty?, 'news section is present.'
   end
 
   test 'videos section is not present' do

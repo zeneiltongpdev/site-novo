@@ -11,16 +11,16 @@ class TagWithSomeContentTest < ActiveSupport::TestCase
     @agent = Mechanize.new
   end
 
-  test 'noticias section displays 3 noticias' do
+  test 'news section displays 3 headlines' do
     page = @agent.get(uri('esporte'))
-    noticias = page.search('section.noticias ul > li > .headline') 
-    assert noticias.count == 3, 'noticias section does not have 3 noticias'
+    news = page.search('section.news ul > li > .headline') 
+    assert news.count == 3, 'news section does not have 3 headlines'
   end
 
-  test 'videos section displays 3 videos' do
+  test 'videos section displays 3 headlines' do
     page = @agent.get(uri('esporte'))
     videos = page.search('section.videos ul > li > .headline') 
-    assert videos.count == 3, 'videos section does not have 3 videos'
+    assert videos.count == 3, 'videos section does not have 3 headlines'
   end
 
 end
