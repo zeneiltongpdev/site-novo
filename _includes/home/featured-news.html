@@ -1,22 +1,11 @@
 {% assign content = site.posts %}
-{% assign featured-news = content | where: 'section', 'feature-news' %}
+{% assign posts = content | where: 'section', 'feature-news' %}
 
 <section class="featured-news">
   <ul>
-    {% for news in featured-news | limit:3 %}
-    {% capture picture %}{{ news.images }}{% endcapture %}
+    {% for post in posts | limit:3 %}
     <li>
-      <figure>
-        <a href=" {{ news.url }} ">
-            {% if picture != "" %}
-            <img src="{{ picture | uri_escape}}" />
-            {% else %}
-            <img src="{{ inclu.default_image }}" />
-            {% endif %}
-        </a>
-      </figure>
-      <strong>{{ news.title  }}</strong>
-      <p>{{ news.content |  strip_html | truncate: 120  }}</p>
+      {% include home/featured-news/headline-with-image.html post=post default_image=page.image %}
     </li>
     {% endfor %}
   </ul>
