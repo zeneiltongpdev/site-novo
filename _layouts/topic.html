@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% assign tema = page.tema %}
-{% assign description = page.description %}
 {% assign theme = 'menu:'| append: tema %}
 {% assign content = site.tags[theme] %}
 {% assign noticias = content | where: 'type', 'news' %}
@@ -19,11 +18,11 @@ layout: default
       {{ page.summary }}
     </p>
 
-    {% if description %}
+    {% if page.description %}
        <details>
          <summary>Leia mais...</summary>
          <p>
-           {{ description }}
+           {{ page.description }}
            <span>[Fonte: <a href="https://www.expressaopopular.com.br/livros/expressao-popular/dicionario-da-educacao-do-campo">Dicionário da Educação do Campo</a>]</span>
          </p>
        </details>
