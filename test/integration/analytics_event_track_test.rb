@@ -11,10 +11,10 @@ class AnalyticsEventTrackTest < ActiveSupport::TestCase
     @agent = Mechanize.new
 	end
 
-	test 'Parceiros links should be accessible through the Selector defined for Google Analytics event track' do
+	test 'links to parceiros are accessible through the selector defined for analytics event track' do
     page = @agent.get(uri('esporte'))
 		links = page.search('.parceiros ul li a')
-		assert links.count > 0, 'Parceiros links are not accessible. This will break Google Analytics event track!'
+		assert links.count > 0, 'links to parceiros are not accessible.'
 	end
 
 	test 'Social links should be accessible through the Selector defined for Google Analytics event track' do
