@@ -17,10 +17,10 @@ class AnalyticsEventTrackTest < ActiveSupport::TestCase
 		assert links.count > 0, 'links to parceiros are not accessible.'
 	end
 
-	test 'Social links should be accessible through the Selector defined for Google Analytics event track' do
+	test 'links to social are accessible through the selector defined for analytics event track' do
     page = @agent.get(uri('esporte'))
 		links = page.search('.social ul li a')
-		assert links.count > 0, 'Social links are not accessible. This will break Google Analytics event track!'
+		assert links.count > 0, 'links to social are not accessible.'
 	end
 
 	test 'Amigos links should be accessible through the Selector defined for Google Analytics event track' do
