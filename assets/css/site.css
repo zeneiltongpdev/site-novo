@@ -766,7 +766,7 @@ main.topic section ul li + li {
 main.topic section p {
   text-align: left;
 }
-main.topic section p.mais {
+main.topic section p.more {
   margin: 0;
   padding-top: 1.2em;
   display: block;
@@ -774,10 +774,10 @@ main.topic section p.mais {
   font-weight: bold;
   clear: both;
 }
-main.topic section p.mais a {
+main.topic section p.more a {
   color: #006400;
 }
-main.topic section p.mais a:hover {
+main.topic section p.more a:hover {
   opacity: 0.8;
 }
 @media (min-width: 992px) {

@@ -164,7 +164,7 @@
           </li>
         
       </ul>
-      <p class="mais">
+      <p class="more">
         <a href="http://www.mst.org.br/taxonomy/term/326">Mais notícias...</a>
       </p>
     </section>
@@ -215,7 +215,7 @@
           </li>
         
       </ul>
-      <p class="mais">
+      <p class="more">
         <a href="http://www.mst.org.br/videos">Mais vídeos...</a>
       </p>
     </section>
@@ -360,21 +360,26 @@
 
 			ga('create', 'UA-49336600-2', 'mst.org.br');
 			ga('require', 'linkid', 'linkid.js');
-      		ga('require', 'displayfeatures');
+      ga('require', 'displayfeatures');
 			ga('send', 'pageview');
 
-			var tracked_links = [['.parceiros ul li a', 'parceiros'], ['.social ul li a', 'social'], 
-			['.amigos ul li a', 'amigos'], ['.links ul li a', 'links'], 
-			['.news .mais a', 'mais-noticias'], ['.videos .mais a', 'mais-videos'],
-			['nav ul li a', 'header-links']];
+			var tracked_links = [
+        ['.parceiros ul li a', 'parceiros'],
+        ['.social ul li a', 'social'], 
+        ['.amigos ul li a', 'amigos'],
+        ['.links ul li a', 'links'], 
+        ['.news .more a', 'mais-noticias'],
+        ['.videos .more a', 'mais-videos'],
+        ['nav ul li a', 'header-links']
+      ];
 
-			for (i=0; i<tracked_links.length; i++) {
+			for(i=0; i<tracked_links.length; i++) {
 				trackableItems = tracked_links[i];
 				var selector = null;
 				var category = null;
 				selector = trackableItems[0];
 				category = trackableItems[1];
-				$(selector).each( function(index) {
+				$(selector).each(function(index) {
 					$(this).on('click', function() {
 						ga('send', {
 							'hitType': 'event',          
@@ -382,7 +387,7 @@
 							'eventAction': 'click',   
 							'eventLabel': $(this).attr('href')
 						});
-					})
+					});
 				});
 			}
 			
@@ -403,7 +408,6 @@
 					'eventLabel': 'Logotipo'
 				});
 			});
-
 
 			
 			$('.dropdown').children('a').on('click', function(event) {
