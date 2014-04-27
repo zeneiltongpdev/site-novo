@@ -1,6 +1,6 @@
 require_relative '../test_helper.rb'
 
-class GoogleAnalyticsEventTrackTest < ActiveSupport::TestCase
+class AnalyticsEventTrackTest < ActiveSupport::TestCase
   include IntegrationTestHelper
 
 	setup do
