@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign tag = page.tema %}
+{% assign tag = page.tag %}
 {% assign tag_filter = 'menu:'| append: tag %}
 {% assign posts = site.tags[tag_filter] %}
 {% assign news = posts | where: 'type', 'news' %}
