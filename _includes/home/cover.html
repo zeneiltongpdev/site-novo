@@ -1,0 +1,12 @@
+{% assign content = site.posts %}
+{% assign posts = content | where: 'section', 'cover' %}
+{% assign cover_one = posts.first %}
+
+<section class="cover">
+  <section class="first-cover">
+      <h3>{{ cover_one.hat  }}</h3>
+      <h1><a>{{ cover_one.title }}</a></h1>
+      <p>{{ cover_one.support_line }}</p>
+  </section>
+</section>
+
