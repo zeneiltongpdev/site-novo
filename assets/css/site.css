@@ -571,6 +571,12 @@ article.headline p.support-line a {
 main.home > section#recent {
   width: 70%;
 }
+@media (min-width: 768px) {
+  main.home > section#recent {
+    width: 40%;
+    float: left;
+  }
+}
 main.home > section#recent ul.carousel {
   height: 350px;
   max-width: 370px;
@@ -699,6 +705,24 @@ main.home > section#recent ul.carousel li:nth-child(5) {
 }
 .cover {
   border-top: 1px solid;
+}
+@media (min-width: 768px) and (min-width: 992px) {
+  .cover {
+    border-top: 0;
+    border-bottom: 1px solid #dddddd;
+  }
+}
+@media (min-width: 768px) {
+  .cover {
+    width: 60%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .cover {
+    width: 40%;
+    float: left;
+  }
 }
 .cover .first-cover {
   margin-bottom: 20px;
