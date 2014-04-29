@@ -1,7 +1,25 @@
 .cover {
   border-top: 1px solid;
+  margin-bottom: 20px;
+
+  h3 {
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 15px;
+  }
+
+  h1 {
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 
   @media (min-width: @screen-sm) {
+    border-bottom: 1px solid #dddddd;
     border-top: 0;
     float: left;
     width: 60%;
@@ -9,32 +27,5 @@
 
   @media(min-width: @screen-md) {
     width: 40%;
-  }
-
-  h1 {
-    margin-bottom: 5px;
-  }
-
-  .first-cover {
-    @media (min-width: @screen-sm) {
-      border-bottom: 1px solid #dddddd;
-    }
-
-    margin-bottom: 20px;
-
-    h3 {
-      margin-bottom: 0;
-      margin-top: 5px;
-      font-size: 15px;
-    }
-
-    h1 {
-      margin-top: 0;
-      font-size: 20px;
-    }
-
-    p {
-      font-size: 14px;
-    }
   }
 }
