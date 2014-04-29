@@ -12,7 +12,13 @@ n = namespace :test do
     t.verbose = false
     t.warning = false
   end
+
+  Rake::TestTask.new(:unit) do |t|
+    t.pattern = 'test/unit/*_test.rb'
+    t.verbose = false
+    t.warning = false
+  end
 end
 
-task :test => [n[:smoke], n[:integration]]
+task :test => [n[:smoke], n[:integration], n[:unit]]
 task :default => :test

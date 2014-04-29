@@ -4,9 +4,10 @@
 <section class="featured-news">
   <ul>
     {% for post in posts | limit:3 %}
-    <li>
-      {% include home/featured-news/headline-with-image.html post=post default_image=page.image %}
-    </li>
+	    {% assign image_from_tag = site | extract_image_from_post_tag: post %}
+	    <li>
+	      {% include home/featured-news/headline-with-image.html post=post default_image=image_from_tag %}
+	    </li>
     {% endfor %}
   </ul>
 </section>
