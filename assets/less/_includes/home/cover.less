@@ -1,6 +1,21 @@
 .cover {
   border-top: 1px solid;
 
+  @media (min-width: @screen-sm) and (min-width: @screen-md) {
+    border-top: 0;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  @media(min-width: @screen-sm) {
+    width: 60%;
+    float: left;
+  }
+
+  @media(min-width: @screen-md) {
+    width: 40%;
+    float: left;
+  }
+
   .first-cover {
     margin-bottom: 20px;
 
@@ -9,11 +24,13 @@
       margin-top: 5px;
       font-size: 15px;
     }
+
     h1 {
       margin-top: 0;
       margin-bottom: 5px;
       font-size: 20px;
     }
+
     p {
       font-size: 14px;
     }
