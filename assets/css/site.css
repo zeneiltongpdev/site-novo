@@ -706,15 +706,11 @@ main.home > section#recent ul.carousel li:nth-child(5) {
 .cover {
   border-top: 1px solid;
 }
-@media (min-width: 768px) and (min-width: 992px) {
+@media (min-width: 768px) {
   .cover {
     border-top: 0;
     border-bottom: 1px solid #dddddd;
     float: left;
-  }
-}
-@media (min-width: 768px) {
-  .cover {
     width: 60%;
   }
 }
