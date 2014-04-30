@@ -578,6 +578,17 @@ article.headline p.support-line a {
 .recent p {
   font-size: 12px;
 }
+.recent ul {
+  padding-left: 20px;
+  list-style-type: square;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.recent ul li {
+  line-height: 12pt;
+  margin-bottom: 5px;
+}
 @media (min-width: 768px) {
   .recent {
     border-top: 0;
