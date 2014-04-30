@@ -1,6 +1,6 @@
 {% assign posts = site.posts %}
-<section id="recent">
-  <ul class="carousel">
+<section class="carousel">
+  <ul>
     {% for post in posts | limit:5 %}
       <li>
         {% include headline-with-image.html post=post support_line=true default_image=page.image %}

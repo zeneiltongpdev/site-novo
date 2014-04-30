@@ -660,16 +660,16 @@ article.headline p.support-line a {
     width: 40%;
   }
 }
-main.home > section#recent {
+.carousel {
   width: 70%;
 }
 @media (min-width: 768px) {
-  main.home > section#recent {
+  .carousel {
     width: 40%;
     float: left;
   }
 }
-main.home > section#recent ul.carousel {
+.carousel > ul {
   height: 350px;
   max-width: 370px;
   position: relative;
@@ -677,7 +677,7 @@ main.home > section#recent ul.carousel {
   padding: 0;
   margin: 20px;
 }
-main.home > section#recent ul.carousel li {
+.carousel > ul li {
   max-width: 100%;
   position: absolute;
   left: 0;
@@ -688,25 +688,25 @@ main.home > section#recent ul.carousel li {
   -ms-animation: carousel-fade 25s linear infinite;
   animation: carousel-fade 25s linear infinite;
 }
-main.home > section#recent ul.carousel li:nth-child(2) {
+.carousel > ul li:nth-child(2) {
   -webkit-animation-delay: 5s;
   -moz-animation-delay: 5s;
   -ms-animation-delay: 5s;
   animation-delay: 5s;
 }
-main.home > section#recent ul.carousel li:nth-child(3) {
+.carousel > ul li:nth-child(3) {
   -webkit-animation-delay: 10s;
   -moz-animation-delay: 10s;
   -ms-animation-delay: 10s;
   animation-delay: 10s;
 }
-main.home > section#recent ul.carousel li:nth-child(4) {
+.carousel > ul li:nth-child(4) {
   -webkit-animation-delay: 15s;
   -moz-animation-delay: 15s;
   -ms-animation-delay: 15s;
   animation-delay: 15s;
 }
-main.home > section#recent ul.carousel li:nth-child(5) {
+.carousel > ul li:nth-child(5) {
   -webkit-animation-delay: 20s;
   -moz-animation-delay: 20s;
   -ms-animation-delay: 20s;
