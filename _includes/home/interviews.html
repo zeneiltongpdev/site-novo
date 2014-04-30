@@ -1,0 +1,35 @@
+{% assign posts = site.posts | where: 'section', 'interviews' %}
+
+<section class="interviews">
+
+  <h1>Entrevistas</h1>
+
+  {% if posts[0].images != '' %}
+    <figure>
+        <a href="#">
+          <img src="{{ posts[0].images }}" />
+        </a>
+    </figure>
+  {% endif %}
+
+  <a href="#"><h2>{{ posts[0].title }}</h2></a>
+
+  <ul>
+    <li>
+      <a href="{{ posts[1].url }}">
+        <h3>{{ posts[1].title }}</h3>
+      </a>
+    </li>
+    <li>
+      <a href="{{ posts[2].url }}">
+        <h3>{{ posts[2].title }}</h3>
+      </a>
+    </li>
+    <li>
+      <a href="{{ posts[3].url }}">
+        <h3>{{ posts[3].title }}</h3>
+      </a>
+    </li>
+  </ul>
+
+</section>

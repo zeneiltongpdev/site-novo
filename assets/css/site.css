@@ -767,6 +767,34 @@ article.headline p.support-line a {
     z-index: 2;
   }
 }
+.interviews figure {
+  height: 190px;
+}
+.interviews figure img {
+  width: auto;
+  display: block;
+  min-height: 100%;
+  min-width: 100%;
+}
+.interviews figure {
+  height: 100px;
+}
+.interviews h1 {
+  font-size: 30px;
+}
+.interviews h2 {
+  font-size: 18px;
+}
+.interviews h3 {
+  font-size: 12px;
+  margin-bottom: 1px;
+  margin-top: 7px;
+  line-height: 12px;
+}
+.interviews ul {
+  list-style: none;
+  padding-left: 0px;
+}
 main.topic header,
 main.topic section {
   margin: 0;
