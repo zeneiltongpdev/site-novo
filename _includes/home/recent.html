@@ -1,7 +1,13 @@
 {% assign posts = site.posts | where: 'section', 'recent' %}
-{% assign recent = posts.first %}
+{% assign news_one   = posts[0] %}
+{% assign news_two   = posts[1] %}
+{% assign news_three = posts[2] %}
 
 <section class="recent">
-  <h1><a href="{{ recent.url  }}">{{ recent.title }}</a></h1>
-  <p>{{ recent.support_line }}</p>
+  <h1><a href="{{ news_one.url }}">{{ news_one.title }}</a></h1>
+  <p>{{ news_one.support_line }}</p>
+  <ul>
+    <li><a href="{{ news_two.url }}">{{ news_two.title }}</a></li>
+    <li><a href="{{ news_three.url }}">{{ news_three.title }}</a></li>
+  </ul>
 </section>
