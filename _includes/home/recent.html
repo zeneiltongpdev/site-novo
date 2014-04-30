@@ -1,0 +1,7 @@
+{% assign posts = site.posts | where: 'section', 'recent' %}
+{% assign recent = posts.first %}
+
+<section class="recent">
+  <h1><a href="{{ recent.url  }}">{{ recent.title }}</a></h1>
+  <p>{{ recent.support_line }}</p>
+</section>
