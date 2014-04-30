@@ -1,0 +1,39 @@
+<meta property="og:site_name" content="{{ site.title }}" />
+
+{% if page.title %}
+  <meta property="og:type" content="{{ page.title }}" />
+  <meta property="og:title" content="article" />
+{% else %}
+  <meta property="og:type" content="{{ site.title }}" />
+  <meta property="og:title" content="website" />
+{% endif %}
+
+{% if page.description %}
+  <meta property="og:description" content="{{ page.description }}" />
+{% else if page.support_line %}
+  <meta property="og:description" content="{{ page.support_line }}" />
+{% else %}
+  <meta property="og:description" content="{{ site.description }}" />
+{% endif %}
+
+{% if page.url %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+{% endif %}
+
+{% if page.date %}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}" />
+{% endif %}
+
+{% if page.images %}
+  <meta property="og:image" content="{{ page.images }}" />
+{% else if page.image %}
+  <meta property="og:image" content="{{ page.image }}" />
+{% else %}
+  <meta property="og:image" content="{{ site.url }}/assets/img/logo.png" />
+{% endif %}
+
+{% if page.categories %}
+  {% for category in page.categories limit:1 %}
+  <meta property="article:section" content="{{ category }}" />
+  {% endfor %}
+{% endif %}
