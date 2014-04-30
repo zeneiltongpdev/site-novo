@@ -582,6 +582,8 @@ article.headline p.support-line a {
   padding-left: 20px;
   list-style-type: square;
   font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 .recent ul li {
   line-height: 12pt;
