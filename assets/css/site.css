@@ -585,6 +585,11 @@ article.headline p.support-line a {
     width: 60%;
   }
 }
+@media (min-width: 992px) {
+  .recent {
+    width: 40%;
+  }
+}
 .featured-news {
   margin-top: 1%;
   margin-left: 2%;
