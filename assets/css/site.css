@@ -578,6 +578,13 @@ article.headline p.support-line a {
 .recent p {
   font-size: 12px;
 }
+@media (min-width: 768px) {
+  .recent {
+    border-top: 0;
+    float: left;
+    width: 60%;
+  }
+}
 .featured-news {
   margin-top: 1%;
   margin-left: 2%;
@@ -643,6 +650,7 @@ article.headline p.support-line a {
   .cover {
     border-bottom: 1px solid #dddddd;
     border-top: 0;
+    margin-bottom: 0px;
     float: left;
     width: 60%;
   }
