@@ -8,17 +8,17 @@ class ImageFromTagExtractorTest < ActiveSupport::TestCase
 
   test 'gets image from post tag' do
 
-  	IMAGE_URL = "mst.org.br/agronegocio.jpg"
+  	IMAGE_URL = "mst.org.br/agricultura-camponesa.jpg"
 
     site = {
       'pages' => [{
-      	'tag' => 'agronegocio',
+      	'tag' => 'agricultura camponesa',
       	'image' => IMAGE_URL
       }]
     }
     
     post = {
-     'tags' => ['menu:agronegocio', 'assunto:mst'] 
+      'tags' => ["assuntos:produção", "destaque:destaque", "menu:agricultura camponesa"]
     }
     
     image_url = extract_image_from_post_tag(site, post)

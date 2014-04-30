@@ -3,7 +3,8 @@ module Jekyll
   module ImageFromTagExtractor
 
     def extract_image_from_post_tag(site, post, stdout=false)
-      post_tag = post["tags"].first.split(':').last
+      menu_tag = post["tags"].find{ |tag| tag.split(':').first == 'menu' }
+      post_tag = menu_tag.split(':').last
       site["pages"].find{ |page| page["tag"] == post_tag }["image"]
     end
 
