@@ -568,6 +568,23 @@ article.headline p.support-line {
 article.headline p.support-line a {
   color: #555555;
 }
+.column-a,
+.column-b {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+.column-b {
+  background: green;
+}
+@media (min-width: 992px) {
+  .column-a {
+    width: 80%;
+  }
+  .column-b {
+    width: 20%;
+  }
+}
 .recent {
   border-top: 1px solid #dddddd;
 }
@@ -604,6 +621,7 @@ article.headline p.support-line a {
 .featured-news {
   margin-top: 1%;
   margin-left: 2%;
+  clear: both;
 }
 .featured-news figure {
   height: 190px;
@@ -668,7 +686,7 @@ article.headline p.support-line a {
     border-top: 0;
     margin-bottom: 0px;
     float: left;
-    width: 60%;
+    width: 40%;
   }
 }
 @media (min-width: 992px) {
@@ -677,11 +695,11 @@ article.headline p.support-line a {
   }
 }
 .carousel {
-  width: 70%;
+  width: 100%;
 }
 @media (min-width: 768px) {
   .carousel {
-    width: 40%;
+    width: 60%;
     float: left;
   }
 }
@@ -794,6 +812,28 @@ article.headline p.support-line a {
 .interviews ul {
   list-style: none;
   padding-left: 0px;
+}
+.debate {
+  width: 100%;
+}
+.debate h1 {
+  font-size: 30px;
+}
+.debate h2 {
+  font-size: 18px;
+}
+.debate h3 {
+  font-size: 12px;
+  margin-bottom: 1px;
+  margin-top: 7px;
+  line-height: 12px;
+}
+.debate ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.debate figure {
+  max-width: 100%;
 }
 main.topic header,
 main.topic section {
