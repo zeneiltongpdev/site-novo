@@ -15,21 +15,9 @@
   <a href="#"><h2>{{ posts[0].title }}</h2></a>
 
   <ul>
-    <li>
-      <a href="{{ posts[1].url }}">
-        <h3>{{ posts[1].title }}</h3>
-      </a>
-    </li>
-    <li>
-      <a href="{{ posts[2].url }}">
-        <h3>{{ posts[2].title }}</h3>
-      </a>
-    </li>
-    <li>
-      <a href="{{ posts[3].url }}">
-        <h3>{{ posts[3].title }}</h3>
-      </a>
-    </li>
+    {% for post in posts | offset:1 %}
+     {% include home/interviews/headline.html post=post %}
+    {% endfor %}
   </ul>
 
 </section>
