@@ -3,7 +3,7 @@ layout: post
 title: 'Tendler: agroecologia é fundamental na produção econômica e social'
 legacy_url: http://www.mst.org.br/node/15971
 created: 1397498043
-images: ''
+images: http://www.mst.org.br/sites/default/files/tendler.png
 video: ''
 tags:
 - tipo de matéria:entrevistas

@@ -3,7 +3,7 @@ layout: post
 title: Indígenas são alvo da ofensiva do agronegócio, mostra relatório da CPT
 legacy_url: http://www.mst.org.br/node/16025
 created: 1398777052
-images: ''
+images: http://www.mst.org.br/sites/default/files/grafico-assassinatos.jpg
 video: ''
 tags:
 - menu:direitos humanos

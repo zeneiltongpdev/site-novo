@@ -3,7 +3,7 @@ layout: post
 title: 'Stedile: programa do governo de conciliação de classes "bateu no teto"'
 legacy_url: http://www.mst.org.br/node/15988
 created: 1397744740
-images: ''
+images: http://www.mst.org.br/sites/default/files/jp.jpeg
 video: ''
 tags:
 - tipo de matéria:entrevistas

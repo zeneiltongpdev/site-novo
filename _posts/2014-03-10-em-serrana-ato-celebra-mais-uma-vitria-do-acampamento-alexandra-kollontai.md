@@ -3,7 +3,7 @@ layout: post
 title: Em Serrana, ato celebra mais uma vitória do acampamento Alexandra Kollontai
 legacy_url: http://www.mst.org.br/node/15817
 created: 1394458611
-images: ''
+images: http://www.mst.org.br/sites/default/files/ato_serrana.jpg
 video: '15816'
 tags:
 - menu:reforma agrária

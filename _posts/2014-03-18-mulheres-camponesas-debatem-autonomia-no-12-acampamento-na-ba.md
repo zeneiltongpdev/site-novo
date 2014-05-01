@@ -3,7 +3,7 @@ layout: post
 title: Mulheres camponesas debatem autonomia no 12º Acampamento na BA
 legacy_url: http://www.mst.org.br/node/15860
 created: 1395150064
-images: ''
+images: http://www.mst.org.br/sites/default/files/Mulheres_BA.jpg
 video: CX104iHvwf4
 tags:
 - menu:lutas e mobilizações
