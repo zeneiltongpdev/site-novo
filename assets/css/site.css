@@ -818,6 +818,11 @@ article.headline p.support-line a {
   list-style: none;
   padding-left: 0px;
 }
+@media (min-width: 768px) {
+  .interviews {
+    border-top: 0;
+  }
+}
 .debate {
   width: 100%;
 }
