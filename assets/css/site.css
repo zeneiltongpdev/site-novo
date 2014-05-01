@@ -610,7 +610,7 @@ article.headline p.support-line a {
   .recent {
     border-top: 0;
     float: left;
-    width: 60%;
+    width: 40%;
   }
 }
 @media (min-width: 992px) {
