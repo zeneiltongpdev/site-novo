@@ -1,8 +1,9 @@
 {% assign posts = site.posts | where: 'section', 'interviews' %}
 
 <section class="interviews">
-
-  <h1>Entrevistas</h1>
+  <header>
+    <h1>Entrevistas</h1>
+  </header>
 
   {% if posts[0].images != '' %}
     <figure>
@@ -12,7 +13,7 @@
     </figure>
   {% endif %}
 
-  <a href="#"><h2>{{ posts[0].title }}</h2></a>
+  <a href="#"><h1>{{ posts[0].title }}</h1></a>
 
   <ul>
     {% for post in posts | offset:1 %}
