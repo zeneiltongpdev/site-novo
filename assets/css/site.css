@@ -788,13 +788,29 @@ article.headline p.support-line a {
 }
 .tv-mst {
   clear: both;
-  border-top: 1px solid;
+  display: inline-block;
+  width: 60%;
 }
-.tv-mst header > h1 {
-  margin-top: 5px;
-  font-size: 20px;
+.tv-mst ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+.tv-mst ul li {
+  float: left;
+  font-weight: bold;
+  font-size: 0.9em;
+  padding: 2px 0;
+  padding-right: 10px;
+}
+.tv-mst ul li > p {
+  font-weight: normal;
+  line-height: 1.5em;
 }
 .interviews {
+  display: inline-block;
+  vertical-align: top;
+  width: 38%;
   border-top: 1px solid;
 }
 .interviews figure {
