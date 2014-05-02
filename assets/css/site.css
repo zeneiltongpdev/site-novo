@@ -651,9 +651,6 @@ article.headline p.support-line a {
   padding-left: 10px;
   border-left: 1px solid #dddddd;
 }
-.featured-news ul li a > strong {
-  color: #961913;
-}
 .featured-news ul li > p {
   font-weight: normal;
   line-height: 1.5em;
@@ -842,6 +839,9 @@ article.headline p.support-line a {
 }
 .debate figure {
   max-width: 100%;
+}
+a {
+  color: #961913;
 }
 main.topic header,
 main.topic section {
