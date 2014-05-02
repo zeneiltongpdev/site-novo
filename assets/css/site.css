@@ -724,11 +724,10 @@ article.headline p.support-line a {
 }
 .carousel > ul {
   height: 350px;
-  max-width: 370px;
+  width: 100%;
   position: relative;
   overflow: hidden;
   padding: 0;
-  margin: 20px;
 }
 .carousel > ul li {
   max-width: 100%;
