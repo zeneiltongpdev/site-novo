@@ -31,7 +31,6 @@
       font-size: 0.9em;
       padding: 2px 0;
       padding-right: 10px;
-      //max-width: 230px;
 
 
       & > p {
@@ -46,8 +45,23 @@
   }
 
   @media (min-width: @screen-sm) {
+    border: 0;
+
+    header {
+      display: none;
+    }
+
+    figure {
+        max-width: 250px;
+        height: 200px;
+        float: none;
+        margin-right: 0;
+    }
+
     ul {
       li {
+        width: 33%;
+
         & + li {
           padding-left: 10px;
           border-left: @border;

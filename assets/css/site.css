@@ -662,6 +662,21 @@ article.headline p.support-line a {
   display: block;
 }
 @media (min-width: 768px) {
+  .featured-news {
+    border: 0;
+  }
+  .featured-news header {
+    display: none;
+  }
+  .featured-news figure {
+    max-width: 250px;
+    height: 200px;
+    float: none;
+    margin-right: 0;
+  }
+  .featured-news ul li {
+    width: 33%;
+  }
   .featured-news ul li + li {
     padding-left: 10px;
     border-left: 1px solid #dddddd;
