@@ -5,8 +5,18 @@
 
   .crop_image();
 
+  border-top: 1px solid;
+
+  header > h1 {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
   figure{
-    max-width: 200px;
+    max-width: 140px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
   }
 
   ul {
@@ -21,12 +31,8 @@
       font-size: 0.9em;
       padding: 2px 0;
       padding-right: 10px;
-      max-width: 230px;
+      //max-width: 230px;
 
-      & + li {
-        padding-left: 10px;
-        border-left: @border;
-      }
 
       & > p {
         font-weight: normal;
@@ -38,4 +44,16 @@
       }
     }
   }
+
+  @media (min-width: @screen-sm) {
+    ul {
+      li {
+        & + li {
+          padding-left: 10px;
+          border-left: @border;
+        }
+      }
+    }
+  }
+
 }
