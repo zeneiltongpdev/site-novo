@@ -568,23 +568,6 @@ article.headline p.support-line {
 article.headline p.support-line a {
   color: #555555;
 }
-.column-a,
-.column-b {
-  display: inline-block;
-  vertical-align: top;
-  width: 100%;
-}
-.column-b {
-  background: green;
-}
-@media (min-width: 992px) {
-  .column-a {
-    width: 80%;
-  }
-  .column-b {
-    width: 20%;
-  }
-}
 .recent {
   border-top: 1px solid #dddddd;
 }
@@ -865,6 +848,23 @@ article.headline p.support-line a {
 }
 a {
   color: #961913;
+}
+.column-a,
+.column-b {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+.column-b {
+  background: green;
+}
+@media (min-width: 992px) {
+  .column-a {
+    width: 80%;
+  }
+  .column-b {
+    width: 20%;
+  }
 }
 main.topic header,
 main.topic section {
