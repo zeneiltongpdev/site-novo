@@ -24,4 +24,23 @@ class ImageFromTagExtractorTest < ActiveSupport::TestCase
     image_url = extract_image_from_post_tag(site, post)
     assert image_url == IMAGE_URL
   end
+  
+  test 'return empty image url when post tag is not found on site' do
+
+  	IMAGE_URL_EMPTY = ""
+
+    site = {
+      'pages' => [{
+      	'tag' => 'dereitos humanos',
+      	'image' => IMAGE_URL
+      }]
+    }
+    
+    post = {
+      'tags' => ["assuntos:produção", "destaque:destaque", "menu:agricultura camponesa"]
+    }
+    
+    image_url = extract_image_from_post_tag(site, post)
+    assert image_url == IMAGE_URL_EMPTY
+  end
 end
