@@ -873,20 +873,17 @@ article.headline p.support-line a {
 a {
   color: #961913;
 }
-.column-a,
-.column-b {
+.main-content,
+.sidebar {
   display: inline-block;
   vertical-align: top;
   width: 100%;
 }
-.column-b {
-  background: green;
-}
 @media (min-width: 992px) {
-  .column-a {
-    width: 80%;
+  .main-content {
+    width: 79%;
   }
-  .column-b {
+  .sidebar {
     width: 20%;
   }
 }
