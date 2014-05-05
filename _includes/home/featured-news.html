@@ -2,9 +2,6 @@
 {% assign posts = content | where: 'section', 'featured-news' %}
 
 <section class="featured-news">
-  <header>
-    <h1>Destaques</h1>
-  </header>
   <ul>
     {% for post in posts | limit:3 %}
 	    {% assign image_from_tag = site | extract_image_from_post_tag: post %}

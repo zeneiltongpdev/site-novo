@@ -2,7 +2,7 @@
 
 <section class="interviews">
   <header>
-    <h1>Entrevistas</h1>
+    <h3>Entrevistas</h3>
   </header>
   <ul>
     {% for post in posts %} 
@@ -12,7 +12,11 @@
          {% include headline-with-image.html post=post support_line=false default_image=image_from_tag %}
         </li>
         {% else %}
-          {% include home/interviews/headline.html post=post %}
+		<li>
+         <a href="{{ post.url }}">
+		   <h2>{{ post.title }}</h2>
+	     </a>
+		</li>
       {% endif %}
     {% endfor %}
   </ul>
