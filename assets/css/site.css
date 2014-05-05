@@ -72,6 +72,9 @@ section h3 {
 ul {
   margin-top: 0;
   margin-bottom: 11px;
+  list-style: none;
+  padding: 0;
+  width: 100%;
 }
 p {
   margin: 0 0 11px;
@@ -622,21 +625,11 @@ article.headline p.support-line a {
   min-height: 100%;
   min-width: 100%;
 }
-.featured-news header > h1 {
-  margin-top: 5px;
-  font-size: 20px;
-}
 .featured-news figure {
   max-width: 140px;
   height: 120px;
   float: left;
   margin-right: 10px;
-}
-.featured-news ul {
-  display: inline-block;
-  list-style: none;
-  padding: 0;
-  width: 100%;
 }
 .featured-news ul li {
   float: left;
@@ -645,7 +638,11 @@ article.headline p.support-line a {
   padding: 2px 0;
   padding-right: 10px;
 }
-.featured-news ul li > p {
+.featured-news ul li h1 {
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+.featured-news ul li p {
   font-weight: normal;
   line-height: 1.5em;
 }
@@ -711,10 +708,8 @@ article.headline p.support-line a {
 }
 .carousel > ul {
   height: 350px;
-  width: 100%;
   position: relative;
   overflow: hidden;
-  padding: 0;
 }
 .carousel > ul li {
   max-width: 100%;
@@ -795,11 +790,6 @@ article.headline p.support-line a {
   display: inline-block;
   width: 60%;
 }
-.tv-mst ul {
-  list-style: none;
-  padding: 0;
-  width: 100%;
-}
 .tv-mst ul li {
   float: left;
   font-weight: bold;
@@ -829,10 +819,6 @@ article.headline p.support-line a {
 .interviews figure {
   height: 100px;
 }
-.interviews ul {
-  list-style: none;
-  padding-left: 0px;
-}
 @media (min-width: 768px) {
   .interviews {
     border-top: 0;
@@ -840,10 +826,6 @@ article.headline p.support-line a {
 }
 .debate {
   width: 100%;
-}
-.debate ul {
-  list-style: none;
-  padding-left: 0px;
 }
 .debate figure {
   max-width: 100%;
