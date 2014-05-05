@@ -4,20 +4,16 @@
   <header>
     <h1>Entrevistas</h1>
   </header>
-
-  {% if posts[0].images != '' %}
-    <figure>
-        <a href="#">
-          <img src="{{ posts[0].images }}" />
-        </a>
-    </figure>
-  {% endif %}
-
-  <a href="#"><h1>{{ posts[0].title }}</h1></a>
-
   <ul>
-    {% for post in posts | offset:1 %}
-     {% include home/interviews/headline.html post=post %}
+    {% for post in posts %} 
+      {% if forloop.first %}
+        <li>
+  	     {% assign image_from_tag = site | extract_image_from_post_tag: post %}
+         {% include headline-with-image.html post=post support_line=false default_image=image_from_tag %}
+        </li>
+        {% else %}
+          {% include home/interviews/headline.html post=post %}
+      {% endif %}
     {% endfor %}
   </ul>
 
