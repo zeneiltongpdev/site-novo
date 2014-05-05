@@ -622,10 +622,6 @@ article.headline p.support-line a {
   min-height: 100%;
   min-width: 100%;
 }
-.featured-news header > h1 {
-  margin-top: 5px;
-  font-size: 20px;
-}
 .featured-news figure {
   max-width: 140px;
   height: 120px;
@@ -645,7 +641,11 @@ article.headline p.support-line a {
   padding: 2px 0;
   padding-right: 10px;
 }
-.featured-news ul li > p {
+.featured-news ul li h1 {
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+.featured-news ul li p {
   font-weight: normal;
   line-height: 1.5em;
 }

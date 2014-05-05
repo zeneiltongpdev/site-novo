@@ -6,7 +6,9 @@
     {% for post in posts | limit:3 %}
 	    {% assign image_from_tag = site | extract_image_from_post_tag: post %}
 	    <li>
-	      {% include home/featured-news/headline-with-image.html post=post default_image=image_from_tag %}
+  	     {% assign image_from_tag = site | extract_image_from_post_tag: post %}
+         {% include headline-with-image.html post=post support_line=false default_image=image_from_tag %}
+		 <p>{{ post.support_line | truncate: 120  }}</p>
 	    </li>
     {% endfor %}
   </ul>
