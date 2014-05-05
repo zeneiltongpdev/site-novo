@@ -31,8 +31,8 @@ class ImageFromTagExtractorTest < ActiveSupport::TestCase
 
     site = {
       'pages' => [{
-      	'tag' => 'dereitos humanos',
-      	'image' => IMAGE_URL
+      	'tag' => 'direitos humanos',
+      	'image' => "mst.org.br/direitos-humanos.jpg"
       }]
     }
     
