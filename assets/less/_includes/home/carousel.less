@@ -1,9 +1,16 @@
 .carousel {
   width: 100%;
+  padding: 10px;
 
   @media(min-width: @screen-sm) {
     width: 60%;
     float: left;
+  }
+
+  article.headline > figure {
+    height: auto;
+    max-height: 300px;  
+    max-width: 100%;
   }
 
   & > ul {
