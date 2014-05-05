@@ -10,18 +10,22 @@ a {
   color: @mstred;
 }
 
-.main-content, .sidebar{
+.column-a, .column-b {
 	display: inline-block;
 	vertical-align: top;
 	width: 100%;
 }
 
+.column-b{
+	background: green;
+}
+
 @media(min-width: @screen-md) {
-	.main-content {
-		width: 79%;
+	.column-a {
+		width: 80%;
 	}
 
-	.sidebar {
+	.column-b {
 		width: 20%;
 	}
 }
