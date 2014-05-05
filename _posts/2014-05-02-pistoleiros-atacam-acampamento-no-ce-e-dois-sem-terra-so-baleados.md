@@ -7,10 +7,10 @@ images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/viole
 video: ''
 tags:
 - menu:agronegócio
-type: 
+type: news
 support_line: A situação dos militantes é grave. Acampados estão assustados, e um
   dos pistoleiros já foi preso. Camponeses já tinham sido ameaçados por proprietários.
-section: recent
+section: 
 hat: ''
 ---
 <p><em><br></em></p><p><em>Da Página do MST</em></p><p>Nesta sexta-feira&nbsp;(02/05), dois pistoleiros atacaram famílias Sem Terra acampadas no município de Ibaratema&nbsp;(CE). Dois acampados foram baleados, e a situação deles é crítica. </p><p>Um dos pistoleiros foi preso, mas o outro está foragido. Segundo o membro do MST Ivanildo Paz, os acampados estão assustados.&nbsp;Desde o dia 22/04, 237 famílias do MST acampam em Ibaratema, em frente à Fazenda Bonito, e reivindicam a desapropriação desta e outras áreas, além da construção de 200 casas para os assentados.&nbsp;</p><p>Ivanildo acredita que a ação é uma retalhação à presença do movimento na região. "O proprietário da Fazenda Bonito já tinha nos ameaçado, além de outras pessoas do município, após realizarmos atos para reivindicar nossas demandas".</p><p>Nesta quinta-feira&nbsp;(01/05), os acampados fecharam a rodovia CE-060 para exigir a desapropriação das áreas improdutivas e o assentamento das famílias.</p><p>&nbsp;</p>
