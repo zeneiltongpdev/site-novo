@@ -4,7 +4,7 @@ title: '"Acabou a ditadura militar, mas não a do latifúndio", afirma coordenad
   CPT'
 legacy_url: http://www.mst.org.br/node/15969
 created: 1397484684
-images: ''
+images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/joanil.jpg
 video: ''
 tags:
 - menu:reforma agrária

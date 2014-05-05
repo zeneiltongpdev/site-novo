@@ -3,7 +3,8 @@ layout: post
 title: 'Elizabeth Teixeira: marcada para viver e lutar por justiça, terra e liberdade'
 legacy_url: http://www.mst.org.br/node/15949
 created: 1397077318
-images: ''
+images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/elisabeth
+  abre.jpg
 video: ''
 tags:
 - semana:tema da semana

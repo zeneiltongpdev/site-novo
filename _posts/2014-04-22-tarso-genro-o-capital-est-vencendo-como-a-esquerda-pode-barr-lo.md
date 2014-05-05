@@ -3,7 +3,7 @@ layout: post
 title: 'Tarso Genro: O capital está vencendo. Como a esquerda pode barrá-lo?'
 legacy_url: http://www.mst.org.br/node/15992
 created: 1398174537
-images: ''
+images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/tarso abre.jpg
 video: ''
 tags:
 - assuntos:reforma agrária

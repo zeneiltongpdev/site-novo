@@ -3,7 +3,7 @@ layout: post
 title: 'Guilherme Delgado: para onde vai a economia do agronegócio?'
 legacy_url: http://www.mst.org.br/node/15827
 created: 1394549782
-images: ''
+images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/guarani-kaiowa-agronegocio2.jpg
 video: ''
 tags:
 - menu:agronegócio

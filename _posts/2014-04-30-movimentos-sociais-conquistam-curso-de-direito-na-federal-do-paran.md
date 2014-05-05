@@ -3,7 +3,7 @@ layout: post
 title: Movimentos sociais conquistam curso de Direito na Federal do Paraná
 legacy_url: http://www.mst.org.br/node/16040
 created: 1398887078
-images: http://www.mst.org.br/sites/default/files/curso_direito_PR.jpg
+images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/curso_direito_PR.jpg
 video: ''
 tags:
 - menu:educação, cultura e comunicação

@@ -4,7 +4,8 @@ title: Para especialista, estrutura do judiciário não permite solucionar confl
   agrários
 legacy_url: http://www.mst.org.br/node/15861
 created: 1395158154
-images: ''
+images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/estrutura
+  judiciário.jpg
 video: ''
 tags:
 - menu:direitos humanos
