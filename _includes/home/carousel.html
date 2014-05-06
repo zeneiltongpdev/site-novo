@@ -1,4 +1,4 @@
-{% assign posts = site.posts %}
+{% assign posts = site.posts | where: 'section', 'carousel' %}
 <section class="carousel">
   <ul>
     {% for post in posts | limit:5 %}
