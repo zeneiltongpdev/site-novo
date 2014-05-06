@@ -2,8 +2,8 @@
 <section class="carousel">
   <ul>
     {% for post in posts | limit:5 %}
-   	  {% assign image_from_tag = site | extract_image_from_post_tag: post %}
       <li>
+        {% assign image_from_tag = site | extract_image_from_post_tag: post %}
         {% include headline-with-image.html post=post support_line=true default_image=image_from_tag %}
       </li>
     {% endfor %}
