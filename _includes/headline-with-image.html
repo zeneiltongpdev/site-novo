@@ -1,3 +1,4 @@
+{% assign default_image = site | extract_image_from_post_tag: include.post %}
 <article class="headline">
   <figure>
     <a href="{{ include.post.url }}">
@@ -7,7 +8,7 @@
         {% if include.post.type == 'video' %}
           <img src="http://i1.ytimg.com/vi/{{ include.post.video }}/hqdefault.jpg" />
         {% else %}
-          <img src="{{ include.default_image }}" />
+          <img src="{{ default_image }}" />
         {% endif %}
       {% endif %}
     </a>
