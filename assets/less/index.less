@@ -7,3 +7,13 @@
 @import "_includes/home/debate";
 @import "_includes/home/special-stories";
 
+body > aside {
+  display: none;
+}
+
+@media(min-width: @screen-md) {
+  body > aside {
+    display: block;
+  }
+}
+

@@ -829,6 +829,14 @@ section.carousel > ul li:nth-child(5) {
 .debate figure {
   max-width: 100%;
 }
+body > aside {
+  display: none;
+}
+@media (min-width: 992px) {
+  body > aside {
+    display: block;
+  }
+}
 main.topic header,
 main.topic section {
   margin: 0;
