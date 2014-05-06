@@ -3,44 +3,37 @@ require 'jekyll'
 require_relative '../../_plugins/image_from_tag_extractor.rb'
 
 class ImageFromTagExtractorTest < ActiveSupport::TestCase
-  
   include Jekyll::ImageFromTagExtractor
 
-  test 'gets image from post tag' do
-
-  	IMAGE_URL = "mst.org.br/agricultura-camponesa.jpg"
-
-    site = {
+  setup do
+    @site = {
       'pages' => [{
       	'tag' => 'agricultura camponesa',
-      	'image' => IMAGE_URL
+      	'image' => 'image.jpg'
       }]
     }
-    
+  end
+
+  test '#extract_image_from_post_tag gets image from based on menu tag' do
     post = {
-      'tags' => ["assuntos:produção", "destaque:destaque", "menu:agricultura camponesa"]
+      'tags' => [
+        'assuntos:produção',
+        'destaque:destaque',
+        'menu:agricultura camponesa'
+      ]
     }
-    
-    image_url = extract_image_from_post_tag(site, post)
-    assert image_url == IMAGE_URL
+    assert extract_image_from_post_tag(@site, post) == 'image.jpg'
   end
   
-  test 'return empty image url when post tag is not found on site' do
-
-  	IMAGE_URL_EMPTY = ""
-
-    site = {
-      'pages' => [{
-      	'tag' => 'direitos humanos',
-      	'image' => "mst.org.br/direitos-humanos.jpg"
-      }]
-    }
-    
+  test '#extract_image_from_post_tag returns empty when tag page is not found' do
     post = {
-      'tags' => ["assuntos:produção", "destaque:destaque", "menu:agricultura camponesa"]
+      'tags' => [
+        'assuntos:produção',
+        'destaque:destaque',
+        'menu:direitos humanos'
+      ]
     }
-    
-    image_url = extract_image_from_post_tag(site, post)
-    assert image_url == IMAGE_URL_EMPTY
+    assert extract_image_from_post_tag(@site, post) == ''
   end
+
 end
