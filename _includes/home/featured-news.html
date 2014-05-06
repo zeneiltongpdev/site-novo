@@ -1,5 +1,4 @@
-{% assign content = site.posts %}
-{% assign posts = content | where: 'section', 'featured-news' %}
+{% assign posts = site.posts | where: 'section', 'featured-news' %}
 
 <section class="featured-news">
   <ul>
