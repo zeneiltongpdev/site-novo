@@ -1,5 +1,4 @@
-{% assign posts = site.posts %}
-{% assign videos = posts | where: 'type', 'video' %}
+{% assign videos = site.posts | where: 'type', 'video' %}
 {% assign first_post = videos.first %}
 
 <section class="tv-mst">
