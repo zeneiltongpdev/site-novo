@@ -829,23 +829,6 @@ section.carousel > ul li:nth-child(5) {
 .debate figure {
   max-width: 100%;
 }
-.column-a,
-.column-b {
-  display: inline-block;
-  vertical-align: top;
-  width: 100%;
-}
-.column-b {
-  background: green;
-}
-@media (min-width: 992px) {
-  .column-a {
-    width: 80%;
-  }
-  .column-b {
-    width: 20%;
-  }
-}
 main.topic header,
 main.topic section {
   margin: 0;
