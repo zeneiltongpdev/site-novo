@@ -35,5 +35,15 @@ class ImageFromTagExtractorTest < ActiveSupport::TestCase
     }
     assert extract_image_from_post_tag(@site, post) == ''
   end
+ 
+  test '#extract_image_from_post_tag returns empty when post do not have menu tag' do
+    post = {
+      'tags' => [
+        'assuntos:produção',
+        'destaque:destaque'
+      ]
+    }
+    assert extract_image_from_post_tag(@site, post) == ''
+  end
 
 end
