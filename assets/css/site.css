@@ -829,9 +829,6 @@ section.carousel > ul li:nth-child(5) {
 .debate figure {
   max-width: 100%;
 }
-a {
-  color: #961913;
-}
 .column-a,
 .column-b {
   display: inline-block;
