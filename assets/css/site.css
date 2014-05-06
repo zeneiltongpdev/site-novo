@@ -829,12 +829,23 @@ section.carousel > ul li:nth-child(5) {
 .debate figure {
   max-width: 100%;
 }
-body > aside {
+body > main.home {
+  display: block;
+}
+body > aside.home {
   display: none;
 }
 @media (min-width: 992px) {
-  body > aside {
-    display: block;
+  body > main.home {
+    display: inline-block;
+    vertical-align: top;
+    width: 74%;
+  }
+  body > aside.home {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    padding: 30px 15px;
   }
 }
 main.topic header,
