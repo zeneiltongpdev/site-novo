@@ -829,6 +829,9 @@ section.carousel > ul li:nth-child(5) {
 .debate figure {
   max-width: 100%;
 }
+section.special-stories > ul > li {
+  margin-bottom: 20px;
+}
 body > main.home {
   display: block;
 }
