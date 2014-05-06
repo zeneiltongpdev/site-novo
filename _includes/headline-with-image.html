@@ -1,18 +1,36 @@
 {% assign default_image = site | extract_image_from_post_tag: include.post %}
 <article class="headline">
-  <figure>
-    <a href="{{ include.post.url }}">
-      {% if include.post.images != '' %}
+  {% if include.post.images != '' %}
+
+    <figure>
+      <a href="{{ include.post.url }}">
         <img src="{{ include.post.images | uri_escape }}" />
+      </a>
+    </figure>
+
+    {% else %}
+      {% if include.post.type == 'video' %}
+
+        <figure>
+          <a href="{{ include.post.url }}">
+            <img src="http://i1.ytimg.com/vi/{{ include.post.video }}/hqdefault.jpg" />
+          </a>
+        </figure>
+
       {% else %}
-        {% if include.post.type == 'video' %}
-          <img src="http://i1.ytimg.com/vi/{{ include.post.video }}/hqdefault.jpg" />
+        {% if default_image != '' %}
+
+          <figure>
+            <a href="{{ include.post.url }}">
+              <img src="{{ default_image }}" />
+            </a>
+          </figure>
+
         {% else %}
-          <img src="{{ default_image }}" />
+          {% assign include.support_line = true %}
         {% endif %}
       {% endif %}
-    </a>
-  </figure>
+    {% endif %}
   <h1>
     <a href="{{ include.post.url }}">{{ include.post.title }}</a>
   </h1>
