@@ -1,13 +1,12 @@
 {% assign posts = site.posts | where: 'section', 'recent' %}
-{% assign news_one   = posts[0] %}
-{% assign news_two   = posts[1] %}
-{% assign news_three = posts[2] %}
 
 <section class="recent">
-  <h2><a href="{{ news_one.url }}">{{ news_one.title }}</a></h2>
-  <p>{{ news_one.support_line }}</p>
-  <ul>
-    <li><a href="{{ news_two.url }}">{{ news_two.title }}</a></li>
-    <li><a href="{{ news_three.url }}">{{ news_three.title }}</a></li>
-  </ul>
+  {% for post in posts | limit:3 %}	  
+    {% if forloop.first %}
+	  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.support_line }}</p>  
+	{% else %}  
+      <ul><li><a href="{{ post.url }}">{{ post.title }}</a></li></ul>
+	{% endif %}
+  {% endfor %}
 </section>
