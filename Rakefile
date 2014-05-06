@@ -20,5 +20,5 @@ n = namespace :test do
   end
 end
 
-task :test => [n[:smoke], n[:integration], n[:unit]]
+task :test => [n[:unit], n[:integration], n[:smoke]]
 task :default => :test
