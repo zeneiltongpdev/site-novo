@@ -1,5 +1,4 @@
 {% assign videos = site.posts | where: 'type', 'video' %}
-{% assign first_post = videos.first %}
 
 <section class="tv-mst">
   {% if videos.size > 0 %}
@@ -7,7 +6,7 @@
       <h3>TV MST</h3>
       <ul>
           <li>
-            {% include headline-with-video.html post=first_post %}
+            {% include headline-with-video.html post=videos.first %}
           </li>
       </ul>
     </section>
