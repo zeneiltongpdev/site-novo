@@ -4,8 +4,7 @@
   <ul>
     {% for post in posts | limit:3 %}
 	    <li>
-  	     {% assign image_from_tag = site | extract_image_from_post_tag: post %}
-         {% include headline-with-image.html post=post support_line=true default_image=image_from_tag %}
+         {% include headline-with-image.html post=post support_line=true %}
 	    </li>
     {% endfor %}
   </ul>
