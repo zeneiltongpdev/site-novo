@@ -592,132 +592,133 @@ article.headline p.support-line {
 article.headline p.support-line a {
   color: #555555;
 }
-.recent {
+body > main.home > section.recent {
   border-top: 1px solid #dddddd;
 }
-.recent p {
+body > main.home > section.recent p {
   font-size: 12px;
 }
-.recent ul {
+body > main.home > section.recent ul {
   padding-left: 20px;
   list-style-type: square;
   font-size: 14px;
 }
-.recent ul li {
+body > main.home > section.recent ul li {
   line-height: 12pt;
   margin-bottom: 5px;
 }
 @media (min-width: 768px) {
-  .recent {
+  body > main.home > section.recent {
     border-top: 0;
     float: left;
     width: 40%;
+    padding-right: 0;
   }
 }
 @media (min-width: 992px) {
-  .recent {
+  body > main.home > section.recent {
     width: 40%;
   }
 }
-section.featured-news {
+body > main.home > section.featured-news {
   clear: both;
   border-top: 1px solid;
 }
-section.featured-news figure {
+body > main.home > section.featured-news figure {
   max-width: 140px;
   height: 120px;
   float: left;
   margin-right: 10px;
 }
-section.featured-news ul li {
+body > main.home > section.featured-news ul li {
   float: left;
   font-weight: bold;
   font-size: 0.9em;
   padding: 2px 0;
   padding-right: 10px;
 }
-section.featured-news ul li h1 {
+body > main.home > section.featured-news ul li h1 {
   font-size: 1.1em;
   margin-bottom: 0;
 }
-section.featured-news ul li p {
+body > main.home > section.featured-news ul li p {
   font-weight: normal;
   line-height: 1.5em;
 }
-section.featured-news ul li img {
+body > main.home > section.featured-news ul li img {
   display: block;
 }
 @media (min-width: 768px) {
-  section.featured-news {
+  body > main.home > section.featured-news {
     border: 0;
     width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
-  section.featured-news figure {
+  body > main.home > section.featured-news figure {
     float: none;
     height: 190px;
     max-width: 370px;
     margin: 0;
   }
-  section.featured-news > h2.hat {
+  body > main.home > section.featured-news > h2.hat {
     padding-bottom: 5px;
   }
-  section.featured-news ul li {
+  body > main.home > section.featured-news ul li {
     width: 33%;
     padding-right: 2%;
   }
-  section.featured-news ul li + li {
+  body > main.home > section.featured-news ul li + li {
     padding-left: 2%;
   }
-  section.featured-news ul li:last-child {
+  body > main.home > section.featured-news ul li:last-child {
     padding-right: 0;
   }
 }
-section.cover {
+body > main.home > section.cover {
   border-top: 1px solid;
-  margin-bottom: 20px;
 }
-section.cover p {
+body > main.home > section.cover p {
   font-size: 14px;
 }
 @media (min-width: 768px) {
-  section.cover {
+  body > main.home > section.cover {
     border-bottom: 1px solid #bbbbbb;
     border-top: 0;
-    margin-bottom: 0px;
     float: left;
     width: 40%;
+    padding-right: 0;
   }
 }
 @media (min-width: 992px) {
-  section.cover {
+  body > main.home > section.cover {
     width: 40%;
   }
 }
-section.carousel {
+body > main.home > section.carousel {
   width: 100%;
-  padding: 10px;
 }
 @media (min-width: 768px) {
-  section.carousel {
+  body > main.home > section.carousel {
     width: 60%;
     float: left;
-    padding-right: 20px;
+    padding-left: 0;
   }
 }
-section.carousel article.headline > figure {
+body > main.home > section.carousel article.headline > figure {
   height: auto;
   max-height: 300px;
   max-width: 100%;
 }
-section.carousel > ul {
+body > main.home > section.carousel > ul {
   height: 470px;
   position: relative;
   overflow: hidden;
 }
-section.carousel > ul > li > article.headline > h1 {
+body > main.home > section.carousel > ul > li > article.headline > h1 {
   font-size: 1.8em;
 }
-section.carousel > ul li {
+body > main.home > section.carousel > ul li {
   max-width: 100%;
   position: absolute;
   left: 0;
@@ -728,25 +729,25 @@ section.carousel > ul li {
   -ms-animation: carousel-fade 25s linear infinite;
   animation: carousel-fade 25s linear infinite;
 }
-section.carousel > ul li:nth-child(2) {
+body > main.home > section.carousel > ul li:nth-child(2) {
   -webkit-animation-delay: 5s;
   -moz-animation-delay: 5s;
   -ms-animation-delay: 5s;
   animation-delay: 5s;
 }
-section.carousel > ul li:nth-child(3) {
+body > main.home > section.carousel > ul li:nth-child(3) {
   -webkit-animation-delay: 10s;
   -moz-animation-delay: 10s;
   -ms-animation-delay: 10s;
   animation-delay: 10s;
 }
-section.carousel > ul li:nth-child(4) {
+body > main.home > section.carousel > ul li:nth-child(4) {
   -webkit-animation-delay: 15s;
   -moz-animation-delay: 15s;
   -ms-animation-delay: 15s;
   animation-delay: 15s;
 }
-section.carousel > ul li:nth-child(5) {
+body > main.home > section.carousel > ul li:nth-child(5) {
   -webkit-animation-delay: 20s;
   -moz-animation-delay: 20s;
   -ms-animation-delay: 20s;
@@ -791,69 +792,68 @@ section.carousel > ul li:nth-child(5) {
     z-index: 2;
   }
 }
-section.tv-mst {
+body > main.home > section.tv-mst {
   display: block;
   width: 100%;
   clear: both;
   border-top: 1px solid;
 }
 @media (min-width: 768px) {
-  section.tv-mst {
+  body > main.home > section.tv-mst {
     border: none;
-    padding: 20px;
-    padding-left: 0;
     float: left;
     display: inline-block;
     width: 60%;
+    padding-left: 0;
   }
-  section.tv-mst > article.headline > h1 {
+  body > main.home > section.tv-mst > article.headline > h1 {
     font-size: 1.5em;
   }
-  section.tv-mst > article.headline > figure {
+  body > main.home > section.tv-mst > article.headline > figure {
     height: auto;
     max-height: 300px;
     max-width: 100%;
   }
-  section.tv-mst > article.headline > figure iframe {
+  body > main.home > section.tv-mst > article.headline > figure iframe {
     height: 300px;
   }
 }
-section.interviews {
+body > main.home > section.interviews {
   display: block;
   width: 100%;
   border-top: 1px solid;
 }
 @media (min-width: 768px) {
-  section.interviews {
+  body > main.home > section.interviews {
     border: none;
-    padding: 20px;
-    padding-right: 0;
     display: inline-block;
     vertical-align: top;
     width: 39%;
     float: left;
+    padding-right: 0;
   }
-  section.interviews > ul > li > article.headline > h1 {
+  body > main.home > section.interviews > ul > li > article.headline > h1 {
     margin-top: 15px;
     font-size: 1em;
   }
-  section.interviews > article.headline > figure {
+  body > main.home > section.interviews > article.headline > figure {
     height: 100px;
     max-width: 100%;
   }
 }
-section.debate {
+body > main.home > section.debate {
   width: 100%;
-  padding-top: 30px;
   border-top: 1px solid;
 }
-section.debate figure {
+body > main.home > section.debate figure {
   max-width: 100%;
 }
 @media (min-width: 768px) {
-  section.debate {
+  body > main.home > section.debate {
     border: none;
     clear: both;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 section.special-stories > ul > li {
@@ -861,6 +861,9 @@ section.special-stories > ul > li {
 }
 body > main.home {
   display: block;
+}
+body > main.home section {
+  padding: 15px;
 }
 body > aside.home {
   display: none;
