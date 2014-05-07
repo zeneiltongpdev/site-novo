@@ -1,14 +1,8 @@
 {% assign videos = site.posts | where: 'type', 'video' %}
 
-<section class="tv-mst">
-  {% if videos.size > 0 %}
-    <section class="videos">
-      <h2 class="hat">TV MST</h2>
-      <ul>
-          <li>
-            {% include headline-with-video.html post=videos.first %}
-          </li>
-      </ul>
-    </section>
-  {% endif %}
-</section>
+{% if videos.size > 0 %}
+  <section class="tv-mst">
+    <h2 class="hat">TV MST</h2>
+    {% include headline-with-video.html post=videos.first %}
+  </section>
+{% endif %}

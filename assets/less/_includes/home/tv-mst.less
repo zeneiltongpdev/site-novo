@@ -1,22 +1,21 @@
 section.tv-mst {
+  padding: 10px;
   padding-top: 30px;
   clear: both;
   display: inline-block;
   width: 60%;
 
-  ul {
+  & > article.headline > h1 {
+    font-size: 1.8em;
+  }
 
-    li {
-      float: left;
-      font-weight: bold;
-      font-size: 0.9em;
-      padding: 2px 0;
-      padding-right: 10px;
-
-      & > p {
-        font-weight: normal;
-        line-height: 1.5em;
-      }
+  & > article.headline > figure {
+    height: auto;
+    max-height: 300px;  
+    max-width: 100%;
+    
+    iframe {
+      height: 300px;
     }
   }
 }
