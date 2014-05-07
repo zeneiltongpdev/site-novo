@@ -15,18 +15,28 @@ body > aside.home {
   display: none;
 }
 
+section > h2.hat {
+  color: @mstgreen;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
 @media(min-width: @screen-md) {
   body > main.home {
     display: inline-block;
     vertical-align: top;
     width: 74%;
+    padding: 0 15px;
+    margin: 30px 0;
+    border-right: 1px solid @gray-light;
   }
 
   body > aside.home {
     display: inline-block;
     vertical-align: top;
     width: 25%;
-    padding: 30px 15px;
+    padding: 0 15px;
+    margin: 30px 0;
   }
 }
 
