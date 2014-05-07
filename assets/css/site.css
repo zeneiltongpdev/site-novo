@@ -650,6 +650,7 @@ section.featured-news ul li img {
 @media (min-width: 768px) {
   section.featured-news {
     border: 0;
+    width: 100%;
   }
   section.featured-news figure {
     float: none;
@@ -792,12 +793,16 @@ section.carousel > ul li:nth-child(5) {
 }
 section.tv-mst {
   display: block;
+  width: 100%;
+  clear: both;
+  border-top: 1px solid;
 }
 @media (min-width: 768px) {
   section.tv-mst {
+    border: none;
     padding: 20px;
     padding-left: 0;
-    clear: both;
+    float: left;
     display: inline-block;
     width: 60%;
   }
@@ -815,14 +820,18 @@ section.tv-mst {
 }
 section.interviews {
   display: block;
+  width: 100%;
+  border-top: 1px solid;
 }
 @media (min-width: 768px) {
   section.interviews {
+    border: none;
     padding: 20px;
     padding-right: 0;
     display: inline-block;
     vertical-align: top;
     width: 39%;
+    float: left;
   }
   section.interviews > ul > li > article.headline > h1 {
     margin-top: 15px;
