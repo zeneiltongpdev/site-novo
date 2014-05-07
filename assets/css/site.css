@@ -645,15 +645,18 @@ section.featured-news ul li img {
   section.featured-news {
     border: 0;
   }
-  section.featured-news header {
-    display: none;
+  section.featured-news > h2.hat {
+    padding-bottom: 5px;
   }
   section.featured-news ul li {
     width: 33%;
+    padding-right: 2%;
   }
   section.featured-news ul li + li {
-    padding-left: 10px;
-    border-left: 1px solid #dddddd;
+    padding-left: 2%;
+  }
+  section.featured-news ul li:last-child {
+    padding-right: 0;
   }
 }
 section.cover {
