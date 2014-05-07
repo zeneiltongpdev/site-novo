@@ -862,9 +862,6 @@ section.special-stories > ul > li {
 body > main.home {
   display: block;
 }
-body > main.home section {
-  padding: 15px;
-}
 body > aside.home {
   display: none;
 }
@@ -883,6 +880,11 @@ body > aside.home {
     width: 20%;
     padding: 0 15px;
     margin: 30px 0;
+  }
+}
+@media (min-width: 768px) {
+  body > main.home section {
+    padding: 15px;
   }
 }
 main.topic header,

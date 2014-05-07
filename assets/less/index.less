@@ -9,10 +9,6 @@
 
 body > main.home {
   display: block;
-
-  section {
-	padding: 15px;
-  }
 }
 
 body > aside.home {
@@ -35,6 +31,14 @@ body > aside.home {
     width: 20%;
     padding: 0 15px;
     margin: 30px 0;
+  }
+}
+
+@media(min-width: @screen-sm) {
+  body > main.home {
+    section {
+	  padding: 15px;
+    }
   }
 }
 
