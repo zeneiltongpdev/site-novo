@@ -2,6 +2,13 @@ section.featured-news {
   clear: both;
   border-top: 1px solid;
 
+  figure{
+    max-width: 140px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+  }
+
   ul {
 
     li {
@@ -13,7 +20,7 @@ section.featured-news {
 
       h1 {
        font-size: 1.1em;
-	   margin-bottom: 0;
+       margin-bottom: 0;
       }
       
 	  p {
@@ -29,6 +36,13 @@ section.featured-news {
 
   @media (min-width: @screen-sm) {
     border: 0;
+
+    figure {
+      float: none;
+      height: 190px;
+      max-width: 370px;
+      margin: 0;
+    }
 
     & > h2.hat {
       padding-bottom: 5px;

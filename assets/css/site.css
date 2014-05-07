@@ -623,6 +623,12 @@ section.featured-news {
   clear: both;
   border-top: 1px solid;
 }
+section.featured-news figure {
+  max-width: 140px;
+  height: 120px;
+  float: left;
+  margin-right: 10px;
+}
 section.featured-news ul li {
   float: left;
   font-weight: bold;
@@ -644,6 +650,12 @@ section.featured-news ul li img {
 @media (min-width: 768px) {
   section.featured-news {
     border: 0;
+  }
+  section.featured-news figure {
+    float: none;
+    height: 190px;
+    max-width: 370px;
+    margin: 0;
   }
   section.featured-news > h2.hat {
     padding-bottom: 5px;
