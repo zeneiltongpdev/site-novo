@@ -801,15 +801,6 @@ section.interviews {
   border-top: 1px solid;
 }
 section.interviews figure {
-  height: 190px;
-}
-section.interviews figure img {
-  width: auto;
-  display: block;
-  min-height: 100%;
-  min-width: 100%;
-}
-section.interviews figure {
   height: 100px;
 }
 @media (min-width: 768px) {
