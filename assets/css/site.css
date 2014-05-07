@@ -845,9 +845,16 @@ section.interviews {
 section.debate {
   width: 100%;
   padding-top: 30px;
+  border-top: 1px solid;
 }
 section.debate figure {
   max-width: 100%;
+}
+@media (min-width: 768px) {
+  section.debate {
+    border: none;
+    clear: both;
+  }
 }
 section.special-stories > ul > li {
   margin-bottom: 20px;
