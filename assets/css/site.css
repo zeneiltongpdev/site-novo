@@ -612,7 +612,6 @@ article.headline p.support-line a {
   }
 }
 section.featured-news {
-  padding-top: 30px;
   clear: both;
   border-top: 1px solid;
 }
@@ -698,9 +697,12 @@ section.carousel article.headline > figure {
   max-width: 100%;
 }
 section.carousel > ul {
-  height: 350px;
+  height: 470px;
   position: relative;
   overflow: hidden;
+}
+section.carousel > ul > li > article.headline > h1 {
+  font-size: 1.8em;
 }
 section.carousel > ul li {
   max-width: 100%;
@@ -777,35 +779,37 @@ section.carousel > ul li:nth-child(5) {
   }
 }
 section.tv-mst {
+  padding: 10px;
   padding-top: 30px;
   clear: both;
   display: inline-block;
   width: 60%;
 }
-section.tv-mst ul li {
-  float: left;
-  font-weight: bold;
-  font-size: 0.9em;
-  padding: 2px 0;
-  padding-right: 10px;
+section.tv-mst > article.headline > h1 {
+  font-size: 1.8em;
 }
-section.tv-mst ul li > p {
-  font-weight: normal;
-  line-height: 1.5em;
+section.tv-mst > article.headline > figure {
+  height: auto;
+  max-height: 300px;
+  max-width: 100%;
+}
+section.tv-mst > article.headline > figure iframe {
+  height: 300px;
 }
 section.interviews {
   padding-top: 30px;
   display: inline-block;
   vertical-align: top;
-  width: 38%;
+  width: 39%;
   border-top: 1px solid;
 }
 section.interviews > ul > li > article.headline > h1 {
   margin-top: 15px;
   font-size: 1em;
 }
-section.interviews figure {
+section.interviews > article.headline > figure {
   height: 100px;
+  max-width: 100%;
 }
 @media (min-width: 768px) {
   section.interviews {
