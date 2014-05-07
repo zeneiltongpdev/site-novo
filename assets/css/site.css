@@ -611,60 +611,61 @@ article.headline p.support-line a {
     width: 40%;
   }
 }
-.featured-news {
+section.featured-news {
+  padding-top: 30px;
   clear: both;
   border-top: 1px solid;
 }
-.featured-news figure {
+section.featured-news figure {
   height: 190px;
 }
-.featured-news figure img {
+section.featured-news figure img {
   width: auto;
   display: block;
   min-height: 100%;
   min-width: 100%;
 }
-.featured-news figure {
+section.featured-news figure {
   max-width: 140px;
   height: 120px;
   float: left;
   margin-right: 10px;
 }
-.featured-news ul li {
+section.featured-news ul li {
   float: left;
   font-weight: bold;
   font-size: 0.9em;
   padding: 2px 0;
   padding-right: 10px;
 }
-.featured-news ul li h1 {
+section.featured-news ul li h1 {
   font-size: 1.1em;
   margin-bottom: 0;
 }
-.featured-news ul li p {
+section.featured-news ul li p {
   font-weight: normal;
   line-height: 1.5em;
 }
-.featured-news ul li img {
+section.featured-news ul li img {
   display: block;
 }
 @media (min-width: 768px) {
-  .featured-news {
+  section.featured-news {
     border: 0;
   }
-  .featured-news header {
+  section.featured-news header {
     display: none;
   }
-  .featured-news figure {
+  section.featured-news figure {
     max-width: 250px;
     height: 200px;
     float: none;
     margin-right: 0;
   }
-  .featured-news ul li {
+  section.featured-news ul li {
     width: 33%;
   }
-  .featured-news ul li + li {
+  section.featured-news ul li + li {
     padding-left: 10px;
     border-left: 1px solid #dddddd;
   }
@@ -678,7 +679,7 @@ article.headline p.support-line a {
 }
 @media (min-width: 768px) {
   .cover {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #bbbbbb;
     border-top: 0;
     margin-bottom: 0px;
     float: left;
@@ -784,49 +785,52 @@ section.carousel > ul li:nth-child(5) {
     z-index: 2;
   }
 }
-.tv-mst {
+section.tv-mst {
+  padding-top: 30px;
   clear: both;
   display: inline-block;
   width: 60%;
 }
-.tv-mst ul li {
+section.tv-mst ul li {
   float: left;
   font-weight: bold;
   font-size: 0.9em;
   padding: 2px 0;
   padding-right: 10px;
 }
-.tv-mst ul li > p {
+section.tv-mst ul li > p {
   font-weight: normal;
   line-height: 1.5em;
 }
-.interviews {
+section.interviews {
+  padding-top: 30px;
   display: inline-block;
   vertical-align: top;
   width: 38%;
   border-top: 1px solid;
 }
-.interviews figure {
+section.interviews figure {
   height: 190px;
 }
-.interviews figure img {
+section.interviews figure img {
   width: auto;
   display: block;
   min-height: 100%;
   min-width: 100%;
 }
-.interviews figure {
+section.interviews figure {
   height: 100px;
 }
 @media (min-width: 768px) {
-  .interviews {
+  section.interviews {
     border-top: 0;
   }
 }
-.debate {
+section.debate {
   width: 100%;
+  padding-top: 30px;
 }
-.debate figure {
+section.debate figure {
   max-width: 100%;
 }
 section.special-stories > ul > li {
@@ -838,17 +842,26 @@ body > main.home {
 body > aside.home {
   display: none;
 }
+section > h2.hat {
+  color: #006400;
+  font-weight: 200;
+  text-transform: uppercase;
+}
 @media (min-width: 992px) {
   body > main.home {
     display: inline-block;
     vertical-align: top;
     width: 74%;
+    padding: 0 15px;
+    margin: 30px 0;
+    border-right: 1px solid #bbbbbb;
   }
   body > aside.home {
     display: inline-block;
     vertical-align: top;
     width: 25%;
-    padding: 30px 15px;
+    padding: 0 15px;
+    margin: 30px 0;
   }
 }
 main.topic header,
