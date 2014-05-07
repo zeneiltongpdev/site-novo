@@ -878,7 +878,7 @@ main.topic section > h1 {
 main.topic header h2,
 main.topic section h2 {
   margin-bottom: 0.5em;
-  border-bottom: dashed 1px lightgray;
+  border-bottom: dashed 1px #bbbbbb;
   padding-bottom: 0.3em;
 }
 main.topic header {
