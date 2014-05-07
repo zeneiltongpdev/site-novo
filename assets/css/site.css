@@ -853,6 +853,7 @@ section.debate figure {
 @media (min-width: 768px) {
   section.debate {
     border: none;
+    clear: both;
   }
 }
 section.special-stories > ul > li {
