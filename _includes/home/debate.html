@@ -4,16 +4,16 @@
   <ul>
     {% for post in posts | limit:3 %}	  
       {% if forloop.first %}
-       <li>
-	     {% include headline-with-image.html post=post support_line=false default_image=image_from_tag %}
-       </li>
-	  {% else %}
-       <li>
-	      <a href="{{ post.url }}">
-	        <h3>{{ post.title }}</h3>
-	      </a>
-	   </li>
-	  {% endif %}
+        <li>
+          {% include headline-with-image.html post=post support_line=false default_image=image_from_tag %}
+        </li>
+      {% else %}
+        <li>
+          <a href="{{ post.url }}">
+            <h3>{{ post.title }}</h3>
+          </a>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </section>
