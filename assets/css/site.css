@@ -689,6 +689,7 @@ section.carousel {
   section.carousel {
     width: 60%;
     float: left;
+    padding-right: 20px;
   }
 }
 section.carousel article.headline > figure {
