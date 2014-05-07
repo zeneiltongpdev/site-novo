@@ -612,7 +612,6 @@ article.headline p.support-line a {
   }
 }
 section.featured-news {
-  padding-top: 30px;
   clear: both;
   border-top: 1px solid;
 }
@@ -698,7 +697,7 @@ section.carousel article.headline > figure {
   max-width: 100%;
 }
 section.carousel > ul {
-  height: 500px;
+  height: 470px;
   position: relative;
   overflow: hidden;
 }
