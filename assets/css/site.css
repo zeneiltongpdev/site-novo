@@ -801,26 +801,27 @@ section.carousel > ul li:nth-child(5) {
   font-weight: normal;
   line-height: 1.5em;
 }
-.interviews {
+section.interviews {
+  padding-top: 30px;
   display: inline-block;
   vertical-align: top;
   width: 38%;
   border-top: 1px solid;
 }
-.interviews figure {
+section.interviews figure {
   height: 190px;
 }
-.interviews figure img {
+section.interviews figure img {
   width: auto;
   display: block;
   min-height: 100%;
   min-width: 100%;
 }
-.interviews figure {
+section.interviews figure {
   height: 100px;
 }
 @media (min-width: 768px) {
-  .interviews {
+  section.interviews {
     border-top: 0;
   }
 }
