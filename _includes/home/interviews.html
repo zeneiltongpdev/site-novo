@@ -1,9 +1,7 @@
 {% assign posts = site.posts | where: 'section', 'interviews' %}
 
 <section class="interviews">
-  <header>
-    <h3>Entrevistas</h3>
-  </header>
+  <h2 class="hat">Entrevistas</h2>
   <ul>
     {% for post in posts %} 
       {% if forloop.first %}
