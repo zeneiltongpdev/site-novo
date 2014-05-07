@@ -30,17 +30,21 @@ section.featured-news {
   @media (min-width: @screen-sm) {
     border: 0;
 
-    header {
-      display: none;
+    & > h2.hat {
+      padding-bottom: 5px;
     }
 
     ul {
       li {
         width: 33%;
+        padding-right: 2%;
 
         & + li {
-          padding-left: 10px;
-          border-left: @border;
+          padding-left: 2%;
+        }
+
+        &:last-child {
+          padding-right: 0;
         }
       }
     }
