@@ -74,6 +74,7 @@ section > h2.hat {
   font-weight: 200;
   text-transform: uppercase;
   margin-top: 10px;
+  letter-spacing: 1px;
 }
 ul {
   margin-top: 0;
