@@ -661,15 +661,15 @@ section.featured-news ul li img {
     border-left: 1px solid #dddddd;
   }
 }
-.cover {
+section.cover {
   border-top: 1px solid;
   margin-bottom: 20px;
 }
-.cover p {
+section.cover p {
   font-size: 14px;
 }
 @media (min-width: 768px) {
-  .cover {
+  section.cover {
     border-bottom: 1px solid #bbbbbb;
     border-top: 0;
     margin-bottom: 0px;
@@ -678,7 +678,7 @@ section.featured-news ul li img {
   }
 }
 @media (min-width: 992px) {
-  .cover {
+  section.cover {
     width: 40%;
   }
 }
