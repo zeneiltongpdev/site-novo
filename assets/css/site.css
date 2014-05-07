@@ -823,10 +823,11 @@ section.carousel > ul li:nth-child(5) {
     border-top: 0;
   }
 }
-.debate {
+section.debate {
   width: 100%;
+  padding-top: 30px;
 }
-.debate figure {
+section.debate figure {
   max-width: 100%;
 }
 section.special-stories > ul > li {
