@@ -785,19 +785,20 @@ section.carousel > ul li:nth-child(5) {
     z-index: 2;
   }
 }
-.tv-mst {
+section.tv-mst {
+  padding-top: 30px;
   clear: both;
   display: inline-block;
   width: 60%;
 }
-.tv-mst ul li {
+section.tv-mst ul li {
   float: left;
   font-weight: bold;
   font-size: 0.9em;
   padding: 2px 0;
   padding-right: 10px;
 }
-.tv-mst ul li > p {
+section.tv-mst ul li > p {
   font-weight: normal;
   line-height: 1.5em;
 }
