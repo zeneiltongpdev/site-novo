@@ -800,6 +800,10 @@ section.interviews {
   width: 38%;
   border-top: 1px solid;
 }
+section.interviews > ul > li > article.headline > h1 {
+  margin-top: 15px;
+  font-size: 1em;
+}
 section.interviews figure {
   height: 100px;
 }
