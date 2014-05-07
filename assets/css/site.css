@@ -140,9 +140,10 @@ a:focus {
   vertical-align: middle;
   margin: 0;
   margin-left: 5px;
-  font-size: 40px;
-  font-weight: 100;
-  text-shadow: 1px 1px black;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  letter-spacing: -4px;
 }
 #site-header {
   background: #961913;
