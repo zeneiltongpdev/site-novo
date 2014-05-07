@@ -698,9 +698,12 @@ section.carousel article.headline > figure {
   max-width: 100%;
 }
 section.carousel > ul {
-  height: 350px;
+  height: 500px;
   position: relative;
   overflow: hidden;
+}
+section.carousel > ul > li > article.headline > h1 {
+  font-size: 1.8em;
 }
 section.carousel > ul li {
   max-width: 100%;
