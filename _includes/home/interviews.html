@@ -6,16 +6,15 @@
     {% for post in posts %} 
       {% if forloop.first %}
         <li>
-         {% include headline-with-image.html post=post %}
+          {% include headline-with-image.html post=post %}
         </li>
-        {% else %}
-		<li>
-         <a href="{{ post.url }}">
-		   <h2>{{ post.title }}</h2>
-	     </a>
-		</li>
+      {% else %}
+        <li>
+          <a href="{{ post.url }}">
+            <h2>{{ post.title }}</h2>
+          </a>
+        </li>
       {% endif %}
     {% endfor %}
   </ul>
-
 </section>
