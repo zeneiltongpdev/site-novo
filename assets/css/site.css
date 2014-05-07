@@ -678,7 +678,7 @@ article.headline p.support-line a {
 }
 @media (min-width: 768px) {
   .cover {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #bbbbbb;
     border-top: 0;
     margin-bottom: 0px;
     float: left;
