@@ -1,21 +1,25 @@
 section.tv-mst {
-  padding: 10px;
-  padding-top: 30px;
-  clear: both;
-  display: inline-block;
-  width: 60%;
+  display: block;
 
-  & > article.headline > h1 {
-    font-size: 1.8em;
-  }
+  @media(min-width: @screen-sm) { 
+    padding: 20px;
+    padding-left: 0;
+    clear: both;
+    display: inline-block;
+    width: 60%;
 
-  & > article.headline > figure {
-    height: auto;
-    max-height: 300px;  
-    max-width: 100%;
-    
-    iframe {
-      height: 300px;
+    & > article.headline > h1 {
+      font-size: 1.5em;
+    }
+
+    & > article.headline > figure {
+      height: auto;
+      max-height: 300px;  
+      max-width: 100%;
+      
+      iframe {
+        height: 300px;
+      }
     }
   }
 }
