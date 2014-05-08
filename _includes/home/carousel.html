@@ -3,7 +3,11 @@
   <ul>
     {% for post in posts | limit:5 %}
       <li>
-        {% include headline-with-image.html post=post support_line=true %}
+        <a href="{{ post.url }}">
+          <figure style="background-image:url({{ post.images | uri_escape }});">
+            <figcaption>{{ post.title }}</figcaption>
+          </figure>
+        </a>
       </li>
     {% endfor %}
   </ul>
