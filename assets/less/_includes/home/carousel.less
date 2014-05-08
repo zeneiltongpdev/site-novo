@@ -1,6 +1,47 @@
 body > main.home > section.carousel {
+  position: relative;
   width: 100%;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  &:before {
+    position: absolute;
+    font-family: 'Glyphicons Halflings Regular', Helvetica, Arial, sans-serif;
+    content: '\E079';
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    margin-top: -30px;
+    line-height: 60px;
+    text-align: right;
+    border-radius: 100%;
+    margin-left: -30px;
+    padding-right: 10px;
+    font-size: 1.1em;
+  }
+
+  &:after {
+    position: absolute;
+    font-family: 'Glyphicons Halflings Regular', Helvetica, Arial, sans-serif;
+    content: '\E080';
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    right: 0;
+    margin-top: -30px;
+    line-height: 60px;
+    text-align: left;
+    border-radius: 100%;
+    margin-right: -30px;
+    padding-left: 10px;
+    font-size: 1.1em;
+  }
+
 
   ul {
     width: 100%;
@@ -25,6 +66,8 @@ body > main.home > section.carousel {
         width: 400px;
         height: 100%;
         background-size: cover;
+        margin: 0;
+        padding: 0;
 
         &:after {
           position: absolute;
