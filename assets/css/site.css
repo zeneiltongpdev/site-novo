@@ -719,6 +719,10 @@ body > main.home > section.carousel:before {
   margin-left: -30px;
   padding-right: 10px;
   font-size: 1.1em;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 body > main.home > section.carousel:after {
   position: absolute;
@@ -737,10 +741,18 @@ body > main.home > section.carousel:after {
   margin-right: -30px;
   padding-left: 10px;
   font-size: 1.1em;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 body > main.home > section.carousel.left-most:before,
 body > main.home > section.carousel.right-most:after {
-  display: none;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 body > main.home > section.carousel ul {
   width: 100%;
