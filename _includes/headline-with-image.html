@@ -2,29 +2,29 @@
 <article class="headline">
   {% if include.post.images != '' %}
 
-    <figure>
-      <a href="{{ include.post.url }}">
-        <img src="{{ include.post.images | uri_escape }}" />
-      </a>
-    </figure>
+    <a href="{{ include.post.url }}">
+      <figure
+        style="background-image:url('{{ include.post.images | uri_escape }}');" />
+      </figure>
+    </a>
 
     {% else %}
       {% if include.post.type == 'video' %}
 
-        <figure>
-          <a href="{{ include.post.url }}">
-            <img src="http://i1.ytimg.com/vi/{{ include.post.video }}/hqdefault.jpg" />
-          </a>
-        </figure>
+        <a href="{{ include.post.url }}">
+          <figure
+            style="background-image:url('http://i1.ytimg.com/vi/{{ include.post.video }}/hqdefault.jpg');" />
+          </figure>
+        </a>
 
       {% else %}
         {% if default_image != '' %}
 
-          <figure>
-            <a href="{{ include.post.url }}">
-              <img src="{{ default_image }}" />
-            </a>
-          </figure>
+          <a href="{{ include.post.url }}">
+            <figure
+              style="background-image:url('{{ default_image }}');" />
+            </figure>
+          </a>
 
         {% else %}
           {% assign include.support_line = true %}
