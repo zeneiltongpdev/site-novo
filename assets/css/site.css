@@ -808,6 +808,10 @@ body > main.home > section.interviews {
   width: 100%;
   border-top: 1px solid;
 }
+body > main.home > section.interviews > ul > li > article.headline > h1 {
+  margin-top: 15px;
+  font-size: 1em;
+}
 @media (min-width: 768px) {
   body > main.home > section.interviews {
     border: none;
@@ -816,10 +820,6 @@ body > main.home > section.interviews {
     width: 39%;
     float: left;
     padding-right: 0;
-  }
-  body > main.home > section.interviews > ul > li > article.headline > h1 {
-    margin-top: 15px;
-    font-size: 1em;
   }
   body > main.home > section.interviews > article.headline > figure {
     height: 100px;

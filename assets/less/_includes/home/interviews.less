@@ -3,18 +3,18 @@ body > main.home > section.interviews {
   width: 100%;
   border-top: 1px solid;
 
+  & > ul > li > article.headline > h1 { 
+    margin-top: 15px;
+    font-size: 1em;
+  }
+
   @media(min-width: @screen-sm) { 
-	border: none;
+	  border: none;
     display: inline-block;
     vertical-align:top;
     width: 39%;
-	float: left;
-	padding-right: 0;
-
-    & > ul > li > article.headline > h1 { 
-      margin-top: 15px;
-      font-size: 1em;
-    }
+	  float: left;
+	  padding-right: 0;
 
     & > article.headline > figure { 
       height: 100px;
