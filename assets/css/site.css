@@ -787,6 +787,7 @@ body > main.home > section.tv-mst {
   }
   body > main.home > section.tv-mst > article.headline > h1 {
     font-size: 1.5em;
+    max-width: 100%;
   }
   body > main.home > section.tv-mst > article.headline > figure {
     height: auto;
