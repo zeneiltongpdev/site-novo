@@ -623,12 +623,6 @@ body > main.home > section.featured-news {
   clear: both;
   border-top: 1px solid;
 }
-body > main.home > section.featured-news figure {
-  max-width: 140px;
-  height: 120px;
-  float: left;
-  margin-right: 10px;
-}
 body > main.home > section.featured-news ul li {
   float: left;
   font-weight: bold;
