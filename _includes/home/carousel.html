@@ -1,5 +1,6 @@
 {% assign posts = site.posts | where: 'section', 'carousel' %}
 <section class="carousel left-most">
+  <a id="left-arrow" href="#"></a>
   <ul>
     {% for post in posts | limit:5 %}
       <li>
@@ -11,4 +12,5 @@
       </li>
     {% endfor %}
   </ul>
+  <a id="right-arrow" href="#"></a>
 </section>

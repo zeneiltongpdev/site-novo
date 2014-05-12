@@ -690,8 +690,8 @@ body > main.home > section.carousel {
   padding: 0;
   overflow: hidden;
 }
-body > main.home > section.carousel:before,
-body > main.home > section.carousel:after {
+body > main.home > section.carousel a#left-arrow,
+body > main.home > section.carousel a#right-arrow {
   position: absolute;
   top: 50%;
   width: 60px;
@@ -701,6 +701,7 @@ body > main.home > section.carousel:after {
   z-index: 2;
   font-size: 1.1em;
   font-family: 'Glyphicons Halflings Regular', Helvetica, Arial, sans-serif;
+  color: #555555;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 100%;
   -webkit-transition: all 0.5s ease;
@@ -708,21 +709,29 @@ body > main.home > section.carousel:after {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-body > main.home > section.carousel:before {
-  content: '\E079';
+body > main.home > section.carousel a#left-arrow:hover,
+body > main.home > section.carousel a#right-arrow:hover {
+  text-decoration: none;
+}
+body > main.home > section.carousel a#left-arrow {
   text-align: right;
   margin-left: -30px;
   padding-right: 10px;
 }
-body > main.home > section.carousel:after {
-  content: '\E080';
+body > main.home > section.carousel a#left-arrow:before {
+  content: '\E079';
+}
+body > main.home > section.carousel a#right-arrow {
   right: 0;
   text-align: left;
   margin-right: -30px;
   padding-left: 10px;
 }
-body > main.home > section.carousel.left-most:before,
-body > main.home > section.carousel.right-most:after {
+body > main.home > section.carousel a#right-arrow:before {
+  content: '\E080';
+}
+body > main.home > section.carousel.left-most a#left-arrow,
+body > main.home > section.carousel.right-most a#right-arrow {
   opacity: 0;
 }
 body > main.home > section.carousel ul {

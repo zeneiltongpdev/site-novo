@@ -5,7 +5,7 @@ body > main.home > section.carousel {
   padding: 0;
   overflow: hidden;
 
-  &:before, &:after {
+  a#left-arrow, a#right-arrow {
     position: absolute;
     top: 50%;
     width: 60px;
@@ -15,30 +15,40 @@ body > main.home > section.carousel {
     z-index: 2;
     font-size: 1.1em;
     font-family: 'Glyphicons Halflings Regular', Helvetica, Arial, sans-serif;
+    color: @text-color;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 100%;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
-  &:before {
-    content: '\E079';
+  a#left-arrow {
     text-align: right;
     margin-left: -30px;
     padding-right: 10px;
+
+    &:before {
+      content: '\E079';
+    }
   }
 
-  &:after {
-    content: '\E080';
+  a#right-arrow {
     right: 0;
     text-align: left;
     margin-right: -30px;
     padding-left: 10px;
+     &:before {
+       content: '\E080';
+     }
   }
 
-  &.left-most:before, &.right-most:after {
+  &.left-most a#left-arrow, &.right-most a#right-arrow {
     opacity: 0;
   }
 
