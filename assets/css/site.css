@@ -682,7 +682,6 @@ body > main.home > section.cover p {
 }
 @media (min-width: 768px) {
   body > main.home > section.cover {
-    border-bottom: 1px solid #bbbbbb;
     border-top: 0;
     float: left;
     width: 50%;
