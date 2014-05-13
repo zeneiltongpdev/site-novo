@@ -16,14 +16,6 @@ function check_ruby {
   echo "✓ ruby is ok."
 }
 
-function check_node {
-  check_installation node
-  node -v | grep -q "v0.10" || {
-    echo >&2 "you need node version >= 0.10."; abort;
-  }
-  echo "✓ node is ok."
-}
-
 function check_mysql {
   check_installation mysql
   mysql --version | grep -q "Distrib 5" || {
@@ -65,19 +57,12 @@ function install_gems {
   echo "✓ gems installed."
 }
 
-function install_node_packages {
-  echo "installing node packages..."
-  npm install || abort 
-  echo "✓ node packages installed."
-}
-
 echo "setting up movimento-sem-terra/site-novo..."
 check_ruby
 check_node
 check_mysql
 check_mysqld
 install_gems
-install_node_packages
 restore_database
 echo "setup is complete!"
 
