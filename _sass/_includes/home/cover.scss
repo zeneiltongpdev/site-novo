@@ -6,9 +6,16 @@ body > main.home > section.cover {
     padding-left: 390px;
     border: none;
 
-    & > article.headline > h1 {
-      font-size: 1.8em;
-      max-width: 100%;
+    & > article.headline {
+      & > h1 {
+        font-size: 1.8em;
+        max-width: 100%;
+        margin-bottom: 10px;
+      }
+
+      & > p {
+        font-size: 1em;
+      }
     }
   }
 }
