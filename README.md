@@ -5,7 +5,6 @@ Projeto da TW Brasil em conjunto com MST e Brasil de Fato.
 ## Requirements
 * mysql >= 5.0
 * ruby >= 2.0
-* node >= 0.10
 
 ## Setup
 
@@ -22,12 +21,6 @@ Run the setup script (it assumes you have a db user called "root"):
 ```
 
 ## Run
-
-Start Grunt:
-
-```
-./node_modules/.bin/grunt watch
-```
 
 Start Jekyll:
 
