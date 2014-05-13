@@ -574,10 +574,10 @@ body > main.home > section.cover {
     margin-bottom: 10px; }
   body > main.home > section.cover > article.headline > p {
     font-size: 1em; }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     body > main.home > section.cover {
       padding: 0;
-      padding-left: 390px;
+      padding-left: 470px;
       border: none; } }
 
 body > main.home > section.carousel {
@@ -648,6 +648,9 @@ body > main.home > section.carousel {
           left: 0;
           right: 0;
           content: '';
+          background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+          background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+          background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.75));
           background: linear-gradient(transparent, rgba(0, 0, 0, 0.75)); }
         body > main.home > section.carousel ul li figure figcaption {
           position: absolute;
@@ -660,11 +663,17 @@ body > main.home > section.carousel {
           color: white;
           font-weight: bold;
           font-size: 1.3em;
-          line-height: 1; }
+          line-height: 1;
+          white-space: normal; }
   @media (min-width: 992px) {
     body > main.home > section.carousel {
-      width: 370px;
-      float: left; } }
+      width: 450px;
+      float: left; }
+      body > main.home > section.carousel ul {
+        height: 300px; }
+        body > main.home > section.carousel ul li figure {
+          max-width: 100%;
+          width: 450px; } }
 
 body > main.home > section.tv-mst {
   display: block;
