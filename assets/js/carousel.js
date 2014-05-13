@@ -1,4 +1,4 @@
-$(function() {
+window.onload = function() {
   (function initializeCarousel() {
     var scrolling;
 
@@ -27,5 +27,5 @@ $(function() {
 
     function carousel() { return $('section.carousel'); }
   })();
-});
+};
 
