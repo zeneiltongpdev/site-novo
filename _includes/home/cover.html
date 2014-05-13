@@ -3,7 +3,6 @@
 
 <section class="cover">
   <h2 class="hat">{{ cover.hat }}</h2>
-  <h1><a href="{{ cover.url }}">{{ cover.title }}</a></h1>
-  <p>{{ cover.support_line }}</p>
+  {% include headline.html post=cover support_line=true %}
 </section>
 
