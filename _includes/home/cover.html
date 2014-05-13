@@ -1,5 +1,4 @@
-{% assign posts = site.posts | where: 'section', 'cover' %}
-{% assign cover = posts.first %}
+{% assign cover = site.posts | where: 'section', 'cover' | first %}
 
 <section class="cover">
   <h2 class="hat">{{ cover.hat }}</h2>
