@@ -8,7 +8,7 @@ main.post {
     }
 
     span.tag {
-      background-color: @mstgreen;
+      background-color: $mstgreen;
       padding: .2em .6em .3em;
       font-size: 75%;
       font-weight: bold;
@@ -38,7 +38,7 @@ main.post {
   }
 }
 
-@media(min-width: @screen-sm) { 
+@media(min-width: $screen-sm) { 
   main.post {
     article {
       padding-right: 13%;

@@ -3,7 +3,7 @@
 article.headline {
   padding: 0 !important;
 
-  .crop_image();
+  @include crop_image;
 
   figure {
     background-size: cover;
@@ -28,7 +28,7 @@ article.headline {
     font-weight: normal;
 
     a {
-      color: @gray-dark;
+      color: $gray-dark;
     }
   }
 }

@@ -27,7 +27,7 @@ body > main.home > section.featured-news {
     }
   }
 
-  @media (min-width: @screen-sm) {
+  @media (min-width: $screen-sm) {
     border: 0;
 	  width: 100%;
 	  padding-left: 0;

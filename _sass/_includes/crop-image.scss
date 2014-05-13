@@ -1,4 +1,4 @@
-.crop_image() {
+@mixin crop_image {
   figure {
     height: 190px;
 

@@ -22,8 +22,8 @@
 }
 
 #site-header {
-  background: @mstred;
-  background: linear-gradient(@mstred, darken(@mstred, 5%));
+  background: $mstred;
+  background: linear-gradient($mstred, darken($mstred, 5%));
   padding: 20px 0 10px;
   text-align: center;
   color: white;
@@ -52,7 +52,7 @@
         color: #fff;
         
         &:hover {
-          color: @gray-light;
+          color: $gray-light;
           text-decoration: underline;
         }
       }
@@ -74,7 +74,7 @@
   overflow: hidden;
   margin: 0 20px;
   padding: 5px 0;
-  .transition(opacity, 0.2s, ease-in);
+  @include transition(opacity, 0.2s, ease-in);
   
   &.open {
     height: auto;
@@ -90,7 +90,7 @@ ul.dropdown-menu {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  .transition(opacity, 0.2s, ease-in);
+  @include transition(opacity, 0.2s, ease-in);
 
   &.active {
     margin: 0 20px;
@@ -157,7 +157,7 @@ ul.dropdown-menu {
     display: inline-block;
     background: none;
     border: none;
-    color: @mstred;
+    color: $mstred;
     font-size: 0.9em;
     padding: 0;
     font-weight: bold;
@@ -189,7 +189,7 @@ ul.dropdown-menu {
   border-style: none;
   text-indent: 10px;
   border-radius: 5px;
-  color: @gray-darker;
+  color: $gray-darker;
   outline: none;
   
   &:focus {
@@ -198,7 +198,7 @@ ul.dropdown-menu {
   }
 }
 
-@media(min-width: @screen-xs) {
+@media(min-width: $screen-xs) {
   #site-header {
     ul {
       text-align: center;
@@ -237,7 +237,7 @@ ul.dropdown-menu {
       border-radius: 4px;
       white-space: nowrap;
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-      border: 1px solid @gray-dark;
+      border: 1px solid $gray-dark;
       border-color: rgba(0, 0, 0, 0.15);
       text-align: left;
 
@@ -253,10 +253,10 @@ ul.dropdown-menu {
         a {
           display: block;
           padding: 5px;
-          color: @gray-dark;
+          color: $gray-dark;
 
           &:hover {
-            color: @gray-darker
+            color: $gray-darker
           }
         }
       }
@@ -270,7 +270,7 @@ ul.dropdown-menu {
   }
 }
 
-@media(min-width: @screen-md) {
+@media(min-width: $screen-md) {
   #site-header {
     padding: 20px 10%;
 
@@ -305,7 +305,7 @@ ul.dropdown-menu {
   #open-search {
     display: inline-block;
     background: #fff;
-    color: @mstred;
+    color: $mstred;
     border: none;
     padding: 0;
     font-weight: bold;
@@ -316,7 +316,7 @@ ul.dropdown-menu {
     width: 40px;
     float: right;
     margin-left: 10px;
-    .transition(border-radius, 0.2s, ease-in);
+    @include transition(border-radius, 0.2s, ease-in);
 
     &.active {
       border-radius: 5px 5px 0 0;
@@ -348,7 +348,7 @@ ul.dropdown-menu {
     right: 0;
     border-radius: 5px 0 5px 5px;
     opacity: 0;
-    .transition(opacity, 0.2s, ease-in);
+    @include transition(opacity, 0.2s, ease-in);
 
     &.open {
       overflow: visible;
@@ -360,7 +360,7 @@ ul.dropdown-menu {
 
     button[type=submit] {
       border: none;
-      color: @mstred;
+      color: $mstred;
       font-size: 0.8em;
       padding: 0;
       text-indent: 0;

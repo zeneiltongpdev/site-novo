@@ -17,7 +17,7 @@ main.topic {
 
     h2 {
       margin-bottom: 0.5em;
-      border-bottom: dashed 1px @gray-light;
+      border-bottom: dashed 1px $gray-light;
       padding-bottom: 0.3em;
     }
   }
@@ -49,7 +49,7 @@ main.topic {
 
       summary {
         cursor: pointer;
-        color: @mstgreen;
+        color: $mstgreen;
         font-weight: bold;
         float: right;
         
@@ -89,7 +89,7 @@ main.topic {
       clear: both;
       
       a {
-        color: @mstgreen;
+        color: $mstgreen;
       }
       
       a:hover {
@@ -99,7 +99,7 @@ main.topic {
   }
 }
 
-@media(min-width: @screen-md) { 
+@media(min-width: $screen-md) { 
   main.topic {
     header {
       figure {

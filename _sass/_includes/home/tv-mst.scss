@@ -4,7 +4,7 @@ body > main.home > section.tv-mst {
   clear: both;
   border-top: 1px solid;
 
-  @media(min-width: @screen-sm) { 
+  @media(min-width: $screen-sm) { 
     border: none;
     float: left;
     display: inline-block;

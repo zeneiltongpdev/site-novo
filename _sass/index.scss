@@ -11,7 +11,7 @@ body > main.home {
   display: block;
 }
 
-@media(min-width: @screen-md) {
+@media(min-width: $screen-md) {
   body > main.home {
     vertical-align: top;
     padding: 0 15px;
@@ -22,7 +22,7 @@ body > main.home {
   }
 }
 
-@media(min-width: @screen-sm) {
+@media(min-width: $screen-sm) {
   body > main.home {
     section {
 	  padding: 15px;

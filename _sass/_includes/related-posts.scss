@@ -2,7 +2,7 @@ main.post > article > aside {
   display: none;  
 }
 
-@media(min-width: @screen-md) {
+@media(min-width: $screen-md) {
   main.post > article > aside {
     display: block;
     position: absolute;
@@ -28,7 +28,7 @@ main.post > article > aside {
         }
 
         a {
-          color: @mstred;
+          color: $mstred;
 
           &:hover {
             text-decoration: none;  

@@ -1,10 +1,10 @@
-.box-sizing(@boxmodel) {
-  -webkit-box-sizing: @boxmodel;
-  -moz-box-sizing: @boxmodel;
-  box-sizing: @boxmodel;
+@mixin box-sizing($boxmodel) {
+  -webkit-box-sizing: $boxmodel;
+  -moz-box-sizing: $boxmodel;
+  box-sizing: $boxmodel;
 }
 
-.tab-focus() {
+@mixin tab-focus {
   // Default
   outline: thin dotted;
   // WebKit
@@ -12,18 +12,18 @@
   outline-offset: -2px;
 }
 
-.transition (@prop: all, @time: 1s, @ease: linear) {
-    -webkit-transition: @prop @time @ease;
-    transition: @prop @time @ease;
+@mixin transition ($prop: all, $time: 1s, $ease: linear) {
+    -webkit-transition: $prop $time $ease;
+    transition: $prop $time $ease;
 }
 
 * {
-  .box-sizing(border-box);
+  @include box-sizing(border-box);
 }
 
 *:before,
 *:after {
-  .box-sizing(border-box);
+  @include box-sizing(border-box);
 }
 
 html {
@@ -33,18 +33,18 @@ html {
 
 body {
   margin: 0;
-  font-family: @font-family-base;
-  font-size: @font-size-base;
-  line-height: @line-height-base;
-  color: @text-color;
-  background-color: @body-bg;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+  background-color: $body-bg;
 
   main {
     padding: 30px 15px;
   }
 }
 
-@media(min-width: @screen-md) { 
+@media(min-width: $screen-md) { 
   body > main {
     width: 80%;
     margin-left: auto;
@@ -84,7 +84,7 @@ section {
 }
 
 section > h2.hat {
-  color: @text-color;
+  color: $text-color;
   font-weight: 200;
   text-transform: uppercase;
   margin-top: 10px;
@@ -136,16 +136,16 @@ input, button {
 }
 
 a {
-  color: @link-color;
+  color: $link-color;
   text-decoration: none;
 
   &:hover, &:focus {
-    color: @link-hover-color;
+    color: $link-hover-color;
     text-decoration: underline;
   }
 
   &:focus {
-    .tab-focus();
+    @include tab-focus;
   }
 }
 

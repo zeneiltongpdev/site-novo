@@ -34,7 +34,7 @@ main > footer {
     margin-right: 5%;
   }
 
-  @media(min-width: @screen-sm) {
+  @media(min-width: $screen-sm) {
     li, li:nth-child(odd) {
       width: 23%;
       margin: 0 2.14% 0 0;
@@ -45,7 +45,7 @@ main > footer {
     }
   }
 
-  @media(min-width: @screen-md) {
+  @media(min-width: $screen-md) {
     li, li:nth-child(odd) {
       width: 23.1%;
       margin: 0 2% 0 0;

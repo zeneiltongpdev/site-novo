@@ -15,7 +15,7 @@ body > main.home > section.recent {
     }
   }
 
-  @media (min-width: @screen-sm) {
+  @media (min-width: $screen-sm) {
     border-top: 0;
     float: left;
     width: 50%;

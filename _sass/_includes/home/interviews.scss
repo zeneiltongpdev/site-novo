@@ -8,7 +8,7 @@ body > main.home > section.interviews {
     font-size: 1em;
   }
 
-  @media(min-width: @screen-sm) { 
+  @media(min-width: $screen-sm) { 
 	  border: none;
     display: inline-block;
     vertical-align:top;

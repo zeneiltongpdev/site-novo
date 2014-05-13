@@ -6,7 +6,7 @@ body > main.home > section.debate {
     max-width: 100%;
   }
 
-  @media(min-width: @screen-sm) { 
+  @media(min-width: $screen-sm) { 
     border: none;
     clear: both;
 	padding-left: 0;
