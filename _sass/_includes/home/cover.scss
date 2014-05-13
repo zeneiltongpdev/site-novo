@@ -12,9 +12,9 @@ body > main.home > section.cover {
     }
   }
 
-  @media (min-width: $screen-sm) {
+  @media (min-width: $screen-md) {
 	  padding: 0;
-    padding-left: 390px;
+    padding-left: 470px;
     border: none;
   }
 }

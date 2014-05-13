@@ -103,13 +103,25 @@ body > main.home > section.carousel {
           font-weight: bold;
           font-size: 1.3em;
           line-height: 1;
+          white-space: normal;
         }
       }
     }
   }
 
   @media(min-width: $screen-md) {
-    width: 370px;
+    width: 450px;
     float: left;
+    
+    ul {
+      height: 300px;
+
+      li {
+        figure {
+          max-width: 100%;
+          width: 450px;
+        }
+      }
+    }
   }
 }
