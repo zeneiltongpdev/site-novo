@@ -522,10 +522,11 @@ body > main.home > section.recent {
       margin-bottom: 5px; }
   @media (min-width: 768px) {
     body > main.home > section.recent {
-      border-top: 0;
-      float: left;
-      width: 50%;
-      padding-right: 0; } }
+      width: 100%;
+      padding: 0;
+      clear: both; }
+      body > main.home > section.recent h1 {
+        font-size: 1.8em; } }
 
 body > main.home > section.featured-news {
   clear: both;
@@ -567,14 +568,13 @@ body > main.home > section.featured-news {
 
 body > main.home > section.cover {
   border-top: 1px solid; }
-  body > main.home > section.cover p {
-    font-size: 14px; }
   @media (min-width: 768px) {
     body > main.home > section.cover {
-      border-top: 0;
-      float: left;
-      width: 50%;
-      padding-right: 0; } }
+      padding: 0;
+      padding-left: 390px;
+      border: none; }
+      body > main.home > section.cover h1 {
+        font-size: 1.8em; } }
 
 body > main.home > section.carousel {
   position: relative;
@@ -620,7 +620,7 @@ body > main.home > section.carousel {
     width: 100%;
     height: 250px;
     margin: 0;
-    padding: 4px;
+    padding: 0;
     list-style: none;
     white-space: nowrap;
     overflow-x: scroll;
@@ -657,6 +657,10 @@ body > main.home > section.carousel {
           font-weight: bold;
           font-size: 1.3em;
           line-height: 1; }
+  @media (min-width: 992px) {
+    body > main.home > section.carousel {
+      width: 370px;
+      float: left; } }
 
 body > main.home > section.tv-mst {
   display: block;
