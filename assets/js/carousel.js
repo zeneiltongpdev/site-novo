@@ -1,40 +1,31 @@
 $(function() {
-  $('section.carousel ul').on('scroll', placeArrows);
+  (function initializeCarousel() {
+    var scrolling;
 
-  var scrolling;
+    carousel().find('ul').on('scroll', placeArrows);
+    carousel().find('> a').on('mouseover', scroll).on('mouseleave', stopScroll);
 
-  $('section.carousel a#right-arrow')
-    .on('mouseover', function(event) {
+    function scroll(event) {
       scrolling = setInterval(function() {
-        var ul = $('section.carousel ul')[0];
-        ul.scrollLeft += 1;
+        carousel().find('ul')[0].scrollLeft += $(event.currentTarget).data('direction');
       }, 5); 
-    })
-    .on('mouseleave', function(event) {
-      clearInterval(scrolling);
-    })
+    }
 
-  $('section.carousel a#left-arrow')
-    .on('mouseover', function(event) {
-      scrolling = setInterval(function() {
-        var ul = $('section.carousel ul')[0];
-        ul.scrollLeft -= 1;
-      }, 5); 
-    })
-    .on('mouseleave', function(event) {
+    function stopScroll() {
       clearInterval(scrolling);
-    })
+    }
 
+    function placeArrows(event) {
+      var ul = $(event.currentTarget)[0];
+      var scroll = ul.scrollLeft;
+      var min = 50;
+      var max = (ul.scrollWidth - ul.clientWidth) - min;
+      if (ul.scrollLeft < min) return carousel().addClass('left-most');
+      if (ul.scrollLeft > max) return carousel().addClass('right-most');
+      carousel().removeClass('left-most right-most');
+    }
+
+    function carousel() { return $('section.carousel'); }
+  })();
 });
-
-function placeArrows(event) {
-  var ul = $(event.currentTarget)[0];
-  var scroll = ul.scrollLeft;
-  var min = 50;
-  var max = (ul.scrollWidth - ul.clientWidth) - min;
-  var carousel = $('section.carousel')
-  if (ul.scrollLeft < min) return carousel.addClass('left-most');
-  if (ul.scrollLeft > max) return carousel.addClass('right-most');
-  carousel.removeClass('left-most right-most');
-}
 

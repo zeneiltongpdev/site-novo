@@ -592,8 +592,8 @@ body > main.home > section.carousel {
     z-index: 2;
     font-size: 1.1em;
     font-family: 'Glyphicons Halflings Regular', Helvetica, Arial, sans-serif;
-    color: #555555;
-    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 100%;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
