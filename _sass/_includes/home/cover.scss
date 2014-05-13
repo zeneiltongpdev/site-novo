@@ -6,8 +6,9 @@ body > main.home > section.cover {
     padding-left: 390px;
     border: none;
 
-    h1 {
+    & > article.headline > h1 {
       font-size: 1.8em;
+      max-width: 100%;
     }
   }
 }
