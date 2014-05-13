@@ -16,9 +16,12 @@ body > main.home > section.recent {
   }
 
   @media (min-width: $screen-sm) {
-    border-top: 0;
-    float: left;
-    width: 50%;
-	  padding-right: 0;
+    width: 100%;
+	  padding: 0;
+    clear: both;
+
+    h1 {
+      font-size: 1.8em;
+    }
   }
 }
