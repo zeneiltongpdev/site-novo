@@ -8,7 +8,7 @@ window.onload = (function initializeCarousel() {
   function scroll(event) {
     scrolling = setInterval(function() {
       carousel().find('ul')[0].scrollLeft += $(event.currentTarget).data('direction');
-    }, 5); 
+    }, 1); 
   }
 
   function stopScroll() {
