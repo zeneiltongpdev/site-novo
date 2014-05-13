@@ -573,8 +573,12 @@ body > main.home > section.cover {
       padding: 0;
       padding-left: 390px;
       border: none; }
-      body > main.home > section.cover h1 {
-        font-size: 1.8em; } }
+      body > main.home > section.cover > article.headline > h1 {
+        font-size: 1.8em;
+        max-width: 100%;
+        margin-bottom: 10px; }
+      body > main.home > section.cover > article.headline > p {
+        font-size: 1em; } }
 
 body > main.home > section.carousel {
   position: relative;
