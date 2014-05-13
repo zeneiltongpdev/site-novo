@@ -1,12 +1,14 @@
 {% assign posts = site.posts | where: 'section', 'recent' %}
 
 <section class="recent">
-  {% for post in posts | limit:3 %}	  
-    {% if forloop.first %}
-	  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.support_line }}</p>  
-	{% else %}  
-      <ul><li><a href="{{ post.url }}">{{ post.title }}</a></li></ul>
-	{% endif %}
-  {% endfor %}
+  {% include headline.html post=posts.first support_line=true %}
+  <ul>
+    {% for post in posts | limit:3 %}	  
+      {% if forloop.first == false %}
+        <li>
+          {% include headline.html post=post %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 </section>
