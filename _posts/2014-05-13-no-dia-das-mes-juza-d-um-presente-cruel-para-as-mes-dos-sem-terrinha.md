@@ -2,7 +2,7 @@
 layout: post
 title: No dia das mães, juíza dá um presente cruel para as mães dos Sem Terrinha
 legacy_url: http://www.mst.org.br/node/16092
-created: 1399980627
+created: 1399982547
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/justiça
   cega.jpg
 video: ''
