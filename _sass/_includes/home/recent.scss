@@ -1,8 +1,8 @@
 body > main.home > section.recent {
-  border-top: 1px solid #dddddd;
-
   article.headline {
     & > h1 {
+      border-top: 1px solid #dddddd;
+      padding-top: 10px;
       font-size: 1.3em;
       margin-bottom: 10px;
     }
@@ -22,13 +22,16 @@ body > main.home > section.recent {
 
       article.headline > h1 {
         font-size: 1em;
+        border: none;
+        padding-top: 0;
       }
     }
   }
 
   @media (min-width: $screen-sm) {
     width: 100%;
-	  padding: 0;
+    padding: 0;
+    padding-top: 10px;
     clear: both;
   }
 }
