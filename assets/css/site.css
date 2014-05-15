@@ -589,7 +589,17 @@ body > main.home > section.carousel {
   margin: 0;
   padding: 0;
   overflow: hidden; }
-  body > main.home > section.carousel a#left-arrow, body > main.home > section.carousel a#right-arrow {
+  body > main.home > section.carousel[data-index="0"] > ul > li:first-child {
+    margin-left: 0; }
+  body > main.home > section.carousel[data-index="1"] > ul > li:first-child {
+    margin-left: -458px; }
+  body > main.home > section.carousel[data-index="2"] > ul > li:first-child {
+    margin-left: -916px; }
+  body > main.home > section.carousel[data-index="3"] > ul > li:first-child {
+    margin-left: -1374px; }
+  body > main.home > section.carousel[data-index="4"] > ul > li:first-child {
+    margin-left: -1832px; }
+  body > main.home > section.carousel > a[data-direction="-1"], body > main.home > section.carousel > a[data-direction="1"] {
     position: absolute;
     top: 50%;
     width: 60px;
@@ -606,23 +616,24 @@ body > main.home > section.carousel {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease; }
-    body > main.home > section.carousel a#left-arrow:hover, body > main.home > section.carousel a#right-arrow:hover {
+    body > main.home > section.carousel > a[data-direction="-1"]:hover, body > main.home > section.carousel > a[data-direction="1"]:hover {
       text-decoration: none; }
-  body > main.home > section.carousel a#left-arrow {
+  body > main.home > section.carousel > a[data-direction="-1"] {
     text-align: right;
     margin-left: -30px;
     padding-right: 10px; }
-    body > main.home > section.carousel a#left-arrow:before {
+    body > main.home > section.carousel > a[data-direction="-1"]:before {
       content: '\E079'; }
-  body > main.home > section.carousel a#right-arrow {
+  body > main.home > section.carousel > a[data-direction="1"] {
     right: 0;
     text-align: left;
     margin-right: -30px;
     padding-left: 10px; }
-    body > main.home > section.carousel a#right-arrow:before {
+    body > main.home > section.carousel > a[data-direction="1"]:before {
       content: '\E080'; }
-  body > main.home > section.carousel.left-most a#left-arrow, body > main.home > section.carousel.right-most a#right-arrow {
-    opacity: 0; }
+  body > main.home > section.carousel[data-index="0"] > a[data-direction="-1"], body > main.home > section.carousel[data-index="4"] > a[data-direction="1"] {
+    opacity: 0;
+    z-index: -2; }
   body > main.home > section.carousel ul {
     width: 100%;
     height: 250px;
@@ -630,7 +641,7 @@ body > main.home > section.carousel {
     padding: 0;
     list-style: none;
     white-space: nowrap;
-    overflow-x: scroll;
+    overflow-x: hidden;
     overflow-y: hidden; }
     body > main.home > section.carousel ul li {
       display: inline-block;
