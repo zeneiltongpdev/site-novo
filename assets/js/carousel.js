@@ -15,7 +15,7 @@ window.onload = (function initializeCarousel() {
 
   autoScroll = setInterval(function() {
     var index = parseInt(carousel().attr('data-index'));
-    carousel().attr('data-index', index == 4 ? 0 : index + 1); 
+    carousel().attr('data-index', index < 4 ? index + 1 : 0); 
   }, 4000);
 });
 
