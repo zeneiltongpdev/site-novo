@@ -485,13 +485,7 @@ body > footer {
 article.headline {
   padding: 0 !important; }
   article.headline figure {
-    height: 190px; }
-    article.headline figure img {
-      width: auto;
-      display: block;
-      min-height: 100%;
-      min-width: 100%; }
-  article.headline figure {
+    height: 190px;
     background-size: cover; }
   article.headline h1 {
     font-size: 20px;
@@ -507,6 +501,39 @@ article.headline {
     font-weight: normal; }
     article.headline p.support-line a {
       color: #555555; }
+
+.headline-text-over-image figure {
+  position: relative;
+  width: 400px;
+  height: 100%;
+  min-height: 250px;
+  background-size: cover;
+  margin: 0;
+  padding: 0; }
+  .headline-text-over-image figure:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+    background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+    background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.75));
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.75)); }
+  .headline-text-over-image figure figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    white-space: initial;
+    z-index: 1;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1;
+    white-space: normal; }
 
 body > main.home > section.recent article.headline > h1 {
   border-top: 1px solid #dddddd;
@@ -648,37 +675,6 @@ body > main.home > section.carousel {
       height: 100%; }
       body > main.home > section.carousel ul li + li {
         margin-left: 3px; }
-      body > main.home > section.carousel ul li figure {
-        position: relative;
-        width: 400px;
-        height: 100%;
-        background-size: cover;
-        margin: 0;
-        padding: 0; }
-        body > main.home > section.carousel ul li figure:after {
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          content: '';
-          background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.75));
-          background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.75));
-          background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.75));
-          background: linear-gradient(transparent, rgba(0, 0, 0, 0.75)); }
-        body > main.home > section.carousel ul li figure figcaption {
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          white-space: initial;
-          z-index: 1;
-          padding: 15px;
-          color: white;
-          font-weight: bold;
-          font-size: 1.3em;
-          line-height: 1;
-          white-space: normal; }
   @media (min-width: 992px) {
     body > main.home > section.carousel {
       width: 450px;
