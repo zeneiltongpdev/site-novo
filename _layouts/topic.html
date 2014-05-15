@@ -4,8 +4,8 @@ layout: default
 
 {% assign tag_filter = 'menu:'| append: page.tag %}
 {% assign posts = site.tags[tag_filter] %}
-{% assign news = posts | where: 'type', 'news' %}
-{% assign videos = posts | where: 'type', 'video' %}
+{% assign news = posts | where: 'video', '' %}
+{% assign videos =  posts | where_not_null: 'video' %}
 
 <main class="topic">
   <header>
