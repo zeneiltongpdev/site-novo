@@ -4,11 +4,7 @@
   <ul>
     {% for post in posts | limit:5 %}
       <li>
-        <a href="{{ post.url }}">
-          <figure style="background-image:url({{ post.images | uri_escape }});">
-            <figcaption>{{ post.title }}</figcaption>
-          </figure>
-        </a>
+        {% include headline-text-over-image.html post=post %}
       </li>
     {% endfor %}
   </ul>
