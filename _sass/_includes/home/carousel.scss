@@ -5,7 +5,14 @@ body > main.home > section.carousel {
   padding: 0;
   overflow: hidden;
 
-  a#left-arrow, a#right-arrow {
+  &[data-index="0"] > ul > li:first-child { margin-left: 0; } 
+  &[data-index="1"] > ul > li:first-child { margin-left: -458px; } 
+  &[data-index="2"] > ul > li:first-child { margin-left: -916px; } 
+  &[data-index="3"] > ul > li:first-child { margin-left:-1374px; }
+  &[data-index="4"] > ul > li:first-child { margin-left:-1832px; }
+
+  & > a[data-direction="-1"],
+  & > a[data-direction="1"] {
     position: absolute;
     top: 50%;
     width: 60px;
@@ -28,7 +35,7 @@ body > main.home > section.carousel {
     }
   }
 
-  a#left-arrow {
+  & > a[data-direction="-1"] {
     text-align: right;
     margin-left: -30px;
     padding-right: 10px;
@@ -38,7 +45,7 @@ body > main.home > section.carousel {
     }
   }
 
-  a#right-arrow {
+  & > a[data-direction="1"] {
     right: 0;
     text-align: left;
     margin-right: -30px;
@@ -48,8 +55,10 @@ body > main.home > section.carousel {
      }
   }
 
-  &.left-most a#left-arrow, &.right-most a#right-arrow {
+  &[data-index="0"] > a[data-direction="-1"], 
+  &[data-index="4"] > a[data-direction="1"] {
     opacity: 0;
+    z-index: -2;
   }
 
   ul {
@@ -59,7 +68,7 @@ body > main.home > section.carousel {
     padding: 0;
     list-style: none;
     white-space: nowrap;
-    overflow-x: scroll;
+    overflow-x: hidden;
     overflow-y: hidden;
 
     li {
