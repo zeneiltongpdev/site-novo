@@ -616,6 +616,11 @@ body > main.home > section.carousel {
   margin: 0;
   padding: 0;
   overflow: hidden; }
+  body > main.home > section.carousel > ul > li:first-child {
+    -webkit-transition: margin-left 0.5s ease;
+    -moz-transition: margin-left 0.5s ease;
+    -o-transition: margin-left 0.5s ease;
+    transition: margin-left 0.5s ease; }
   body > main.home > section.carousel[data-index="0"] > ul > li:first-child {
     margin-left: 0; }
   body > main.home > section.carousel[data-index="1"] > ul > li:first-child {
