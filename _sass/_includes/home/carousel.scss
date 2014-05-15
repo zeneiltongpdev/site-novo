@@ -5,6 +5,13 @@ body > main.home > section.carousel {
   padding: 0;
   overflow: hidden;
 
+  & > ul > li:first-child { 
+    -webkit-transition: margin-left 0.5s ease;
+    -moz-transition: margin-left 0.5s ease;
+    -o-transition: margin-left 0.5s ease;
+    transition: margin-left 0.5s ease;
+  }
+
   &[data-index="0"] > ul > li:first-child { margin-left: 0; } 
   &[data-index="1"] > ul > li:first-child { margin-left: -458px; } 
   &[data-index="2"] > ul > li:first-child { margin-left: -916px; } 
