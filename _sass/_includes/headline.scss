@@ -1,11 +1,8 @@
-@import "crop-image";
-
 article.headline {
   padding: 0 !important;
 
-  @include crop_image;
-
   figure {
+    height: 190px;
     background-size: cover;
   }
 
