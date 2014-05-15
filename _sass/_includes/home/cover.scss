@@ -1,5 +1,6 @@
 body > main.home > section.cover {
-  border-top: 1px solid;
+  padding: 0;
+  padding-top: 15px;
 
   & > article.headline {
     & > h1 {
@@ -13,8 +14,7 @@ body > main.home > section.cover {
   }
 
   @media (min-width: $screen-md) {
-	  padding: 0;
+    padding: 0;
     padding-left: 470px;
-    border: none;
   }
 }
