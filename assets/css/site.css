@@ -504,7 +504,7 @@ article.headline {
 
 .headline-text-over-image figure {
   position: relative;
-  width: 400px;
+  width: 370px;
   height: 100%;
   min-height: 250px;
   background-size: cover;
@@ -598,7 +598,8 @@ body > main.home > section.featured-news {
           padding-right: 0; } }
 
 body > main.home > section.cover {
-  border-top: 1px solid; }
+  padding: 0;
+  padding-top: 15px; }
   body > main.home > section.cover > article.headline > h1 {
     font-size: 1.8em;
     margin-bottom: 10px; }
@@ -607,13 +608,15 @@ body > main.home > section.cover {
   @media (min-width: 992px) {
     body > main.home > section.cover {
       padding: 0;
-      padding-left: 470px;
-      border: none; } }
+      padding-left: 470px; } }
 
 body > main.home > section.carousel {
   position: relative;
-  width: 100%;
+  width: 370px;
+  height: 250px;
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
   overflow: hidden; }
   body > main.home > section.carousel > ul > li:first-child {
@@ -624,13 +627,13 @@ body > main.home > section.carousel {
   body > main.home > section.carousel[data-index="0"] > ul > li:first-child {
     margin-left: 0; }
   body > main.home > section.carousel[data-index="1"] > ul > li:first-child {
-    margin-left: -458px; }
+    margin-left: -378px; }
   body > main.home > section.carousel[data-index="2"] > ul > li:first-child {
-    margin-left: -916px; }
+    margin-left: -756px; }
   body > main.home > section.carousel[data-index="3"] > ul > li:first-child {
-    margin-left: -1374px; }
+    margin-left: -1134px; }
   body > main.home > section.carousel[data-index="4"] > ul > li:first-child {
-    margin-left: -1832px; }
+    margin-left: -1512px; }
   body > main.home > section.carousel > a[data-direction="-1"], body > main.home > section.carousel > a[data-direction="1"] {
     position: absolute;
     top: 50%;
@@ -668,7 +671,7 @@ body > main.home > section.carousel {
     z-index: -2; }
   body > main.home > section.carousel ul {
     width: 100%;
-    height: 250px;
+    height: 100%;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -680,15 +683,26 @@ body > main.home > section.carousel {
       height: 100%; }
       body > main.home > section.carousel ul li + li {
         margin-left: 3px; }
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     body > main.home > section.carousel {
       width: 450px;
-      float: left; }
-      body > main.home > section.carousel ul {
-        height: 300px; }
-        body > main.home > section.carousel ul li figure {
-          max-width: 100%;
-          width: 450px; } }
+      height: 300px; }
+      body > main.home > section.carousel > ul > li figure {
+        max-width: 100%;
+        width: 450px; }
+      body > main.home > section.carousel[data-index="0"] > ul > li:first-child {
+        margin-left: 0; }
+      body > main.home > section.carousel[data-index="1"] > ul > li:first-child {
+        margin-left: -458px; }
+      body > main.home > section.carousel[data-index="2"] > ul > li:first-child {
+        margin-left: -916px; }
+      body > main.home > section.carousel[data-index="3"] > ul > li:first-child {
+        margin-left: -1374px; }
+      body > main.home > section.carousel[data-index="4"] > ul > li:first-child {
+        margin-left: -1832px; } }
+  @media (min-width: 768px) and (min-width: 992px) {
+    body > main.home > section.carousel {
+      float: left; } }
 
 body > main.home > section.tv-mst {
   display: block;
