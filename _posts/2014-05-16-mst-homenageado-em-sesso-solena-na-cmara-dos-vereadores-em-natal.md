@@ -6,9 +6,9 @@ created: 1400255490
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/camara.jpg
 video: ''
 tags:
-- assuntos:mst 30 anos
-- localização:rio grande do norte
 - menu:reforma agrária
+- localização:rio grande do norte
+- assuntos:mst 30 anos
 type: 
 support_line: Na oportunidade, foram tratados temas relacionados à importância do
   MST na luta por terra e a Reforma Agrária no Brasil, e de sua contribuição na organização
