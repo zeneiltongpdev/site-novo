@@ -554,10 +554,8 @@ body > main.home > section.recent ul {
       padding-top: 0; }
 @media (min-width: 768px) {
   body > main.home > section.recent {
-    width: 100%;
     padding: 0;
-    padding-top: 10px;
-    clear: both; } }
+    padding-left: 470px; } }
 
 body > main.home > section.featured-news {
   clear: both;
