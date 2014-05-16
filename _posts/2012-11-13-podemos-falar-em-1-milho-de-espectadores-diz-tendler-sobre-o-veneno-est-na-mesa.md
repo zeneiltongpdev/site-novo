@@ -4,7 +4,7 @@ title: "“Podemos falar em 1 milhão de espectadores”, diz Tendler sobre O Ve
   na Mesa"
 legacy_url: http://www.mst.org.br/node/14090
 created: 1352827120
-images: http://www.youtube.com/watch?v=z0Em-RTYDAw&amp;feature=plcp
+images: ''
 video: z0Em-RTYDAw
 tags:
 - menu:agronegócio
