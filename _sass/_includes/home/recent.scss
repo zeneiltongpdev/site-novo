@@ -29,9 +29,7 @@ body > main.home > section.recent {
   }
 
   @media (min-width: $screen-sm) {
-    width: 100%;
     padding: 0;
-    padding-top: 10px;
-    clear: both;
+    padding-left: 470px;
   }
 }
