@@ -8,9 +8,8 @@ video: ''
 tags:
 - destaque:manchete
 type: 
-support_line: Nesta quinta-feira, João Paulo Rodrigues, da coordenação nacional do
-  MST, se reuniu com o fundador do Wikileaks, Julian Assange, para tratar da aliança
-  entre os movimentos sociais latino-americanos e o Wikileaks.
+support_line: João Paulo Rodrigues, da coordenação nacional do MST, se reuniu com
+  o fundador do Wikileaks, Julian Assange.
 section: carousel
 hat: ''
 ---
