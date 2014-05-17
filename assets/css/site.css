@@ -552,7 +552,7 @@ body > main.home > section.recent ul {
       font-size: 1em;
       border: none;
       padding-top: 0; }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   body > main.home > section.recent {
     padding: 0;
     padding-left: 470px; } }
