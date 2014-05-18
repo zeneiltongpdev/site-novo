@@ -12,5 +12,6 @@ type: video
 support_line: ''
 section: 
 hat: ''
+picture_week: ''
 ---
 <p>&nbsp;</p><p style="text-align: center;"><object data="http://www.youtube.com/v/73Y4AGm5gW0" type="application/x-shockwave-flash" height="500" width="600"><param name="src" value="http://www.youtube.com/v/73Y4AGm5gW0"></object></p>
