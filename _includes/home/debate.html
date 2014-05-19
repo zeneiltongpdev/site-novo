@@ -1,17 +1,21 @@
+{% assign posts_picture_week = site.posts | where: 'section', 'debate-picture-week' %}
 {% assign posts = site.posts | where: 'section', 'debate' %}
+
 <section class="debate">
   <h2 class="hat">Em debate</h2>
+
   <ul>
+	{% for post in posts_picture_week | limit:1 %}	  
+		<li>
+	      <a href="{{ post.url }}">
+	        <img src={{ post.picture_week }} />
+	      </a>
+    	</li>
+	{% endfor %}	
     {% for post in posts | limit:3 %}	  
-      {% if forloop.first %}
-        <li>
-          {% include headline-with-image.html post=post %}
-        </li>
-      {% else %}
         <li>
           {% include headline.html post=post %}
         </li>
-      {% endif %}
     {% endfor %}
   </ul>
 </section>
