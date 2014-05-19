@@ -85,9 +85,6 @@ figure {
   border-radius: 3px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.125);
   overflow: hidden; }
-  figure img:hover, figure iframe:hover {
-    box-shadow: none;
-    opacity: 0.8; }
   figure iframe {
     width: 100%;
     height: 190px; }
@@ -487,6 +484,8 @@ article.headline {
   article.headline figure {
     height: 190px;
     background-size: cover; }
+    article.headline figure:hover {
+      opacity: 0.8; }
   article.headline h1 {
     font-size: 20px;
     font-weight: 500;
