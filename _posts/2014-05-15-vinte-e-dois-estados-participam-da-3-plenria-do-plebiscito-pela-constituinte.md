@@ -10,11 +10,11 @@ tags:
 - menu:projeto popular
 - localização:são paulo
 - assuntos:plebiscito
-type: 
+type: news
 support_line: Comitês se organizam para debater a proposta de uma nova Constituinte
   do Sistema Político entre os dias 16 e 17 de Maio, em São Paulo. A Plenária tem
   como meta traçar estratégias para massificar a campanha do Plebiscito Constituinte.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 ---

@@ -10,11 +10,11 @@ tags:
 - menu:lutas e mobilizações
 - localização:são paulo
 - assuntos:venezuela
-type: 
+type: news
 support_line: Mídia tem ocultado os crimes cometidos pela direita venezuelana e  tratado
   o governo de Nicolás Maduro como uma ditadura. Militantes da  América Latina revelam
   a farsa.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 ---

@@ -8,10 +8,10 @@ video: ''
 tags:
 - menu:educação, cultura e comunicação
 - assuntos:questão agrária
-type: 
+type: news
 support_line: Com mais de 1600 arquivos já disponíveis, o objetivo é  reunir, organizar
   e disponibilizar o acúmulo teórico sobre o assunto.
-section: featured-news
+section: 
 hat: ''
 picture_week: ''
 ---

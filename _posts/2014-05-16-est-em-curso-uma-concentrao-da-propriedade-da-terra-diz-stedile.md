@@ -9,10 +9,9 @@ tags:
 - menu:reforma agrária
 - assuntos:questão agrária
 type: 
-support_line: Em entrevista, João Pedro Stedile, do MST, explica quais são as análises
-  internas do MST em relação à reforma agrária, avalia os 12 anos dos governos Lula
-  e Dilma e rebate as críticas de que os movimentos foram cooptados pelo Estado.
-section: carousel
+support_line: Em entrevista, João Pedro Stedile fala sobre reforma agrária, Lula e
+  Dilma e rebate críticas.
+section: featured-news
 hat: ''
 picture_week: ''
 ---

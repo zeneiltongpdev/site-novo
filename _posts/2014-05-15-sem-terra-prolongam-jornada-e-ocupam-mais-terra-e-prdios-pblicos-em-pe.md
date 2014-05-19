@@ -13,7 +13,7 @@ type:
 support_line: A Jornada Nacional de Lutas pela Reforma Agrária se estendeu pelo estado
   de Pernambuco durante essa semana. Mais ocupações de terras, prédios públicos e
   marchas foram realizados no estado.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 ---
