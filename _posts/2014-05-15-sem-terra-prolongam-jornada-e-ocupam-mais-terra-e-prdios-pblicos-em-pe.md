@@ -9,11 +9,11 @@ tags:
 - menu:lutas e mobilizações
 - localização:pernambuco
 - assuntos:jornada de lutas abril 2014
-type: 
+type: news
 support_line: A Jornada Nacional de Lutas pela Reforma Agrária se estendeu pelo estado
   de Pernambuco durante essa semana. Mais ocupações de terras, prédios públicos e
   marchas foram realizados no estado.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 ---
