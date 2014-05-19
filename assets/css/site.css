@@ -932,6 +932,9 @@ main.post article {
       max-width: 50%;
       float: left;
       margin-left: 0; } }
+main.all-news li {
+  padding-bottom: 25px; }
+
 main.post > article > aside {
   display: none; }
 
