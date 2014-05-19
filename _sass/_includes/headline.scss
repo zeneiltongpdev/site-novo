@@ -4,6 +4,10 @@ article.headline {
   figure {
     height: 190px;
     background-size: cover;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   h1 {
