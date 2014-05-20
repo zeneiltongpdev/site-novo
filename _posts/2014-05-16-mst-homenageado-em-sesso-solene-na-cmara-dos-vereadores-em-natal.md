@@ -9,11 +9,11 @@ tags:
 - menu:reforma agrária
 - localização:rio grande do norte
 - assuntos:mst 30 anos
-type: 
+type: news
 support_line: Na oportunidade, foram tratados temas relacionados à importância do
   MST na luta por terra e a Reforma Agrária no Brasil, e de sua contribuição na organização
   da luta dos trabalhadores em geral.&nbsp;
-section: recent
+section: 
 hat: ''
 picture_week: ''
 ---
