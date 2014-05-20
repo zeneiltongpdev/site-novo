@@ -933,6 +933,8 @@ main.post article {
       margin-left: 0; } }
 main.all-news li {
   padding-bottom: 25px; }
+  main.all-news li > article > a > figure > img {
+    width: 370px; }
 
 main.post > article > aside {
   display: none; }
