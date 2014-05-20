@@ -932,9 +932,14 @@ main.post article {
       float: left;
       margin-left: 0; } }
 main.all-news li {
-  padding-bottom: 25px; }
+  padding-bottom: 190px; }
   main.all-news li > article > a > figure > img {
-    width: 370px; }
+    width: 370px;
+    padding-right: 33px; }
+  main.all-news li > article > a > figure {
+    display: inline;
+    float: left;
+    max-width: 346px; }
 
 main.post > article > aside {
   display: none; }
