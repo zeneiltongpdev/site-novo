@@ -1,11 +1,17 @@
 main.all-news {
   li {
-    padding-bottom: 25px;
+    padding-bottom: 190px;
 
     & > article > a > figure > img {
         width: 370px;
+          padding-right: 33px;
+        }
+
+    & > article > a > figure {
+      display:inline;
+    float: left;
+        max-width: 346px;
+      }
+
     }
-
   }
-}
-
