@@ -21,9 +21,9 @@ layout: default
         <li>
           {% if paginator.previous_page %}
             {% if paginator.page == 2 %}
-              <a rel='prev' href="/all_news" class="previous">Anterior</a>
+              <a rel='prev' href="/noticias" class="previous">Anterior</a>
             {% else %}
-              <a rel='prev' href="/all_news/page{{ paginator.previous_page }}" class="previous">Anterior</a>
+              <a rel='prev' href="/noticias/page{{ paginator.previous_page }}" class="previous">Anterior</a>
             {% endif %}  
           {% else %}
             <span class="previous">Anterior</span>
@@ -34,7 +34,7 @@ layout: default
         </li>
         <li>
           {% if paginator.next_page %}
-            <a rel='next' href="/all_news/page{{ paginator.next_page }}" class="next">Próximo</a>
+            <a rel='next' href="/noticias/page{{ paginator.next_page }}" class="next">Próximo</a>
           {% else %}
             <span class="next">Próximo</span>
           {% endif %}
