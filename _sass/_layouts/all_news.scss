@@ -1,6 +1,11 @@
 main.all-news {
   li {
     padding-bottom: 25px;
- }
+
+    & > article > a > figure > img {
+        width: 370px;
+    }
+
+  }
 }
 

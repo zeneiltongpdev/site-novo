@@ -3,9 +3,13 @@
   {% if include.post.images != '' %}
 
     <a href="{{ include.post.url }}">
-      <figure
-        style="background-image:url('{{ include.post.images | uri_escape }}');" />
-      </figure>
+      {% if include.image_tag %} 
+         <figure>
+           <img src="{{ include.post.images | uri_escape }}" alt="Imagem para a noticia: {{ include.post.title }}"/>
+         </figure> 
+      {% else %}
+         <figure style="background-image:url('{{ include.post.images | uri_escape }}');" />
+      {% endif %}
     </a>
 
     {% else %}
