@@ -1,12 +1,12 @@
 ---
 layout: post
-title: ! 'Guilherme Delgado: Reestruturação econômica do agronegócio'
+title: 'Guilherme Delgado: Reestruturação econômica do agronegócio'
 created: 1323977240
 images: []
 video: 
 tags:
 - Agronegócio
-Menu: Agronegócio
+- Menu: Agronegócio
 ---
  Da Página do MSTConheça capítulo de livro inédito que será lançado em breve pelo  economista Guilherme  Delgado, pesquisador aposentado do Instituto de  Pesquisa  Econômica  Aplicada (Ipea). **CAPÍTULO 5
 
