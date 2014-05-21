@@ -108,6 +108,9 @@ a {
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
 
+.list-square {
+  list-style-type: square; }
+
 #logo {
   display: block;
   height: 60px;
@@ -703,7 +706,7 @@ body > main.home > section.carousel {
 
 body > main.home > section.tv-mst {
   display: block;
-  width: 100%;
+  width: 60%;
   clear: both;
   border-top: 1px solid; }
   @media (min-width: 768px) {
@@ -747,8 +750,11 @@ body > main.home > section.interviews {
         max-width: 100%; } }
 
 body > main.home > section.debate {
-  width: 100%;
-  border-top: 1px solid; }
+  border-top: 1px solid;
+  width: 60%; }
+  body > main.home > section.debate > ul {
+    padding-left: 20px;
+    list-style-type: square; }
   body > main.home > section.debate figure {
     max-width: 100%; }
   @media (min-width: 768px) {
