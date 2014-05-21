@@ -8,7 +8,7 @@
            <img src="{{ include.post.images | uri_escape }}" alt="Imagem para a noticia: {{ include.post.title }}"/>
          </figure> 
       {% else %}
-         <figure style="background-image:url('{{ include.post.images | uri_escape }}');" />
+        <figure style="background-image:url('{{ include.post.images | uri_escape }}');"></figure>
       {% endif %}
     </a>
 
@@ -16,18 +16,14 @@
       {% if include.post.type == 'video' %}
 
         <a href="{{ include.post.url }}">
-          <figure
-            style="background-image:url('http://i1.ytimg.com/vi/{{ include.post.video }}/hqdefault.jpg');" />
-          </figure>
+          <figure style="background-image:url('http://i1.ytimg.com/vi/{{ include.post.video }}/hqdefault.jpg');"></figure>
         </a>
 
       {% else %}
         {% if default_image != '' %}
 
           <a href="{{ include.post.url }}">
-            <figure
-              style="background-image:url('{{ default_image }}');" />
-            </figure>
+            <figure style="background-image:url('{{ default_image }}');"></figure>
           </a>
 
         {% else %}
