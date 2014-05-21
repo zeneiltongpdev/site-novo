@@ -12,7 +12,7 @@ type:
 support_line: Pesquisa inédita coordenada pela Universidade Federal do Ceará (UFC),
   apresentada no último dia 17, durante o III Encontro Nacional de Agroecologia (III
   Ena) &nbsp;mostra que as expectativas para o futuro não são nada animadoras.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 ---

@@ -9,11 +9,11 @@ tags:
 - menu:agricultura camponesa
 - localização:bahia
 - assuntos:agroecologia
-type: 
+type: news
 support_line: A luta dos agroecologistas é por mudanças no padrão de produção, contra
   os agrotóxicos, no modelo de desenvolvimento rural, na articulação das pessoas que
   vivem da terra. Isso não se faz de forma isolada.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 ---

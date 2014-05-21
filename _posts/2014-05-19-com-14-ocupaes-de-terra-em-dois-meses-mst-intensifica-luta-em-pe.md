@@ -14,7 +14,7 @@ type:
 support_line: 'Cerca de 350 famílias ocuparam neste sábado dois Engenhos falidos no
   município de Moreno, região Metropolitana de Pernambuco: o Engenho Moreninho e o
   Engenho Moreno. Ambos pertencem ao mesmo grupo familiar, a Usina Auxiliadora.'
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 ---

@@ -10,11 +10,11 @@ tags:
 - menu:direitos humanos
 - localização:rio de janeiro
 - assuntos:direitos humanos
-type: 
+type: news
 support_line: Menina de 10 anos foi encontrada dentro de um poço na manhã desta segunda-feira  (19/05).
   A polícia, que tenta retirar o corpo do local, afirma que ela está morta há dois
   ou três dias.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 ---

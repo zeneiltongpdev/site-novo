@@ -4,16 +4,16 @@ title: Mega operação da polícia invade assentamento e intimida famílias no P
 legacy_url: http://www.mst.org.br/node/16113
 created: 1400262391
 images: ''
-video: ''
+video: eWqTda6PTM8
 tags:
 - menu:direitos humanos
 - destaque:manchete
 - localização:paraná
 - assuntos:latifúndio
-type: 
+type: video
 support_line: Os Sem Terra acreditam que a ação se deve ao fato do MST estar organizando
   um acampamento na região.
-section: featured-news
+section: tv
 hat: ''
 picture_week: ''
 ---

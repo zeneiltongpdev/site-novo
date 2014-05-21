@@ -8,11 +8,11 @@ video: ''
 tags:
 - menu:direitos humanos
 - assuntos:direitos humanos
-type: 
+type: news
 support_line: O resultado do trabalho será um diagnóstico do volume e situação dos
   processos cíveis e criminais relacionados à questão fundiária, no período de 2009
   a 2013. A pesquisa deverá ser concluída no segundo semestre.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 ---

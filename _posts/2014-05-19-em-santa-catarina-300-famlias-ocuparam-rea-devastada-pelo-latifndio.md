@@ -9,11 +9,11 @@ tags:
 - assuntos:ocupação
 - localização:santa catarina
 - menu:lutas e mobilizações
-type: 
+type: news
 support_line: Neste domingo (18), 300 famílias do MST ocuparam mais uma área improdutiva
   no município de Santa Cecília, planalto norte catarinense. Na área de 500 hectares,
   os Sem Terra montaram o acampamento “Unidos na Luta”.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 ---

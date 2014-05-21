@@ -9,9 +9,9 @@ tags:
 - menu:agricultura camponesa
 - destaque:destaque
 - assuntos:agroecologia
-type: 
+type: news
 support_line: " O CIRCUITO from AGROECOLOGIA on Vimeo."
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 ---

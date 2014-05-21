@@ -9,11 +9,11 @@ tags:
 - menu:educação, cultura e comunicação
 - localização:santa catarina
 - assuntos:comunicação
-type: 
+type: news
 support_line: Entre os dias 17 e 18 de maio, a juventude Sem Terra do estado de Santa
   Catarina realizaram o seminário de apresentação do projeto "De Olho na Terra Estadual".&nbsp;O
   encontro contou com a presença de cerca de 30 jovens.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 ---
