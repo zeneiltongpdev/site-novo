@@ -1,6 +1,11 @@
 body > main.home > section.debate {
-  width: 100%;
   border-top: 1px solid;
+  width: 60%;
+
+  & > ul {
+    padding-left: 20px;
+    list-style-type: square;
+  }
 
   figure {
     max-width: 100%;
