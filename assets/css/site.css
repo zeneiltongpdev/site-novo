@@ -937,15 +937,27 @@ main.post article {
       max-width: 50%;
       float: left;
       margin-left: 0; } }
-main.all-news li {
-  padding-bottom: 190px; }
-  main.all-news li > article > a > figure > img {
-    width: 370px;
-    padding-right: 33px; }
-  main.all-news li > article > a > figure {
-    display: inline;
+main.all-news > ul > li {
+  clear: both;
+  height: 190px; }
+  main.all-news > ul > li > article.headline figure {
     float: left;
-    max-width: 346px; }
+    width: 370px;
+    margin-right: 15px; }
+  main.all-news > ul > li + li {
+    margin-top: 30px; }
+main.all-news > footer.pagination {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  clear: both;
+  text-align: center;
+  font-weight: 200; }
+  main.all-news > footer.pagination nav .previous, main.all-news > footer.pagination nav .next {
+    text-transform: uppercase; }
+  main.all-news > footer.pagination nav span.page_number {
+    padding-left: 20px;
+    padding-right: 20px; }
 
 main.post > article > aside {
   display: none; }
