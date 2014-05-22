@@ -4,7 +4,8 @@
 
     <a href="{{ include.post.url }}">
       <figure
-        style="background-image:url('{{ include.post.images | uri_escape }}');">
+        style="background-image:url('{{ include.post.images | uri_escape }}');"
+        alt="Imagem para a noticia: {{ include.post.title }}">
       </figure>
     </a>
 
@@ -13,7 +14,8 @@
 
         <a href="{{ include.post.url }}">
           <figure
-            style="background-image:url('http://i1.ytimg.com/vi/{{ include.post.video }}/hqdefault.jpg');">
+            style="background-image:url('http://i1.ytimg.com/vi/{{ include.post.video }}/hqdefault.jpg');"
+            alt="Imagem para a noticia: {{ include.post.title }}">
           </figure>
         </a>
 
@@ -22,7 +24,8 @@
 
           <a href="{{ include.post.url }}">
             <figure
-              style="background-image:url('{{ default_image }}');">
+              style="background-image:url('{{ default_image }}');"
+              alt="Imagem para a noticia: {{ include.post.title }}">
             </figure>
           </a>
 
