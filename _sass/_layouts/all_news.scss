@@ -21,5 +21,18 @@ main.all-news {
     padding: 0;
     padding-top: 30px;
     clear: both;
+    text-align: center;
+    font-weight: 200;
+    
+    nav {
+      .previous, .next {
+        text-transform: uppercase; 
+      }
+
+      span.page_number {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
   }
 }
