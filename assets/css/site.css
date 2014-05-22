@@ -537,6 +537,19 @@ article.headline {
     line-height: 1;
     white-space: normal; }
 
+span.tag {
+  background-color: darkgreen;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  margin-left: 0.4em; }
+
 body > main.home > section.recent article.headline > h1 {
   border-top: 1px solid #dddddd;
   padding-top: 10px;
@@ -906,18 +919,7 @@ main.post article {
     margin-top: 0.4em;
     word-wrap: break-word; }
   main.post article span.tag {
-    background-color: darkgreen;
-    padding: .2em .6em .3em;
-    font-size: 75%;
-    font-weight: bold;
-    line-height: 1;
-    color: #ffffff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: baseline;
-    border-radius: .25em;
-    float: right;
-    margin-left: 0.4em; }
+    float: right; }
   main.post article img {
     display: block;
     float: none;
