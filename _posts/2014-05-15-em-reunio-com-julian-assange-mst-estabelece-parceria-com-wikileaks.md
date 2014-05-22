@@ -9,10 +9,10 @@ tags:
 - menu:educação, cultura e comunicação
 - destaque:manchete
 - assuntos:comunicação
-type: 
+type: news
 support_line: João Paulo Rodrigues, da coordenação nacional do MST, se reuniu com
   o fundador do Wikileaks, Julian Assange.
-section: featured-news
+section: 
 hat: ''
 picture_week: ''
 ---

@@ -9,11 +9,11 @@ tags:
 - menu:transgênicos
 - localização:mato grosso
 - assuntos:agronegócio
-type: 
+type: news
 support_line: O produtor Fernando Ferri plantou 700 hectares com milho geneticamente
   modificado. Em tese, isso o livraria de fazer uso de inseticidas. Entretanto, o
   agricultor se viu obrigado a fazer três aplicações do defensivo.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 ---

@@ -8,11 +8,11 @@ video: ''
 tags:
 - menu:direitos humanos
 - assuntos:ditadura
-type: 
+type: news
 support_line: Coordenador da CNV, Pedro Dallari, afirma que inclusão de vítimas do
   campo e de indígenas aumentarão 'em muito' os 827 casos de morte e desaparecimento
   relatados como fruto de perseguição política.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 ---

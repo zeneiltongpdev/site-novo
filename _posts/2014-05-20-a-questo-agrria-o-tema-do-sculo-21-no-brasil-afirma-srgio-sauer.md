@@ -6,13 +6,13 @@ created: 1400590623
 images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/ENA_AnnaBeatrizAnjos.gif
 video: ''
 tags:
-- assuntos:questão agrária
 - menu:reforma agrária
-type: 
+- assuntos:questão agrária
+type: news
 support_line: A importância da reforma agrária foi destacada durante o terceiro dia
   III Encontro Nacional de Agroecologia. Reconhecimento dos territórios das comunidades
   tradicionais também foi pauta.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 ---

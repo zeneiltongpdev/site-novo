@@ -9,10 +9,9 @@ tags:
 - menu:agronegócio
 - assuntos:agronegócio
 type: 
-support_line: Pesquisa inédita coordenada pela Universidade Federal do Ceará (UFC),
-  apresentada no último dia 17, durante o III Encontro Nacional de Agroecologia (III
-  Ena) &nbsp;mostra que as expectativas para o futuro não são nada animadoras.
-section: recent
+support_line: Pesquisa inédita coordenada pela UFC mostra que as expectativas para
+  o futuro não são nada animadoras.
+section: featured-news
 hat: ''
 picture_week: ''
 ---

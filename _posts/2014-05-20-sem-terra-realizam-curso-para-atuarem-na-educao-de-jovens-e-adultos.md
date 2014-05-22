@@ -13,7 +13,7 @@ type:
 support_line: No Rio Grande do Norte, 1.200 educandos das áreas de assentamentos e
   acampamentos do estado participam do processo de formação dos educadores que irão
   atuar nas 60 turmas de Educação de Jovens e Adultos (EJA) no estado.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 ---
