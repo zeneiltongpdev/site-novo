@@ -756,7 +756,7 @@ body > main.home > section.interviews {
       display: inline-block;
       vertical-align: top;
       width: 39%;
-      float: left;
+      float: right;
       padding-right: 0; }
       body > main.home > section.interviews > article.headline > figure {
         height: 100px;
@@ -773,7 +773,6 @@ body > main.home > section.debate {
   @media (min-width: 768px) {
     body > main.home > section.debate {
       border: none;
-      clear: both;
       padding-left: 0;
       padding-right: 0; } }
 
