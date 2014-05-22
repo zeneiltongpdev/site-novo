@@ -1,17 +1,25 @@
 main.all-news {
-  li {
-    padding-bottom: 190px;
+  & > ul > li {
+    clear: both;
+    height: 190px;
 
-    & > article > a > figure > img {
+    & > article.headline { 
+      figure {
+        float:left;
         width: 370px;
-          padding-right: 33px;
-        }
-
-    & > article > a > figure {
-      display:inline;
-    float: left;
-        max-width: 346px;
+        margin-right: 15px;
       }
+    }
 
+    & + li {
+      margin-top: 30px;
     }
   }
+
+  & > footer.pagination {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    clear: both;
+  }
+}
