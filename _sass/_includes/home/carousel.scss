@@ -1,6 +1,6 @@
 body > main.home > section.carousel {
   position: relative;
-  width: 370px;
+  width: 100%;
   height: 250px;
   margin: 0;
   margin-left: auto;
@@ -92,7 +92,7 @@ body > main.home > section.carousel {
   }
 
   @media(min-width: $screen-sm) {
-    width: 450px;
+    width: 100%;
     height: 300px;
 
     & > ul > li {
@@ -109,6 +109,7 @@ body > main.home > section.carousel {
     &[data-index="4"] > ul > li:first-child { margin-left:-1832px; }
 
     @media(min-width: $screen-md) {
+      width: 450px;
       float: left;
     }
   }
