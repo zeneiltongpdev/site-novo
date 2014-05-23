@@ -5,7 +5,7 @@
   <h2 class="hat">Entrevistas</h2>
   {% include headline-text-over-image.html post=first_post %}
   <ul>
-    {% for post in posts %} 
+    {% for post in posts | limit:5 %} 
       {% if !forloop.first %}
       {% else %}
         <li>
