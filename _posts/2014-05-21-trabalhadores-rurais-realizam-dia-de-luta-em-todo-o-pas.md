@@ -9,11 +9,11 @@ video: ''
 tags:
 - menu:lutas e mobilizações
 - assuntos:mobilização
-type: 
+type: news
 support_line: A Contag, em parceria com as Fetags, realizam manifestações pelo país
   e reivindicam, entre outras coisas, a aceleração no ritmo da reforma agrária, a
   regularização fundiária e a política de crédito fundiário.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 ---

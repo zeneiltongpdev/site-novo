@@ -9,11 +9,11 @@ tags:
 - menu:reforma agrária
 - localização:ceará
 - assuntos:mst
-type: 
+type: news
 support_line: Para comemorar a data do surgimento do MST no estado do Ceará, entre
   os dias 22 e 23 de maio o Movimento realiza a feira da Reforma Agrária, além da
   sessão solene na Câmara Municipal de Quixeramobim nesta sexta-feira (23).
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 ---

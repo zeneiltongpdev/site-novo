@@ -8,11 +8,11 @@ video: ''
 tags:
 - menu:projeto popular
 - assuntos:reforma agrária
-type: 
+type: news
 support_line: Ministro da Secretaria Geral da Presidência afirma que poder econômico
   é proeminente no Congresso. E admite que reforma agrária ficou aquém do esperado
   no governo Dilma.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 ---

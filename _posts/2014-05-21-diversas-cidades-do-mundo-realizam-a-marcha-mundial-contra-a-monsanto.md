@@ -9,11 +9,11 @@ video: ''
 tags:
 - menu:lutas e mobilizações
 - assuntos:agronegócio
-type: 
+type: news
 support_line: A mobilização, que acontece neste sábado, serve para denunciar as práticas
   da maior transnacional fabricante de sementes transgênicas do mundo e as conseqüências
   que o modelo de agricultura proposto pela empresa causam à sociedade.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 ---
