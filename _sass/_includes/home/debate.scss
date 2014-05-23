@@ -1,6 +1,10 @@
 body > main.home > section.debate {
   border-top: 1px solid;
-  width: 60%;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
 
   & > ul {
     padding-left: 20px;
@@ -12,6 +16,7 @@ body > main.home > section.debate {
   }
 
   @media(min-width: $screen-sm) { 
+    width: 60%;
     border: none;
     padding-left: 0;
     padding-right: 0;
