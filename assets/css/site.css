@@ -745,6 +745,8 @@ body > main.home > section.interviews {
   display: block;
   width: 100%;
   border-top: 1px solid; }
+  body > main.home > section.interviews .headline-text-over-image figure {
+    width: 100%; }
   body > main.home > section.interviews > ul {
     padding-left: 20px;
     list-style-type: square; }
