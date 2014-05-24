@@ -3,6 +3,10 @@ body > main.home > section.interviews {
   width: 100%;
   border-top: 1px solid;
 
+  .headline-text-over-image figure{
+    width: 100%;
+  }
+
   & > ul {
     padding-left: 20px;
     list-style-type: square;
