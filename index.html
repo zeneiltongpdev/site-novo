@@ -104,7 +104,7 @@
 		<main class="home">
   
 <section class="carousel" data-index="0">
-  <a data-direction="-1" href="#"></a>
+  <a data-direction="-1" href="#" class='arrow-left'></a>
   <ul>
     
       <li>
@@ -153,7 +153,7 @@
       </li>
     
   </ul>
-  <a data-direction="1" href="#"></a>
+  <a data-direction="1" href="#" class='arrow-right'></a>
 </section>
 
   
@@ -630,6 +630,24 @@
 
 			$('#open-menu').on('click', function () {
 				$(this).siblings('ul').toggleClass('open');        
+			});
+
+			$('.arrow-right').on('click', function () {
+				ga('send', {
+					'hitType': 'event',
+					'eventCategory': 'carousel-nav',
+					'eventAction': 'click',
+					'eventLabel': 'Seta-direita'
+				});
+			});
+
+			$('.arrow-left').on('click', function () {
+				ga('send', {
+					'hitType': 'event',
+					'eventCategory': 'carousel-nav',
+					'eventAction': 'click',
+					'eventLabel': 'Seta-esquerda'
+				});
 			});
 
 			$('#open-search').on('click', function () {

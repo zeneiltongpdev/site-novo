@@ -458,6 +458,24 @@
 				$(this).siblings('ul').toggleClass('open');        
 			});
 
+			$('.arrow-right').on('click', function () {
+				ga('send', {
+					'hitType': 'event',
+					'eventCategory': 'carousel-nav',
+					'eventAction': 'click',
+					'eventLabel': 'Seta-direita'
+				});
+			});
+
+			$('.arrow-left').on('click', function () {
+				ga('send', {
+					'hitType': 'event',
+					'eventCategory': 'carousel-nav',
+					'eventAction': 'click',
+					'eventLabel': 'Seta-esquerda'
+				});
+			});
+
 			$('#open-search').on('click', function () {
 				var myTarget = $(this).siblings('form');
 				myTarget.toggleClass('open');
