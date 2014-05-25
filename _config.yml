@@ -2,6 +2,8 @@ paginate: 5
 paginate_path: "/noticias/page:num"
 name: Movimento dos Trabalhadores Rurais Sem Terra
 markdown: redcarpet
+asset_pipeline:
+  gzip: true
 sass:
   style: :compressed
 exclude:
