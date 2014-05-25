@@ -445,7 +445,23 @@
 						});
 					});
 				});
-			}
+      };
+
+      $("main section").each(function(index, element){
+        $(element).find("a[href!='#']").each(function(index,e){
+          section = $(element).attr('class');
+          news = $(e).attr('href');
+
+          $(e).on('click', function(){
+            ga('send', {
+              'hitType': 'event',
+              'eventCategory': 'Seção: '+section,
+              'eventAction': 'click',
+              'eventLabel': news
+            });
+          });
+        });
+      });
 			
 			$(".details-inited summary").on('click', function() {
 				ga('send', {
