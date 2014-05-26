@@ -3,6 +3,8 @@ main.all-news {
     clear: both;
 
     @media(min-width: $screen-sm) {
+      height: 180px;
+
       & > article.headline {
         figure {
           float:left;
