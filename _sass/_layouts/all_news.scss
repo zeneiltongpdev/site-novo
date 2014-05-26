@@ -1,14 +1,18 @@
 main.all-news {
   & > ul > li {
     clear: both;
-    height: 190px;
 
-    & > article.headline { 
-      figure {
-        float:left;
-        width: 370px;
-        margin-right: 15px;
+    @media(min-width: $screen-sm) {
+      & > article.headline {
+        figure {
+          float:left;
+          width: 370px;
+          margin-right: 15px;
+        }
       }
+    }
+    article > p {
+      margin-bottom: 1px;
     }
 
     & + li {
