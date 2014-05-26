@@ -1,5 +1,9 @@
 <a href="{{ include.post.url }}" class="headline-text-over-image">
-  <figure style="background-image:url({{ include.post.images | uri_escape }});">
+  {% if include.images_hd %}
+    <figure style="background-image:url({{ include.post.images_hd | uri_escape }});">
+  {% else %}
+    <figure style="background-image:url({{ include.post.images | uri_escape }});">
+  {% endif %}
     <figcaption>{{ include.post.title }}</figcaption>
   </figure>
 </a>
