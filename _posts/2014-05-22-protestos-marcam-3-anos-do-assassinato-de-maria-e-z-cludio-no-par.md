@@ -10,11 +10,11 @@ tags:
 - assuntos:direitos humanos
 - localização:pará
 - menu:direitos humanos
-type: 
+type: news
 support_line: Familiares de José Claudio e Maria do Espírito Santo e entidades ligadas
   à questão agrária farão onde o casal residia, em Nova Ipixuna. O crime ocorreu no
   interior do assentamento, onde o casal desenvolvia seu trabalho de preservação.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 ---

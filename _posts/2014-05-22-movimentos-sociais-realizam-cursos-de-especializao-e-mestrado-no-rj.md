@@ -9,11 +9,11 @@ tags:
 - assuntos:educação
 - localização:rio de janeiro
 - menu:educação, cultura e comunicação
-type: 
+type: news
 support_line: Cerca de 80 pessoas iniciaram a Especialização em Trabalho, Educação
   e Movimentos Sociais, na Fiocruz e o Mestrado Profissional em Trabalho Saúde, Ambiente
   e Movimentos Sociais, na Escola Nacional de Saúde Pública.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 ---

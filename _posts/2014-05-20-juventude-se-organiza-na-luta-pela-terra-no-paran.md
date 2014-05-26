@@ -10,10 +10,10 @@ tags:
 - destaque:manchete
 - localização:paraná
 - assuntos:reforma agrária
-type: 
+type: news
 support_line: Filhos e filhas de assentados do PR colocam em pauta a  necessidade
   de continuar a Reforma Agrária.
-section: featured-news
+section: 
 hat: ''
 picture_week: ''
 ---

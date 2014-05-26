@@ -13,7 +13,7 @@ type:
 support_line: Nesta quinta, o Acampamento Luis Carlos Prestes foi invadido e destruído
   pela polícia civil de São Gonçalo do Amarante, levando dois militantes presos.&nbsp;A
   polícia alegou que os militantes portavam armas de fogo, mas nada foi encontrado.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 ---

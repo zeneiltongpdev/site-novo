@@ -12,7 +12,7 @@ type:
 support_line: Em todo o Brasil há 400 comitês constituídos participando da campanha
   que já conta com a adesão de mais de 200 organizações. Consulta popular acontecerá
   entre os dias 1º e 7 de setembro de 2014.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 ---
