@@ -1,8 +1,8 @@
-{% assign posts = site.posts | where: 'section', 'carousel' %}
+{% assign posts = site.posts | between: 0, 4 %}
 <section class="carousel" data-index="0">
   <a data-direction="-1" href="#" class='arrow-left'></a>
   <ul>
-    {% for post in posts | limit:5 %}
+    {% for post in posts %}
       <li>
         {% include headline-text-over-image.html post=post images_hd=true %}
       </li>
