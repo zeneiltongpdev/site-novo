@@ -10,12 +10,12 @@ tags:
 - menu:agricultura camponesa
 - destaque:manchete
 - assuntos:agroecologia
-type: 
+type: news
 support_line: 'Para Chicão, coordenador do Setor de Produção do MST, III ENA acontece
   num momento riquíssimo: “Esse sistema do agronegócio é um modelo velho que está
   caindo de podre. E surge o novo, que é a agroecologia.”'
-section: cover
-hat: Agricultura
+section: 
+hat: ''
 picture_week: ''
 images_hd: ''
 ---
