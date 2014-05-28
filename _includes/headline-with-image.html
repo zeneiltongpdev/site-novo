@@ -4,7 +4,7 @@
 
     <a href="{{ include.post.url }}">
       <figure
-        style="background-image:url('{{ include.post.images | uri_escape }}');"
+        style="background-image:url('{{ include.post | find_image: 'hd' }}');"
         alt="Imagem para a noticia: {{ include.post.title }}">
       </figure>
     </a>
