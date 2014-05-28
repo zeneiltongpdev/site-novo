@@ -7,7 +7,7 @@
           <a href="{{ BASE_PATH }}{{ post.url }}">
             <p>{{ post.title }}</p>
             <time datetime="{{ post.date }}">
-              {{ post.date | pretty_date }}
+              {{ post.created | pretty_date }}
             </time>
           </a>
         </li>

@@ -18,8 +18,10 @@ module Jekyll
     }
 
     def pretty_date(obj, stdout=false)
-      hours = obj.strftime("%Hh%M")
-      "#{obj.day} de #{MESES[obj.month]} de #{obj.year} #{hours}"
+      return '---' unless obj.is_a? Integer
+      time = Time.at(obj)
+      hours = time.strftime("%Hh%M")
+      "#{time.day} de #{MESES[time.month]} de #{time.year} #{hours}"
     end
 
   end
