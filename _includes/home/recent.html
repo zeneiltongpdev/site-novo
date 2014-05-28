@@ -1,4 +1,4 @@
-{% assign posts = site.posts | where: 'section', 'recent' %}
+{% assign posts = site.posts | between: 6, 9  %}
 
 <section class="recent">
   {% include headline.html post=posts.first support_line=true %}
