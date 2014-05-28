@@ -1,7 +1,7 @@
 module Jekyll
   module FindImage
     def find_image(post, size, stdout=false)
-      key = size == 'hd' ? 'images_hd' : 'images'
+      key = "images#{'_hd' if size == 'hd'}"
       (post[key].nil? || post[key].empty?) ? get_image_from(post['content']) : post[key]
     end
 
