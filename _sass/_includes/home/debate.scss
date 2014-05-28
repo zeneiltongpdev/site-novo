@@ -6,19 +6,19 @@ body > main.home > section.debate {
     width: 100%;
   }
 
-  h1 {
-    margin-top: 15px;
-    font-size: 1em;
-    font-weight: normal;
-  }
-
   & > ul {
     padding-left: 20px;
     list-style-type: square;
-  }
 
-  figure {
-    max-width: 100%;
+    h1 {
+      margin-top: 15px;
+      font-size: 1em;
+      font-weight: normal;
+    }
+
+    figure {
+      max-width: 100%;
+    }
   }
 
   @media(min-width: $screen-sm) { 
