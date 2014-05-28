@@ -8,11 +8,11 @@ video: ''
 tags:
 - menu:agricultura camponesa
 - assuntos:agricultura
-type: 
+type: news
 support_line: Para a jornalista Esther Vivas, ativista social e política, “a agricultura
   camponesa e ecológica não só pode alimentar o mundo, como também é a única capaz
   de fazer isso.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/camponeis!.jpg

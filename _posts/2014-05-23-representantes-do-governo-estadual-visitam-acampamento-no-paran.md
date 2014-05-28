@@ -9,11 +9,11 @@ tags:
 - menu:reforma agrária
 - localização:paraná
 - assuntos:reforma agrária
-type: 
+type: news
 support_line: Estiveram presentes o Secretário para Assuntos Fundiários do Paraná,
   Hamilton Serighelli, o ouvidor agrário do Incra, Raul Bergoldi e o prefeito de Rio
   Bonito do Iguaçu, Irio de Rosso (PMDB).
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/fotos pr.jpg

@@ -12,7 +12,7 @@ type:
 support_line: No período de 1986 a 1997, foram registradas 244 mortes por suicídio
   entre os Guarani-Kaiowá de MS, número que praticamente triplicou na última década.
   De 2000 a 2013 foram 684 casos.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/indios!.jpg

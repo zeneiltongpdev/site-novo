@@ -12,7 +12,7 @@ type:
 support_line: O Plano Safra da Agricultura Familiar para o período 2014/2015, lançado
   nesta segunda-feira (26) pela presidenta Dilma Rousseff em cerimônia no Palácio
   do Planalto, terá R$ 24,1 bilhões para investimento e custeio.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/agricultura_familiar_ABr.JPG

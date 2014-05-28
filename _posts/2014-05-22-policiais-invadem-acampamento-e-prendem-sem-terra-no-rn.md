@@ -9,11 +9,11 @@ tags:
 - menu:direitos humanos
 - localização:rio grande do norte
 - assuntos:violência
-type: 
+type: news
 support_line: Nesta quinta, o Acampamento Luis Carlos Prestes foi invadido e destruído
   pela polícia civil de São Gonçalo do Amarante, levando dois militantes presos.&nbsp;A
   polícia alegou que os militantes portavam armas de fogo, mas nada foi encontrado.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/vio.jpg

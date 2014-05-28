@@ -8,11 +8,11 @@ video: ''
 tags:
 - menu:educação, cultura e comunicação
 - assuntos:residência agrária
-type: 
+type: news
 support_line: Os beneficiários da Reforma Agrária e remanescentes de quilombos têm
   até sexta para se inscrever no Enem e concorrer a uma vaga na primeira turma de
   Direito da Universidade Federal do Paraná (UFPR).
-section: recent
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/curso-residencia-agraria.jpg
