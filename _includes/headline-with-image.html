@@ -1,10 +1,11 @@
 {% assign default_image = site | extract_image_from_post_tag: include.post %}
+{% assign image_cover = include.post | find_image: 'hd' %}
 <article class="headline">
-  {% if include.post.images != '' %}
+  {% if image_cover != '' %}
 
     <a href="{{ include.post.url }}">
       <figure
-        style="background-image:url('{{ include.post | find_image: 'hd' }}');"
+        style="background-image:url('{{ image_cover  }}');"
         alt="Imagem para a noticia: {{ include.post.title }}">
       </figure>
     </a>
