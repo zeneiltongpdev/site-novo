@@ -9,7 +9,7 @@ class ImageFromTagExtractorTest < ActiveSupport::TestCase
     @site = {
       'pages' => [{
       	'tag' => 'agricultura camponesa',
-      	'image' => 'image.jpg'
+      	'images_hd' => 'image.jpg'
       }]
     }
   end
