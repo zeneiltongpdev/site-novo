@@ -1,7 +1,7 @@
 {% assign default_image = site | extract_image_from_post_tag: include.post %}
 {% assign image_cover = include.post | find_image: 'hd' %}
 <article class="headline">
-  {% if image_cover != '' %}
+  {% if image_cover and image_cover != "" %}
 
     <a href="{{ include.post.url }}">
       <figure

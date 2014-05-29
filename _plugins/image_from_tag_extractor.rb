@@ -7,7 +7,7 @@ module Jekyll
       return '' unless menu_tag
       post_tag = menu_tag.split(':').last
       page_tag = site['pages'].find{ |page| page['tag'] == post_tag }
-      return page_tag ? page_tag['image'] : ''
+      return page_tag ? page_tag['images_hd'] : ''
     end
 
   end
