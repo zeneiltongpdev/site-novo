@@ -8,10 +8,10 @@ video: ''
 tags:
 - menu:agronegócio
 - assuntos:agrotóxicos
-type: 
+type: news
 support_line: 100% das amostras de leite materno pesquisadas estavam contaminados
   com resíduos de agrotóxicos.
-section: featured-news
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/morte!.jpg

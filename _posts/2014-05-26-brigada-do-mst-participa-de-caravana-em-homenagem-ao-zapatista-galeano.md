@@ -11,10 +11,9 @@ tags:
 - localização:méxico
 - assuntos:solidariedade
 type: 
-support_line: No caracol&nbsp;La Realidad, em frente a seis comandantes e comandantas
-  do Comitê Revolucionário Indígena e o Subcomandante Insurgente Moisés, foram escutadas
-  as “últimas palavras públicas” do Subcomandante Insurgente Marcos.
-section: cover
+support_line: No caracol&nbsp;La Realidad&nbsp;foram escutadas as “últimas palavras
+  públicas” do Subcomandante Marcos.
+section: featured-news
 hat: ''
 picture_week: ''
 images_hd: ''
