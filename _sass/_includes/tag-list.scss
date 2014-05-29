@@ -9,7 +9,10 @@ span.tag {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em;
-  margin-left: 0.4em;
+  
+  & + span {
+    margin-right: 0.4em;
+  }
 }
 
 
