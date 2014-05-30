@@ -6,12 +6,12 @@ created: 1354730554
 images: ""
 video: uryG5dx1cRM
 tags:
-  - "menu:agricultura camponesa"
   - "localização:bahia"
   - "assuntos:assentamento"
+  - "menu:agronegócio"
 type: video
 support_line: A união dos esforços  permitiu a criação de uma área de produção de cacau de alta qualidade.
-section: null
+section: articles
 hat: ""
 picture_week: ""
 
