@@ -8,12 +8,12 @@ video: ''
 tags:
 - assuntos:indígenas
 - menu:lutas e mobilizações
-type: news
+type: 
 support_line: A Mobilização Nacional Indígena teve início nesta segunda-feira e segue
   até quinta-feira, 29. Propostas e projetos do Executivo (Portaria 303 e mesas de
   diálogo) e do Legislativo (como a PEC 215 e o PLP 227) serão alvo de protestos do
   movimento.
-section: 
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/indigenas.jpg

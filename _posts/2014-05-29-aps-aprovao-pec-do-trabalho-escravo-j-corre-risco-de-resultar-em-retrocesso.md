@@ -9,12 +9,12 @@ tags:
 - menu:direitos humanos
 - destaque:manchete
 - assuntos:trabalho escravo
-type: news
+type: 
 support_line: Projeto de regulamentação do conceito de escravidão, imposto por ruralistas,
   exclui flagrantes no meio urbano, que já são maioria. Texto articulador por Jucá
   pode até resultar em mudança do Código Penal.
-section: 
-hat: ''
+section: cover
+hat: Direitos Humanos
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/pec_juca.jpg
 ---

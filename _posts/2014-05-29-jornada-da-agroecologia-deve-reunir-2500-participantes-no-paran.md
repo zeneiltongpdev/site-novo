@@ -10,11 +10,11 @@ tags:
 - assuntos:13° jornada de agroecologia
 - localização:paraná
 - menu:agricultura camponesa
-type: news
+type: 
 support_line: Realizada anualmente pela Via Campesina, a Jornada representa a síntese
   do processo de construção da agroecologia e embate ao agronegócio, consolidando-se
   como uma escola popular e camponesa.
-section: 
+section: carousel
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/Jornada Agroecologia.jpg

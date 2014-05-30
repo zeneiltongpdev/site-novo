@@ -9,12 +9,12 @@ tags:
 - menu:agricultura camponesa
 - assuntos:alimentação
 - tipo de matéria:entrevistas
-type: news
+type: 
 support_line: A nutricionista Signorá Konrad, a frente da construção do novo Guia
   Alimentar para a População Brasileira, propõe justamente uma distinção entre o que
   são alimentos e o que são produtos ultraprocessados.
-section: 
-hat: ''
+section: interviews
+hat: Agricultura
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/alimento.JPG
 ---

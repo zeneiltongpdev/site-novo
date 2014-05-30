@@ -9,12 +9,12 @@ tags:
 - menu:reforma agrária
 - localização:brasília
 - assuntos:reforma agrária
-type: news
+type: 
 support_line: A Comissão de Direitos Humanos e Legislação Participativa realiza na
   manhã desta quinta-feira (8), em Brasília, uma audiência pública sobre o Programa
   de Aquisição e Alimentos e seus impactos sobre a vida dos trabalhadores assentados
   brasileiros.
-section: 
+section: carousel
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/pa.jpg

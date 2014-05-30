@@ -9,11 +9,11 @@ tags:
 - menu:reforma agrária
 - assuntos:questão agrária
 - tipo de matéria:entrevistas
-type: news
+type: 
 support_line: Em entrevista, João Pedro Stedile fala sobre reforma agrária, Lula e
   Dilma e rebate críticas.
-section: 
-hat: ''
+section: interviews
+hat: Entrevista
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/bdf.gif
 ---

@@ -11,11 +11,11 @@ tags:
 - menu:direitos humanos
 - destaque:manchete
 - tipo de matéria:entrevistas
-type: news
+type: 
 support_line: Psicóloga participa da Comissão da Verdade  no Grupo de Violações de
   Direitos Humanos  no Campo.
-section: 
-hat: ''
+section: debate
+hat: Entrevista
 picture_week: ''
 images_hd: ''
 ---

@@ -10,10 +10,10 @@ tags:
 - destaque:manchete
 - localização:méxico
 - assuntos:solidariedade
-type: news
+type: 
 support_line: No caracol&nbsp;La Realidad&nbsp;foram escutadas as “últimas palavras
   públicas” do Subcomandante Marcos.
-section: 
+section: featured-news
 hat: ''
 picture_week: ''
 images_hd: ''

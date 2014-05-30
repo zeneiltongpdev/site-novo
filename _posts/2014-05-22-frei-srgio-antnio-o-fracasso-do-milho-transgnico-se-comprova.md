@@ -8,11 +8,11 @@ video: ''
 tags:
 - menu:agronegócio
 - tipo de matéria:artigos
-type: news
+type: 
 support_line: 'As últimas notícias alertam o que os movimentos já diziam: os transgênicos
   não passam de uma armadilha.'
-section: 
-hat: ''
+section: articles
+hat: Transgênicos
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/milho blehabre.jpg
 ---

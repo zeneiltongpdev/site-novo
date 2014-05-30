@@ -9,12 +9,12 @@ tags:
 - menu:transgênicos
 - assuntos:agronegócio
 - tipo de matéria:artigos
-type: news
+type: 
 support_line: '"São questões que envolvem altos interesses. Apenas nove fabricantes
   multinacionais de produtos transgênicos tiveram faturamento de US$ 8,9 bilhões em
   2011/2012 (eram US$ 2,5 bilhões em 2000)", escreve Washington Novaes.'
-section: 
-hat: ''
+section: articles
+hat: Agronegócio
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/não.jpg
 ---
