@@ -9,12 +9,12 @@ tags:
 - menu:agronegócio
 - assuntos:agronegócio
 - tipo de matéria:artigos
-type: 
+type: news
 support_line: Transnacional foca atuação no Brasil e lança “nova” variedade de soja
   transgênica. Livro-documentário expõe sua relação com modelo agrícola que é preciso
   superar, e demonstra como ela se esconde na "ciência" para se legitimar.
-section: articles
-hat: Agronegócio
+section: 
+hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/Monsanto_Por-Latuff!.jpg
 ---

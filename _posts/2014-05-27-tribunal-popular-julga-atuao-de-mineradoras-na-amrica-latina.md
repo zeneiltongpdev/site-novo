@@ -8,11 +8,11 @@ video: ''
 tags:
 - menu:direitos humanos
 - assuntos:mineração
-type: 
+type: news
 support_line: Em Montreal, no Canadá, entre 29 de maio e 1 de junho, haverá, pela
   primeira vez no Canadá, uma sessão do Tribunal Permanente dos Povos (TPP) a fim
   de julgar a atuação da indústria de mineração canadense na América Latina.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/mi!!!!.jpg

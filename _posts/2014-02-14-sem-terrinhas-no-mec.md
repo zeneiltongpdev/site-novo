@@ -6,9 +6,14 @@ created: 1392392190
 images: ''
 video: ''
 tags:
-- destaque:destaque
 - menu:lutas e mobilizações
+- destaque:destaque
 - congresso:6
 type: news
+support_line: ''
+section: 
+hat: ''
+picture_week: ''
+images_hd: ''
 ---
-<p style="text-align: center;"><iframe src="//www.youtube.com/embed/BNcHX30oUrg" allowfullscreen="" height="500" width="600" frameborder="0"></iframe></p>
+<p style="text-align: center;"><iframe allowfullscreen="" src="//www.youtube.com/embed/BNcHX30oUrg" frameborder="0" height="500" width="600"></iframe></p>

@@ -12,7 +12,7 @@ type:
 support_line: "“A falta de comprometimento do Poder Público com a implantação de um
   CAR de qualidade é apenas mais um passo desastroso na política ambiental brasileira”,
   adverte a técnica em Desenvolvimento e Pesquisa Socioambiental."
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/desmatamento.jpg

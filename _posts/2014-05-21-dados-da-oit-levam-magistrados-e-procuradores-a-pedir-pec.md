@@ -9,10 +9,10 @@ tags:
 - menu:direitos humanos
 - destaque:manchete
 - assuntos:trabalho escravo
-type: 
+type: news
 support_line: PEC que tipifica o crime de trabalho escravo e propõe desapropriar terras
   está pronta para entrar na pauta do Senado.
-section: featured-news
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/lançamento_OIT!.jpg

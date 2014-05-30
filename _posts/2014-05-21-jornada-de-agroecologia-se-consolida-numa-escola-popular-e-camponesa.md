@@ -10,12 +10,12 @@ tags:
 - localização:paraná
 - assuntos:jornada de agroecologia
 - tipo de matéria:artigos
-type: 
+type: news
 support_line: Entre os dias 4 a 7 de junho será realizado a 13° edição da Jornada
   de Agroecologia, na Escola Milton Santos, no município de Maringá, Paraná. A atividade
   faz parte da luta pela construção de um projeto popular e soberano para a agricultura.
-section: articles
-hat: Agricultura Camponesa
+section: 
+hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/12jornada_agroecologia.jpg
 ---

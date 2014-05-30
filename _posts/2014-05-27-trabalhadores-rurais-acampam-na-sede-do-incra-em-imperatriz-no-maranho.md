@@ -9,10 +9,10 @@ tags:
 - menu:lutas e mobilizações
 - localização:maranhão
 - assuntos:mobilização
-type: 
+type: news
 support_line: Os Sem Terra reivindicam maior rapidez em processos de regularização
   de áreas ocupadas. Algumas famílias estão a mais de oito anos acampadas.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/incra_imperatriz.jpg

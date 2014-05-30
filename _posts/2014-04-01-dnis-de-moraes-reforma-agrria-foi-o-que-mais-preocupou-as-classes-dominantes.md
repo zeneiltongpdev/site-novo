@@ -11,11 +11,11 @@ tags:
 - destaque:manchete
 - assuntos:50 anos do golpe militar
 - tipo de matéria:entrevistas
-type: 
+type: news
 support_line: Dênis de Moraes analisa o papel das lutas sociais no campo durante o
   governo Goulart.
-section: debate
-hat: 50 anos do Golpe
+section: 
+hat: ''
 picture_week: ''
 images_hd: ''
 ---

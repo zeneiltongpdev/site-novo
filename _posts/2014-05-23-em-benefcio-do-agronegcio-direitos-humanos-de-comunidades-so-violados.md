@@ -8,11 +8,11 @@ video: ''
 tags:
 - menu:direitos humanos
 - assuntos:agronegócio
-type: 
+type: news
 support_line: Estudo demonstra como a expansão do agronegócio em várias regiões brasileiras
   tem afetado gravemente a qualidade de vida e a o cumprimento de direitos humanos
   das populações locais.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/charge-latuff-agro_comendo!.jpg

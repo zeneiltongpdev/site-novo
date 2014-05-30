@@ -13,7 +13,7 @@ tags:
 type: video
 support_line: Os Sem Terra acreditam que a ação se deve ao fato do MST estar organizando
   um acampamento na região.
-section: tv
+section: 
 hat: ''
 picture_week: ''
 images_hd: ''
