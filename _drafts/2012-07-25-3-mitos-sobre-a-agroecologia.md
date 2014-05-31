@@ -10,6 +10,7 @@ tags:
   - "personalizada:debate"
   - "menu:agricultura camponesa"
   - "personalizada:teste"
+  - "personalizada:agroecologia"
 type: video
 support_line: ""
 section: featured-news
