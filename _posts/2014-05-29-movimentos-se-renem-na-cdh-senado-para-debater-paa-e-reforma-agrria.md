@@ -14,7 +14,7 @@ support_line: A Comissão de Direitos Humanos e Legislação Participativa reali
   manhã desta quinta-feira (8), em Brasília, uma audiência pública sobre o Programa
   de Aquisição e Alimentos e seus impactos sobre a vida dos trabalhadores assentados
   brasileiros.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/pa.jpg

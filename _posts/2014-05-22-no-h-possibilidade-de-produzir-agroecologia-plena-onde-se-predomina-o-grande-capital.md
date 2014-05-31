@@ -7,15 +7,15 @@ created: 1400763812
 images: ''
 video: ''
 tags:
+- tipo de matéria:entrevistas
 - menu:agricultura camponesa
 - destaque:manchete
 - assuntos:agroecologia
-- tipo de matéria:entrevistas
 type: 
 support_line: Para Chicão, coordenador do Setor de Produção do MST, o "agronegócio
   é um modelo velho que está caindo de podre".
-section: featured-news
-hat: ''
+section: interviews
+hat: Agricultura
 picture_week: ''
 images_hd: ''
 ---

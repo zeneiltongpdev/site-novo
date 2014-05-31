@@ -11,9 +11,8 @@ tags:
 - assuntos:produção
 type: 
 support_line: Em apenas três meses de trabalho, a produção de 75 famílias assentadas
-  chegou a 24 toneladas de melancia por hectare, num total de 140 hectares com o sistema
-  de irrigação localizada de gotejamento.
-section: carousel
+  chegou a 24 toneladas de melancia por ha.
+section: featured-news
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/produção_melancia_PE!.jpg
