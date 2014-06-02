@@ -17,7 +17,7 @@ section: featured-news
 hat: ""
 label: special-stories
 image: !<tag:yaml.org,2002:js/undefined> ""
-images_hd: "imagem hd:https://farm6.staticflickr.com/5559/14330291084_9742b2be69_b.jpg"
+images_hd: "https://farm3.staticflickr.com/2903/14307884046_f423b76e24_b.jpg"
 
 ---
 <p>&nbsp;</p>
