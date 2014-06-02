@@ -16,7 +16,7 @@ support_line: ""
 section: featured-news
 hat: ""
 label: special-stories
-images_hd: "https://farm3.staticflickr.com/2903/14307884046_f423b76e24_b.jpg"
+images_hd: "U don't have access bro."
 
 ---
 <p>&nbsp;</p>
