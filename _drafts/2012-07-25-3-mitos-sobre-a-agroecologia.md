@@ -16,8 +16,9 @@ support_line: ""
 section: featured-news
 hat: ""
 label: special-stories
+image: !<tag:yaml.org,2002:js/undefined> ""
 
 ---
 <p>&nbsp;</p>
 
-<p>teste</p>
+<p>teste gdshgds fgdsfg sdfgdsfg dhdhs&nbsp;</p>
