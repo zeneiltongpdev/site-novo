@@ -10,10 +10,10 @@ tags:
 - menu:projeto popular
 - localização:são paulo
 - assuntos:plebiscito constituinte
-type: 
+type: news
 support_line: Primeiro de caráter massivo, curso de formação reúne mais de mil pessoas
   de 80 municípios de São Paulo.
-section: featured-news
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/curso dos mil!.jpg

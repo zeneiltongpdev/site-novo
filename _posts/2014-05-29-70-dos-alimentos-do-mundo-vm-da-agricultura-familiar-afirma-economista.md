@@ -12,7 +12,7 @@ type:
 support_line: Os incentivos para o desenvolvimento da agricultura familiar brasileira
   não passam de um “estímulo de intenções”. A ponderação é de Newton Narciso Gomes
   Junior, professor da Universidade de Brasília em entrevista.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/materia_itapeva.jpg
