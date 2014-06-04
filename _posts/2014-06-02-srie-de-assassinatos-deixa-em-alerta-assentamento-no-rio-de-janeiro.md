@@ -13,7 +13,7 @@ type:
 support_line: No último ano e meio, o assentamento Zumbi dos Palmares, de 8,5 mil
   hectares, onde vivem 510 famílias, 4 pessoas foram assassinadas. A&nbsp;situação
   deixa polícia, governo, ativistas e militantes em estado de alerta.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/zumbi_RJ.jpg

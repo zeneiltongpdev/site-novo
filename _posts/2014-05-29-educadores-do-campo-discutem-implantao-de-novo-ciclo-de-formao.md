@@ -9,12 +9,12 @@ tags:
 - menu:educação, cultura e comunicação
 - localização:rio grande do sul
 - assuntos:educação
-type: 
+type: news
 support_line: O novo ciclo de formação a ser implementado nas escolas do campo no
   RS não serão mais trabalhados pelas tradicionais séries fragmentadas, mas a partir
   de áreas de concentração do conhecimento, como as artes, literaturas, ciências,
   etc.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/educação!!!.jpg

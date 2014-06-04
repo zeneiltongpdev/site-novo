@@ -10,12 +10,12 @@ tags:
 - menu:reforma agrária
 - assuntos:questão agrária
 - tipo de matéria:entrevistas
-type: 
+type: news
 support_line: Confira a entrevista com o monge Benedito Marcelo Barros sobre o documento
   da CNBB, lançado semana passada, sobre a visão da Igreja em relação à Questão Agrária
   Brasileira no século 21.
-section: interviews
-hat: Entrevista
+section: 
+hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/marcelo barros.jpg
 ---

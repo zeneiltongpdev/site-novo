@@ -8,11 +8,11 @@ video: ''
 tags:
 - menu:agricultura camponesa
 - assuntos:políticas públicas
-type: 
+type: news
 support_line: Representantes das organizações de agricultores familiares defenderam
   na Comissão de Direitos Humanos e Legislação Participativa o fortalecimento do Programa
   de Aquisição de Alimentos e da Conab enquanto estratégia à soberania nacional.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/russo.jpg

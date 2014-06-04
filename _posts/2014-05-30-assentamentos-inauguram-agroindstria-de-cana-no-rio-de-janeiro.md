@@ -14,7 +14,7 @@ type:
 support_line: Iniciativa beneficiará 132 famílias em Campos dos Goytacazes, no Rio
   de Janeiro, e conta com uma capacidade de produzir 800 quilos por dia. Os produtos
   devem ser comercializados no mercado local.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/cana-de-acucar (1).jpg
