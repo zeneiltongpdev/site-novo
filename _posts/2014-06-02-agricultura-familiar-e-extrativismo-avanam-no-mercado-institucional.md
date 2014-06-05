@@ -11,7 +11,7 @@ tags:
 - menu:agricultura camponesa
 type: 
 support_line: ''
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: ''

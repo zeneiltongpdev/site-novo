@@ -10,8 +10,8 @@ tags:
 type: 
 support_line: O evento reunirá aproximadamente  2500 camponeses e camponesas, professores,
   pesquisadores e estudantes  para debater a Agroecologia.
-section: cover
-hat: Agroecologia
+section: carousel
+hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/jornadaagro.jpg
 ---

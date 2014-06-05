@@ -13,7 +13,7 @@ type:
 support_line: A ACP acontece nesta quarta, no Tribunal Regional Federal da 4ª região,
   em Porto Alegre. Um dos principais objetivos é garantir o direito dos agricultores
   e consumidores de cultivar e consumir produtos livres de transgênicos.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/contaminacao_milho!.jpg

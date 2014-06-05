@@ -10,10 +10,10 @@ tags:
 - menu:agricultura camponesa
 - localização:paraná
 - assuntos:13° jornada de agroecologia
-type: 
+type: news
 support_line: A Jornada representa a síntese do processo de construção da agroecologia
   e embate ao agronegócio.
-section: featured-news
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/Jornada Agroecologia.jpg
