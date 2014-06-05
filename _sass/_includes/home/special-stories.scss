@@ -1,5 +1,8 @@
 section.special-stories {
   & > ul > li {
     margin-bottom: 20px;
+    border-bottom: 2px solid #bbb;
+	padding: 0 0 20px 0;
+	border-width: 1px;
   }
 }
