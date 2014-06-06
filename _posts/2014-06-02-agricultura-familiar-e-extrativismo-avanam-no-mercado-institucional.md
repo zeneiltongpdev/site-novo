@@ -4,14 +4,14 @@ title: Agricultura familiar e extrativismo avançam no mercado institucional
 legacy_url: http://www.mst.org.br/node/16174
 created: 1401726166
 images: ''
-video: ''
+video: Jup_yPkKEMk
 tags:
 - assuntos:agricultura camponesa
 - destaque:destaque
 - menu:agricultura camponesa
-type: 
+type: video
 support_line: ''
-section: recent
+section: tv
 hat: ''
 picture_week: ''
 images_hd: ''

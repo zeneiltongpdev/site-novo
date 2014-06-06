@@ -11,7 +11,7 @@ type:
 support_line: 'O estudo “Mercado Institucional: Avaliação de Programas no Brasil”,
   busca verificar a  importância e problemas destas iniciativas para os movimentos
   sociais no Brasil.'
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/prointer.jpg
