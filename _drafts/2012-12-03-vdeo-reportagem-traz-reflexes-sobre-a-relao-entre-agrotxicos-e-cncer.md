@@ -1,17 +1,34 @@
 ---
 layout: post
 title: Vídeo-reportagem traz reflexões sobre a relação entre agrotóxicos e câncer
-legacy_url: http://www.mst.org.br/node/14156
+legacy_url: "http://www.mst.org.br/node/14156"
 created: 1354552330
-images: ''
+images: ""
 video: G3urWwIwwoc
 tags:
-- menu:agronegócio
-- assuntos:agrotóxicos
+  - "menu:agronegócio"
+  - "assuntos:agrotóxicos"
 type: video
-support_line: Debate realizado no 1º Seminário   Agrotóxicos e Câncer, no Rio de Janeiro.
-section: 
-hat: ''
-picture_week: ''
+support_line: "Debate realizado no 1º Seminário   Agrotóxicos e Câncer, no Rio de Janeiro."
+section: null
+hat: ""
+picture_week: ""
+imagesHD: "https://farm4.staticflickr.com/3836/14168485908_5527ba07fc_b.jpg"
+
 ---
-<p><em><br>Da Página do&nbsp;MST</em></p><p>Confira o vídeo-reportagem sobre o debate realizado no 1º Seminário  Agrotóxicos e Câncer, em novembro no Instituto Nacional do Câncer (Inca), no Rio de Janeiro.</p><p>O vídeo traz alguns momentos e reflexões do Seminário, que discute a relação entre agroquímicos e carcinogênese.</p><p><strong>Confira:</strong></p><p>&nbsp;</p><p style="text-align: center;"><object type="application/x-shockwave-flash" data="http://www.youtube.com/v/G3urWwIwwoc&amp;feature" height="500" width="600"><param value="http://www.youtube.com/v/G3urWwIwwoc&amp;feature" name="src"></object></p><p style="text-align: center;">&nbsp;</p><p style="text-align: center;">&nbsp;</p>
+<p><br />
+<em>Da P&aacute;gina do&nbsp;MST</em></p>
+
+<p>Confira o v&iacute;deo-reportagem sobre o debate realizado no 1&ordm; Semin&aacute;rio Agrot&oacute;xicos e C&acirc;ncer, em novembro no Instituto Nacional do C&acirc;ncer (Inca), no Rio de Janeiro.</p>
+
+<p>O v&iacute;deo traz alguns momentos e reflex&otilde;es do Semin&aacute;rio, que discute a rela&ccedil;&atilde;o entre agroqu&iacute;micos e carcinog&ecirc;nese.</p>
+
+<p><strong>Confira:</strong></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>

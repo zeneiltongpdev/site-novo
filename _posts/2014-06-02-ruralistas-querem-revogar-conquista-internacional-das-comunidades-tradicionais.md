@@ -9,12 +9,12 @@ tags:
 - menu:direitos humanos
 - destaque:manchete
 - assuntos:ruralistas
-type: 
+type: news
 support_line: Deputados realizam audiência pública para debater a revogação do Brasil
   à subscrição da Convenção 169 da Organização Internacional do Trabalho. Vigente
   no Brasil desde 2004, a convenção garante aos povos tradicionais importantes direitos
   sociais.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 images_hd: ''

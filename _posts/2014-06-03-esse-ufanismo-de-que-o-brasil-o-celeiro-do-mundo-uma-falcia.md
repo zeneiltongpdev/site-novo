@@ -9,10 +9,9 @@ tags:
 - menu:agronegócio
 - assuntos:questão agrária
 type: 
-support_line: Sociólogo e professor da UnB, Sérgio Sauer coloca que a discussão entre
-  produção de alimentos e insegurança alimentar não passa só pela produção, mas pelo
-  que, como e para quem se produz.
-section: carousel
+support_line: Para o sociólogo Sérgio Sauer, a produção de alimentos passa pelo que,
+  como e para quem se produz.
+section: featured-news
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/Sérgio-Sauer-1-600x399.jpg

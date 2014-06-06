@@ -10,10 +10,8 @@ tags:
 - assuntos:agronegócio
 type: 
 support_line: A história da Monsanto “é a história da sacarina e o aspartame, do PBC,
-  do agente laranja, dos transgênicos. Todos fabricados, ao longo dos anos, por esta
-  empresa. Uma história de terror”, escreve a jornalista e ativista política e social
-  Esther Vivas.
-section: recent
+  do agente laranja, dos transgênicos", escreve a jornalista Esther Vivas.
+section: featured-news
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/mon!.jpg
