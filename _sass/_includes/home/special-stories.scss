@@ -7,3 +7,9 @@ section.special-stories {
 	text-align: center;
   }
 }
+
+@media(max-width: $screen-md) {
+	section.special-stories {
+		display:none;
+	}
+}
