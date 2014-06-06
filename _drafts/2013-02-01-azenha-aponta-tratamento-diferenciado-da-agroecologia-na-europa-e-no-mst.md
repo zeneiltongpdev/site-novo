@@ -1,18 +1,64 @@
 ---
 layout: post
 title: Azenha aponta tratamento diferenciado da agroecologia na Europa e no MST
-legacy_url: http://www.mst.org.br/node/14364
+legacy_url: "http://www.mst.org.br/node/14364"
 created: 1359753455
-images: http://www.viomundo.com.br/wp-content/uploads/2013/01/suco-de-uva-1-e1359585880534.jpg
+images: "http://www.viomundo.com.br/wp-content/uploads/2013/01/suco-de-uva-1-e1359585880534.jpg"
 video: 8RVAgD44AGg
 tags:
-- menu:agricultura camponesa
+  - "menu:agricultura camponesa"
 type: video
-support_line: Não há nada mais contemporâneo, portanto, que a pauta do MST. Quanto
-  aos  jornais que acusam o movimento de ser algo ultrapassado, aparentemente o  futuro
-  deles repousa nos cadernos de Culinária.
-section: 
-hat: ''
-picture_week: ''
+support_line: "Não há nada mais contemporâneo, portanto, que a pauta do MST. Quanto aos  jornais que acusam o movimento de ser algo ultrapassado, aparentemente o  futuro deles repousa nos cadernos de Culinária."
+section: null
+hat: ""
+picture_week: ""
+imagesHD: "U don't have access bro."
+
 ---
-<p>&nbsp;<img src="http://www.viomundo.com.br/wp-content/uploads/2013/01/suco-de-uva-1-e1359585880534.jpg" alt="" align="absMiddle" hspace="10" vspace="10"></p><p style="text-align: right;"><em>Foto Conceição Oliveira<br></em></p><p><em>Por Luiz Carlos Azenha<br>No Blog Vi o Mundo<br></em></p><p><br>Acho que foi no caderno Paladar, do Estadão, no ano passado, que li simpática reportagem sobre a produção de alimentos orgânicos nos Estados Unidos, repleta de elogios à produção em pequena escala, de gente tão ou mais preocupada com a comunidade e a saúde dos consumidores que com o lucro.<br><br>Small, como em agricultura familiar, is beautiful.<br><br>Pensei comigo: nos Estados Unidos, pode!<br><br>Irônico imaginar o texto num jornal que representa o agronegócio e sustenta que o MST é uma relíquia do tempo da Guerra Fria e que não há problema no campo brasileiro que justifique sua existência.<br><br>Hoje, no caderno Comida, da Folha, leio — outra vez surpreso – A redenção das uvas nativas, na qual Cristiana Couto e Alexandra Corvo falam de iniciativas europeias para “recuperar uvas próximas do desaparecimento” e produzir “vinhos com mais identidade”.<br><br>“Uma das vantagens de recuperar castas autóctones é que elas já estão adaptadas ao seu lugar de origem”, diz o texto a certa altura.<br><br>“O principal motivo que move os produtores é a consciência de preservar um patrimônio genético e histórico”, continua.<br><br>“‘Esse movimento não é apenas uma tendência’, ressalta Jancis Robinson [inglesa, autora do livro Wine Grapes]. Está em sintonia com a atenção à comida local e com nossa consciência cada vez maior da importância da biodiversidade’”.<br><br>De novo, pensei: na França, na Itália e em Portugal, pode!<br><br>Sim, porque defender a biodiversidade é uma das principais propostas do MST. Por que, afinal, o movimento se volta contra o uso extensivo dos agrotóxicos e das sementes transgênicas e defende a agroecologia?<br><br>Na verdade, o MST faz parte de um despertar global para questões que dizem respeito diretamente à nossa saúde e ao nosso prazer, à preservação cultural e ao desperdício de água e recursos, como em “nova-iorquino come morangos frescos 12 meses por ano”.<br><br>Não são, certamente, firulas ideológicas, mas questões de vida ou morte.<br><br>Certa vez, a prêmio Nobel queniana Wangari Maathai nos deu uma excelente entrevista falando da importância de trazer de volta o sorgo a regiões da África onde a agricultura voltada para exportação já o havia substituído por plantas que consumiam uma quantidade muito maior de água, com o risco de desviar água de populações inteiras para a irrigação.<br><br>Não há nada mais contemporâneo, portanto, que a pauta do MST. Quanto aos jornais que acusam o movimento de ser algo ultrapassado, aparentemente o futuro deles repousa nos cadernos de Culinária.</p><p>Apreciem quatro sugestões de vídeo para os que estão chegando agora ao tema:</p><p><object data="http://www.youtube.com/v/EqRbKZr_WF4&amp;feature" type="application/x-shockwave-flash" height="500" width="600"><param name="src" value="http://www.youtube.com/v/EqRbKZr_WF4&amp;feature"></object></p><p><object data="http://www.youtube.com/v/gE_yIfkR88M&amp;feature" type="application/x-shockwave-flash" height="500" width="600"><param name="src" value="http://www.youtube.com/v/gE_yIfkR88M&amp;feature"></object></p><p><object data="http://www.youtube.com/v/8RVAgD44AGg&amp;feature" type="application/x-shockwave-flash" height="500" width="600"><param name="src" value="http://www.youtube.com/v/8RVAgD44AGg&amp;feature"></object></p>  <p><iframe src="http://player.vimeo.com/video/55611271" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" frameborder="0" height="500" width="600"></iframe></p><p><a href="http://vimeo.com/55611271">Wangari Maathai (13)</a> from <a href="http://vimeo.com/user2829653">Luiz Carlos Azenha</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+<p>&nbsp;<img alt="" src="http://www.viomundo.com.br/wp-content/uploads/2013/01/suco-de-uva-1-e1359585880534.jpg" /></p>
+
+<p><em>Foto Concei&ccedil;&atilde;o Oliveira</em></p>
+
+<p><em>Por Luiz Carlos Azenha<br />
+No Blog Vi o Mundo</em></p>
+
+<p><br />
+Acho que foi no caderno Paladar, do Estad&atilde;o, no ano passado, que li simp&aacute;tica reportagem sobre a produ&ccedil;&atilde;o de alimentos org&acirc;nicos nos Estados Unidos, repleta de elogios &agrave; produ&ccedil;&atilde;o em pequena escala, de gente t&atilde;o ou mais preocupada com a comunidade e a sa&uacute;de dos consumidores que com o lucro.<br />
+<br />
+Small, como em agricultura familiar, is beautiful.<br />
+<br />
+Pensei comigo: nos Estados Unidos, pode!<br />
+<br />
+Ir&ocirc;nico imaginar o texto num jornal que representa o agroneg&oacute;cio e sustenta que o MST &eacute; uma rel&iacute;quia do tempo da Guerra Fria e que n&atilde;o h&aacute; problema no campo brasileiro que justifique sua exist&ecirc;ncia.<br />
+<br />
+Hoje, no caderno Comida, da Folha, leio &mdash; outra vez surpreso &ndash; A reden&ccedil;&atilde;o das uvas nativas, na qual Cristiana Couto e Alexandra Corvo falam de iniciativas europeias para &ldquo;recuperar uvas pr&oacute;ximas do desaparecimento&rdquo; e produzir &ldquo;vinhos com mais identidade&rdquo;.<br />
+<br />
+&ldquo;Uma das vantagens de recuperar castas aut&oacute;ctones &eacute; que elas j&aacute; est&atilde;o adaptadas ao seu lugar de origem&rdquo;, diz o texto a certa altura.<br />
+<br />
+&ldquo;O principal motivo que move os produtores &eacute; a consci&ecirc;ncia de preservar um patrim&ocirc;nio gen&eacute;tico e hist&oacute;rico&rdquo;, continua.<br />
+<br />
+&ldquo;&lsquo;Esse movimento n&atilde;o &eacute; apenas uma tend&ecirc;ncia&rsquo;, ressalta Jancis Robinson [inglesa, autora do livro Wine Grapes]. Est&aacute; em sintonia com a aten&ccedil;&atilde;o &agrave; comida local e com nossa consci&ecirc;ncia cada vez maior da import&acirc;ncia da biodiversidade&rsquo;&rdquo;.<br />
+<br />
+De novo, pensei: na Fran&ccedil;a, na It&aacute;lia e em Portugal, pode!<br />
+<br />
+Sim, porque defender a biodiversidade &eacute; uma das principais propostas do MST. Por que, afinal, o movimento se volta contra o uso extensivo dos agrot&oacute;xicos e das sementes transg&ecirc;nicas e defende a agroecologia?<br />
+<br />
+Na verdade, o MST faz parte de um despertar global para quest&otilde;es que dizem respeito diretamente &agrave; nossa sa&uacute;de e ao nosso prazer, &agrave; preserva&ccedil;&atilde;o cultural e ao desperd&iacute;cio de &aacute;gua e recursos, como em &ldquo;nova-iorquino come morangos frescos 12 meses por ano&rdquo;.<br />
+<br />
+N&atilde;o s&atilde;o, certamente, firulas ideol&oacute;gicas, mas quest&otilde;es de vida ou morte.<br />
+<br />
+Certa vez, a pr&ecirc;mio Nobel queniana Wangari Maathai nos deu uma excelente entrevista falando da import&acirc;ncia de trazer de volta o sorgo a regi&otilde;es da &Aacute;frica onde a agricultura voltada para exporta&ccedil;&atilde;o j&aacute; o havia substitu&iacute;do por plantas que consumiam uma quantidade muito maior de &aacute;gua, com o risco de desviar &aacute;gua de popula&ccedil;&otilde;es inteiras para a irriga&ccedil;&atilde;o.<br />
+<br />
+N&atilde;o h&aacute; nada mais contempor&acirc;neo, portanto, que a pauta do MST. Quanto aos jornais que acusam o movimento de ser algo ultrapassado, aparentemente o futuro deles repousa nos cadernos de Culin&aacute;ria.</p>
+
+<p>Apreciem quatro sugest&otilde;es de v&iacute;deo para os que est&atilde;o chegando agora ao tema:</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><a href="http://vimeo.com/55611271">Wangari Maathai (13)</a> from <a href="http://vimeo.com/user2829653">Luiz Carlos Azenha</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
