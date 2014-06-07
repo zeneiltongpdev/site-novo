@@ -8,11 +8,11 @@ video: ''
 tags:
 - assuntos:agronegócio
 - menu:agronegócio
-type: 
+type: news
 support_line: Organizações sociais denunciam que as plantações industriais aumentariam
   os já conhecidos impactos sociais e ambientais, além de introduzir outros, devido
   aos riscos adicionais inerentes à engenharia genética.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/eucalipto.jpg

@@ -7,10 +7,10 @@ images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/WRR29
 video: ''
 tags:
 - menu:agronegócio
-type: 
+type: news
 support_line: Dois acampamentos às margens da BR-463, no entorno de Dourados (MS),  ilustram
   a precariedade dos Guarani-Kaiowá quando as demarcações de  terra não caminham.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/WRR2987_IMG_guarani_0811-580x385.jpg

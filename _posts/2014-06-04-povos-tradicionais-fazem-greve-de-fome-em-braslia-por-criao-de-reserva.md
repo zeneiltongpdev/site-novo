@@ -7,10 +7,10 @@ images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/povos
 video: ''
 tags:
 - menu:lutas e mobilizações
-type: 
+type: news
 support_line: O protesto conta com 110 pessoas e reivindica a criação da Reserva de
   Desenvolvimento Sustentável (RDS) Nascentes dos Gerais.
-section: carousel
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/povos2.jpg

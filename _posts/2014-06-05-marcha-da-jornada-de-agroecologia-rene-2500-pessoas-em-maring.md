@@ -10,7 +10,7 @@ tags:
 type: 
 support_line: Evento visa a construção de um Projeto Popular e Soberano para a  agricultura,
   em contrapartida às empresas transnacionais do agronegócio.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/agroleandro2.jpg

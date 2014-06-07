@@ -14,8 +14,8 @@ type:
 support_line: No primeiro dia da 13º Jornada de Agroecologia, o coordenador do Terra
   de Direitos, Darci Frigo, apontou os principais motivos que tornam o modelo da agroecologia
   incompatível com o agronegócio.
-section: cover
-hat: 13º Jornada de Agroecologia
+section: recent
+hat: ''
 picture_week: ''
 images_hd: ''
 ---

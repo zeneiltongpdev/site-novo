@@ -10,7 +10,7 @@ tags:
 type: 
 support_line: No dia do meio ambiente, devemos questionar a crença  de que a ciência
   e a tecnologia são capazes de resolver qualquer  problema ambiental.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/poluiçao.jpg
