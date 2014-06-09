@@ -17,7 +17,7 @@ section: featured-news
 hat: ""
 label: special-stories
 images_hd: "https://farm4.staticflickr.com/3888/14355776991_da5c5d296f_b.jpg"
-imagesHD: "https://farm6.staticflickr.com/5118/14379422181_93bfbd8190_b.jpg"
+imagesHD: "https://farm6.staticflickr.com/5563/14381819014_712e9d5608_b.jpg"
 
 ---
 <p>&nbsp;</p>
