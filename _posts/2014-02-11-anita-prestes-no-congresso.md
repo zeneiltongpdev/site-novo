@@ -15,5 +15,6 @@ section:
 hat: ''
 picture_week: ''
 images_hd: ''
+label: 
 ---
 <p>Entrevista com Anita Prestes no 6º Congresso do MST.&nbsp;<br>&nbsp;</p> <p><iframe allowfullscreen="" src="//www.youtube.com/embed/Bs7Huz6-Wrg" height="500" width="600" frameborder="0"></iframe></p>
