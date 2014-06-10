@@ -18,6 +18,7 @@ section:
 hat: ''
 picture_week: ''
 images_hd: ''
+label: 
 ---
 <p><br><em><br>Da Página do MST</em></p><p><!--[if gte mso 9]><xml>
  <w:WordDocument>

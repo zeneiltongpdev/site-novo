@@ -18,6 +18,7 @@ section:
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/agen!.jpg
+label: 
 ---
 <p><em><br><br>Da Página do MST</em><!--[if gte mso 9]><xml>
  <w:WordDocument>

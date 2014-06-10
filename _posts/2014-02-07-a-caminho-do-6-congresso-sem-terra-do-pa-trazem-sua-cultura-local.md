@@ -16,6 +16,7 @@ section:
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/AL 2009 Marcha Estadual!!.jpg
+label: 
 ---
 <p><!--[if gte mso 9]><xml>
  <w:WordDocument>

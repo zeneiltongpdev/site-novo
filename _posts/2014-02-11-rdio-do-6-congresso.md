@@ -15,5 +15,6 @@ section:
 hat: ''
 picture_week: ''
 images_hd: ''
+label: 
 ---
 <p>Confira o vídeo feito pela brigada audiovisual do 6º Congresso sobre a Rádio Brasil em Movimento:</p> <p><iframe src="//www.youtube.com/embed/NQAeTUxNy-E" allowfullscreen="" height="500" width="600" frameborder="0"></iframe></p>

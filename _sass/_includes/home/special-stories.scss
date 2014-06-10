@@ -6,4 +6,14 @@ section.special-stories {
 	border-width: 1px;
 	text-align: center;
   }
+  
+  figure {
+  	margin: 0 auto 0.55em;
+  }
+}
+
+@media(max-width: $screen-md) {
+	section.special-stories {
+		display:none;
+	}
 }

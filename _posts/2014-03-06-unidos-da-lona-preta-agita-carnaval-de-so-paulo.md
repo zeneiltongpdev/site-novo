@@ -16,5 +16,6 @@ section:
 hat: ''
 picture_week: ''
 images_hd: ''
+label: 
 ---
 <p><object data="http://www.youtube.com/v/jMeFLaPZNHE" type="application/x-shockwave-flash" height="500" width="600"><param name="src" value="http://www.youtube.com/v/jMeFLaPZNHE"></object></p>

@@ -15,6 +15,7 @@ section:
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/mst-23.jpg
+label: 
 ---
 <p><br><em>Da Página do MST<!--[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
