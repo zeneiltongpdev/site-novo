@@ -1,10 +1,12 @@
 section.special-stories {
+  h1 {
+    font-size: 18px;
+  }
+
   & > ul > li {
     margin-bottom: 20px;
-    border-bottom: 2px solid $gray-light;
-	padding: 0 0 20px 0;
-	border-width: 1px;
-	text-align: center;
+    padding: 0 0 20px 0;
+    text-align: center;
   }
   
   figure {
