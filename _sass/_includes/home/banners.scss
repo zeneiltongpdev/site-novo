@@ -1,0 +1,10 @@
+section.banners {
+  img {
+    width: 200px;
+  }
+
+  & > ul > li {
+    padding: 0 0 20px 0;
+    text-align: center;
+  }
+}
