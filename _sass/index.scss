@@ -12,18 +12,22 @@ body > main.home {
 }
 
 body > aside {
-  display: inline-block;
-  width: 23%;
-  padding: 0 0 0 8px;
+	display:none;
 }
 
 @media(min-width: $screen-md) {
   body > main.home {
     display: inline-block;
     vertical-align: top;
-    width: 75%;
+    width: 80%;
     padding: 0 15px;
     border-right: 1px solid $gray-light;
+  }
+
+  body > aside {
+    width: 18%;
+    display: inline-block;
+    padding: 0 0 0 8px;
   }
 
   body > main.home, body > aside.home {
@@ -31,10 +35,11 @@ body > aside {
   }
 }
 
-@media(min-width: $screen-sm) {
+@media(max-width: $screen-sm) {
   body > main.home {
+    width: 100%;
     section {
-	  padding: 15px;
+      padding: 15px;
     }
   }
 }
