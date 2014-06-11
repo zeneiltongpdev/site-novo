@@ -1,6 +1,12 @@
 section.banners {
-  img {
-    width: 200px;
+
+  figure {
+  	margin: 0 auto 0.55em;
+    box-shadow: none;
+    
+    img {
+      width: 200px;
+    }
   }
 
   & > ul > li {
