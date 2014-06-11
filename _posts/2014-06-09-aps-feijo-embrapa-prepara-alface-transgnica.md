@@ -7,13 +7,13 @@ images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/image
   (1).jpg
 video: ''
 tags:
-- assuntos:transgênicos
 - menu:transgênicos
+- assuntos:transgênicos
 type: 
 support_line: Segunda variedade geneticamente modificada produzida pela empresa pública
   tem promessa de resolver déficit nutricional e deve chegar ao mercado em 2021. Para
   pessoas que atuam na área, solução é simplista e arriscada.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/image_large (1).jpg

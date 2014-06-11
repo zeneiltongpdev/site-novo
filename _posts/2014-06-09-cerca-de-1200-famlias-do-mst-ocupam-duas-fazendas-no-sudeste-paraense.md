@@ -6,14 +6,13 @@ created: 1402319679
 images: ''
 video: ''
 tags:
-- assuntos:ocupação
-- localização:pará
-- destaque:manchete
 - menu:lutas e mobilizações
+- destaque:manchete
+- localização:pará
+- assuntos:ocupação
 type: 
-support_line: O Movimento alega que ambas as áreas são terras públicas e improdutivas,
-  além de incidirem de maneira proibida contra os castanhais da região.
-section: cover
+support_line: O Movimento alega que ambas as áreas são terras públicas e improdutivas.
+section: featured-news
 hat: ''
 picture_week: ''
 images_hd: ''

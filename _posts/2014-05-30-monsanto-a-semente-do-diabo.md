@@ -8,10 +8,10 @@ video: ''
 tags:
 - menu:agronegócio
 - assuntos:agronegócio
-type: 
+type: news
 support_line: A história da Monsanto “é a história da sacarina e o aspartame, do PBC,
   do agente laranja, dos transgênicos", escreve a jornalista Esther Vivas.
-section: featured-news
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/mon!.jpg

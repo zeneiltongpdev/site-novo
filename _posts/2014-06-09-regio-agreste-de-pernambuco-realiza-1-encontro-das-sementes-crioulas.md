@@ -8,10 +8,10 @@ images: http://www.mst.org.br/sites/default/files/imagecache/foto_destaque/semen
 video: ''
 tags:
 - menu:reforma agrária
-type: 
+type: news
 support_line: O objetivo do evento é trazer o debate sobre a importância da preservação
   das sementes enquanto patrimônio da humanidade.
-section: recent
+section: 
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/sementes encontro.jpg

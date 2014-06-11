@@ -12,9 +12,8 @@ tags:
 - assuntos:cultura
 type: 
 support_line: O compositor Pedro Munhoz foi o responsável em organizar uma oficina
-  musical na Universidade Federal da Fronteira Sul, resgatando a formação social,
-  econômica e política do Brasil.
-section: recent
+  musical na UFFS, em Santa Catarina.
+section: featured-news
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/oficina musicaç.jpg

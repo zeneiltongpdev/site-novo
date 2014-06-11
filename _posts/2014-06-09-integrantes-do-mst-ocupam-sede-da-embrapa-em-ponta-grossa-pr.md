@@ -10,7 +10,7 @@ tags:
 type: 
 support_line: Com barracas de lonas, o grupo pretende permanecer no local até receber  uma
   resposta concreta sobre a liberação do título de propriedade.
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/Embrapabre.jpg

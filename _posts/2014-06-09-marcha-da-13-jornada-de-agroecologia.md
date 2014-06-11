@@ -12,7 +12,7 @@ tags:
 - menu:lutas e mobilizações
 type: 
 support_line: ''
-section: carousel
+section: recent
 hat: ''
 picture_week: ''
 images_hd: ''

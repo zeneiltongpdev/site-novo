@@ -8,11 +8,12 @@ video: ''
 tags:
 - menu:agronegócio
 - assuntos:questão agrária
+- tipo de matéria:entrevistas
 type: 
 support_line: Para o sociólogo Sérgio Sauer, a produção de alimentos passa pelo que,
   como e para quem se produz.
-section: featured-news
-hat: ''
+section: interviews
+hat: Questão Agrária
 picture_week: ''
 images_hd: http://www.mst.org.br/sites/default/files/Sérgio-Sauer-1-600x399.jpg
 label: 
