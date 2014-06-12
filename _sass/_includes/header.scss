@@ -148,8 +148,13 @@ ul.dropdown-menu {
 
   label {
     position: absolute;
-    font-size: 0;
-    right: -20px;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    clip: rect(1px 1px 1px 1px ); /* lt IE 8 */
+    clip: rect(1px, 1px, 1px, 1px );
+    overflow: hidden;
   }
 
   button[type=submit] {
