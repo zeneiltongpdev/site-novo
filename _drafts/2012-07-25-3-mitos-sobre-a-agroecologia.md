@@ -10,15 +10,12 @@ tags:
   - "personalizada:debate"
   - "personalizada:teste"
   - "personalizada:agroecologia"
-  - "menu:-1"
+  - "menu:agricultura camponesa"
 type: video
 support_line: ""
-section: "featured-news"
+section: featured-news
 hat: ""
-label: !<tag:yaml.org,2002:js/undefined> ""
+label: articles
 images_hd: "https://farm4.staticflickr.com/3874/14406497013_1ecc286de2_b.jpg"
 
 ---
-<p>&nbsp;</p>
-
-<p>teste gdshgds fgdsfg sdfgdsfg dhdhs asdf</p>
