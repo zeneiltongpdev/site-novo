@@ -6,15 +6,16 @@ created: 1352827120
 images: "http://www.youtube.com/watch?v=z0Em-RTYDAw&amp;feature=plcp"
 video: z0Em-RTYDAw
 tags:
-  - "menu:agronegócio"
   - "destaque:manchete"
   - "assuntos:agrotóxicos"
+  - "menu:agricultura camponesa"
 type: video
 support_line: "Em entrevista com Silvio Tendler, o diretor fala sobre o sucesso do primeiro documentário e sua continuação, que já está sendo produzido e focará nas soluções e alternativas aos agrotóxicos."
-section: null
+section: cover
 hat: ""
 picture_week: ""
 imagesHD: ""
+label: interviews
 
 ---
 <p><br />
