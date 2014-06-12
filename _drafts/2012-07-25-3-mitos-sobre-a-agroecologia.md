@@ -8,14 +8,14 @@ video: FpEL21Lr8kk
 tags:
   - "assuntos:agroecologia"
   - "personalizada:debate"
-  - "menu:agricultura camponesa"
   - "personalizada:teste"
   - "personalizada:agroecologia"
+  - "menu:-1"
 type: video
 support_line: ""
-section: featured-news
+section: "featured-news "
 hat: ""
-label: articles
+label: !<tag:yaml.org,2002:js/undefined> ""
 images_hd: "https://farm4.staticflickr.com/3874/14406497013_1ecc286de2_b.jpg"
 imagesHD: ""
 
