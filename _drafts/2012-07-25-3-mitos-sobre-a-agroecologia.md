@@ -15,7 +15,7 @@ type: video
 support_line: ""
 section: featured-news
 hat: ""
-label: special-stories
+label: articles
 images_hd: "https://farm4.staticflickr.com/3874/14406497013_1ecc286de2_b.jpg"
 imagesHD: ""
 
